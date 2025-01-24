@@ -1,0 +1,10 @@
+[project]
+name = "runic-reflections"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pelican-sitemap>=1.2.0",
+    "pelican[markdown]>=4.11.0",
+]

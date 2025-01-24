@@ -1,0 +1,180 @@
+/* Montserrat Font Face Definitions */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src:
+  local('Montserrat Regular.ttf'),
+  local('Montserrat-Regular.ttf'),
+  url('Montserrat-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  src:
+  local('Montserrat Bold.ttf'),
+  local('Montserrat-Bold.ttf'),
+  url('Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 900;
+  src:
+  local('Montserrat Black.ttf'),
+  local('Montserrat-Black.ttf'),
+  url('Montserrat-Black.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 400;
+  src:
+  local('Montserrat Italic.ttf'),
+  local('Montserrat-Italic.ttf'),
+  url('Montserrat-Italic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 700;
+  src:
+  local('Montserrat Bold Italic.ttf'),
+  local('Montserrat-BoldItalic.ttf'),
+  url('Montserrat-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 900;
+  src:
+  local('Montserrat Black Italic.ttf'),
+  local('Montserrat-BlackItalic.ttf'),
+  url('Montserrat-BlackItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 200;
+  src:
+  local('Montserrat Extra Light.ttf'),
+  local('Montserrat-ExtraLight.ttf'),
+  url('Montserrat-ExtraLight.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 200;
+  src:
+  local('Montserrat Extra Light Italic.ttf'),
+  local('Montserrat-ExtraLightItalic.ttf'),
+  url('Montserrat-ExtraLightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 300;
+  src:
+  local('Montserrat Light.ttf'),
+  local('Montserrat-Light.ttf'),
+  url('Montserrat-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 300;
+  src:
+  local('Montserrat Light Italic.ttf'),
+  local('Montserrat-LightItalic.ttf'),
+  url('Montserrat-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  src:
+  local('Montserrat Medium.ttf'),
+  local('Montserrat-Medium.ttf'),
+  url('Montserrat-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 500;
+  src:
+  local('Montserrat Medium Italic.ttf'),
+  local('Montserrat-MediumItalic.ttf'),
+  url('Montserrat-MediumItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 600;
+  src:
+  local('Montserrat Semi Bold.ttf'),
+  local('Montserrat-SemiBold.ttf'),
+  url('Montserrat-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 600;
+  src:
+  local('Montserrat Semi Bold Italic.ttf'),
+  local('Montserrat-SemiBoldItalic.ttf'),
+  url('Montserrat-SemiBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 800;
+  src:
+  local('Montserrat Extra Bold.ttf'),
+  local('Montserrat-ExtraBold.ttf'),
+  url('Montserrat-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 800;
+  src:
+  local('Montserrat Extra Bold Italic.ttf'),
+  local('Montserrat-ExtraBoldItalic.ttf'),
+  url('Montserrat-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 100;
+  src:
+  local('Montserrat Thin.ttf'),
+  local('Montserrat-Thin.ttf'),
+  url('Montserrat-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  font-style: italic;
+  font-weight: 100;
+  src:
+  local('Montserrat Thin Italic.ttf'),
+  local('Montserrat-ThinItalic.ttf'),
+  url('Montserrat-ThinItalic.ttf') format('truetype');
+}

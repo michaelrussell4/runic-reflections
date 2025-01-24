@@ -1,0 +1,39 @@
+<footer class="post-info mt-4 p-4 border-t border-gray-200">
+  <div class="text-gray-600 text-sm">
+    <abbr class="published" title="{{ article.date.isoformat() }}">
+      Published: {{ article.locale_date }}
+    </abbr>
+    {% if article.modified %}
+    <span class="mx-2">|</span>
+    <abbr class="modified" title="{{ article.modified.isoformat() }}">
+      Updated: {{ article.locale_modified }}
+    </abbr>
+    {% endif %}
+  </div>
+
+  {% if article.authors %}
+  <div>
+    <address class="vcard author text-gray-600 text-sm">
+      By {% for author in article.authors %}
+      <a
+        class="url fn hover:text-blue-600 transition duration-200"
+        href="{{ SITEURL }}/{{ author.url }}"
+        >{{ author }}</a
+      >{% if not loop.last %}, {% endif %} {% endfor %}
+    </address>
+  </div>
+  {% endif %}
+
+  <div class="text-gray-600 text-sm">
+    In
+    <a
+      class="hover:text-blue-600 transition duration-200"
+      href="{{ SITEURL }}/{{ article.category.url }}"
+      >{{ article.category }}</a
+    >.
+  </div>
+
+  {% include 'taglist.html' %} {% import 'translations.html' as translations
+  with context %} {{ translations.translations_for(article) }}
+</footer>
+<!-- /.post-info -->
