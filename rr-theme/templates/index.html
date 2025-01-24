@@ -11,7 +11,7 @@ First item #} {% if loop.first and not articles_page.has_previous() %}
       >
     </h1>
     {% include 'article_infos.html' %}
-    <div class="entry-content mt-4">{{ article.content }}</div>
+    <div class="entry-content mt-2">{{ article.content }}</div>
     {% include 'comments.html' %}
   </article>
 </aside>
