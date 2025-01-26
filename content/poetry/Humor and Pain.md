@@ -1,0 +1,28 @@
+Title: Humor And Pain
+Date: 2025-01-26 06:00AM
+Category: Poetry
+Author: Mike Russell
+# Humor and Pain
+
+> When what one sought<br>
+Has come to naught<br>
+Or life is fraught<br>
+With what ought not<br>
+<br>
+One cries their eyes<br>
+Or laughs with sighs<br>
+Why on this wise<br>
+Do such arise?<br>
+<br>
+Ironic fate<br>
+Brings joy or hate<br>
+As curses great<br>
+Or jokes relate<br>
+<br>
+Perhaps a tear<br>
+From pain or cheer<br>
+The same compares<br>
+Throughout the years<br>
+<br>
+A wretched laugh<br>
+A humorous cry<br>

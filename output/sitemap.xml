@@ -6,7 +6,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -27,84 +27,84 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>/archives.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/author/michael-russell.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/author/mike-russell.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/authors.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/categories.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/category/poetry.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>/pages/this-is-me.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<loc>/pages/about.html</loc>
+<lastmod>2025-01-26T00:00:00-07:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/childrens.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/serious.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/short.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tag/silly.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>/tags.html</loc>
-<lastmod>2025-01-25T21:45:38-00:00</lastmod>
+<lastmod>2025-01-26T05:33:31-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>

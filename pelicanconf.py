@@ -27,13 +27,3 @@ USE_FOLDER_AS_CATEGORY = True
 THEME = "rr-theme"
 THEME_STATIC_DIR = f"{THEME}/static"
 TAILWIND_CSS = "tailwind.min.css"
-
-# Plugins
-PLUGINS = ["sitemap"]
-SITEMAP = {
-    "exclude": [
-        "^/noindex/",  # starts with "/noindex/"
-        "/tag/",  # contains "/tag/"
-        r"\.json$",  # ends with ".json"
-    ]
-}
