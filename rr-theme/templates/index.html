@@ -1,101 +1,87 @@
 {% extends "base.html" %} {% block content_title %}{% endblock %} {% block
-content %} {% if articles %} {% for article in articles_page.object_list %} {#
-First item #} {% if loop.first and not articles_page.has_previous() %}
-<aside id="featured">
-  <article class="hentry bg-white p-4 rounded-lg shadow-lg mb-6">
-    <header>
-      <h1 class="text-3xl font-bold text-center mt-4">
+content %} {% if articles %}
+<!-- Accordion Dropdown for All Poems -->
+<div class="mb-8">
+  <div
+    class="w-full text-left bg-gray-200 p-4 rounded-lg"
+  >
+    <span class="font-semibold">All Poems</span>
+  </div>
+  <div id="accordion-content" class="bg-gray-100 p-4 rounded-lg">
+    <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 list-none">
+      {% for article in articles %}
+      <li>
         <a
           href="{{ SITEURL }}/{{ article.url }}"
-          rel="bookmark"
-          title="Permalink to {{ article.title|striptags }}"
           class="text-gray-600 hover:text-purple-600 transition duration-200"
           >{{ article.title }}</a
         >
-      </h1>
-    </header>
+      </li>
+      {% endfor %}
+    </ul>
+  </div>
+</div>
 
-    <div class="entry-content mt-2">
-      <p>{{ article.summary }}</p>
-      {% include 'article_infos.html' %}
-      <a
-        class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-        href="{{ SITEURL }}/{{ article.url }}"
-        >Read more</a
-      >
-      {% include 'comments.html' %}
-    </div>
-    <!-- /.entry-content -->
-  </article>
-</aside>
-<!-- /#featured -->
-{% if loop.length > 1 %}
 <section id="content" class="body">
-  <h2 class="text-xl text-gray-500 font-semibold mb-4">Other Articles</h2>
+  <h2 class="text-xl text-gray-500 font-semibold mb-4">Articles</h2>
   <hr class="mb-4" />
-  <ol id="posts-list" class="hfeed">
-    {% endif %} {# other items #} {% else %} {% if loop.first %}
-    <section id="content" class="body">
-      <ol
-        id="posts-list"
-        class="hfeed"
-        start="{{ articles_paginator.per_page -1 }}"
-      >
-        {% endif %}
-        <li>
-          <article class="hentry bg-white p-4 rounded-lg shadow-lg mb-6">
-            <header>
-              <h1 class="text-3xl font-bold text-center mt-4">
-                <a
-                  href="{{ SITEURL }}/{{ article.url }}"
-                  rel="bookmark"
-                  title="Permalink to {{ article.title|striptags }}"
-                  class="text-gray-600 hover:text-purple-600 transition duration-200"
-                  >{{ article.title }}</a
-                >
-              </h1>
-            </header>
+  <ol
+    id="posts-list"
+    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
+  >
+    {% for article in articles_page.object_list %}
+    <li>
+      <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
+        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="{{ SITEURL }}/{{ article.url }}"
+              rel="bookmark"
+              title="Permalink to {{ article.title|striptags }}"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >{{ article.title }}</a
+            >
+          </h1>
+        </header>
 
-            <div class="entry-content mt-2">
-              <p>{{ article.summary }}</p>
-              {% include 'article_infos.html' %}
-              <a
-                class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-                href="{{ SITEURL }}/{{ article.url }}"
-                >Read more</a
-              >
-              {% include 'comments.html' %}
-            </div>
-            <!-- /.entry-content -->
-          </article>
-        </li>
-        {% endif %} {% if loop.last %} {% if loop.length > 1 or
-        articles_page.has_other_pages() %}
-      </ol>
-      <!-- /#posts-list -->
-      {% if articles_page.has_other_pages() %} {% include 'pagination.html' %}
-      {% endif %}
-    </section>
-    <!-- /#content -->
-    {% endif %} {% endif %} {% endfor %} {% else %}
-    <section id="content" class="body">
-      {% if pages %}
-      <h2 class="text-xl font-semibold mb-4">Pages</h2>
-      <ul class="list-disc list-inside">
-        {% for page in pages %}
-        <li>
+        <div class="entry-content mt-2">
+          <p>{{ article.summary }}</p>
+          {% include 'article_infos.html' %}
           <a
-            href="{{ SITEURL }}/{{ page.url }}"
-            class="text-gray-600 hover:text-purple-600 transition duration-200"
-            >{{ page.title }}</a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
+            href="{{ SITEURL }}/{{ article.url }}"
+            >Read more</a
           >
-        </li>
-        {% endfor %}
-      </ul>
-      {% else %}
-      <p class="text-gray-600">This site currently has no content.</p>
-      {% endif %}
-    </section>
-    {% endif %} {% endblock content %}
+          {% include 'comments.html' %}
+        </div>
+        <!-- /.entry-content -->
+      </article>
+    </li>
+    {% endfor %}
   </ol>
+  <!-- /#posts-list -->
+  {% if articles_page.has_other_pages() %} {% include 'pagination.html' %} {%
+  endif %}
 </section>
+<!-- /#content -->
+
+{% else %}
+<section id="content" class="body">
+  {% if pages %}
+  <h2 class="text-xl font-semibold mb-4">Pages</h2>
+  <ul class="list-disc list-inside">
+    {% for page in pages %}
+    <li>
+      <a
+        href="{{ SITEURL }}/{{ page.url }}"
+        class="text-gray-600 hover:text-purple-600 transition duration-200"
+        >{{ page.title }}</a
+      >
+    </li>
+    {% endfor %}
+  </ul>
+  {% else %}
+  <p class="text-gray-600">This site currently has no content.</p>
+  {% endif %}
+</section>
+{% endif %} {% endblock content %}

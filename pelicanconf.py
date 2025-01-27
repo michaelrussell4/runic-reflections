@@ -1,3 +1,5 @@
+from pelican import signals
+
 AUTHOR = "Michael Russell"
 SITENAME = "Runic Reflections"
 SITEURL = ""
@@ -27,3 +29,11 @@ USE_FOLDER_AS_CATEGORY = True
 THEME = "rr-theme"
 THEME_STATIC_DIR = f"{THEME}/static"
 TAILWIND_CSS = "tailwind.min.css"
+
+
+def sort_articles(articles):
+    return sorted(articles, key=lambda article: article.title)
+
+
+def register():
+    signals.article_generator_finalized.connect(sort_articles)
