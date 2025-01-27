@@ -1,0 +1,44 @@
+{% if DEFAULT_PAGINATION %} {% set first_page = articles_paginator.page(1) %} {%
+set last_page = articles_paginator.page(articles_paginator.num_pages) %}
+<nav class="my-4">
+  <ul class="flex justify-center space-x-2">
+    {% if articles_page.has_previous() %}
+    <li>
+      <a
+        href="{{ SITEURL }}/{{ first_page.url }}"
+        class="block px-3 py-1 border border-purple-300 rounded hover:bg-purple-100 text-purple-700"
+        >&Lang;</a
+      >
+    </li>
+    <li>
+      <a
+        href="{{ SITEURL }}/{{ articles_previous_page.url }}"
+        class="block px-3 py-1 border border-purple-300 rounded hover:bg-purple-100 text-purple-700"
+        >&lang;</a
+      >
+    </li>
+    {% endif %}
+    <li
+      class="px-3 py-1 rounded bg-purple-50 text-purple-700 border border-purple-300"
+    >
+      Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
+    </li>
+    {% if articles_page.has_next() %}
+    <li>
+      <a
+        href="{{ SITEURL }}/{{ articles_next_page.url }}"
+        class="block px-3 py-1 border border-purple-300 rounded hover:bg-purple-100 text-purple-700"
+        >&rang;</a
+      >
+    </li>
+    <li>
+      <a
+        href="{{ SITEURL }}/{{ last_page.url }}"
+        class="block px-3 py-1 border border-purple-300 rounded hover:bg-purple-100 text-purple-700"
+        >&Rang;</a
+      >
+    </li>
+    {% endif %}
+  </ul>
+</nav>
+{% endif %}

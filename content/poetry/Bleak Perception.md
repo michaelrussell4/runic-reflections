@@ -2,7 +2,6 @@ Title: Bleak Perception
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Bleak Perception
 
 > Fetus of an indifferent womb<br>
 Circumstance trades fortune for gloom<br>

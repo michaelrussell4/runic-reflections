@@ -2,7 +2,6 @@ Title: An Archetype To Abhor
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# An Archetype to Abhor
 
 > Unctuous action catalyzed by greed<br>
 With suave demeanor he drinks his mead<br>

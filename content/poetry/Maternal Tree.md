@@ -2,7 +2,6 @@ Title: Maternal Tree
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Maternal Tree
 
 > My mom's like a tree<br>
 Her fruit nourishes me<br>

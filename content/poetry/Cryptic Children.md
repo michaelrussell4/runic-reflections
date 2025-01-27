@@ -2,7 +2,6 @@ Title: Cryptic Children
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Cryptic Children
 
 > The mystical [clairvoyance](https://www.merriam-webster.com/dictionary/clairvoyance)<br>
 Explains the unknown<br>

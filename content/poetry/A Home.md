@@ -2,7 +2,6 @@ Title: A Home
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Home
 
 <p style="text-align: center;">
 A<br>

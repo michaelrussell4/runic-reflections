@@ -2,7 +2,6 @@ Title: The Wretched Sons Of Adam
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The Wretched Sons of Adam
 
 A wild man born into tribulation
 Works his life to improve his station

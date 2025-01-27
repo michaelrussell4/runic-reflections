@@ -2,7 +2,6 @@ Title: Internal Torment
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Internal Torment
 
 > Can vinegar bitter bite my tongue<br>
 Purge my heart from dirt and dung<br>

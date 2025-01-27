@@ -2,7 +2,6 @@ Title: You'Ll Get There, Michael
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# You'll get there, Michael
 
 > How do you get there, Michael?<br>
 Do you drive a motercyle?<br>

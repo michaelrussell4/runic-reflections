@@ -2,7 +2,6 @@ Title: Birth Of Dayspring
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Birth of Dayspring
 
 > Strange winds blow as eerie prose<br>
 Darkness groans its fate it knowns<br>

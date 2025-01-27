@@ -2,7 +2,6 @@ Title: Obsequy
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Obsequy
 
 > Caliginous chaotic smog corrupts the petrichor<br>
 A semaphore's numinous ritual ensues<br>

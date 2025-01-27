@@ -2,7 +2,6 @@ Title: Modern Media Malady
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Modern Media Malady
 
 > Digital candy like cocaine or brandy<br>
 Pique attention, weak will prevention<br>

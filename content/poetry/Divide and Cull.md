@@ -2,7 +2,6 @@ Title: Divide And Cull
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Divide and Cull
 
 > A point, a circle, a sphere, a self<br>
 A start, a skin, an image within<br>

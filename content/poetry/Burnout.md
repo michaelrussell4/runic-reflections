@@ -2,7 +2,6 @@ Title: Burnout
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Burnout
 
 > Why this [ennui](https://www.merriam-webster.com/dictionary/ennui) doth on [Frigg's day](https://www.merriam-webster.com/dictionary/Friday) be?<br>
 With her it fits [uncharacteristically](https://www.merriam-webster.com/dictionary/uncharacteristically)<br>

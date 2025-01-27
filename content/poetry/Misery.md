@@ -2,7 +2,6 @@ Title: Misery
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Misery
 
 > Rescue me from perilous threats<br>
 The harvest of my deep regrets<br>

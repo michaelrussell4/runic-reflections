@@ -2,7 +2,6 @@ Title: My Job Is Just
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# My Job is Just
 
 Job was just, his complaint valid
 God on trial for glory pallid

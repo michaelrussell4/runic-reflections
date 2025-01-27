@@ -2,7 +2,6 @@ Title: Zapped
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Zapped
 
 Like a bug of night
 A simple-minded thing

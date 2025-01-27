@@ -2,7 +2,6 @@ Title: Perdiendo Mi Ego
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Perdiendo mi Ego
 
 > With mi amigo Ego I tango<br>
 A clingy thing he won't let go<br>

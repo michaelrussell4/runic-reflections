@@ -2,7 +2,6 @@ Title: The Big Apple
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The Big Apple
 
 > Lord Archibald Yorkshire III<br>
 Was wondering yonder [thither](https://www.merriam-webster.com/dictionary/thither)<br>

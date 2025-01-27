@@ -2,7 +2,6 @@ Title: Push Notifications
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Push Notifications
 
 > A [furtive](https://www.merriam-webster.com/dictionary/furtive) appearance solicits my glance<br>
 A [tendentious](https://www.merriam-webster.com/dictionary/tendentious) report [surreptitiously](https://www.merriam-webster.com/dictionary/surreptitious) touted<br>

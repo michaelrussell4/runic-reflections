@@ -2,7 +2,6 @@ Title: Wo Unto Colloquial Speech
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Wo Unto Colloquial Speech
 
 > What [orthography](https://www.merriam-webster.com/dictionary/orthography) [dictates](https://www.merriam-webster.com/dictionary/dictates) the [neologism](https://www.merriam-webster.com/dictionary/neologism)?<br>
 To [extirpate](https://www.merriam-webster.com/dictionary/extirpate) [meticulous](https://www.merriam-webster.com/dictionary/meticulous) [deliberation](https://www.merriam-webster.com/dictionary/deliberation) here<br>

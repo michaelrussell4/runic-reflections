@@ -2,7 +2,6 @@ Title: A Delphic Prophecy
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A [Delphic](https://www.merriam-webster.com/dictionary/Delphic) Prophecy
 
 > A [putrid](https://www.merriam-webster.com/dictionary/putrid) [pulchritude](https://www.merriam-webster.com/dictionary/pulchritude)—a [perverse](https://www.merriam-webster.com/dictionary/perverse) ploy<br>
 A [sanction](https://www.merriam-webster.com/dictionary/sanction) that cleaves my heart in pain<br>

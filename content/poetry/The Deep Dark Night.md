@@ -2,7 +2,6 @@ Title: The Deep Dark Night
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The Deep Dark Night
 
 > In the night sky, though to me they look small<br>
 Giants dance in a majestic ball<br>

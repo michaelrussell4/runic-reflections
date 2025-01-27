@@ -2,7 +2,6 @@ Title: Departure Of Faith
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Departure of Faith
 
 > Walk ye warily from thy faith<br>
 Except thou hath a better way<br>

@@ -2,7 +2,6 @@ Title: Against Better Judgement
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Against Better Judgement
 
 > A [mollified](https://www.merriam-webster.com/dictionary/mollified) [inviolability](https://www.merriam-webster.com/dictionary/inviolability) doth weary<br>
 Persistent [assailants'](https://www.merriam-webster.com/dictionary/assailants) darts evil carry<br>

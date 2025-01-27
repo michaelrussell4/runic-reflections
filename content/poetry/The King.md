@@ -2,7 +2,6 @@ Title: The King
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The King
 
 > **Th**e hanged god's <ins>**th**irst</ins>: my <ins>curse</ins><br>
 Torpid <ins>glance</ins> seeks **th**e <ins>dance</ins><br>

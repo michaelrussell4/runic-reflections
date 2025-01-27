@@ -2,7 +2,6 @@ Title: Six And Seven
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Six and Seven
 
 > In the beginning 'twas empty and dark<br>
 The Lord came forth to creation embark<br>

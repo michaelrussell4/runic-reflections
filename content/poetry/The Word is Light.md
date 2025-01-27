@@ -2,7 +2,6 @@ Title: The Word Is Light
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The Word is Light
 
 > Language embedded with information<br>
 Patterns of deliberate persuasion<br>

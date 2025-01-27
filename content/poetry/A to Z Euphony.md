@@ -2,7 +2,6 @@ Title: A To Z Euphony
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A to Z [Euphony](https://www.merriam-webster.com/dictionary/euphony)
 
 **A** [**b**rusque](https://www.merriam-webster.com/dictionary/brusque) [**c**ircumlocution](https://www.merriam-webster.com/dictionary/circumlocution) [**d**isseminates](https://www.merriam-webster.com/dictionary/disseminates) [**e**nnui](https://www.merriam-webster.com/dictionary/ennui) [**f**elicitously](https://www.merriam-webster.com/dictionary/felicitously)<br>
 [**G**allantly](https://www.merriam-webster.com/dictionary/Gallantly), [**h**umorously](https://www.merriam-webster.com/dictionary/humorously), **i**maginitively **j**otted<br>

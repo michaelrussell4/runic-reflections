@@ -2,7 +2,6 @@ Title: A Gay Cell Story
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Gay Cell Story
 
 | Rural                                               | Urban                                              |
 |-----------------------------------------------------|----------------------------------------------------|

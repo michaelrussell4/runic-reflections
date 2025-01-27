@@ -2,7 +2,6 @@ Title: A Fearful Raiment
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Fearful Raiment
 
 > Naked come I into the world<br>
 But as I grow I fear<br><br>

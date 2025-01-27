@@ -2,7 +2,6 @@ Title: Delusional Engagement & Ignorance
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Delusional Engagement & Ignorance
 
 > A supercilious zealot<br>
 Was passing through the land<br>

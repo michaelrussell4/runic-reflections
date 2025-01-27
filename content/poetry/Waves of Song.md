@@ -2,7 +2,6 @@ Title: Waves Of Song
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Waves of Song
 
 > Rhythm like waves has power to lift<br>
 Pitches like words penetrate swift<br>

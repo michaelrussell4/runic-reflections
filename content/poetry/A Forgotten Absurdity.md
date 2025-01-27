@@ -2,7 +2,6 @@ Title: A Forgotten Absurdity
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Forgotten Absurdity
 
 > Not a blissful ignorance is this to me<br>
 No less this amnesia than treachery<br>

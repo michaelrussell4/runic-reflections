@@ -2,7 +2,6 @@ Title: A Striking Reality
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Striking Reality
 
 > Slithering forward *incessantly* and steadily, *sanguine* eyes fixate, locked on unsuspecting prey. <br>A *caliginous* veil of the night *expediently* hinders sight. <br>A *flagrant* tongue—a dark *divination—rends* the air with *foretastes* of *satiety*.<br>
 Elsewhere, a *fatigued* alertness longs for rest. <br>Nocturnal *ambience* offers a soothing but *illusory* hush.<br>

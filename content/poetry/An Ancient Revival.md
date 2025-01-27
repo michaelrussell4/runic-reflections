@@ -2,7 +2,6 @@ Title: An Ancient Revival
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# An Ancient Revival
 
 > Her scales doth weigh my heart<br>
 My soul this place doth weather<br>

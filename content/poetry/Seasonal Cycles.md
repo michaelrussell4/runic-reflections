@@ -2,7 +2,6 @@ Title: Seasonal Cycles
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Seasonal Cycles
 
 > Spring into being blossoming buds<br>
 A green scene of life without strife<br>

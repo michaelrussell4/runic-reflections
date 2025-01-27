@@ -1,18 +1,31 @@
 {% extends "base.html" %} {% block content_title %}{% endblock %} {% block
 content %} {% if articles %} {% for article in articles_page.object_list %} {#
 First item #} {% if loop.first and not articles_page.has_previous() %}
-<aside id="featured" class="bg-white p-6 rounded-lg shadow-lg mb-6">
-  <article>
-    <h1 class="entry-title text-2xl font-bold mb-2">
+<aside id="featured">
+  <article class="hentry bg-white p-4 rounded-lg shadow-lg mb-6">
+    <header>
+      <h1 class="text-3xl font-bold text-center mt-4">
+        <a
+          href="{{ SITEURL }}/{{ article.url }}"
+          rel="bookmark"
+          title="Permalink to {{ article.title|striptags }}"
+          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          >{{ article.title }}</a
+        >
+      </h1>
+    </header>
+
+    <div class="entry-content mt-2">
+      <p>{{ article.summary }}</p>
+      {% include 'article_infos.html' %}
       <a
+        class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
         href="{{ SITEURL }}/{{ article.url }}"
-        class="text-gray-600 hover:text-purple-600 transition duration-200"
-        >{{ article.title }}</a
+        >Read more</a
       >
-    </h1>
-    {% include 'article_infos.html' %}
-    <div class="entry-content mt-2">{{ article.content }}</div>
-    {% include 'comments.html' %}
+      {% include 'comments.html' %}
+    </div>
+    <!-- /.entry-content -->
   </article>
 </aside>
 <!-- /#featured -->
@@ -30,9 +43,9 @@ First item #} {% if loop.first and not articles_page.has_previous() %}
       >
         {% endif %}
         <li>
-          <article class="hentry bg-white p-4 rounded-lg shadow-lg mb-4">
+          <article class="hentry bg-white p-4 rounded-lg shadow-lg mb-6">
             <header>
-              <h1 class="text-xl font-bold">
+              <h1 class="text-3xl font-bold text-center mt-4">
                 <a
                   href="{{ SITEURL }}/{{ article.url }}"
                   rel="bookmark"
@@ -44,10 +57,10 @@ First item #} {% if loop.first and not articles_page.has_previous() %}
             </header>
 
             <div class="entry-content mt-2">
-              {% include 'article_infos.html' %}
               <p>{{ article.summary }}</p>
+              {% include 'article_infos.html' %}
               <a
-                class="text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
+                class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
                 href="{{ SITEURL }}/{{ article.url }}"
                 >Read more</a
               >

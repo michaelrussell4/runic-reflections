@@ -2,7 +2,6 @@ Title: Marvel Loss Were Can One Deer
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Marvel Loss Were Can One Deer
 
 > I learned in God's acre of the [accouchement](https://www.merriam-webster.com/dictionary/accouchement) of a [neophyte](https://www.merriam-webster.com/dictionary/neophyte) which wast yonder.<br>
 [Iwis](https://www.merriam-webster.com/dictionary/Iwis) ifsoever he grew defiant then God's blessing he would squander.<br>

@@ -2,7 +2,6 @@ Title: Mama Mia Onomatopoeia
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Mama Mia Onomatopoeia
 
 > The buzz of the bee<br>
 Who makes our honey<br>

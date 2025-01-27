@@ -2,7 +2,6 @@ Title: Surrender Self
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Surrender Self
 
 > Ascetic abnegation<br>
 Resisting all temptation<br>

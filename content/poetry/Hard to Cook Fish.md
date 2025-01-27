@@ -2,7 +2,6 @@ Title: Hard To Cook Fish
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Hard to Cook Fish
 
 > A pair of fish, Jim caught him two<br>
 "Well with these fish know what I'll do?"<br>

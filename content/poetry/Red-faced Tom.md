@@ -2,7 +2,6 @@ Title: Red Faced Tom
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Red-faced Tom
 
 > Feckless Tom<br>
 Had a fecund wife<br>

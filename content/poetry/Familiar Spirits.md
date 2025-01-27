@@ -2,7 +2,6 @@ Title: Familiar Spirits
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Familiar Spirits
 
 Again I find myself within
 Edifice of the ghoul and djinn

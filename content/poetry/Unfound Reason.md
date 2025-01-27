@@ -2,7 +2,6 @@ Title: Unfound Reason
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Unfound Reason
 
 > Fingerprints found but are mistaken for tarnish<br>
 Great works abound but evade capturing harness<br>

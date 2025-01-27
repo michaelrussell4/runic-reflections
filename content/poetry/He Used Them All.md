@@ -2,7 +2,6 @@ Title: He Used Them All
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# He Used Them All
 
 > A [phantasm](https://www.merriam-webster.com/dictionary/phantasm) [containing](https://www.merriam-webster.com/dictionary/containing) the [paladin](https://www.merriam-webster.com/dictionary/paladin) of hope<br>
 Awakening hope from the [bogarting](https://www.merriam-webster.com/dictionary/bogarting) [trope](https://www.merriam-webster.com/dictionary/trope)<br>

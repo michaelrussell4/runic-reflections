@@ -2,7 +2,6 @@ Title: A Christ Mass Dance
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Christ Mass Dance
 
 > From the northern pole a pipe was played<br>
 The elves, the stars, in regalia arrayed<br>

@@ -2,7 +2,6 @@ Title: Man Child
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Man Child
 
 > [Blithely](https://www.merriam-webster.com/dictionary/Blithely) [impetuous](https://www.merriam-webster.com/dictionary/impetuous)<br>
 And lacking [temperance](https://www.merriam-webster.com/dictionary/temperance)<br>

@@ -2,7 +2,6 @@ Title: Poor Old Franny
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Poor Old Franny
 
 > Silly Billy ate some chili<br>
 Granny Franny to him fed<br>

@@ -2,7 +2,6 @@ Title: One And Done
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# One and Done
 
 > It's nice to be done<br>
 Whether you've lost or won<br>

@@ -2,7 +2,6 @@ Title: Psalm Of Pondering
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Psalm of Pondering
 
 Who art thou and who am I?<br>
 Will this I learn before I die?<br>

@@ -2,7 +2,6 @@ Title: Obstreperous Equilibrium
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# [Obstreperous](https://www.merriam-webster.com/dictionary/obstreperous) Equilibrium
 
 > The powers of persuasion contend for control<br>
 The [peasantry](https://www.merriam-webster.com/dictionary/peasantry) seek promises to comfort and console<br>

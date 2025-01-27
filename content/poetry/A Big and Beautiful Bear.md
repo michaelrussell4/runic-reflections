@@ -3,8 +3,6 @@ Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
 
-# A Big and Beautiful Bear
-
 > Poor Callisto, you're stuck in a rut<br>
 Stewn in the sky with a cup for a butt<br>
 Once beheld as a beautiful sight<br>

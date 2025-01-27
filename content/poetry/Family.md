@@ -2,7 +2,6 @@ Title: Family
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Family
 
 > Fulfilled in loving company<br>
 A feeling like heavenly symphony<br>

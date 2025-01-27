@@ -2,7 +2,6 @@ Title: Pip Show Estella
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# `pip show estella`
 
 > For her [saccharine](https://www.merriam-webster.com/dictionary/saccharine) beauty<br>
 His [lugubrious](https://www.merriam-webster.com/dictionary/lugubrious) lustful craving<br>

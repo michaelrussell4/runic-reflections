@@ -2,7 +2,6 @@ Title: Gas Light
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Gas Light
 
 > Poor gal Bella, to be fooled<br>
 Lacks suspicion and gets schooled<br>

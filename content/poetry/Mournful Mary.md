@@ -2,7 +2,6 @@ Title: Mournful Mary
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Mournful Mary
 
 > Mournful mary<br>
 Lived in melancholy<br>

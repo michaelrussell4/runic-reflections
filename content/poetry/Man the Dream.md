@@ -2,7 +2,6 @@ Title: Man The Dream
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Man, the Dream
 
 > Man is just as a dream<br>
 His beginning unknown<br>

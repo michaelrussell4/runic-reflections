@@ -2,7 +2,6 @@ Title: To Wait The Wait
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# To wait the wait
 
 >If you plant some plants in pots<br>
 And watch your watch while waiting<br>

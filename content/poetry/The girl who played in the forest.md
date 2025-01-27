@@ -2,7 +2,6 @@ Title: The Girl Who Played In The Forest
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# The girl who played in the forest
 
 > Once during the early summer in woodlands far away<br>
 A young girl left her cottage outside she went to play<br>

@@ -20,15 +20,19 @@
   <section id="content" class="body">
     <article>
       <header>
-        <h1 class="entry-title bg-black-200">
-          <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark"
-             title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a></h1>
+        <h1 class="entry-title text-3xl text-center font-bold my-6">
+          <a
+            href="{{ SITEURL }}/{{ article.url }}"
+            class="text-gray-600 hover:text-purple-600 transition duration-200"
+            >{{ article.title }}</a
+          >
+        </h1>
         {% include 'twitter.html' %}
       </header>
 
       <div class="entry-content">
-        {% include 'article_infos.html' %}
         {{ article.content }}
+        {% include 'article_infos.html' %}
       </div><!-- /.entry-content -->
       {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
         <div class="comments">

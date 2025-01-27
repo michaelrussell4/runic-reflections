@@ -2,7 +2,6 @@ Title: Job Well Done
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Job Well Done
 
 > [Capricious](https://www.merriam-webster.com/dictionary/Capricious) [fait accomplis](https://www.merriam-webster.com/dictionary/accomplis) unfold<br>
 An unjust [reckoning](https://www.merriam-webster.com/dictionary/reckoning) to behold<br>

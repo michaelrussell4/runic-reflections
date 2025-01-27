@@ -2,7 +2,6 @@ Title: A Heartless Graph
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# A Heartless Graph
 
 > Many an eye and many a limb<br>
 Craft an intricate snare so grim<br>

@@ -2,7 +2,6 @@ Title: Humor And Pain
 Date: 2025-01-26 06:00AM
 Category: Poetry
 Author: Mike Russell
-# Humor and Pain
 
 > When what one sought<br>
 Has come to naught<br>
