@@ -1,5 +1,5 @@
 Title: Deadly Trinkets
-Date: 2025-01-26 06:00AM
+Date: 2025/01/02 02:41PM
 Category: Poetry
 Author: Mike Russell
 

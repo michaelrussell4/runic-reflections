@@ -1,5 +1,5 @@
 Title: Death Stare
-Date: 2025-01-26 06:00AM
+Date: 2024/10/24 03:27PM
 Category: Poetry
 Author: Mike Russell
 

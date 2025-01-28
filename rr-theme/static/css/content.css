@@ -1,3 +1,5 @@
+@import url("fonts.css");
+
 .page-content,
 .entry-content {
   max-width: 750px; /* Improved readability */
@@ -92,17 +94,13 @@
 /* Blockquotes */
 .page-content blockquote,
 .entry-content blockquote {
-  margin: 1.5em 0;
+  margin: 1.5em auto;
   padding: 1em;
   border-left: 4px solid #3182ce;
-  background-color: #f0f8ff;
+  background-color: #f7fbff;
   color: #1f2937;
-  font-style: italic;
-}
-
-.page-content blockquote p,
-.entry-content blockquote p {
-  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  width: fit-content;
 }
 
 /* Tables */

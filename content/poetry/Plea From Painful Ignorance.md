@@ -1,5 +1,5 @@
 Title: Plea From Painful Ignorance
-Date: 2025-01-26 06:00AM
+Date: 2024/10/22 01:09PM
 Category: Poetry
 Author: Mike Russell
 

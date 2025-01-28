@@ -1,5 +1,5 @@
 Title: An Archetype To Abhor
-Date: 2025-01-26 06:00AM
+Date: 2024/12/13 01:58PM
 Category: Poetry
 Author: Mike Russell
 

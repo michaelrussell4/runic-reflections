@@ -1,5 +1,5 @@
 Title: Departure Of Faith
-Date: 2025-01-26 06:00AM
+Date: 2025/01/17 02:24PM
 Category: Poetry
 Author: Mike Russell
 

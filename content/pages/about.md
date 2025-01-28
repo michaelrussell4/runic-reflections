@@ -24,5 +24,6 @@ Thank you for visiting Runic Relics. I hope these poems inspire thought, spark c
 
 ---
 
-*“In the beginning was the Word…”*  
-– John 1:1
+> In the beginning was the Word…
+> 
+> <span class="float-right -mt-3 font-bold">– John 1:1</span>

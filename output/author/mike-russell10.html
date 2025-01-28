@@ -62,679 +62,850 @@
     </header>
     <!-- /#banner -->
     <div class="flex-grow p-4 bg-gray-100">
- <!-- Accordion Dropdown for All Poems -->
+ 
+<!-- Accordion Dropdown for All Poems -->
 <div class="mb-8">
-  <div
-    class="w-full text-left bg-gray-200 p-4 rounded-lg"
+  <button
+    id="toggle-button"
+    class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 p-4 rounded-lg"
   >
-    <span class="font-semibold">All Poems</span>
-  </div>
-  <div id="accordion-content" class="bg-gray-100 p-4 rounded-lg">
-    <ul class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 list-none">
-      <li>
+    <a class="font-semibold text-gray-800"> Index of all poems </a>
+  </button>
+       <!-- Style must be defined here because it's dynamically defined based on article count -->
+  <style>
+    @media (min-width: 0px) {
+      /* Medium screens */
+      .index-grid {
+        grid-template-rows: repeat(140, 0.5fr);
+      }
+    }
+    @media (min-width: 500px) {
+      /* Medium screens */
+      .index-grid {
+        grid-template-rows: repeat(70, 0.5fr);
+      }
+    }
+    @media (min-width: 700px) {
+      /* Large screens */
+      .index-grid {
+        grid-template-rows: repeat(47, 0.5fr);
+      }
+    }
+    @media (min-width: 1000px) {
+      /* Extra large screens */
+      .index-grid {
+        grid-template-rows: repeat(35, 0.5fr);
+      }
+    }
+    @media (min-width: 1500px) {
+      /* Extra large screens */
+      .index-grid {
+        grid-template-rows: repeat(28, 0.5fr);
+      }
+    }
+    @media (min-width: 2000px) {
+      /* Extra large screens */
+      .index-grid {
+        grid-template-rows: repeat(24, 0.5fr);
+      }
+    }
+  </style>
+  <div id="accordion-content" class="bg-gray-100 p-4 rounded-lg hidden">
+    <!-- Search Input -->
+    <input
+      type="text"
+      id="search-input"
+      placeholder="Search poems..."
+      class="mb-4 p-2 border border-gray-300 rounded w-full sm:w-1/2 lg:w-1/3 max-w-lg"
+    />
+
+    <div class="grid grid-flow-col gap-0 index-grid items-center">
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        A
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-big-and-beautiful-bear.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-big-and-beautiful-bear.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Big And Beautiful Bear</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-christ-mass-dance.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-christ-mass-dance.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Christ Mass Dance</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-delphic-prophecy.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-delphic-prophecy.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Delphic Prophecy</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-fearful-raiment.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-fearful-raiment.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Fearful Raiment</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-forgotten-absurdity.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-forgotten-absurdity.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Forgotten Absurdity</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-gay-cell-story.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-gay-cell-story.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Gay Cell Story</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-great-and-terrible-day.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-great-and-terrible-day.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Great And Terrible Day</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-heartless-graph.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-heartless-graph.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Heartless Graph</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-home.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-home.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Home</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-maternal-touch.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-maternal-touch.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Maternal Touch</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-song-of-praise.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-song-of-praise.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Song Of Praise</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-striking-reality.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-striking-reality.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A Striking Reality</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/a-to-z-euphony.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/a-to-z-euphony.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A To Z Euphony</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/after-a-kind.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2025/a-vain-pursuit.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
+          >A Vain Pursuit</a
+        >
+      </div>
+      <div class="poem-item">
+        <a
+          href="/2024/after-a-kind.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >After A Kind</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/against-better-judgement.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/against-better-judgement.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Against Better Judgement</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/an-alliance-to-abdicate.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/an-alliance-to-abdicate.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >An Alliance To Abdicate</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/an-ancient-revival.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/an-ancient-revival.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >An Ancient Revival</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/an-archetype-to-abhor.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/an-archetype-to-abhor.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >An Archetype To Abhor</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        B
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/birth-of-dayspring.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/birth-of-dayspring.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Birth Of Dayspring</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/bleak-perception.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/bleak-perception.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Bleak Perception</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/burnout.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/burnout.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Burnout</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        C
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/cryptic-children.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/cryptic-children.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Cryptic Children</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        D
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/deadly-trinkets.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Deadly Trinkets</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/death-stare.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/death-stare.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Death Stare</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/delusional-engagement-ignorance.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/delusional-engagement-ignorance.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Delusional Engagement & Ignorance</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/departure-of-faith.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Departure Of Faith</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/divide-and-cull.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/divide-and-cull.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Divide And Cull</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/down-the-rabbit-hole.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/down-the-rabbit-hole.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Down The Rabbit Hole</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        E
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/easy-does-it.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Easy Does It</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/ella-and-the-umbrella.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/ella-and-the-umbrella.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Ella And The Umbrella</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/eventide-pondering.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/eventide-pondering.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Eventide Pondering</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        F
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/familiar-spirits.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Familiar Spirits</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/family.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/family.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Family</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/felon-a-mop.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/felon-a-mop.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Felon A Mop</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/fools-fait-accompli.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/fools-fait-accompli.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Fools' Fait Accompli</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        G
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/gas-light.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/gas-light.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Gas Light</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/gloom.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/gloom.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Gloom</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/god-of-heaven.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/god-of-heaven.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >God Of Heaven</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        H
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/hallowed-seven.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/hallowed-seven.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Hallowed Seven</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/hard-to-cook-fish.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/hard-to-cook-fish.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Hard To Cook Fish</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/he-used-them-all.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/he-used-them-all.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >He Used Them All</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/hootin-hijinks.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/hootin-hijinks.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Hootin Hijinks</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/humor-and-pain.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/humor-and-pain.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Humor And Pain</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        I
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/incognato.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/incognato.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Incognato</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/internal-torment.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/internal-torment.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Internal Torment</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        J
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/job-well-done.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/job-well-done.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Job Well Done</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        K
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/keto.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/keto.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Keto</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        M
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/malevolent-nature.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/malevolent-nature.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Malevolent Nature</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/mama-mia-onomatopoeia.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/mama-mia-onomatopoeia.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Mama Mia Onomatopoeia</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/man-child.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/man-child.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Man Child</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/man-the-dream.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/man-the-dream.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Man The Dream</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/marvel-loss-were-can-one-deer.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/marvel-loss-were-can-one-deer.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Marvel Loss Were Can One Deer</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/maternal-tree.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/maternal-tree.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Maternal Tree</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/misery.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/misery.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Misery</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/modern-media-malady.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Modern Media Malady</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/mournful-mary.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/mournful-mary.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Mournful Mary</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/my-job-is-just.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/my-job-is-just.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >My Job Is Just</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        O
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/obsequy.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/obsequy.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Obsequy</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/obstreperous-equilibrium.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/obstreperous-equilibrium.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Obstreperous Equilibrium</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/once-upon-a-chrono.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/once-upon-a-chrono.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Once Upon A Chrono</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/one-and-done.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/one-and-done.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >One And Done</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        P
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/perdiendo-mi-ego.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/perdiendo-mi-ego.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Perdiendo Mi Ego</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/pip-show-estella.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/pip-show-estella.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Pip Show Estella</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/plea-from-painful-ignorance.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/plea-from-painful-ignorance.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Plea From Painful Ignorance</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/poor-old-franny.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/poor-old-franny.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Poor Old Franny</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/psalm-of-pondering.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/psalm-of-pondering.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Psalm Of Pondering</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/push-notifications.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/push-notifications.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Push Notifications</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        R
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/red-faced-tom.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Red Faced Tom</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/requiem-of-quietude.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/requiem-of-quietude.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Requiem Of Quietude</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        S
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/seasonal-cycles.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/seasonal-cycles.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Seasonal Cycles</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/seasonal-rest.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/seasonal-rest.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Seasonal Rest</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/seeing-through-a-glass-darkly.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/seeing-through-a-glass-darkly.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Seeing Through A Glass Darkly</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/silent-dark-serenity.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Silent Dark Serenity</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/silent-sailing.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/silent-sailing.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Silent Sailing</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/silly-southern-sass.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/silly-southern-sass.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Silly Southern Sass</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/six-and-seven.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Six And Seven</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/skolls-howling.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
-          >Sköll'S Howling</a
+          href="/2024/skolls-howling.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
+          >Sköll's Howling</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/surrender-self.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Surrender Self</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        T
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/the-big-apple.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/the-big-apple.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The Big Apple</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/the-deep-dark-night.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/the-deep-dark-night.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The Deep Dark Night</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/the-girl-who-played-in-the-forest.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/the-girl-who-played-in-the-forest.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The Girl Who Played In The Forest</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/the-king.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2025/the-heifer-haunting.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
+          >The Heifer Haunting</a
+        >
+      </div>
+      <div class="poem-item">
+        <a
+          href="/2024/the-king.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The King</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/the-word-is-light.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The Word Is Light</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/the-wretched-sons-of-adam.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/the-wretched-sons-of-adam.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The Wretched Sons Of Adam</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/tired-of-repetition.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/tired-of-repetition.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Tired Of Repetition</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/to-wait-the-wait.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/to-wait-the-wait.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >To Wait The Wait</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
           href="/2025/tortuous-locution.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Tortuous Locution</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        U
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/unfound-reason.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/unfound-reason.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Unfound Reason</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/unriht-wronge.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/unriht-wronge.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Unriht Wronge</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        V
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/vanity.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/vanity.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Vanity</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        W
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/waves-of-song.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/waves-of-song.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Waves Of Song</a
         >
-      </li>
-      <li>
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/wo-unto-colloquial-speech.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/wo-unto-colloquial-speech.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Wo Unto Colloquial Speech</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        Y
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/youll-get-there-michael.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
-          >You'Ll Get There, Michael</a
+          href="/2024/youll-get-there-michael.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
+          >You'll Get There, Michael</a
         >
-      </li>
-      <li>
+      </div>
+       <div class="poem-item-header font-bold text-lg row-span-2">
+        Z
+      </div>
+      <div class="poem-item">
         <a
-          href="/2025/zapped.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200"
+          href="/2024/zapped.html"
+          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >Zapped</a
         >
-      </li>
-    </ul>
+      </div>
+     </div>
   </div>
 </div>
 
+<script>
+  document
+    .getElementById("toggle-button")
+    .addEventListener("click", function () {
+      var content = document.getElementById("accordion-content");
+      if (content.classList.contains("hidden")) {
+        content.classList.remove("hidden");
+      } else {
+        content.classList.add("hidden");
+      }
+    });
+
+  // Search functionality
+  document
+    .getElementById("search-input")
+    .addEventListener("input", function () {
+      var searchTerm = this.value.toLowerCase();
+      var poemItems = document.querySelectorAll(".poem-item");
+      var poemItemHeaders = document.querySelectorAll(".poem-item-header");
+
+      if (searchTerm !== "") {
+        poemItemHeaders.forEach(function (item) {
+          item.style.display = "none"; // Hide each item
+        });
+      } else {
+        // If the search term is empty, show all items
+        poemItemHeaders.forEach(function (item) {
+          item.style.display = ""; // Show each item
+        });
+      }
+
+      poemItems.forEach(function (item) {
+        var title = item.textContent.toLowerCase();
+        if (title.includes(searchTerm)) {
+          item.style.display = ""; // Show item
+        } else {
+          item.style.display = "none"; // Hide item
+        }
+      });
+    });
+</script>
+
 <section id="content" class="body">
-  <h2 class="text-xl text-gray-500 font-semibold mb-4">Articles</h2>
+  <h2 class="text-xl text-gray-500 font-semibold mb-4">Poems by date (most recent)</h2>
   <hr class="mb-4" />
   <ol
     id="posts-list"
@@ -742,39 +913,15 @@
   >
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2025/job-well-done.html"
-              rel="bookmark"
-              title="Permalink to Job Well Done"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Job Well Done</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p><a href="https://www.merriam-webster.com/dictionary/Capricious">Capricious</a> <a href="https://www.merriam-webster.com/dictionary/accomplis">fait accomplis</a> unfold<br>
-An unjust <a href="https://www.merriam-webster.com/dictionary/reckoning">reckoning</a> to behold<br>
-<strong>For <a href="https://www.merriam-webster.com/dictionary/sovereign">sovereign</a> judgement he <a href="https://www.merriam-webster.com/dictionary/pines">pines</a><br></strong>
-<a href="https://www.merriam-webster.com/dictionary/Incredulous">Incredulous</a> seeking for silver lines<br>
-On his heart <a href="https://www.merriam-webster.com/dictionary/ambivalence">ambivalence</a> grinds<br>
-A <a href="https://www.merriam-webster.com/dictionary/meager">meager</a> hope his loyalty finds<br>
-But <a href="https://www.merriam-webster.com/dictionary/bellicose">bellicose</a> <a href="https://www.merriam-webster.com/dictionary/bouts">bouts</a> bite bitterly<br>
-Crumbling the foundations of liberty<br>
-He <a href="https://www.merriam-webster.com/dictionary/petitions">petitions</a> his case with <a href="https://www.merriam-webster.com/dictionary/audacity">audacity</a><br>
-For <a href="https://www.merriam-webster.com/dictionary/asylum">asylum</a>, an answer …</p></blockquote></p>
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
-    <abbr class="published" title="2025-01-26T06:00:00-07:00">
-      Published: Sun 26 January 2025
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
     </abbr>
   </div>
 
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By       <a
         class="url fn hover:text-blue-600 transition duration-200"
         href="/author/mike-russell.html"
@@ -782,7 +929,7 @@ For <a href="https://www.merriam-webster.com/dictionary/asylum">asylum</a>, an a
       >     </address>
   </div>
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"
@@ -793,9 +940,32 @@ For <a href="https://www.merriam-webster.com/dictionary/asylum">asylum</a>, an a
 
   
 </footer>
-<!-- /.post-info -->          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-            href="/2025/job-well-done.html"
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-great-and-terrible-day.html"
+              rel="bookmark"
+              title="Permalink to A Great And Terrible Day"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Great And Terrible Day</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><blockquote>
+<p>Oh how I <strong>pine</strong> for Wisdom<br>
+Before riches I put her<br>
+As the wisest of men<br>
+<br>I would make single mine eye<br>
+like the <strong>Terrible</strong> one<br>
+For a drink of her cup to buy<br>
+<br>Forsaken, he paid as the <strong>Great</strong>est<br>
+Hung on tree with pierced side<br>
+Three square days …</p></blockquote></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-great-and-terrible-day.html"
             >Read more</a
           >
         </div>
@@ -804,35 +974,15 @@ For <a href="https://www.merriam-webster.com/dictionary/asylum">asylum</a>, an a
     </li>
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2025/keto.html"
-              rel="bookmark"
-              title="Permalink to Keto"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Keto</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p>I had a diet that was very sweet<br>
-And every night I'd savor a treat<br>
-But ached my head<br>
-The pain did I dread<br>
-And now for my treat I eat meat</p>
-</blockquote></p>
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
-    <abbr class="published" title="2025-01-26T06:00:00-07:00">
-      Published: Sun 26 January 2025
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
     </abbr>
   </div>
 
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By       <a
         class="url fn hover:text-blue-600 transition duration-200"
         href="/author/mike-russell.html"
@@ -840,7 +990,7 @@ And now for my treat I eat meat</p>
       >     </address>
   </div>
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"
@@ -851,9 +1001,31 @@ And now for my treat I eat meat</p>
 
   
 </footer>
-<!-- /.post-info -->          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-            href="/2025/keto.html"
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-heartless-graph.html"
+              rel="bookmark"
+              title="Permalink to A Heartless Graph"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Heartless Graph</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><blockquote>
+<p>Many an eye and many a limb<br>
+Craft an intricate snare so grim<br>
+A tapestry fine with silk delicate<br>
+A fantasy eerie of a sort pestilent<br>
+Here death and life have ample supply<br>
+Here for this fisherman of the sky<br>
+Do not however mistake this net<br>
+For a life or …</p></blockquote></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-heartless-graph.html"
             >Read more</a
           >
         </div>
@@ -862,37 +1034,15 @@ And now for my treat I eat meat</p>
     </li>
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2025/malevolent-nature.html"
-              rel="bookmark"
-              title="Permalink to Malevolent Nature"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Malevolent Nature</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p>Out I walked on stone terrain<br>
-To free my mind from toil<br>
-For the sun mine eyes did strain<br>
-And on my skin drops boil<br><br>
-Near to my foot I cast a gaze<br>
-A silk spun to admire<br>
-A web, a sea, a deathly maze<br>
-To those trapped in its …</p></blockquote></p>
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
-    <abbr class="published" title="2025-01-26T06:00:00-07:00">
-      Published: Sun 26 January 2025
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
     </abbr>
   </div>
 
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By       <a
         class="url fn hover:text-blue-600 transition duration-200"
         href="/author/mike-russell.html"
@@ -900,7 +1050,7 @@ To those trapped in its …</p></blockquote></p>
       >     </address>
   </div>
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"
@@ -911,9 +1061,32 @@ To those trapped in its …</p></blockquote></p>
 
   
 </footer>
-<!-- /.post-info -->          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-            href="/2025/malevolent-nature.html"
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-home.html"
+              rel="bookmark"
+              title="Permalink to A Home"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Home</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><p style="text-align: center;">
+A<br>
+house<br>
+Is not a home<br>
+A place merely to roam<br>
+A home is more pleasant and good<br>
+The difference between them lies deeper than wood<br>
+A house is a shelter a covering overhead<br>
+A house is a place having pillow and bed<br>
+A home is a fortress from what …</p></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-home.html"
             >Read more</a
           >
         </div>
@@ -922,41 +1095,15 @@ To those trapped in its …</p></blockquote></p>
     </li>
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2025/mama-mia-onomatopoeia.html"
-              rel="bookmark"
-              title="Permalink to Mama Mia Onomatopoeia"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Mama Mia Onomatopoeia</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p>The buzz of the bee<br>
-Who makes our honey<br>
-The sizzling sausage<br>
-Eaten by Mr. Gossage<br>
-The bang of a bomb<br>
-To distrupt the calm<br>
-The drip of a drop<br>
-Of rain from up top<br>
-The clang of a cowbell<br>
-Worn by old Marybell<br>
-The popping of popcorn<br>
-All yellow …</p></blockquote></p>
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
-    <abbr class="published" title="2025-01-26T06:00:00-07:00">
-      Published: Sun 26 January 2025
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
     </abbr>
   </div>
 
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By       <a
         class="url fn hover:text-blue-600 transition duration-200"
         href="/author/mike-russell.html"
@@ -964,7 +1111,7 @@ All yellow …</p></blockquote></p>
       >     </address>
   </div>
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"
@@ -975,9 +1122,31 @@ All yellow …</p></blockquote></p>
 
   
 </footer>
-<!-- /.post-info -->          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-            href="/2025/mama-mia-onomatopoeia.html"
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-maternal-touch.html"
+              rel="bookmark"
+              title="Permalink to A Maternal Touch"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Maternal Touch</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><blockquote>
+<p>Solace and beauty wouldn't be had<br>
+Nor the safety and calm of heart<br>
+If it weren't for maternity's presence<br>
+Were her gentle soft touch to depart<br>
+She's a refuge from sorrow<br>
+A balm for our pain<br>
+She's a flower in a field<br>
+A trust, a love no one could feign …</p></blockquote></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-maternal-touch.html"
             >Read more</a
           >
         </div>
@@ -986,40 +1155,15 @@ All yellow …</p></blockquote></p>
     </li>
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2025/man-child.html"
-              rel="bookmark"
-              title="Permalink to Man Child"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Man Child</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p><a href="https://www.merriam-webster.com/dictionary/Blithely">Blithely</a> <a href="https://www.merriam-webster.com/dictionary/impetuous">impetuous</a><br>
-And lacking <a href="https://www.merriam-webster.com/dictionary/temperance">temperance</a><br>
-A cheeky <a href="https://www.merriam-webster.com/dictionary/demeanor">demeanor</a><br>
-<a href="https://www.merriam-webster.com/dictionary/Conceit">Conceit</a>, <a href="https://www.merriam-webster.com/dictionary/misdemeanor">misdemeanor</a><br>
-<a href="https://www.merriam-webster.com/dictionary/Erstwhile">Erstwhile</a> needy<br>
-Now thankless, greedy<br>
-A <a href="https://www.merriam-webster.com/dictionary/plague">plague</a> of arrogance<br>
-<a href="https://www.merriam-webster.com/dictionary/Squandering">Squandering</a> inheritance<br>
-<a href="https://www.merriam-webster.com/dictionary/Incorrigible">Incorrigible</a> <a href="https://www.merriam-webster.com/dictionary/enmity">enmity</a><br>
-<a href="https://www.merriam-webster.com/dictionary/Tumultuous">Tumultuous</a> as sea</p>
-</blockquote></p>
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
-    <abbr class="published" title="2025-01-26T06:00:00-07:00">
-      Published: Sun 26 January 2025
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
     </abbr>
   </div>
 
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By       <a
         class="url fn hover:text-blue-600 transition duration-200"
         href="/author/mike-russell.html"
@@ -1027,7 +1171,7 @@ A <a href="https://www.merriam-webster.com/dictionary/plague">plague</a> of arro
       >     </address>
   </div>
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"
@@ -1038,9 +1182,86 @@ A <a href="https://www.merriam-webster.com/dictionary/plague">plague</a> of arro
 
   
 </footer>
-<!-- /.post-info -->          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block mt-3"
-            href="/2025/man-child.html"
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-song-of-praise.html"
+              rel="bookmark"
+              title="Permalink to A Song Of Praise"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Song Of Praise</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><blockquote>
+<p>God Thou art good forever<br>
+Thy mercy streams like a river<br>
+Thy glory shines as rays of light<br>
+Giving life and warmth to creation<br>
+Thou hearest my prayers great or small<br>
+I'm left with no doubt that thine eye sees all<br>
+Sweet assurance to know I am known<br>
+With Thy …</p></blockquote></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-song-of-praise.html"
+            >Read more</a
+          >
+        </div>
+        <!-- /.entry-content -->
+      </article>
+    </li>
+    <li>
+      <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
+    <abbr class="published" title="2024-07-12T14:33:00-06:00">
+      Published: Fri 12 July 2024
+    </abbr>
+  </div>
+
+  <div>
+    <address class="vcard author text-gray-600">
+      By       <a
+        class="url fn hover:text-blue-600 transition duration-200"
+        href="/author/mike-russell.html"
+        >Mike Russell</a
+      >     </address>
+  </div>
+
+  <div class="text-gray-600">
+    In
+    <a
+      class="hover:text-blue-600 transition duration-200"
+      href="/category/poetry.html"
+      >Poetry</a
+    >.
+  </div>
+
+  
+</footer>
+<!-- /.post-info -->        <header>
+          <h1 class="text-3xl font-bold text-center mt-4">
+            <a
+              href="/2024/a-striking-reality.html"
+              rel="bookmark"
+              title="Permalink to A Striking Reality"
+              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              >A Striking Reality</a
+            >
+          </h1>
+        </header>
+
+        <div class="entry-content mt-2">
+          <p><blockquote>
+<p>Slithering forward <em>incessantly</em> and steadily, <em>sanguine</em> eyes fixate, locked on unsuspecting prey. <br>A <em>caliginous</em> veil of the night <em>expediently</em> hinders sight. <br>A <em>flagrant</em> tongue—a dark <em>divination—rends</em> the air with <em>foretastes</em> of <em>satiety</em>.<br>
+Elsewhere, a <em>fatigued</em> alertness longs for rest. <br>Nocturnal <em>ambience</em> offers a soothing but <em>illusory</em> hush.<br>
+<em>Ebullition …</em></p></blockquote></p>
+          <a
+            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            href="/2024/a-striking-reality.html"
             >Read more</a
           >
         </div>
@@ -1068,7 +1289,7 @@ A <a href="https://www.merriam-webster.com/dictionary/plague">plague</a> of arro
     <li
       class="px-3 py-1 rounded bg-purple-50 text-purple-700 border border-purple-300"
     >
-      Page 10 / 19
+      Page 10 / 16
     </li>
     <li>
       <a
@@ -1079,7 +1300,7 @@ A <a href="https://www.merriam-webster.com/dictionary/plague">plague</a> of arro
     </li>
     <li>
       <a
-        href="/author/mike-russell19.html"
+        href="/author/mike-russell16.html"
         class="block px-3 py-1 border border-purple-300 rounded hover:bg-purple-100 text-purple-700"
         >&Rang;</a
       >

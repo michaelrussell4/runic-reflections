@@ -1,5 +1,5 @@
-<footer class="post-info px-4 border-gray-200 text-right">
-  <div class="text-gray-600 text-sm">
+<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
+  <div class="text-gray-600">
     <abbr class="published" title="{{ article.date.isoformat() }}">
       Published: {{ article.locale_date }}
     </abbr>
@@ -13,7 +13,7 @@
 
   {% if article.authors %}
   <div>
-    <address class="vcard author text-gray-600 text-sm">
+    <address class="vcard author text-gray-600">
       By {% for author in article.authors %}
       <a
         class="url fn hover:text-blue-600 transition duration-200"
@@ -24,7 +24,7 @@
   </div>
   {% endif %}
 
-  <div class="text-gray-600 text-sm">
+  <div class="text-gray-600">
     In
     <a
       class="hover:text-blue-600 transition duration-200"

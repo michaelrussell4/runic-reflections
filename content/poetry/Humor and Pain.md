@@ -1,5 +1,5 @@
 Title: Humor And Pain
-Date: 2025-01-26 06:00AM
+Date: 2024/08/20 11:34AM
 Category: Poetry
 Author: Mike Russell
 

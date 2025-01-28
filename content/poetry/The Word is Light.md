@@ -1,5 +1,5 @@
 Title: The Word Is Light
-Date: 2025-01-26 06:00AM
+Date: 2025/01/08 12:43PM
 Category: Poetry
 Author: Mike Russell
 
