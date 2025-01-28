@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 
 <p style="text-align: center">
-One life<br>
-Two in love<br>
-Three rule above<br>
-Four seasons there are<br>
-Five points are on a star<br>
-Six days we spend laboring<br>
-Seventh day rest and savoring
+<b>One</b> life<br>
+<b>Two</b> in love<br>
+<b>Three</b> rule above<br>
+<b>Four</b> seasons there are<br>
+<b>Five</b> points are on a star<br>
+<b>Six</b> days we spend laboring<br>
+<b>Seventh</b> day rest and savoring
 </p>

@@ -32,7 +32,7 @@
     />
      </head>
 
-  <body id="index" class="w-full flex flex-col min-h-screen">
+  <body id="index" class="w-full flex flex-col min-h-screen text-pretty">
     <header id="banner" class="bg-purple-600 text-white p-4 tracking-widest">
       <h1 class="text-2xl font-bold mb-3">
         <a href="/" class="hover:text-gray-300">
@@ -57,6 +57,13 @@
               >Poetry</a
             >
           </li>
+          <li>
+            <a
+              href="/category/short-stories.html"
+              class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200"
+              >Short Stories</a
+            >
+          </li>
          </ul>
       </nav>
     </header>
@@ -69,26 +76,26 @@
     id="toggle-button"
     class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 focus:outline-none focus:ring-2 focus:ring-purple-500 focus:ring-offset-2 p-4 rounded-lg"
   >
-    <a class="font-semibold text-gray-800"> Index of all poems </a>
+    <a class="font-semibold text-gray-800"> Index of all poetry </a>
   </button>
        <!-- Style must be defined here because it's dynamically defined based on article count -->
   <style>
     @media (min-width: 0px) {
       /* Medium screens */
       .index-grid {
-        grid-template-rows: repeat(140, 0.5fr);
+        grid-template-rows: repeat(138, 0.5fr);
       }
     }
     @media (min-width: 500px) {
       /* Medium screens */
       .index-grid {
-        grid-template-rows: repeat(70, 0.5fr);
+        grid-template-rows: repeat(69, 0.5fr);
       }
     }
     @media (min-width: 700px) {
       /* Large screens */
       .index-grid {
-        grid-template-rows: repeat(47, 0.5fr);
+        grid-template-rows: repeat(46, 0.5fr);
       }
     }
     @media (min-width: 1000px) {
@@ -106,7 +113,7 @@
     @media (min-width: 2000px) {
       /* Extra large screens */
       .index-grid {
-        grid-template-rows: repeat(24, 0.5fr);
+        grid-template-rows: repeat(23, 0.5fr);
       }
     }
   </style>
@@ -115,7 +122,7 @@
     <input
       type="text"
       id="search-input"
-      placeholder="Search poems..."
+      placeholder="Search poetry..."
       class="mb-4 p-2 border border-gray-300 rounded w-full sm:w-1/2 lg:w-1/3 max-w-lg"
     />
 
@@ -212,13 +219,6 @@
           href="/2024/a-to-z-euphony.html"
           class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >A To Z Euphony</a
-        >
-      </div>
-      <div class="poem-item">
-        <a
-          href="/2025/a-vain-pursuit.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
-          >A Vain Pursuit</a
         >
       </div>
       <div class="poem-item">
@@ -747,13 +747,6 @@
       </div>
       <div class="poem-item">
         <a
-          href="/2025/the-heifer-haunting.html"
-          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
-          >The Heifer Haunting</a
-        >
-      </div>
-      <div class="poem-item">
-        <a
           href="/2024/the-king.html"
           class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
           >The King</a
@@ -905,131 +898,12 @@
 </script>
 
 <section id="content" class="body">
-  <h2 class="text-xl text-gray-500 font-semibold mb-4">Poems by date (most recent)</h2>
+  <h2 class="text-xl text-gray-500 font-semibold mb-4">Poetry by date (most recent)</h2>
   <hr class="mb-4" />
   <ol
     id="posts-list"
     class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
   >
-    <li>
-      <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
-  <div class="text-gray-600">
-    <abbr class="published" title="2024-07-12T14:33:00-06:00">
-      Published: Fri 12 July 2024
-    </abbr>
-  </div>
-
-  <div>
-    <address class="vcard author text-gray-600">
-      By       <a
-        class="url fn hover:text-blue-600 transition duration-200"
-        href="/author/mike-russell.html"
-        >Mike Russell</a
-      >     </address>
-  </div>
-
-  <div class="text-gray-600">
-    In
-    <a
-      class="hover:text-blue-600 transition duration-200"
-      href="/category/poetry.html"
-      >Poetry</a
-    >.
-  </div>
-
-  
-</footer>
-<!-- /.post-info -->        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2024/the-wretched-sons-of-adam.html"
-              rel="bookmark"
-              title="Permalink to The Wretched Sons Of Adam"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >The Wretched Sons Of Adam</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><p>A wild man born into tribulation
-Works his life to improve his station
-He feeds his needs with strength of hand
-Hunting beasts with a chosen band</p>
-<p>His son improves a shelter secure
-His gains are found with rope and lure
-A family protected, a future perceived
-Tomorrow exists; thought …</p></p>
-          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
-            href="/2024/the-wretched-sons-of-adam.html"
-            >Read more</a
-          >
-        </div>
-        <!-- /.entry-content -->
-      </article>
-    </li>
-    <li>
-      <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
-<footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">
-  <div class="text-gray-600">
-    <abbr class="published" title="2024-07-12T14:33:00-06:00">
-      Published: Fri 12 July 2024
-    </abbr>
-  </div>
-
-  <div>
-    <address class="vcard author text-gray-600">
-      By       <a
-        class="url fn hover:text-blue-600 transition duration-200"
-        href="/author/mike-russell.html"
-        >Mike Russell</a
-      >     </address>
-  </div>
-
-  <div class="text-gray-600">
-    In
-    <a
-      class="hover:text-blue-600 transition duration-200"
-      href="/category/poetry.html"
-      >Poetry</a
-    >.
-  </div>
-
-  
-</footer>
-<!-- /.post-info -->        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
-            <a
-              href="/2024/tired-of-repetition.html"
-              rel="bookmark"
-              title="Permalink to Tired Of Repetition"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
-              >Tired Of Repetition</a
-            >
-          </h1>
-        </header>
-
-        <div class="entry-content mt-2">
-          <p><blockquote>
-<p>Maybe I need to sweep<br>
-Baby cries feed to sleep<br>
-Achy thighs lead me to weep<br>
-Steady eyes plead me to keep<br>
-Fading mind</p>
-</blockquote>
-<h2>Meaning &amp; Commentary</h2>
-<p>This exercise rhymes, or near-rhymes, every respective word of each line; e.g., maybe, baby, achy, steady; I, cries, thighs, eyes; need, feed, lead …</p></p>
-          <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
-            href="/2024/tired-of-repetition.html"
-            >Read more</a
-          >
-        </div>
-        <!-- /.entry-content -->
-      </article>
-    </li>
     <li>
       <article class="bg-white p-4 rounded-lg shadow-lg mb-6">
 <footer class="post-info px-4 text-right text-xs pt-2 opacity-50 hover:opacity-100">

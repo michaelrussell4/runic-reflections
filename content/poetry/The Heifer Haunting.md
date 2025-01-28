@@ -1,6 +1,6 @@
 Title: The Heifer Haunting
-Date: 2025/01/28 01:03PM
-Category: Poetry
+Date: 2024/9/30 2:42PM
+Category: Short Stories
 Author: Mike Russell
 
 There once was a man who lived with his wife and children in a small cottage in the woods. He owned an old cow whose milk was running dry. The man was poor and had little to eat besides the milk, cheese, and butter produced from the cow. The man's wife and children complained for their hunger and the man went to punish the cow. He scolded her, saying, "You old cow! What good are you if you can't make us milk? We shall starve because of you." The man then realized he could kill the cow and feed his family with her meat. He told this idea to the cow to which she responded, "Don't kill me or I shall haunt you." The man responded, "You shan't frighten me any more as a ghost than you do while alive by causing us such great hunger. Therefore, I will butcher you and we shall be fed and well for a long time."

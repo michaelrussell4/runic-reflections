@@ -3,7 +3,7 @@ Date: 2024/12/23 11:53AM
 Category: Poetry
 Author: Mike Russell
 
-Who art thou and who am I?<br>
+> Who art thou and who am I?<br>
 Will this I learn before I die?<br>
 Amidst my ignorant, wondering eyes<br>
 Sacred words from solemn scribes<br>

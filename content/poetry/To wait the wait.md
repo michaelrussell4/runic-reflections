@@ -3,7 +3,7 @@ Date: 2024/08/15 03:49PM
 Category: Poetry
 Author: Mike Russell
 
->If you plant some plants in pots<br>
+> If you plant some plants in pots<br>
 And watch your watch while waiting<br>
 You'll tie your hair in knots<br>
 It's terribly frustrating<br>
