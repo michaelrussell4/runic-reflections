@@ -7,7 +7,7 @@ from pelican import signals
 
 AUTHOR = "Michael Russell"
 SITENAME = "Runic Reflections"
-SITEURL = ""
+SITEURL = "https://michaelrussell4.github.io/runic-reflections"
 
 PATH = "content"
 ARTICLE_PATHS = ["poetry"]
