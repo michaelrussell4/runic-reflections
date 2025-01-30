@@ -7,7 +7,7 @@
   {% endif %}
 {% endblock %}
 
-{% block title %}{{ article.title|striptags }}{% endblock %}
+{% block title %}{{           >{{           >{{ article.title | title_case_custom | striptags }}{% endblock %}
 
 {% block extra_head %}
   {% import 'translations.html' as translations with context %}
