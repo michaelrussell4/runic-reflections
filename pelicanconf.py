@@ -73,8 +73,8 @@ JINJA_FILTERS = {
 }
 
 
-def sort_articles(articles):
-    return sorted(articles, key=lambda article: article.title)
+def sort_articles(generator):
+    generator.articles.sort(key=lambda article: article.title)
 
 
 def register():

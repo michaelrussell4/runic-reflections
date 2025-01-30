@@ -143,15 +143,13 @@
               >RSS Feed</a
             >
           </li>
-          {% endif %} {% for name, link in SOCIAL %}
+          {% endif %} {% if SOCIAL %}
+          {% for name, link in SOCIAL if SOCIAL %}
           <li>
-            <a
-              href="{{ link }}"
-              class="text-blue-600 hover:text-blue-800 transition duration-200"
-              >{{ name }}</a
-            >
+            <a href="{{ link }}" class="text-blue-600 hover:text-blue-800 transition duration-200">{{ name }}</a>
           </li>
           {% endfor %}
+        {% endif %}
         </ul>
       </div>
       <!-- /.social -->
