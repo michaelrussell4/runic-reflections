@@ -66,10 +66,16 @@ def group_articles(articles):
     return sorted_grouped
 
 
+def get_article_urls(articles):
+    """Return a list of article URLs."""
+    return [article.url for article in articles]
+
+
 JINJA_FILTERS = {
     "group_articles": group_articles,
     "ceil": ceil,
     "title_case_custom": title_case_custom,
+    "get_article_urls": get_article_urls,
 }
 
 

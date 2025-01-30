@@ -3,12 +3,26 @@ content %} {% if articles %}
 
 <!-- Accordion Dropdown for All Poems -->
 <div class="mb-8">
-  <button
-    id="toggle-button"
-    class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 outline-none ring-purple-500 focus:ring-4 p-4 rounded-lg"
-  >
-    <a class="font-semibold text-gray-800"> Index of all {{ category | lower }} </a>
-  </button>
+  <div class="flex justify-between">
+    <button
+      id="toggle-button"
+      class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 outline-none ring-purple-500 focus:ring-4 p-4 rounded-lg"
+    >
+      <a class="font-semibold text-gray-800">
+        Index of all {{ category | lower }}
+      </a>
+    </button>
+
+    <!-- Random Poem Button -->
+    <button
+      id="random-poem-button"
+      class="ml-4 bg-gray-200 hover:bg-purple-200 hover:text-purple-700 outline-none ring-purple-500 focus:ring-4 p-4 rounded-lg"
+      onclick="redirectToRandomPoem()"
+    >
+      <span class="font-semibold text-gray-800">🎲 Random</span>
+    </button>
+  </div>
+
   {% set total_articles = (articles | length + 2*(articles | group_articles) |
   length) %} {% set num_rows_for_2_cols = (total_articles / 2) | ceil %} {% set
   num_rows_for_3_cols = (total_articles / 3) | ceil %} {% set
@@ -81,7 +95,6 @@ content %} {% if articles %}
     </div>
   </div>
 </div>
-
 <script>
   document
     .getElementById("toggle-button")
@@ -93,6 +106,15 @@ content %} {% if articles %}
         content.classList.add("hidden");
       }
     });
+
+    var articleUrls = {{ articles | get_article_urls | tojson }};
+
+  // Function to redirect to a random poem
+  function redirectToRandomPoem() {
+    var randomIndex = Math.floor(Math.random() * articleUrls.length);
+    var randomPoemUrl = articleUrls[randomIndex];
+    window.location.href = "{{ SITEURL }}../" + randomPoemUrl;
+  }
 
   // Search functionality
   document
@@ -125,7 +147,9 @@ content %} {% if articles %}
 </script>
 
 <section id="content" class="body">
-  <h2 class="text-xl text-gray-500 font-semibold mb-4">{{ category | title }} by date (most recent)</h2>
+  <h2 class="text-xl text-gray-500 font-semibold mb-4">
+    {{ category | title }} by date (most recent)
+  </h2>
   <hr class="mb-4" />
   <ol
     id="posts-list"
