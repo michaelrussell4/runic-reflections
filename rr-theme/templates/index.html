@@ -113,7 +113,7 @@ content %} {% if articles %}
   function redirectToRandomPoem() {
     var randomIndex = Math.floor(Math.random() * articleUrls.length);
     var randomPoemUrl = articleUrls[randomIndex];
-    window.location.href = "{{ SITEURL }}../" + randomPoemUrl;
+    window.location.href = "{{ SITEURL }}/" + randomPoemUrl;
   }
 
   // Search functionality
