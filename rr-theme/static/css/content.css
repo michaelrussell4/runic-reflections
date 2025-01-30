@@ -6,7 +6,7 @@
   margin: 0 auto;
   padding: 20px;
   font-family: "Arial", sans-serif;
-  line-height: 1.75; /* Comfortable spacing for text */
+  line-height: 1.2; /* Comfortable spacing for text */
   color: #1f2937;
   background-color: #ffffff;
 }
@@ -17,7 +17,7 @@
 .entry-content h3,
 .entry-content h4,
 .entry-content h5,
-.entry-content h6,
+entry-content h6,
 .page-content h1,
 .page-content h2,
 .page-content h3,
@@ -29,7 +29,8 @@
   color: #2d3748;
 }
 
-.entry-content h1, .page-content h1 {
+.entry-content h1,
+.page-content h1 {
   margin-top: 0; /* Remove top margin for the first heading */
 }
 
@@ -52,7 +53,7 @@
 .page-content p,
 .entry-content p {
   margin-bottom: 1em; /* Proper paragraph spacing */
-  text-align: justify; /* Better alignment */
+  text-align: left; /* Change to left alignment */
 }
 
 /* Links */
@@ -99,8 +100,9 @@
   border-left: 4px solid #3182ce;
   background-color: #f7fbff;
   color: #1f2937;
-  font-family: 'Helvetica', sans-serif;
-  width: fit-content;
+  font-family: "Helvetica", sans-serif;
+  width: auto; /* Change to auto for better responsiveness */
+  text-align: left; /* Ensure text is left-aligned */
 }
 
 /* Tables */
@@ -134,4 +136,58 @@
   border-radius: 8px;
   margin: 1.5em 0;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.page-content br,
+.entry-content br {
+  content: "A";
+  display: block;
+  margin-bottom: .5em;
+}
+
+/* Responsive Styles */
+@media (max-width: 600px) {
+  .page-content,
+  .entry-content {
+    padding: 10px; /* Smaller padding for mobile */
+  }
+
+  .page-content h1,
+  .entry-content h1 {
+    font-size: 1.5em; /* Smaller heading size */
+  }
+
+  .page-content h2,
+  .entry-content h2 {
+    font-size: 1.25em; /* Smaller heading size */
+  }
+
+  .page-content h3,
+  .entry-content h3 {
+    font-size: 1.1em; /* Smaller heading size */
+  }
+
+  .page-content p,
+  .entry-content p,
+  .page-content blockquote,
+  .entry-content blockquote {
+    margin: 0.5em 0; /* Reduced margin for paragraphs and blockquotes */
+  }
+
+  .page-content ul,
+  .entry-content ul,
+  .page-content ol,
+  .entry-content ol {
+    padding-left: 1.5em; /* Reduced padding for lists */
+  }
+
+  .page-content li,
+  .entry-content li {
+    margin-bottom: 0.3em; /* Reduced margin for list items */
+  }
+
+  .page-content img,
+  .entry-content img {
+    margin: 1em 0; /* Adjusted margin for images */
+  }
 }
