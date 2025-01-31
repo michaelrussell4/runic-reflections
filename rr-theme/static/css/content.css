@@ -101,8 +101,12 @@ entry-content h6,
   background-color: #f7fbff;
   color: #1f2937;
   font-family: "Helvetica", sans-serif;
-  width: auto; /* Change to auto for better responsiveness */
-  text-align: left; /* Ensure text is left-aligned */
+  width: fit-content;
+}
+
+.page-content blockquote p,
+.entry-content blockquote p {
+  text-align: center;
 }
 
 /* Tables */
@@ -171,7 +175,8 @@ entry-content h6,
   .entry-content p,
   .page-content blockquote,
   .entry-content blockquote {
-    margin: 0.5em 0; /* Reduced margin for paragraphs and blockquotes */
+    margin: 0.5em auto; /* Reduced margin for paragraphs and blockquotes */
+    width: fit-content;
   }
 
   .page-content ul,
