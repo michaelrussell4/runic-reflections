@@ -7,7 +7,7 @@
   {% endif %}
 {% endblock %}
 
-{% block title %}{{           >{{           >{{ article.title | title_case_custom | striptags }}{% endblock %}
+{% block title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
 
 {% block extra_head %}
   {% import 'translations.html' as translations with context %}
@@ -24,7 +24,7 @@
           <a
             href="{{ SITEURL }}/{{ article.url }}"
             class="text-gray-600 hover:text-purple-600 transition duration-200"
-            >{{ article.title }}</a
+            >{{ article.title | title_case_custom }}</a
           >
         </h1>
         {% include 'twitter.html' %}

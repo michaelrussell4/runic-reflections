@@ -164,7 +164,7 @@ content %} {% if articles %}
             <a
               href="{{ SITEURL }}/{{ article.url }}"
               rel="bookmark"
-              title="Permalink to {{ article.title|striptags }}"
+              title="Permalink to {{ article.title | title_case_custom |striptags }}"
               class="text-gray-600 hover:text-purple-600 transition duration-200"
               >{{ article.title | title_case_custom }}</a
             >
