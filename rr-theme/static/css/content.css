@@ -6,7 +6,7 @@
   margin: 0 auto;
   padding: 20px;
   font-family: "Arial", sans-serif;
-  line-height: 1.2; /* Comfortable spacing for text */
+  line-height: 1.5rem; /* Comfortable spacing for text */
   color: #1f2937;
   background-color: #ffffff;
 }
@@ -102,6 +102,7 @@ entry-content h6,
   color: #1f2937;
   font-family: "Helvetica", sans-serif;
   width: fit-content;
+  line-height: 1.2rem;
 }
 
 .page-content blockquote p,
