@@ -182,7 +182,7 @@ entry-content h6,
   .page-content blockquote,
   .entry-content blockquote {
     margin: 0.5em auto; /* Reduced margin for paragraphs and blockquotes */
-    width: fit-content;
+    width: 100%;
   }
 
   .page-content ul,
