@@ -2,9 +2,9 @@
 
 .page-content,
 .entry-content {
-  max-width: 750px; /* Improved readability */
-  margin: 0 auto;
   padding: 20px;
+  max-width: 850px;
+  margin: 0 auto;
   font-family: "Arial", sans-serif;
   line-height: 1.5rem; /* Comfortable spacing for text */
   color: #1f2937;
@@ -54,6 +54,12 @@ entry-content h6,
 .entry-content p {
   margin-bottom: 1em; /* Proper paragraph spacing */
   text-align: left; /* Change to left alignment */
+  line-height: 1.7rem;
+}
+
+.page-content blockquote p,
+.entry-content blockquote p {
+  line-height: 1.2rem;
 }
 
 /* Links */
