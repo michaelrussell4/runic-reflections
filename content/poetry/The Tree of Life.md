@@ -10,7 +10,7 @@ Which if partaken lends new life<br>
 When man fell this tree was taken<br>
 Piercing heart and love forsaken<br>
 In its place a sapling rose<br>
-Who man did smite with deadly blows<br>
+Whom man did smite with deadly blows<br>
 From it oozed sweet myrrh and wine<br>
 Mouth to partake and head enshrine<br>
 The tree was split and hell redeemed<br>
