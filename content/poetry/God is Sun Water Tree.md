@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 
 > Thou art the sun with light sublime<br>
-Upon creation doth thou shine<br>
+Upon creation dost thou shine<br>
 A seminal orb of glorious light<br>
-Warmeth our souls, overcometh night<br>
+Warm'st our souls, overcom'st night<br>
 <br>
 Thou art the water clear and blue<br>
 The stream of life and morning dew<br>
