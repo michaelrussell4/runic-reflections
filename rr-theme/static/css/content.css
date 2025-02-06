@@ -6,7 +6,6 @@
   max-width: 850px;
   margin: 0 auto;
   font-family: "Arial", sans-serif;
-  line-height: 1.5rem; /* Comfortable spacing for text */
   color: #1f2937;
   background-color: #ffffff;
 }
@@ -52,14 +51,8 @@ entry-content h6,
 /* Paragraphs */
 .page-content p,
 .entry-content p {
-  margin-bottom: 1em; /* Proper paragraph spacing */
-  text-align: left; /* Change to left alignment */
-  line-height: 1.7rem;
-}
-
-.page-content blockquote p,
-.entry-content blockquote p {
-  line-height: 1.2rem;
+  margin-bottom: 1em; 
+  text-align: left;
 }
 
 /* Links */
@@ -88,8 +81,7 @@ entry-content h6,
 
 .page-content li,
 .entry-content li {
-  margin-bottom: 0.5em; /* Consistent spacing for list items */
-  line-height: 1.5;
+  margin-bottom: 0.5em;
 }
 
 .page-content ul li::marker,
@@ -107,12 +99,19 @@ entry-content h6,
   color: #1f2937;
   font-family: "Helvetica", sans-serif;
   width: fit-content;
-  line-height: 1.2rem;
 }
 
 .page-content blockquote p,
 .entry-content blockquote p {
   text-align: center;
+  line-height: 1em;
+}
+
+.page-content blockquote p br,
+.entry-content blockquote p br {
+  content: "A";
+  display: block;
+  padding-bottom: .75em;
 }
 
 /* Tables */
@@ -148,12 +147,6 @@ entry-content h6,
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-.page-content br,
-.entry-content br {
-  content: "A";
-  display: block;
-  margin-bottom: .5em;
-}
 
 /* Responsive Styles */
 @media (max-width: 600px) {
