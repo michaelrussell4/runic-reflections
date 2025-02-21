@@ -1,6 +1,7 @@
 Title: Picturesque Story
 Date: 2025-02-21 15:12PM
 Category: Poetry
+Author: Mike Russell
 
 > 👦📖🕐🕑⏰‼️<br>
 🏃‍♂️💨<br>
