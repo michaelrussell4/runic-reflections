@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 
 > With mi amigo Ego I tango<br>
-A clingy thing he won't let go<br>
-His weight I carry with strain<br>
-His sustenance is my pain<br>
-I used to think us great friends<br>
-But knew not to what awful ends<br>
-Our companionship costs me loads<br>
-My slow death his hunger forbodes<br>
-So I'm seeking to lose my Ego<br>
-To find a new Friend. Here we go
+> A clingy thing he won't let go<br>
+> His weight I carry with strain<br>
+> His sustenance is my pain<br>
+> I used to think us great friends<br>
+> But knew not to what awful ends<br>
+> Our companionship costs me loads<br>
+> My slow death his hunger forbodes<br>
+> So I'm seeking to lose my Ego<br>
+> To find a new Friend. Here we go
 
 ## Notes
 

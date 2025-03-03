@@ -4,6 +4,6 @@ Category: Poetry
 Author: Mike Russell
 
 > Silly Billy ate some chili<br>
-Granny Franny to him fed<br>
-Franny frowned when his belly groaned<br>
-And now old Franny's dead
+> Granny Franny to him fed<br>
+> Franny frowned when his belly groaned<br>
+> And now old Franny's dead

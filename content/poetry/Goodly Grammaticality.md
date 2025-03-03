@@ -4,6 +4,6 @@ Category: Poetry
 Author: Mike Russell
 
 > I ran so fast<br>
-A goodly run<br>
-Well weather cast<br>
-But veriest fun
+> A goodly run<br>
+> Well weather cast<br>
+> But veriest fun

@@ -4,5 +4,5 @@ Category: Poetry
 Author: Mike Russell
 
 > Sphinxes screeched and streched<br>
-Wright worked whilst his wealth welled well<br>
-Tongue and throat threaten
+> Wright worked whilst his wealth welled well<br>
+> Tongue and throat threaten

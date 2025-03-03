@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 
 > Again I find myself within<br>
-Edifice of the ghoul and djinn<br>
-Strange fantasms, traps and chasms<br>
-Doleful creatures, ectoplasms<br>
-Furtively, I hide and flee<br>
-Futilely, we all agree<br>
-No fear but curiosity<br>
-Odd: my phobic callosity<br>
-A familiar clairvoyance<br>
-A slight annoyance<br>
-I've been there so often<br>
-Perhaps it's my coffin
+> Edifice of the ghoul and djinn<br>
+> Strange fantasms, traps and chasms<br>
+> Doleful creatures, ectoplasms<br>
+> Furtively, I hide and flee<br>
+> Futilely, we all agree<br>
+> No fear but curiosity<br>
+> Odd: my phobic callosity<br>
+> A familiar clairvoyance<br>
+> A slight annoyance<br>
+> I've been there so often<br>
+> Perhaps it's my coffin
 
 ## Notes
 

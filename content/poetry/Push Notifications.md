@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 
 > A [furtive](https://www.merriam-webster.com/dictionary/furtive) appearance solicits my glance<br>
-A [tendentious](https://www.merriam-webster.com/dictionary/tendentious) report [surreptitiously](https://www.merriam-webster.com/dictionary/surreptitious) touted<br>
-[Obstreperous](https://www.merriam-webster.com/dictionary/obstreperous) resurgence<br>
-My servant's [insurgence](https://www.merriam-webster.com/dictionary/insurgence)<br>
-Swiped away, good day to this trance
+> A [tendentious](https://www.merriam-webster.com/dictionary/tendentious) report [surreptitiously](https://www.merriam-webster.com/dictionary/surreptitious) touted<br>
+> [Obstreperous](https://www.merriam-webster.com/dictionary/obstreperous) resurgence<br>
+> My servant's [insurgence](https://www.merriam-webster.com/dictionary/insurgence)<br>
+> Swiped away, good day to this trance
 
 ## Notes
 

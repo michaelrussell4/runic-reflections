@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 > Only in simplicity<br>
-Can there be felicity<br>
-To flex and strain<br>
-Will my bliss bane<br>
-I state with authenticity
+> Can there be felicity<br>
+> To flex and strain<br>
+> Will my bliss bane<br>
+> I state with authenticity

@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 
 > Man is just as a dream<br>
-His beginning unknown<br>
-In confusion he roams<br>
-Reliably he will be<br>
-Wreaking hellish abomination<br>
-Or benevolent divinity<br>
-Bringing beauty, love, joy, and peace<br>
-Or fearful tremor abounding<br>
-His being will continue<br>
-On living he must go<br>
-His end may be sudden<br>
-As a recollection
+> His beginning unknown<br>
+> In confusion he roams<br>
+> Reliably he will be<br>
+> Wreaking hellish abomination<br>
+> Or benevolent divinity<br>
+> Bringing beauty, love, joy, and peace<br>
+> Or fearful tremor abounding<br>
+> His being will continue<br>
+> On living he must go<br>
+> His end may be sudden<br>
+> As a recollection
 
 ## Meaning & Commentary
 

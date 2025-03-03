@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 
 > Poor gal Bella, to be fooled<br>
-Lacks suspicion and gets schooled<br>
-Old Jack's got her by the throat<br>
-He's cunning as the wily goat<br>
-A tampering of reality<br>
-Paranoia, misery<br>
-Jack is really called E.T.<br>
-And Bella she is poor old me<br>
-Victim of a witty devil<br>
-In my insanity he revels<br>
-Truth evassive planting doubt<br>
-Clarity, assurance I'm ever without
+> Lacks suspicion and gets schooled<br>
+> Old Jack's got her by the throat<br>
+> He's cunning as the wily goat<br>
+> A tampering of reality<br>
+> Paranoia, misery<br>
+> Jack is really called E.T.<br>
+> And Bella she is poor old me<br>
+> Victim of a witty devil<br>
+> In my insanity he revels<br>
+> Truth evassive planting doubt<br>
+> Clarity, assurance I'm ever without
 
 ## Notes
 

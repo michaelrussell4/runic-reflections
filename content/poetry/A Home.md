@@ -18,4 +18,4 @@ A house will protect you enough to get by<br>
 A home is a foundation to flourish and fly
 </p>
 
-*For visual effect make sure text is centered*
+_For visual effect make sure text is centered_

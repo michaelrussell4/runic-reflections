@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 
 > The human being: wretched man<br>
-Not for well being: his program<br>
-Survive and breed: his duty bound<br>
-His pleading voice: a minor sound
+> Not for well being: his program<br>
+> Survive and breed: his duty bound<br>
+> His pleading voice: a minor sound
 
 # Notes
 

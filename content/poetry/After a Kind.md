@@ -4,6 +4,6 @@ Category: Poetry
 Author: Mike Russell
 
 > A brain<br>
-A name<br>
-Feral nature<br>
-Who's to blame?
+> A name<br>
+> Feral nature<br>
+> Who's to blame?

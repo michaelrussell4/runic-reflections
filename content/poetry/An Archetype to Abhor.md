@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 > Unctuous action catalyzed by greed<br>
-With suave demeanor he drinks his mead<br>
-A debonair facade<br>
-A je ne sais quoi<br>
-Ruin shall his tenure succeed
+> With suave demeanor he drinks his mead<br>
+> A debonair facade<br>
+> A je ne sais quoi<br>
+> Ruin shall his tenure succeed

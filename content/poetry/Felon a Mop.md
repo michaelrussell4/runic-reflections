@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 > Once a cop named officer Knop<br>
-Walked into a little shop<br>
-He tripped on a mop<br>
-He fell with a flop<br>
-Now the mop's in jail to rot
+> Walked into a little shop<br>
+> He tripped on a mop<br>
+> He fell with a flop<br>
+> Now the mop's in jail to rot

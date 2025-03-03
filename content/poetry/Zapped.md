@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 
 > Like a bug of night<br>
-A simple-minded thing<br>
-I'm lusting for the light<br>
-I veer and I careen<br>
-I struggle and I fight<br>
-A poor and futile fling<br>
-But carry on my plight<br>
-Embrace the lethal sting
+> A simple-minded thing<br>
+> I'm lusting for the light<br>
+> I veer and I careen<br>
+> I struggle and I fight<br>
+> A poor and futile fling<br>
+> But carry on my plight<br>
+> Embrace the lethal sting

@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 
 > A step towards light and darkness grows<br>
-When one eye doubts, the other knows<br>
-Death or ignorance—knowledge or life<br>
-Incomplete will be your strife
+> When one eye doubts, the other knows<br>
+> Death or ignorance—knowledge or life<br>
+> Incomplete will be your strife
 
 # Notes
 

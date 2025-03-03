@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 
 > Oh how I **pine** for Wisdom<br>
-Before riches I put her<br>
-As the wisest of men<br>
-<br>I would make single mine eye<br>
-like the **Terrible** one<br>
-For a drink of her cup to buy<br>
-<br>Forsaken, he paid as the **Great**est<br>
-Hung on tree with pierced side<br>
-Three square days staring in the abyss<br>
-<br>Surely, he **pined** for Wisdom<br>
-He drank of her cup<br>
-From her runes his magik did burgeon<br>
+> Before riches I put her<br>
+> As the wisest of men<br>
+> <br>I would make single mine eye<br>
+> like the **Terrible** one<br>
+> For a drink of her cup to buy<br>
+> <br>Forsaken, he paid as the **Great**est<br>
+> Hung on tree with pierced side<br>
+> Three square days staring in the abyss<br>
+> <br>Surely, he **pined** for Wisdom<br>
+> He drank of her cup<br>
+> From her runes his magik did burgeon
 
 ## Notes
 

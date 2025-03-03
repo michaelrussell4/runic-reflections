@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 
 > Ascetic abnegation<br>
-Resisting all temptation<br>
-Averruncating avarice<br>
-Agelast not clamorous<br>
-Anodynes for ailment<br>
-An aegis against assailants
+> Resisting all temptation<br>
+> Averruncating avarice<br>
+> Agelast not clamorous<br>
+> Anodynes for ailment<br>
+> An aegis against assailants

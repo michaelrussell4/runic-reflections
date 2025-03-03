@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 
 > Maybe I need to sweep<br>
-Baby cries feed to sleep<br>
-Achy thighs lead me to weep<br>
-Steady eyes plead me to keep<br>
-Fading mind
+> Baby cries feed to sleep<br>
+> Achy thighs lead me to weep<br>
+> Steady eyes plead me to keep<br>
+> Fading mind
 
 ## Meaning & Commentary
 

@@ -4,19 +4,19 @@ Category: Poetry
 Author: Mike Russell
 
 > Thou art the sun with light sublime<br>
-Upon creation dost thou shine<br>
-A seminal orb of glorious light<br>
-Warm'st our souls, overcom'st night<br>
-<br>
-Thou art the water clear and blue<br>
-The stream of life and morning dew<br>
-A vital substance hast thou brought<br>
-Quenching thirst, cleansing spot<br>
-<br>
-Thou art the tree of life divine<br>
-In hell thy roots, in heaven thy vine<br>
-A powerful rod of priestly rite<br>
-Nourishing fruit, beautiful sight
+> Upon creation dost thou shine<br>
+> A seminal orb of glorious light<br>
+> Warm'st our souls, overcom'st night<br>
+> <br>
+> Thou art the water clear and blue<br>
+> The stream of life and morning dew<br>
+> A vital substance hast thou brought<br>
+> Quenching thirst, cleansing spot<br>
+> <br>
+> Thou art the tree of life divine<br>
+> In hell thy roots, in heaven thy vine<br>
+> A powerful rod of priestly rite<br>
+> Nourishing fruit, beautiful sight
 
 ## Notes
 

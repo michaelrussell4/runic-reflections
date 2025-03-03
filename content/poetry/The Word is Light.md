@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 
 > Language embedded with information<br>
-Patterns of deliberate persuasion<br>
-Any who speak betray their mind<br>
-Numbers and data—good or maligned<br>
-Sound in the ether, fire in the night<br>
-When God spoke his Word was Light
+> Patterns of deliberate persuasion<br>
+> Any who speak betray their mind<br>
+> Numbers and data—good or maligned<br>
+> Sound in the ether, fire in the night<br>
+> When God spoke his Word was Light
 
 # Notes
 

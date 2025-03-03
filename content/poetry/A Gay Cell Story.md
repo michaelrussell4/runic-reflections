@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 | Rural                                               | Urban                                              |
-|-----------------------------------------------------|----------------------------------------------------|
+| --------------------------------------------------- | -------------------------------------------------- |
 | **Break** by **thyme** to prevent unwanted **meat** | **Brake** by **time** to prevent unwanted **meet** |
 | A predator takes in the **scent** too **sweet**     | A predator takes in the **cent** to **suite**      |
 | He **rights** for **piece**                         | He **writes** for **peace**                        |

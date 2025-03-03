@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 
 > Reflections, echoes, shadows be<br>
-Figures in this cave I see<br>
-Figments of reality<br>
-Foolish me, I do agree<br>
-I know none else<br>
-I cannot see<br>
-These wispy elves<br>
-They cannot be<br>
-How I got here know I not<br>
-My memory has someone wrought
+> Figures in this cave I see<br>
+> Figments of reality<br>
+> Foolish me, I do agree<br>
+> I know none else<br>
+> I cannot see<br>
+> These wispy elves<br>
+> They cannot be<br>
+> How I got here know I not<br>
+> My memory has someone wrought
 
 ## Notes
 

@@ -4,5 +4,5 @@ Category: Poetry
 Author: Mike Russell
 
 > Searing heat pulses<br>
-Calmed by cool breezes soft still<br>
-A white sheet covers
+> Calmed by cool breezes soft still<br>
+> A white sheet covers
