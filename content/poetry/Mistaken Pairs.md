@@ -7,7 +7,7 @@ Author: Mike Russell
 > Except when given twice<br><br>
 > To alter your words at the altar<br>
 > Is not so very nice<br><br>
-> Bear in mind gummy bears are yummy<br>
+> Lay bare in mind gummy bears are yummy<br>
 > But artificial dyes aren't good for your tummy<br><br>
 > Ensure you insure your stuff<br>
 > For when the going's rough<br><br>
