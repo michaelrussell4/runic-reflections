@@ -3,12 +3,12 @@ Date: 2025/03/05 01:07PM
 Category: Poetry
 Author: Mike Russell
 
-> Rolling marbles circle
-> 'Round their father dear
-> Goodly mothers furtile
-> Appearances so fair
->
-> Dance ye puerile dames
-> Stay near to keep your lives
-> Before his glorious flames
-> The King's power revives
+> Rolling marbles circle<br>
+> 'Round their father dear<br>
+> Goodly mothers furtile<br>
+> Appearances so fair<br>
+> <br>
+> Dance ye puerile dames<br>
+> Stay near to keep your lives<br>
+> Before his glorious flames<br>
+> The King's power revives<br>
