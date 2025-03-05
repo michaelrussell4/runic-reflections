@@ -9,7 +9,7 @@ Author: Mike Russell
 > Marvelous and fair<br>
 > <br>
 > Dance ye puerile dames<br>
-> Sing ye stellar spheresbr>
+> Sing ye stellar spheres<br>
 > Before his glorious flames<br>
 > Bring forth the life you bear
 
