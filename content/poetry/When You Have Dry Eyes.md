@@ -20,7 +20,7 @@ Author: Mike Russell
 > Then your eyes won't be dry<br>
 > Another idea is to eat a fry<br>
 > Dipped in sauce hot as July<br>
-> If you don't like spicey stuff you'll cry<br>
+> If you don't like spicy stuff you'll cry<br>
 > But if all these ideas go awry<br>
 > And you still have two dry eyes<br>
 > You'll be so sad that you'll reply<br>
