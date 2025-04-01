@@ -18,5 +18,5 @@ Author: Mike Russell
 > Even the birds with wings like to sing<br>
 > They chirp out their bright warbling<br>
 > Whether winter or spring<br>
-> At work or worshiping<br>
+> At church worshiping<br>
 > You can sing, you can sing, you can sing
