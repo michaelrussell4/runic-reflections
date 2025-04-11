@@ -3,7 +3,7 @@ Date: 2025/04/10 01:42PM
 Category: Poetry
 Author: Mike Russell
 
-> William Wilsom was called Will<br>
+> William Wilson was called Will<br>
 > He walked by side of a wagon wheel<br>
 > When he found a well with water well<br>
 > He drank as much as a weary whale<br>
