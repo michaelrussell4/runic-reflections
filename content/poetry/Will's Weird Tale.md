@@ -21,7 +21,7 @@ Author: Mike Russell
 > And squirted water which felt swell<br>
 > Woke Will when water on him fell<br>
 > With wonder at this giant whale<br>
-> The whale then gaped and swalled Will<br>
+> The whale then gaped and swallowed Will<br>
 > Will then made a stinky smell<br>
 > Which the whale could not endure to dwell<br>
 > So he spit out Will on a hill by a quail<br>
