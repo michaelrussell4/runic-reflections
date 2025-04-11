@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 > Poor Callisto, you're stuck in a rut<br>
-> Stewn in the sky with a cup for a butt<br>
+> Strewn in the sky with a cup for a butt<br>
 > Once beheld as a beautiful sight<br>
 > Now you're an ursine beast of the night<br>
 > Lustful eyes cloaked with disguise<br>
