@@ -10,7 +10,7 @@ Author: Mike Russell
 > The garden bombarded bleating in heat<br>
 > Burned by the power of what it must devour<br>
 > Withering and dithering but pressing on<br>
-> A splash of relief ocassionally lulls grief<br>
+> A splash of relief occasionally lulls grief<br>
 > Cool wind bends their stalwart stalks<br>
 > A harvest steals and spreads their seeds<br>
 > Smell of cider, spice, and frost<br>

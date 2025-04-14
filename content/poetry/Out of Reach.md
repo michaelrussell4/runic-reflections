@@ -5,7 +5,7 @@ Author: Mike Russell
 
 > You're just out of reach<br>
 > The still moment in each turn<br>
-> The limit of inifities<br>
+> The limit of infinities<br>
 > All reasoning falls short<br><br>
 > Your mysteries we can't teach<br>
 > Though for this we much yearn<br>

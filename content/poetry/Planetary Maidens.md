@@ -5,7 +5,7 @@ Author: Mike Russell
 
 > Rolling marbles circle<br>
 > 'Round a candle steer<br>
-> Goodly mothers furtile<br>
+> Goodly mothers fertile<br>
 > Marvelous and fair<br>
 > <br>
 > Dance ye puerile dames<br>

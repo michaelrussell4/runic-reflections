@@ -8,7 +8,7 @@ Author: Mike Russell
 > The sizzling sausage<br>
 > Eaten by Mr. Gossage<br>
 > The bang of a bomb<br>
-> To distrupt the calm<br>
+> To disrupt the calm<br>
 > The drip of a drop<br>
 > Of rain from up top<br>
 > The clang of a cowbell<br>

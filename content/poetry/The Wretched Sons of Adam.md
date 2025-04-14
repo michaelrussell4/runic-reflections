@@ -11,10 +11,10 @@ Author: Mike Russell
 > His son improves a shelter secure<br>
 > His gains are found with rope and lure<br>
 > A family protected, a future perceived<br>
-> Tomorrow exists; thought is acheived<br>
+> Tomorrow exists; thought is achieved<br>
 > <br>
 > Wealth is gained by domestication<br>
-> Growth ensues on a furtile foundation<br>
+> Growth ensues on a fertile foundation<br>
 > Children are reared and carefully taught<br>
 > Money's invented and merchandise bought<br>
 > <br>
@@ -30,7 +30,7 @@ Author: Mike Russell
 > <br>
 > But an odd thing happened with each improvement<br>
 > These tools for man did not still his movement<br>
-> He hadn't more rest nor absense of worry<br>
+> He hadn't more rest nor absence of worry<br>
 > Always in a hurry his thoughts in a scurry<br>
 > <br>
 > Even more to add to this<br>
@@ -76,7 +76,7 @@ Author: Mike Russell
 > War and sickness truth and lie<br>
 > Questions were asked wondering why<br>
 > Wrestling souls fraught with dissonance<br>
-> Angst of curiousity makes a mighty impetus<br>
+> Angst of curiosity makes a mighty impetus<br>
 > <br>
 > Poor creatures changed their outside<br>
 > But a poison festered inside<br>

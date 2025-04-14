@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 
 > How do you get there, Michael?<br>
-> Do you drive a motercyle?<br>
+> Do you drive a motorcycle?<br>
 > Or rather a pedal-powered cycle?<br>
 > Can you race and beat your rival?<br>
 > Have you armed yourself with rifle?<br>

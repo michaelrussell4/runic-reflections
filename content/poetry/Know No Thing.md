@@ -10,7 +10,7 @@ Author: Mike Russell
 > When your mind is tall<br>
 > And confidence is stout<br>
 > Painful is your fall<br>
-> Your stench will reak of doubt<br><br>
+> Your stench will reek of doubt<br><br>
 > I'd rather claim a lacking<br>
 > And chance to cut me short<br>
 > No reason to be bragging<br>

@@ -13,7 +13,7 @@ Author: Mike Russell
 > And Bella she is poor old me<br>
 > Victim of a witty devil<br>
 > In my insanity he revels<br>
-> Truth evassive planting doubt<br>
+> Truth evasive planting doubt<br>
 > Clarity, assurance I'm ever without
 
 ## Notes

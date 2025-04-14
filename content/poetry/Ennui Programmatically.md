@@ -11,7 +11,7 @@ Author: Mike Russell
 <span style="margin-left: 8px;">deflect, relax, forget</span><br>
 <span style="margin-left: 8px; margin-left: 8px;">that <span style="color: #569cd6;">is</span> what you get</span><br>
 <span style="color: #6a9955; margin-left: 8px;"># Minimal transactions</span><br>
-<span style="color: #569cd6;">to</span> the <span style="color: #569cd6;">end</span> march foward<br>
+<span style="color: #569cd6;">to</span> the <span style="color: #569cd6;">end</span> march forward<br>
         </pre>
     </div>
 </div>

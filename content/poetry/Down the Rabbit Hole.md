@@ -5,7 +5,7 @@ Author: Mike Russell
 
 > Lovely little Alice ran to catch a rabbit<br>
 > But down a **hole** he disappeared—a leporine habbit<br>
-> Quickly Alice followed him and sqeezed herself inside<br>
+> Quickly Alice followed him and squeezed herself inside<br>
 > Shocked at what she saw she simply stared wide-eyed<br>
 > Stranger things she'd never seen than in this quaint **burrow**<br>
 > She gazed upon a **sea urchin** which made her eyebrows furrow<br>

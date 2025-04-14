@@ -20,7 +20,7 @@ Author: Mike Russell
 > The bear let out an awful growl that blew like gusts of wind<br>
 > This dried her off from head to toes and away she then did send<br>
 > She ran so fast and far from there for fear had filled her chest<br>
-> But the bear stayed beind "He wanted a drink" is what she guessed<br>
+> But the bear stayed behind "He wanted a drink" is what she guessed<br>
 > Though the girl was safe and dry she smelled like bad bear breath<br>
 > The smell was bad and she plugged her nose and started walking west<br>
 > She found herself in a meadow with flowers of every kind<br>

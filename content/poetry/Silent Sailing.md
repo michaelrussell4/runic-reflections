@@ -9,7 +9,7 @@ Author: Mike Russell
 > So with lupine timbre he hummed audibly<br>
 > <br>
 > He merrily sung towards felicity<br>
-> His mates swelled in cuasticity<br>
+> His mates swelled in causticity<br>
 > The feller was soon accosted by one<br>
 > A quixotic toper by barrel of gun<br>
 > <br>

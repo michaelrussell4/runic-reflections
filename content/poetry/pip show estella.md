@@ -12,7 +12,7 @@ Author: Mike Russell
 > Social [facade](https://www.merriam-webster.com/dictionary/facade) and [barrage](https://www.merriam-webster.com/dictionary/barrage)<br>
 > Warm [drones](https://www.merriam-webster.com/dictionary/drones) sustain her sheen<br><br>
 > His [sartorial](https://www.merriam-webster.com/dictionary/sartorial) tastes impress<br>
-> His cool hides desparation<br>
+> His cool hides desperation<br>
 > She [flaunts](https://www.merriam-webster.com/dictionary/flaunts) her [unctuousness](https://www.merriam-webster.com/dictionary/unctuousness)<br>
 > Her cost: his highest [oblation](https://www.merriam-webster.com/dictionary/oblation)<br><br>
 > To gain her glance, an [onerous](https://www.merriam-webster.com/dictionary/onerous) task<br>

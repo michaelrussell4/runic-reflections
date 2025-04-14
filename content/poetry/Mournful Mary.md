@@ -45,7 +45,7 @@ Author: Mike Russell
 > Mary's eyes grew wide<br>
 > Her heart filled with pride<br>
 > But she let out a sigh<br>
-> All this saddness rife<br>
+> All this sadness rife<br>
 > On a mistaken lie<br>
 > <br>
 > The doll was unharmed<br>
