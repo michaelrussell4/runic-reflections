@@ -9,5 +9,8 @@ wheels/
 # Virtual environments
 .venv
 
+# playground
+playground.ipynb
+
 # output
 output/
