@@ -12,5 +12,5 @@ Tags: comical, logophile, educational
 > Will put you in a pickle<br>
 > Remember, "light", or "ball", or "tree"<br>
 > Will make your task quite easy<br>
-> But words like "angel", "pint", or "silver":<br>
-> A poet's Reaper and sickle
+> But words like "angel", "pint", or "silver"<br>
+> Are poets' Reaper and sickle
