@@ -2,6 +2,7 @@ Title: Fools' Fait Accompli
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, melancholic, serious
 
 > Death will come—fait accompli<br>
 > Puerile fools think "none will stop me"<br>

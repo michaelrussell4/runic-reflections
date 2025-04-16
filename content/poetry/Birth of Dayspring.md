@@ -2,6 +2,7 @@ Title: Birth Of Dayspring
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, reflective, nature
 
 > Strange winds blow as eerie prose<br>
 > Darkness groans its fate it knowns<br>

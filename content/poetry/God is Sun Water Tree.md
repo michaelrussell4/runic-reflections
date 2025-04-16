@@ -2,6 +2,7 @@ Title: God is Sun, Water, Tree
 Date: 2025-02-05 08:20AM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, philosophical, nature, reflective
 
 > Thou art the sun with light sublime<br>
 > Upon creation dost thou shine<br>

@@ -2,6 +2,7 @@ Title: A To Z Euphony
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: reflective, logophile, whimsical
 
 > **A** [**b**rusque](https://www.merriam-webster.com/dictionary/brusque) [**c**ircumlocution](https://www.merriam-webster.com/dictionary/circumlocution) [**d**isseminates](https://www.merriam-webster.com/dictionary/disseminates) [**e**nnui](https://www.merriam-webster.com/dictionary/ennui) [**f**elicitously](https://www.merriam-webster.com/dictionary/felicitously)<br>
 > [**G**allantly](https://www.merriam-webster.com/dictionary/Gallantly), [**h**umorously](https://www.merriam-webster.com/dictionary/humorously), **i**maginitively **j**otted<br>

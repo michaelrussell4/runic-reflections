@@ -2,6 +2,7 @@ Title: Necromancy for a Cryptic Conversation
 Date: 2025/03/03 10:40AM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, melancholic, reflective
 
 > Cold and hard these stones of gray<br>
 > Death beneath but does life stay?<br>

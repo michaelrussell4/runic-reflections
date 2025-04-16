@@ -2,6 +2,7 @@ Title: The Wretched Sons Of Adam
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, melancholic, reflective, religious
 
 > A wild man born into tribulation<br>
 > Works his life to improve his station<br>

@@ -2,6 +2,7 @@ Title: God Of Heaven
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, serious, reflective
 
 > God of **Heaven** wilt Thou hear my prayer<br>
 > &nbsp;&nbsp;To Thee **I kneel** in supplication<br>

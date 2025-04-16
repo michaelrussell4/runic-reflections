@@ -2,6 +2,7 @@ Title: Helpfully Unhelpful
 Date: 2025/02/28 04:05PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, satirical, reflective
 
 <blockquote>
 <span class="leading-none block text-left">Sir, can you not help me?</span><br>

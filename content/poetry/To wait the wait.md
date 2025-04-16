@@ -2,6 +2,7 @@ Title: To Wait The Wait
 Date: 2024/08/15 03:49PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, reflective
 
 > If you plant some plants in pots<br>
 > And watch your watch while waiting<br>

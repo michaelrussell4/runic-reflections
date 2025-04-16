@@ -2,6 +2,7 @@ Title: Against Better Judgement
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, reflective, philosophical
 
 > A [mollified](https://www.merriam-webster.com/dictionary/mollified) [inviolability](https://www.merriam-webster.com/dictionary/inviolability) doth weary<br>
 Persistent [assailants'](https://www.merriam-webster.com/dictionary/assailants) darts evil carry<br>

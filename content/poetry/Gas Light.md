@@ -2,6 +2,7 @@ Title: Gas Light
 Date: 2024/10/22 01:08PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, satirical, philosophical, surreal
 
 > Poor gal Bella, to be fooled<br>
 > Lacks suspicion and gets schooled<br>

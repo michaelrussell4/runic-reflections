@@ -2,6 +2,7 @@ Title: Incognato
 Date: 2024/09/27 08:50AM
 Category: Poetry
 Author: Mike Russell
+Tags: logophile, reflective
 
 ## Sanskrit
 

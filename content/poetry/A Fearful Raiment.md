@@ -2,6 +2,7 @@ Title: A Fearful Raiment
 Date: 2024/08/13 11:15AM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, melancholic, reflective, serious
 
 > Naked come I into the world<br>
 > But as I grow I fear<br><br>

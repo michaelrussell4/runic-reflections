@@ -2,6 +2,7 @@ Title: Know No Thing
 Date: 2025/03/25 09:57PM
 Category: Poetry
 Author: Mike Russell
+Tags: reflective, philosophical, melancholic
 
 > Do you know a thing?<br>
 > I thought I did but didn't<br>

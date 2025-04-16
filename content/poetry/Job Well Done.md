@@ -2,6 +2,7 @@ Title: Job Well Done
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, religious, melancholic, reflective, logophile
 
 > [Capricious](https://www.merriam-webster.com/dictionary/Capricious) [fait accomplis](https://www.merriam-webster.com/dictionary/accomplis) unfold<br>
 > An unjust [reckoning](https://www.merriam-webster.com/dictionary/reckoning) to behold<br>

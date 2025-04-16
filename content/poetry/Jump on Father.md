@@ -2,6 +2,7 @@ Title: Jump on Father
 Date: 2025/03/05 04:27PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, logophile
 
 > A young dog aloft<br>
 > A young dog in a mug<br>

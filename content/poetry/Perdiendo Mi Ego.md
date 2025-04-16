@@ -2,6 +2,7 @@ Title: Perdiendo Mi Ego
 Date: 2024/09/04 04:16PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, reflective, melancholic, religious
 
 > With mi amigo Ego I tango<br>
 > A clingy thing he won't let go<br>

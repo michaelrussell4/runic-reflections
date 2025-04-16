@@ -2,6 +2,7 @@ Title: Departure Of Faith
 Date: 2025/01/17 02:24PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, serious, religious, reflective
 
 > Walk ye warily from thy faith<br>
 > Except thou hath a better way<br>

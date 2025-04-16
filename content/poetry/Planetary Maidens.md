@@ -2,6 +2,7 @@ Title: Planetary Maidens
 Date: 2025/03/05 01:07PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, reflective, nature
 
 > Rolling marbles circle<br>
 > 'Round a candle steer<br>

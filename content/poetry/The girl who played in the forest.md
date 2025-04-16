@@ -2,6 +2,7 @@ Title: The Girl Who Played In The Forest
 Date: 2024/08/23 10:41AM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, adventurous, religious, nature
 
 > Once during the early summer in woodlands far away<br>
 > A young girl left her cottage outside she went to play<br>

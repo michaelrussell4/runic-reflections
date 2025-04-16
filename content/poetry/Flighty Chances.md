@@ -2,6 +2,7 @@ Title: Flighty Chances
 Date: 2025/03/07 03:30PM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, philosophical, comical, reflective
 
 > There are possibilities that people don't consider<br>
 > For example, that pigs can really fly<br>

@@ -2,6 +2,7 @@ Title: A Great And Terrible Day
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, religious, reflective, melancholic
 
 > Oh how I **pine** for Wisdom<br>
 > Before riches I put her<br>

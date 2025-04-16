@@ -2,6 +2,7 @@ Title: Lose Thyself
 Date: 2025/02/03 10:21PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, reflective
 
 > My eyes set my direction<br>
 > Wherever my heart goes<br>

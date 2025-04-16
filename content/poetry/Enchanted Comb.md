@@ -2,6 +2,7 @@ Title: Enchanted Comb
 Date: 2025/03/20 02:41PM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, comical, surreal
 
 > My hair got messy from wind that had blown<br>
 > So I hid myself in my home all alone<br>

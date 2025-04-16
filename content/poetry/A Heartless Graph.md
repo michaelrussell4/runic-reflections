@@ -2,6 +2,7 @@ Title: A Heartless Graph
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, existential, melancholic, reflective
 
 > Many an eye and many a limb<br>
 > Craft an intricate snare so grim<br>

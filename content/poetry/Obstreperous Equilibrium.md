@@ -2,6 +2,7 @@ Title: Obstreperous Equilibrium
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, satirical, logophile
 
 > The powers of persuasion contend for control<br>
 > The [peasantry](https://www.merriam-webster.com/dictionary/peasantry) seek promises to comfort and console<br>

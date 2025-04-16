@@ -2,6 +2,7 @@ Title: Divide And Cull
 Date: 2024/10/15 11:27AM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, existential, reflective
 
 > A point, a circle, a sphere, a self<br>
 > A start, a skin, an image within<br>

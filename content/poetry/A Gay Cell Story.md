@@ -2,6 +2,7 @@ Title: A Gay Cell Story
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: satirical, logophile, reflective
 
 | Rural                                               | Urban                                              |
 | --------------------------------------------------- | -------------------------------------------------- |

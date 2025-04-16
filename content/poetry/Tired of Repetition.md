@@ -2,6 +2,7 @@ Title: Tired Of Repetition
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, reflective
 
 > Maybe I need to sweep<br>
 > Baby cries feed to sleep<br>

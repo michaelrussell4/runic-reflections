@@ -2,6 +2,7 @@ Title: Man Child
 Date: 2024/09/24 09:52AM
 Category: Poetry
 Author: Mike Russell
+Tags: satirical, reflective
 
 > [Blithely](https://www.merriam-webster.com/dictionary/Blithely) [impetuous](https://www.merriam-webster.com/dictionary/impetuous)<br>
 > And lacking [temperance](https://www.merriam-webster.com/dictionary/temperance)<br>

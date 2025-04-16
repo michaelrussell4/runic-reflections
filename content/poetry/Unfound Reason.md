@@ -2,6 +2,7 @@ Title: Unfound Reason
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, religious, reflective, melancholic
 
 > Fingerprints found but are mistaken for tarnish<br>
 > Great works abound but evade capturing harness<br>

@@ -2,6 +2,7 @@ Title: You Can Sing
 Date: 2025/03/19 04:14PM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, comical, reflective, nature
 
 > What a good thing it is to sing<br>
 > What power your voice can bring<br>

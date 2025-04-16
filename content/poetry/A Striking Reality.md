@@ -2,6 +2,7 @@ Title: A Striking Reality
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, religious, reflective, nature
 
 > Slithering forward _incessantly_ and steadily, _sanguine_ eyes fixate, locked on unsuspecting prey. <br>A _caliginous_ veil of the night _expediently_ hinders sight. <br>A _flagrant_ tongue—a dark _divination—rends_ the air with _foretastes_ of _satiety_.<br>
 > Elsewhere, a _fatigued_ alertness longs for rest. <br>Nocturnal _ambience_ offers a soothing but _illusory_ hush.<br>

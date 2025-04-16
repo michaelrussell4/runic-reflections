@@ -2,6 +2,7 @@ Title: The King
 Date: 2024/11/05 01:44PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, religious, logophile, melancholic, reflective
 
 > **Th**e hanged god's <ins>**th**irst</ins>: my <ins>curse</ins><br>
 > Torpid <ins>glance</ins> seeks **th**e <ins>dance</ins><br>

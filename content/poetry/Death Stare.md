@@ -2,6 +2,7 @@ Title: Death Stare
 Date: 2024/10/24 03:27PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, existential, serious, reflective
 
 > The captive pig may live in peace<br>
 > As bliss and gluttony increase<br>

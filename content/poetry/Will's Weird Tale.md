@@ -2,6 +2,7 @@ Title: Will's Weird Tale
 Date: 2025/04/10 01:42PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, logophile, surreal
 
 > William Wilson was called Will<br>
 > He walked by side of a wagon wheel<br>

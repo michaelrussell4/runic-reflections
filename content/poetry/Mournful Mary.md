@@ -2,6 +2,7 @@ Title: Mournful Mary
 Date: 2024/12/09 10:13AM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, serious, reflective
 
 > Mournful mary<br>
 > Lived in melancholy<br>

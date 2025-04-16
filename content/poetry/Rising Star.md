@@ -2,6 +2,7 @@ Title: Rising Star 🌟
 Date: 2025/04/08 04:23PM
 Category: Poetry
 Author: Mike Russell
+Tags: adventurous, serious
 
 > An evil force infecting darkness<br>
 > Stealing realms, their souls to harness<br>

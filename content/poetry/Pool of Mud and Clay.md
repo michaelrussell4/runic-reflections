@@ -2,6 +2,7 @@ Title: Pool of Mud and Clay 🐷
 Date: 2025/04/01 12:15PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, satirical, surreal
 
 > He's a pool of mud and clay<br>
 > Fisherman fish all day<br>

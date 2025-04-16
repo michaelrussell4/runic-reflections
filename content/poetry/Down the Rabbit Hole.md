@@ -2,6 +2,7 @@ Title: Down The Rabbit Hole
 Date: 2024/11/05 01:35PM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, adventurous, surreal
 
 > Lovely little Alice ran to catch a rabbit<br>
 > But down a **hole** he disappeared—a leporine habbit<br>

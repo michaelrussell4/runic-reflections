@@ -2,6 +2,7 @@ Title: He Used Them All
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: serious, melancholic, logophile, reflective
 
 > A [phantasm](https://www.merriam-webster.com/dictionary/phantasm) [containing](https://www.merriam-webster.com/dictionary/containing) the [paladin](https://www.merriam-webster.com/dictionary/paladin) of hope<br>
 > Awakening hope from the [bogarting](https://www.merriam-webster.com/dictionary/bogarting) [trope](https://www.merriam-webster.com/dictionary/trope)<br>

@@ -2,6 +2,7 @@ Title: Hallowed Seven
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: reflective, philosophical, religious
 
 <blockquote class="text-center">
 <b>One</b> life<br>

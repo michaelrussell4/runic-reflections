@@ -2,6 +2,7 @@ Title: An Illusory Fool
 Date: 2025/03/06 12:52PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, melancholic, reflective
 
 > Mister trickster<br>
 > Makes a mixture<br>

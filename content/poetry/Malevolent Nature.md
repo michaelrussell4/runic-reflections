@@ -2,6 +2,7 @@ Title: Malevolent Nature
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, reflective, nature, serious
 
 > Out I walked on stone terrain<br>
 > To free my mind from toil<br>

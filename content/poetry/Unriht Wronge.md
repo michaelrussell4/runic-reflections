@@ -2,6 +2,7 @@ Title: Unriht Wronge
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, reflective
 
 > 'Tis not sin if not in ken<br>
 > Wist ye not thou fell men<br>

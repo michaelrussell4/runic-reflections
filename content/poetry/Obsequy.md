@@ -2,6 +2,7 @@ Title: Obsequy
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, melancholic, logophile, surreal, reflective
 
 > Caliginous chaotic smog corrupts the petrichor<br>
 > A semaphore's numinous ritual ensues<br>

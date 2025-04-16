@@ -2,6 +2,7 @@ Title: A Forgotten Absurdity
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, melancholic, reflective
 
 > Not a blissful ignorance is this to me<br>
 > No less this amnesia than treachery<br>

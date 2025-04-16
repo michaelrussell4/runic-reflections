@@ -2,6 +2,7 @@ Title: An Ancient Revival
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, reflective, philosophical, existential
 
 > Her scales doth weigh my heart<br>
 My soul this place doth weather<br>

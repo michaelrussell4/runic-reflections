@@ -2,6 +2,7 @@ Title: Push Notifications
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, satirical, reflective, logophile
 
 > A [furtive](https://www.merriam-webster.com/dictionary/furtive) appearance solicits my glance<br>
 > A [tendentious](https://www.merriam-webster.com/dictionary/tendentious) report [surreptitiously](https://www.merriam-webster.com/dictionary/surreptitious) touted<br>

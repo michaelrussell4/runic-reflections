@@ -2,6 +2,7 @@ Title: Seasonal Cycles
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: nature, reflective, melancholic
 
 > Spring into being blossoming buds<br>
 > A green scene of life without strife<br>

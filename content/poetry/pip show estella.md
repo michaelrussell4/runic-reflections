@@ -2,6 +2,7 @@ Title: Pip Show Estella
 Date: 2024/09/27 02:10PM
 Category: Poetry
 Author: Mike Russell
+Tags: satirical, melancholic, reflective, logophile
 
 > For her [saccharine](https://www.merriam-webster.com/dictionary/saccharine) beauty<br>
 > His [lugubrious](https://www.merriam-webster.com/dictionary/lugubrious) lustful craving<br>

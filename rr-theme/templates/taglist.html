@@ -2,7 +2,7 @@
     <div class="tags-container mt-1">
         <div class="flex flex-wrap space-x-1 justify-end">
             {% for tag in article.tags %}
-                <a class="bg-blue-400 text-gray-100 border-2 border-transparent rounded-full px-1 text-xs hover:bg-transparent hover:text-gray-800 hover:border-blue-200 transition duration-200" href="{{ SITEURL }}/{{ tag.url }}">
+                <a class="bg-transparent text-gray-600 border-2 border-blue-200 rounded-full px-1 text-xs hover:bg-blue-400 hover:text-gray-100 hover:border-transparent transition duration-200" href="{{ SITEURL }}/{{ tag.url }}">
                     {{ tag | escape }}
                 </a>
             {% endfor %}

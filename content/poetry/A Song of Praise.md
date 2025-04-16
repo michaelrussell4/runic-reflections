@@ -2,6 +2,7 @@ Title: A Song Of Praise
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, serious, reflective
 
 > God Thou art good forever<br>
 > Thy mercy streams like a river<br>

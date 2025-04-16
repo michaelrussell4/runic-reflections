@@ -2,6 +2,7 @@ Title: Cursed Heisenberg
 Date: 2025/02/19 08:09PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, existential, reflective, serious
 
 > A step towards light and darkness grows<br>
 > When one eye doubts, the other knows<br>

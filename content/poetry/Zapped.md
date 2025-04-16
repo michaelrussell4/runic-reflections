@@ -2,6 +2,7 @@ Title: Zapped
 Date: 2024/10/11 03:12PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, melancholic, reflective
 
 > Like a bug of night<br>
 > A simple-minded thing<br>

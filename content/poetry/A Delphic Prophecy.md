@@ -2,6 +2,7 @@ Title: A Delphic Prophecy
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, serious, melancholic, reflective, logophile
 
 > A [putrid](https://www.merriam-webster.com/dictionary/putrid) [pulchritude](https://www.merriam-webster.com/dictionary/pulchritude)—a [perverse](https://www.merriam-webster.com/dictionary/perverse) ploy<br>
 > A [sanction](https://www.merriam-webster.com/dictionary/sanction) that cleaves my heart in pain<br>

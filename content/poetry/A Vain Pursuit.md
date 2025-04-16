@@ -2,6 +2,7 @@ Title: A Vain Pursuit
 Date: 10/18/2024 8:46AM
 Category: Short Stories
 Author: Mike Russell
+Tags: philosophical, reflective, satirical
 
 An old man said to a boy: "Can you help me find my treasure? If you do I'll pay you with a portion of it." The boy thought of the gold and wealth and, being quite poor, gladly consented and asked where to look. The old man told him to start digging. When the boy asked where the man answered: "Right here is a good place to start." The boy obtained a shovel and began digging.
 

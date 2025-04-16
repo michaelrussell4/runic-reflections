@@ -2,6 +2,7 @@ Title: Hootin Hijinks
 Date: 2024/09/04 03:52PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, logophile
 
 > A [flippant](https://www.merriam-webster.com/dictionary/flippant) young [niggard](https://www.merriam-webster.com/dictionary/niggard) once [bumfuzzled](https://www.merriam-webster.com/dictionary/bumfuzzled) me<br>
 > By using [gobbledygook](https://www.merriam-webster.com/dictionary/gobbledygook) at a [hootenanny](https://www.merriam-webster.com/dictionary/hootenanny)<br>

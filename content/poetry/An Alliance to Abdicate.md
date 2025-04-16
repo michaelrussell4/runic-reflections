@@ -2,8 +2,9 @@ Title: An Alliance To Abdicate
 Date: 2024/12/13 02:13PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, philosophical, logophile
 
 > Abstruse elves abscond mine eye<br>
-Abject thoughts—abjure or die<br>
-Addled by their absence adverse<br>
-Their acrid flight—abysmal amerce
+> Abject thoughts—abjure or die<br>
+> Addled by their absence adverse<br>
+> Their acrid flight—abysmal amerce

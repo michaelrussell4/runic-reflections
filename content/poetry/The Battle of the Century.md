@@ -2,6 +2,7 @@ Title: The Battle of the Century ♟️
 Date: 2025/04/02 11:49AM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, reflective, philosophical
 
 > The victorious tale of
 > <br>

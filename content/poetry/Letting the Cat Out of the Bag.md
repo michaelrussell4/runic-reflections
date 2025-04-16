@@ -2,6 +2,7 @@ Title: An Idiomatic Impression
 Date: 2025/03/11 01:46PM
 Category: Short Stories
 Author: Mike Russell
+Tags: comical, whimsical, surreal
 
 I'll break the ice by telling a story: Some lady was feeling under the weather. She'd been burning the midnight oil at work, and her job was no piece of cake, either. But she couldn't just throw in the towel. This job was no dime a dozen; it was her chance to make it big! Besides, she wasn't eager to throw caution to the wind and test her chances at unemployment. No pain, no gain, right?
 

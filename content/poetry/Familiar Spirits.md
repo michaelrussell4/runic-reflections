@@ -2,6 +2,7 @@ Title: Familiar Spirits
 Date: 2025/01/08 12:24PM
 Category: Poetry
 Author: Mike Russell
+Tags: surreal, reflective, melancholic
 
 > Again I find myself within<br>
 > Edifice of the ghoul and djinn<br>

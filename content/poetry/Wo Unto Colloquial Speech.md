@@ -2,6 +2,7 @@ Title: Wo Unto Colloquial Speech
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: logophile, reflective
 
 > What [orthography](https://www.merriam-webster.com/dictionary/orthography) [dictates](https://www.merriam-webster.com/dictionary/dictates) the [neologism](https://www.merriam-webster.com/dictionary/neologism)?<br>
 > To [extirpate](https://www.merriam-webster.com/dictionary/extirpate) [meticulous](https://www.merriam-webster.com/dictionary/meticulous) [deliberation](https://www.merriam-webster.com/dictionary/deliberation) here<br>

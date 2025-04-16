@@ -2,6 +2,7 @@ Title: Burnout
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, reflective, existential
 
 > Why this [ennui](https://www.merriam-webster.com/dictionary/ennui) doth on [Frigg's day](https://www.merriam-webster.com/dictionary/Friday) be?<br>
 > With her it fits [uncharacteristically](https://www.merriam-webster.com/dictionary/uncharacteristically)<br>

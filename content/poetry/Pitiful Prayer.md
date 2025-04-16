@@ -2,6 +2,7 @@ Title: Pitiful Prayer
 Date: 2025-02-02 10:19PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, melancholic, reflective
 
 > Lord at times thy light it shines<br>
 > Warming soul and soothing mind<br>

@@ -2,6 +2,7 @@ Title: My Job Is Just
 Date: 2024/12/23 11:53AM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, religious, melancholic, reflective, existential
 
 > Job was just, his complaint valid<br>
 > God on trial for glory pallid<br>

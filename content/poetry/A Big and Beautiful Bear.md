@@ -2,6 +2,7 @@ Title: A Big And Beautiful Bear
 Date: 2024/07/18 03:06PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, melancholic, satirical, reflective
 
 > Poor Callisto, you're stuck in a rut<br>
 > Strewn in the sky with a cup for a butt<br>

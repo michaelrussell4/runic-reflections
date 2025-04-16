@@ -2,6 +2,7 @@ Title: Plea From Painful Ignorance
 Date: 2024/10/22 01:09PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, melancholic, philosophical, reflective
 
 > Thy mysteries are great 'tis true<br>
 > My heart it pines I never knew<br>

@@ -2,6 +2,7 @@ Title: Wrestle
 Date: 2025/04/08 01:58PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, melancholic, reflective
 
 > Life is a test or a tragedy<br>
 > I can't tell which<br>

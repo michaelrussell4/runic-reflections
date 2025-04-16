@@ -2,6 +2,7 @@ Title: Echos of Yore
 Date: 2025-01-31 11:58 AM
 Category: Poetry
 Author: Mike Russell
+Tags: whimsical, romantic, logophile
 
 > I hear a song<br>
 > A **peaceful piece**<br>

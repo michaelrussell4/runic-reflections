@@ -2,6 +2,7 @@ Title: Right Mr. Blight
 Date: 2025/03/19 01:25PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, logophile, satirical
 
 > Old Mr. Blight was always right<br>
 > He knew the name of every mite<br>

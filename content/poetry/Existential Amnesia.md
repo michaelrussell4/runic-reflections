@@ -2,6 +2,7 @@ Title: Existential Amnesia
 Date: 2025/02/03 10:08PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, existential, reflective, melancholic
 
 > Reflections, echoes, shadows be<br>
 > Figures in this cave I see<br>

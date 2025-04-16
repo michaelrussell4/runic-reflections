@@ -2,6 +2,7 @@ Title: A Maternal Touch
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
+Tags: romantic, reflective, nostalgic
 
 > Solace and beauty wouldn't be had<br>
 > Nor the safety and calm of heart<br>

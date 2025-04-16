@@ -2,6 +2,7 @@ Title: Ennui Programmatically
 Date: 2025/03/20 03:57PM
 Category: Poetry
 Author: Mike Russell
+Tags: reflective, melancholic, existential
 
 <div style="font-family: 'Courier New', Courier, monospace; background-color: #1e1e1e; color: #d4d4d4; padding: 20px; line-height: 1.5;">
     <div style="background-color: #252526; padding: 10px; border-radius: 5px; overflow-x: auto;">

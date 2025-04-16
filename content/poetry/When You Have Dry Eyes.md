@@ -2,6 +2,7 @@ Title: When You Have Dry Eyes 😭
 Date: 2025/03/19 11:56AM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical
 
 > If your eye is dry, try to cry<br>
 > When you cry your eye won't be dry<br>

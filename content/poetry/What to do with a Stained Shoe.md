@@ -2,6 +2,7 @@ Title: What to do with a Stained Shoe 👟
 Date: 2025/03/20 02:58PM
 Category: Poetry
 Author: Mike Russell
+Tags: comical, whimsical, reflective
 
 > Fleck, blot, stain, spot<br>
 > Oops I spilled a lot<br>
