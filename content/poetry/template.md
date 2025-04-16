@@ -6,3 +6,4 @@ Tags: [tags]
 Status: hidden
 
 > ctrl + shift + s = Save As
+> ¡Remove Status: hidden! 😉
