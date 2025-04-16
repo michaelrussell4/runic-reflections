@@ -65,4 +65,4 @@ Tags: comical, satirical
 
 # Notes
 
-Maybe it's time to cut off John's allowance? 😏 [link](https://www.harvard.edu/president/news/2025/the-promise-of-american-higher-education/)
+Maybe it's time to cut off John's allowance? 😏 [John's whiny tantrum](https://www.harvard.edu/president/news/2025/the-promise-of-american-higher-education/)
