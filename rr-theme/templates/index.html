@@ -9,7 +9,7 @@ content %} {% if articles %}
       class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 outline-none ring-purple-500 focus:ring-4 p-4 rounded-lg"
     >
       <a class="font-semibold text-gray-800">
-      Index of all {{ category | lower if category else 'poetry' }}
+      Index of {{ category | lower if category else 'poetry' }}
       </a>
       <a class="text-gray-500">({{ articles | length | format_number }})</a>
     </button>
