@@ -1,5 +1,5 @@
 Title: [title]
-Date: [YYYY/MM/DD HH:MMAM]
+Date: 2000/01/01 12:00AM
 Category: Poetry
 Author: Mike Russell
 Tags: [tags]
