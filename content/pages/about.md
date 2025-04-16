@@ -12,7 +12,11 @@ You'll find that this site includes an index for all poems as well as a search b
 
 ## How the Site Works
 
-I built **Runic Relics** using [Pelican](https://getpelican.com/), a static site generator that converts simple Markdown files into a polished website. Every poem I write begins as a Markdown file, allowing me to focus on the words themselves. A simple `git push` brings new creations to life on the site. Professionally, I write code, so building this website was a fun task that combined my skills and interests.
+I built **Runic Relics** using [Pelican](https://getpelican.com/), a static site generator that converts simple Markdown files into a polished website. Every poem I write begins as a Markdown file, allowing me to focus on the words themselves. A simple 
+<span class="inline-block bg-gray-200 text-gray-700 font-mono text-sm px-2 rounded-md">
+    git push
+</span>
+brings new creations to life on the site via [GitHub actions'](https://docs.github.com/en/actions) automated flow. Professionally, I write code, so building this website was a fun task that combined my skills and interests.
 
 Thank you for visiting Runic Relics. I hope these poems inspire thought, spark curiosity, or simply bring a smile. Feel free to explore, reflect, and enjoy this evolving collection of verses.
 
