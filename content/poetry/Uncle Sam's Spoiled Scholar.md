@@ -46,9 +46,9 @@ Tags: comical, satirical
 > <br>
 > "My son you are in errancy"<br>
 > "You are free to choose your way"<br>
-> "As am I from day to day"<br>
+> "As I am, too, from day to day"<br>
 > "I will not support an evil cause"<br>
-> "I will uphold righteous laws"<br>
+> "I will uphold the righteous laws"<br>
 > "I will protect they who are just"<br>
 > "I will defend them, yes I must"<br>
 > "If you choose to them neglect"<br>
@@ -62,3 +62,7 @@ Tags: comical, satirical
 > Must Sam support his son with gold?<br>
 > Methinks his son is likened to<br>
 > A spoiled brat with judgement skewed
+
+# Notes
+
+Maybe it's time to cut off John's allowance? 😏 [link](https://www.harvard.edu/president/news/2025/the-promise-of-american-higher-education/)
