@@ -11,6 +11,7 @@ content %} {% if articles %}
       <a class="font-semibold text-gray-800">
       Index of all {{ category | lower if category else 'poetry' }}
       </a>
+      <a class="text-gray-500">({{ articles | length | format_number }})</a>
     </button>
 
     <!-- Random Poem Button -->

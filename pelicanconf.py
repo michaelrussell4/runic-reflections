@@ -81,6 +81,11 @@ def group_articles(articles):
     return sorted_grouped
 
 
+def format_number(value):
+    """Format a number with commas."""
+    return f"{value:,}"
+
+
 def get_article_urls(articles):
     """Return a list of article URLs."""
     return [article.url for article in articles]
@@ -91,6 +96,7 @@ JINJA_FILTERS = {
     "ceil": ceil,
     "title_case_custom": title_case_custom,
     "get_article_urls": get_article_urls,
+    "format_number": format_number,
 }
 
 

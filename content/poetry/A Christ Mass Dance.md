@@ -2,7 +2,7 @@ Title: A Christ Mass Dance
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: whimsical, religious, nostalgic
+Tags: whimsical, religious, nostalgic, christmas
 
 > From the northern pole a pipe was played<br>
 > The elves, the stars, in regalia arrayed<br>
