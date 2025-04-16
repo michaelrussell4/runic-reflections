@@ -16,7 +16,7 @@ I built **Runic Relics** using [Pelican](https://getpelican.com/), a static site
 <span class="inline-block bg-gray-200 text-gray-700 font-mono text-sm px-2 rounded-md">
     git push
 </span>
-brings new creations to life on the site via [GitHub actions'](https://docs.github.com/en/actions) automated flow. Professionally, I write code, so building this website was a fun task that combined my skills and interests.
+brings new creations to life on the site via [GitHub actions'](https://docs.github.com/en/actions) automated flow. I'd like to thank creators of these tools which allow this site to be deployed and hosted at absolutely no cost to me!
 
 Thank you for visiting Runic Relics. I hope these poems inspire thought, spark curiosity, or simply bring a smile. Feel free to explore, reflect, and enjoy this evolving collection of verses.
 
