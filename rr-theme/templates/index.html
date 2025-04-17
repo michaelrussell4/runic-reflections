@@ -9,7 +9,7 @@ content %} {% if articles %}
       class="w-full text-left bg-gray-200 hover:bg-purple-200 hover:text-purple-700 outline-none ring-purple-500 focus:ring-4 p-4 rounded-lg"
     >
       <a class="font-semibold text-gray-800">
-      Index of {{ category | lower if category else 'poetry' }}
+      Index of {{ category | lower if category else 'all content' }}
       </a>
       <a class="text-gray-500">({{ articles | length | format_number }})</a>
     </button>
@@ -88,7 +88,7 @@ content %} {% if articles %}
       <div class="poem-item">
         <a
           href="{{ SITEURL }}/{{ article.url }}"
-          class="text-gray-600 hover:text-purple-600 transition duration-200 text-sm"
+          class="text-gray-600 hover:text-purple-500 text-sm"
           >{{ article.title | title_case_custom }}</a
         >
       </div>
@@ -166,7 +166,7 @@ content %} {% if articles %}
               href="{{ SITEURL }}/{{ article.url }}"
               rel="bookmark"
               title="Permalink to {{ article.title | title_case_custom |striptags }}"
-              class="text-gray-600 hover:text-purple-600 transition duration-200"
+              class="text-gray-600 hover:text-blue-400 transition duration-600"
               >{{ article.title | title_case_custom }}</a
             >
           </h1>
@@ -175,7 +175,7 @@ content %} {% if articles %}
         <div class="entry-content mt-2">
           <p>{{ article.summary }}</p>
           <a
-            class="text-center text-sm italic text-gray-500 hover:text-blue-400 transition duration-200 font-semibold block my-3"
+            class="text-center text-sm italic text-gray-500 hover:text-blue-300 transition duration-200 font-semibold block my-3"
             href="{{ SITEURL }}/{{ article.url }}"
             >Read more</a
           >
@@ -201,7 +201,7 @@ content %} {% if articles %}
     <li>
       <a
         href="{{ SITEURL }}/{{ page.url }}"
-        class="text-gray-600 hover:text-purple-600 transition duration-200"
+        class="text-gray-600 hover:text-blue-400 transition duration-600"
         >{{ page.title | title_case_custom }}</a
       >
     </li>
