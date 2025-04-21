@@ -1,29 +1,35 @@
-Title: Changing a Diaper
+Title: Changing a Diaper 💩
 Date: 2025/04/21 02:04PM
 Category: Poetry
 Author: Mike Russell
 Tags: adventurous, comical, logophile, whimsical
 
-Odoriferous specters bear unwanted news
-This inexorable fate I did not choose
-The gavel has rapped
-The devil he laughs
-Futilely, the past I now muse
+> Odoriferous specters bear unwanted news<br>
+> This inexorable fate I did not choose<br>
+> The gavel has rapped<br>
+> The devil he laughs<br>
+> Futilely, the past I now muse<br>
+> <br>
+> Alas, dilatoriness exacerbates my pain<br>
+> This bitter labor to feculence detain<br>
+> A battle commences<br>
+> Stinging my senses<br>
+> An evil unsheathed fights again<br>
+> <br>
+> I grimace turning head—one eye closed<br>
+> My fingers fight as an army composed<br>
+> Excrement extinguished<br>
+> The foe relinquished<br>
+> The remains in white clothes I enclose<br>
+> <br>
+> In euphoric triumph I glee, I preen<br>
+> Like athlete's ritual at a victory scene<br>
+> My hands cleanly made<br>
+> As if cleaning my blade<br>
+> From the foul blood of a dragon mean
 
-Alas, dilatoriness exacerbates my pain
-This bitter labor to feculence detain
-A battle commences
-Stinging my senses
-An evil unsheathed fights again
+# Notes
 
-I grimace turning head—one eye closed
-My fingers fight as an army composed
-Excrement extinguished
-The foe relinquished
-The remains in white clothes I enclose
+⚔️
 
-In euphoric triumph I glee, I preen
-Like athlete's ritual at a victory scene
-My hands cleanly made
-As if cleaning my blade
-From the foul blood of a dragon mean
+A tale of an encounter with a stenchy fiend who's overcome through bravery and courage.
