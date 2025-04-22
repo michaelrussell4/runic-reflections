@@ -25,4 +25,4 @@ Tags: comical, philosophical, reflective, satirical
 # Notes
 
 > Most of our consternation comes from within
-> — Fortune Cookie (probably)
+> — Fortune Cookie 🥠 (probably)
