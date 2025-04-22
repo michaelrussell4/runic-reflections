@@ -29,8 +29,8 @@ Tags: melancholic, serious
 
 Depeche Mode [said it](https://dmlive.wiki/wiki/Pleasure,_Little_Treasure),
 
-> Everybody's looking for a reason to live
-> If you're looking for a reason I've a reason to give
+> Everybody's looking for a reason to live<br>
+> If you're looking for a reason I've a reason to give<br>
 > Pleasure, little treasure
 
 Is it capable of giving you meaning? Will your abuse sustain your life through? A little treasure, indeed.
