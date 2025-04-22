@@ -15,7 +15,7 @@ Tags: melancholic, serious
 > Fugacious pleasures do not stay<br>
 > <br>
 > Quickly given, quickly spent<br>
-> Sharp ascension, Sharp descent<br>
+> Sharp ascension, sharp descent<br>
 > <br>
 > A fire burned; now it's out<br>
 > A blackened hole, a brutal drought<br>
