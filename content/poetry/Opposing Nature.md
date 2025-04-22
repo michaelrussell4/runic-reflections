@@ -24,8 +24,8 @@ Tags: nature, philosophical, serious
 > Flowers bloom with sweet perfumes<br>
 > Birds perform their melodic tunes<br>
 > <br>
-> What shall we say, whether good or bad?<br>
-> These care not whether you're sad or glad
+> What shall determine, whether good or bad?<br>
+> What shall we say, whether sad or glad?
 
 # Notes
 
