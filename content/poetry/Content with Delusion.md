@@ -10,7 +10,7 @@ Tags: adventurous, comical, existential, philosophical, reflective, surreal, whi
 > It's very strong, I can't complain<br>
 > <br>
 > But one day, as I walked about<br>
-> Concern I had which led to doubt<br>
+> I had concern which led to doubt<br>
 > I saw that what I thought was stone<br>
 > Was an elephant's skull—a giant bone<br>
 > <br>
@@ -25,13 +25,13 @@ Tags: adventurous, comical, existential, philosophical, reflective, surreal, whi
 > Maybe I could still here dwell<br>
 > <br>
 > So in my house I stayed that night<br>
-> When in my bed I dreamed with fright<br>
+> When in my bed I dreamed in fright<br>
 > An elephant all big and mean<br>
 > Seemed to want to say something<br>
 > <br>
 > She marched up near, over my bed<br>
 > She came up close, head to head<br>
-> She lifted me up upon her back<br>
+> She lifted me upon her back<br>
 > Then outside she started to walk<br>
 > <br>
 > She journeyed up a mountain tall<br>
@@ -41,8 +41,8 @@ Tags: adventurous, comical, existential, philosophical, reflective, surreal, whi
 > <br>
 > A giant stone was standing there<br>
 > The elephant looked with a stare<br>
-> Then she walked on over to it<br>
-> With lowered head she ploughed right through it<br>
+> Then she walked over to it<br>
+> Lowered her head and ploughed right through it<br>
 > <br>
 > In surprise I then confessed<br>
 > "Your head is harder than I guessed!"<br>
@@ -52,7 +52,7 @@ Tags: adventurous, comical, existential, philosophical, reflective, surreal, whi
 > She lifted me upon her head<br>
 > And took me down back to my bed<br>
 > Beneath my house this elephant lay<br>
-> She chased all my doubts away<br>
+> She had chased my doubts away<br>
 > <br>
 > After this, I had confidence<br>
 > My life went on in providence<br>
