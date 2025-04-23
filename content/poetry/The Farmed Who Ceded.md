@@ -1,4 +1,4 @@
-Title: The Farmed Who Ceded
+Title: The Farmed Who Ceded 👨‍🌾
 Date: 2025/04/23 03:57PM
 Category: Poetry
 Author: Mike Russell
