@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: educational, logophile, whimsical
 
-> A farmer once ceded that land he'd seeded<br>
+> A farmer once ceded his land he'd seeded<br>
 > His wife proceeded to intercede<br>
 > He had to concede, or she'd secede<br>
 > But they hadn't the money to proceed<br>
