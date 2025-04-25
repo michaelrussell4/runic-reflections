@@ -1,6 +1,6 @@
 Title: A Conscious Cacophony
 Date: 2025/04/25 11:49AM
-Category: Essay
+Category: Essays
 Author: Mike Russell
 Tags: existential, philosophical, reflective, religious, satirical, surreal
 
