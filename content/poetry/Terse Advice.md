@@ -4,5 +4,5 @@ Category: Poetry
 Author: Mike Russell
 Tags: comical, satirical
 
-> To be honest, I think we all agree that at the end of the day—for what it's worth—it goes without saying, and is a given fact, that:
+> To be honest, I think we all agree that at the end of the day—for what it's worth—it goes without saying, and is a given fact, that:<br>
 > —oh never mind.
