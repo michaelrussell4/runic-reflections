@@ -1,4 +1,4 @@
-Title: The Heifer Haunting
+Title: The Heifer Haunting 👻🐄
 Date: 2024/9/30 2:42PM
 Category: Short Stories
 Author: Mike Russell

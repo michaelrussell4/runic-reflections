@@ -15,6 +15,7 @@ Tags: nature, philosophical, serious
 > <br>
 > Struggle of pain<br>
 > Nature's name<br>
+> <br>
 > Yet from these scourges<br>
 > Beauty emerges<br>
 > <br>
