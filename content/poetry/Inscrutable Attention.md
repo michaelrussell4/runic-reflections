@@ -21,4 +21,4 @@ Tags: philosophical, serious, surreal
 
 # Notes
 
-Consciousness, subject of the poem, evades detection, once again ([ref](https://www.nature.com/articles/s41586-025-08888-1)).
+Consciousness, subject of the poem, evades detection, once again ([ref](https://www.nature.com/articles/s41586-025-08888-1)). Cryptic references are all that seem appropriate for the nebulous concept of consciousness. All that's clear, is that we don't understand what we're talking about when it comes to this subject. We're like apes trying to figure out how the mountains on the horizon eat the sun each evening; we're drowning in the hopelessness of our ignorant presuppositions.
