@@ -4,6 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: romantic, reflective, nostalgic
 
+<img src="{static}/images/A Maternal Touch.png" class="poem-img">
+
 > Solace and beauty wouldn't be had<br>
 > Nor the safety and calm of heart<br>
 > If it weren't for maternity's presence<br>
