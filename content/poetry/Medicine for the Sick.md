@@ -4,21 +4,21 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious
 
-Bless me, Father
-I'm poisoned, infected
-Dress me in wrappings
-My soul I've neglected
-
-A man of grief is sent my way
-On us shines your hopeful ray
-A stranger confides
-Tears fill his eyes
-In me your spirit doth sway
-
-My cup is filled
-Good providence
-Parasites killed
-New confidence
-
-At thy brilliance I'm awed
-Thank you, God
+> Bless me, Father<br>
+> I'm poisoned, infected<br>
+> Dress me in wrappings<br>
+> My soul I've neglected<br>
+> <br>
+> A man of grief is sent my way<br>
+> On us shines your hopeful ray<br>
+> A stranger confides<br>
+> Tears fill his eyes<br>
+> In me your spirit doth sway<br>
+> <br>
+> My cup is filled<br>
+> Good providence<br>
+> Parasites killed<br>
+> New confidence<br>
+> <br>
+> At thy brilliance I'm awed<br>
+> Thank you, God
