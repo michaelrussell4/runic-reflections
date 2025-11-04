@@ -1,9 +1,8 @@
 Title: Creation, Culpability, and the Case for Coeternal Agents 
-Date: 2000/01/01 12:00AM
-Category: Poetry
+Date: 2025/11/04 12:00PM
+Category: Essays
 Author: Mike Russell
-Tags: adventurous, comical, educational, existential, logophile, melancholic, nature, nostalgic, philosophical, reflective, religious, romantic, satirical, serious, surreal, whimsical
-Status: hidden
+Tags: educational, philosophical, religious, serious
 
 Is God to blame? It depends. If God created everything from scratch with complete foreknowledge and control, there are virtually no others to blame. God would be the author whose pen unmistakably wrote out each part and event.
 
