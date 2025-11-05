@@ -1,4 +1,4 @@
-Title: _template_
+Title: The Boy Who Would Not
 Date: 2025/08/11 3:49PM
 Category: Short Stories
 Author: Mike Russell
