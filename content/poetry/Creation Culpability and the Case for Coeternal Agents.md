@@ -17,7 +17,16 @@ Others view the fate of those unfortunate souls with discomfort and suggest that
 
 This leads to the crux of monergism: it is morally indigestible. The moral incongruence of this theology challenges the heart of the Christian ethos. We can trace the issue down to the root: the definition of God and his creation. Are we certain about every component of this definition? Perhaps he is not benevolent—no, too disagreeable. Perhaps he hadn’t foreknowledge—scriptures are quite clear against this. Perhaps he did not create from nothing—could this be?
 
-The idea that God created ex materia ("from matter") was held or entertained by a few early Christians (Origen of Alexandria, Irenaeus of Lyons, Athenagoras); however, *creatio ex nihilo* ("creation from nothing") is the prevailing view. The greeks had been debating this subject for centuries before Christianity. Their conclusion: "Nothing comes from nothing" (Parmenides, Plato, Lucretius). They favored *creatio ex deo* ("creation from God") via something like pandeism or panentheism. But while the Greeks had influence upon Christian theology, one is not the other. As for Christianity, is it a compatible option to opt out of *creation ex nihilo*? Doing so might be the solution to what many consider the weakest point of Christian theology. Consider how the problem of evil, suffering, and predestined damnation stem from this stance—God is the sole originator. Seeing this, it is worth examining whether an alternative is truly incompatible with the Bible or not. 
+> O King …
+> Maker of all, who heaven and heaven’s adornment
+> By the Divine Word alone didst make;
+> … according to a well-ordered plan;
+> Out of a confused heap who didst create
+> This ordered sphere, and from the shapeless mass
+> Of matter didst the universe adorn
+> — Clement, The Instructor 3.12
+
+The idea that God created ex materia ("from matter") was held or entertained by some early Christians (Justin Martyr, Athenagoras of Athens, Clement of Alexandria, Hermogenes) ([Out of Nothing: A History of Creation ex Nihilo in Early Christian Thought, Ostler](https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&ved=2ahUKEwjGh9HnxduQAxV_QTABHZ6rClsQFnoECCEQAQ&url=https%3A%2F%2Fscholarsarchive.byu.edu%2Fcgi%2Fviewcontent.cgi%3Farticle%3D1626%26context%3Dmsr&usg=AOvVaw3LTVfX7nDsFKdSEBghhwL4&opi=89978449)); however, *creatio ex nihilo* ("creation from nothing") became the prevailing view. The greeks had been debating this subject for centuries before Christianity. Their conclusion: "Nothing comes from nothing" (Parmenides, Plato, Lucretius). They favored *creatio ex deo* ("creation from God") via something like pandeism or panentheism. But while the Greeks had influence upon Christian theology, one is not the other. As for Christianity, is it a compatible option to opt out of *creation ex nihilo*? Doing so might be the solution to what many consider the weakest point of Christian theology. Consider how the problem of evil, suffering, and predestined damnation stem from this stance—God is the sole originator. Seeing this, it is worth examining whether an alternative is truly incompatible with the Bible or not. 
 
 So, does the Bible explicitly say God created everything from nothing?
 
