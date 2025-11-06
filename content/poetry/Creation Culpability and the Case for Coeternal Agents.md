@@ -10,7 +10,7 @@ Is God to blame? It depends. If God created everything from scratch with complet
 
 Why a benevolent being would predestine anyone to eternal suffering is perplexing. Adherents claim that because he is sovereign, it is his prerogative. Say this if you like, but it does not resolve the moral dilemma. It could be his right to fate some to evil, though morally, this is disagreeable. Some resist this dissonance, shifting their focus to the enjoyment of their precious salvation. They were lucky enough to have been allotted such.
 
-Others view the fate of those unfortunate souls with discomfort and suggest that this fate might be necessary. Yet, they deprive God of power in their explanations, making him beholden to hypothetical boundaries or laws. Another alternative, more popular alternative, is to argue that we are not in a position to evaluate God's justice. This raises the question why God created us in such a way as to find his ways morally distasteful. Additionally, does not God say we have the capacity to know good from evil?
+Others view the fate of those unfortunate souls with discomfort and suggest that this fate might be necessary. Yet, they deprive God of power in their explanations, making him beholden to hypothetical boundaries or laws. A popular alternative is to argue that we are not in a position to evaluate God's justice. This raises the question why God created us in such a way as to find his ways morally distasteful. Additionally, does not God say we have the capacity to know good from evil?
 
 > Behold, the man is become as one of us, to know good and evil.
 > — *Genesis 3:22*
