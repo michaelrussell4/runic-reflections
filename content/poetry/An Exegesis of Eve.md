@@ -1,6 +1,6 @@
 Title: An Exegesis of Eve
 Date: 2025/12/21 05:16PM
-Category: Essay
+Category: Essays
 Author: Mike Russell
 Tags: religious
 
