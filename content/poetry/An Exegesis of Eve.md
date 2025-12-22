@@ -56,7 +56,7 @@ A third method for the informed-Eve view is biblical interpretation. In English,
 
 ### My response
 
-The fact that the modern English definition for “beguile” can mean “to charm or enchant” is irrelevant. In Hebrew, the word is [nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/), meaning “to beguile, deceive”. It consistently conveys “deception” throughout the Old Testament. Never does it suggest something less. Modern bible translations render nāšā' as “deceived” (see NIV and ESV). The English alternative interpretation is simply not available in the Hebrew.
+The fact that the modern English definition for “beguile” can mean “to charm or enchant” is irrelevant. In Hebrew, the word is [nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/), meaning “to beguile, deceive”. It consistently conveys “deception” throughout the Old Testament. Never does it suggest something less. Modern bible translations render nâshâʼ as “deceived” (see NIV and ESV). The English alternative interpretation is simply not available in the Hebrew.
 
 When referred to by Paul in 1 Timothy 2:14, he says “Adam was not deceived, but the woman being deceived was in transgression.”
 
