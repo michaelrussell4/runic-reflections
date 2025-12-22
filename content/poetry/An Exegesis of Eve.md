@@ -22,7 +22,7 @@ The discomfort some feel on this point does not give license to override the scr
 
 In a sacred Temple ceremony called an Endowment, Latter-day Saints are immersed in a dramatization of the creation and fall narrative. While non-canonical, the script of this enactment has been used as support for an informed-Eve interpretation. Concerning the scene of Eve’s beguilement, early endowment accounts convey it simply: the devil solicits Eve to partake and she acquiesces. A change in 1879 depicts Eve demurring and recalling how God had commanded her not to. But she concedes when given the fruit.
 
-So far, these provide no basis for an informed-Eve interpretation. They are consistent with scripture. However, in 1931, a change is made that develops the reasoning behind Eve’s decision. Upon the Devil’s first temptation, Eve recalls, “…Father said in the day we ate thereof we should surely die.” The Devil responds consistent with the biblical account, “Ye shall not surely die but ye shall be as the gods; ye shall know good from evil…” To this, Eve responds, “Is there no other way?” This line suggests the possibility that Eve wisely identified a necessity for their fall and partakes with informed decision.
+So far, these provide no basis for an informed-Eve interpretation. They are consistent with scripture. However, in 1931, a change is made that develops the reasoning behind Eve’s decision. Upon the Devil’s first temptation, Eve recalls, “…Father said in the day we ate thereof we should surely die.” The Devil responds, “Ye shall not surely die but ye shall be as the gods; ye shall know good from evil…” To this, Eve responds, “Is there no other way?” This crucial line depicts a reasoning Eve who may know more than she led on. It's not clear whether she was actually deceived anymore.
 
 ### My response
 
@@ -30,9 +30,11 @@ The LDS Church’s canon is the “standard works”—Bible, Book of Mormon, Do
 
 If an important distinction of doctrine were to be offered by the church, it would not be delivered through this channel nor would it contradict the consistent teachings of the standard works.
 
-Additionally, it's worth pointing out that the attempt to run with the informed-Eve depiction in the dramatization of the Fall results in incoherence. For example, if Eve's line: "Is there no other way?" does mean she was informed, that would mean that Eve's motivation for partaking of the fruit was to progress, gain knowledge, experience mortality and parenthood, etc. Yet, as the story continues, she seeks to persuade Adam to partake but mentions none of these motivations. Rather, she states that if he doesn't partake, he'll be alone and won't be able to multiply and replenish the earth. If she truly had an informed view, she might better have offered the same motivations that drove her to partake. Instead, her lack of sharing this information almost seems duplicitous.
+Additionally, it's worth pointing out that the attempt to run with the informed-Eve depiction in the dramatization of the Fall results in incoherence. For example, if Eve's line: "Is there no other way?" does mean she was informed, that would mean that Eve's motivation for partaking of the fruit was to progress, gain knowledge, experience mortality and parenthood, etc. Yet, as the story continues, she seeks to persuade Adam to partake but mentions none of these motivations! Rather, she states that if he doesn't partake, he'll be alone and won't be able to multiply and replenish the earth. If she truly had an informed view, she might better have offered the informed reasoning that drove her to partake. Instead, her lack of sharing this information almost seems duplicitous.
 
 This inconsistency disrupts the otherwise reasonable flow of events, a consequence of retrofitting anachronistic elements into a story from a different time and culture. As an aside, this also weighs in on an untraditional and uncertain claim that God's command for Adam and Eve to "multiply and replenish" was a moral injunction rather than a functional decree.
+
+Another issue is that Eve's information would have been gleaned from the subtle serpent, or devil, who is also known as "the father of lies". Her negotiation with this liar would have turned out to be fruitful—no pun intended—rather than deleterious.
 
 ## 3. Statements from Church Leaders
 
