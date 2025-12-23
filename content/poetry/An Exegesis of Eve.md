@@ -50,8 +50,6 @@ The doctrine of felix culpa ("happy fault") illustrates how divine providence tr
 
 We must be careful not to contradict the clarity of the scriptures in an attempt to express our honor for this woman, the mother of all.
 
-In this case, we must remember that new revelations will be consistent with the canonical scriptures. These opinions deviate significantly from a clear and consistent doctrine of scriptures. Many high-ranking church leaders have made or published statements that have since been identified as inconsistent with official doctrine.
-
 ## 4. Etymology and Eisegesis
 
 A third method for the informed-Eve view is biblical interpretation. In English, “beguiled” can mean “charmed” or “enchanted”. Hence, readers argue that when Eve beguilement entailed being charmed by the Devil rather than deceived by him. Proponents might suggest how Eve was aware of the Devil’s lies and saw past them.
