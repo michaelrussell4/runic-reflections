@@ -4,7 +4,7 @@ Category: Essays
 Author: Mike Russell
 Tags: philosophical, reflective, religious
 
-The caricature god, poorly formed yet widely believed, creates from absolute nothing with absolute power and knowledge. He creates a cloud and it does as intended, a rock and it sits where he pleases. Even the ants, the fish and fowl do only what he has designed. Omniscience is never astonished. Omnipotence is sure to succeed. Surprises and frustration are for the ignorant and weak, not this God—constitutionally absurd.
+The caricature god, poorly formed yet widely believed, creates from absolute nothing with absolute power and knowledge. He creates a cloud and it does as intended, a rock and it sits where he pleases. Even the ants, the fish and fowl do only what he has designed. Omniscience is never astonished. Omnipotence is sure to succeed. Surprises and frustration are for the ignorant and weak, not this god—constitutionally absurd.
 
 Yet still they argue that free will exists, that devils and sinners are guilty. Who created and designed with deliberation and control?—he who sets their fate. When creating, did he lack power on their behalf; would their actions betray his programming? Some say though he knew what they would do, it was they who would choose willingly. But why did they choose?—their disposition? Who made this as it would be? God, alone did create the conditions for them and all things from which spring responsibility. Their nature, their thoughts, their substance and essence—all sources of choice were his to control. The causal ground of their fate must trace back to his powerful, all-knowing hands.
 
