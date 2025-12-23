@@ -4,37 +4,37 @@ Category: Essays
 Author: Mike Russell
 Tags: religious
 
-> “The serpent beguiled me, and I did eat.” – Eve
+> "The serpent beguiled me, and I did eat." – Eve
 
-Many are familiar with the bible’s account of the forbidden fruit in the Garden of Eden. Following the creation, a subtle serpent deceives Eve, leading to her partaking of forbidden fruit. After getting Adam to also partake, they both are cast out of this paradise: the fall of mankind. A modern tendency for members of The Church of Jesus Christ of Latter-day Saints is to reframe this narrative by suggesting that Eve was informed in her decision, even courageous and wise, rather than deceived. What is the basis for such a claim, and could it be true?
+Many are familiar with the Bible's account of the forbidden fruit in the Garden of Eden. Following creation, a subtle serpent deceives Eve, leading her to partake of the forbidden fruit. After persuading Adam to also partake, they are both cast out of paradise: the fall of mankind. A modern tendency among members of The Church of Jesus Christ of Latter-day Saints is to reframe this narrative by suggesting that Eve was informed in her decision—courageous and wise, rather than deceived. What is the basis for such a claim, and could it be true?
 
 ## 1. Egalitarianism and Modernity
 
-One possible reason for this tendency is to reconcile contemporary egalitarian and feminist values with the ancient account identifying Eve as the victim of deception—suggesting gullibility or foolishness. For individuals perceiving this point as derogatory, flipping the scenario around and making the woman the hero—a modern Hollywood habit—feels more palatable.
+One possible reason for this tendency is the desire to reconcile contemporary egalitarian and feminist values with the ancient account identifying Eve as the victim of deception—suggesting gullibility or foolishness. For individuals perceiving this point as derogatory, flipping the scenario to make the woman the hero—a modern Hollywood habit—feels more palatable.
 
 ### My response
 
-This is a classic case of presentism—interpreting the past through a lens of modern values. The Old Testament texts are unambiguous that Eve was deceived. Paul confirms this interpretation in 1 Timothy 2 as does the Book of Mormon in Mosiah 16. There is no variance or inconsistency in the authoritative canon.
+This is a classic case of **[presentism](https://en.wikipedia.org/wiki/Presentism_(literary_and_historical_analysis))**—interpreting the past through a lens of modern values. The Old Testament texts are unambiguous that Eve was deceived. Paul confirms this interpretation in **[1 Timothy 2:14](https://www.biblegateway.com/passage/?search=1+Timothy+2%3A14&version=KJV)**, as does the Book of Mormon in **[Mosiah 16:3](https://www.google.com/search?q=https://www.churchofjesuschrist.org/study/scriptures/bofm/mosiah/16%3Flang%3Deng%26id%3D3%23p3)**. There is no variance or inconsistency in the authoritative canon.
 
 The discomfort some feel on this point does not give license to override the scriptural clarity and consistency.
 
 ## 2. Endowment Ceremony
 
-In a sacred Temple ceremony called an Endowment, Latter-day Saints are immersed in a dramatization of the creation and fall narrative. While non-canonical, the script of this enactment has been used as support for an informed-Eve interpretation. Concerning the scene of Eve’s beguilement, early endowment accounts convey it simply: the devil solicits Eve to partake and she acquiesces. A change in 1879 depicts Eve demurring and recalling how God had commanded her not to. But she concedes when given the fruit.
+In a sacred Temple ceremony called an **[Endowment](https://www.churchofjesuschrist.org/study/manual/gospel-topics/endowment)**, Latter-day Saints are immersed in a dramatization of the creation and fall narrative. While non-canonical, the script of this enactment has been used as support for an informed-Eve interpretation. Concerning the scene of Eve's beguilement, early endowment accounts convey it simply: the devil solicits Eve to partake, and she acquiesces. A change in 1879 depicts Eve demurring and recalling how God had commanded her not to. But she concedes when given the fruit.
 
-So far, these provide no basis for an informed-Eve interpretation. They are consistent with scripture. However, in 1931, a change is made that develops the reasoning behind Eve’s decision. Upon the Devil’s first temptation, Eve recalls, “…Father said in the day we ate thereof we should surely die.” The Devil responds, “Ye shall not surely die but ye shall be as the gods; ye shall know good from evil…” To this, Eve responds, “Is there no other way?” This crucial line depicts a reasoning Eve who may know more than she led on. It's not clear whether she was actually deceived anymore.
+So far, these provide no basis for an informed-Eve interpretation. They are consistent with scripture. However, in 1931, a change is made that develops the reasoning behind Eve's decision. Upon the Devil's first temptation, Eve recalls, "…Father said in the day we ate thereof we should surely die." The Devil responds, "Ye shall not surely die but ye shall be as the gods; ye shall know good from evil…" To this, Eve responds, "Is there no other way?" This crucial line depicts a reasoning Eve who may know more than she lets on. It's not clear whether she was actually deceived anymore.
 
 ### My response
 
-The LDS Church’s canon is the “standard works”—Bible, Book of Mormon, Doctrine and Covenants, and Pearl of Great Price. Additionally, the First Presidency or Quorum of the Twelve occasionally offer official statements on doctrine or policy. The dramatization of the creation and fall in the Endowment ceremony is not canon or official doctrine.
+The LDS Church's canon is the "standard works"—Bible, Book of Mormon, Doctrine and Covenants, and Pearl of Great Price. Additionally, the First Presidency or Quorum of the Twelve occasionally offer official statements on doctrine or policy. The dramatization of the creation and fall in the Endowment ceremony is not canon or official doctrine.
 
 If an important distinction of doctrine were to be offered by the church, it would not be delivered through this channel nor would it contradict the consistent teachings of the standard works.
 
-Additionally, it's worth pointing out that the attempt to run with the informed-Eve depiction in the dramatization of the Fall results in incoherence. For example, if Eve's line: "Is there no other way?" does mean she was informed, that would mean that Eve's motivation for partaking of the fruit was to progress, gain knowledge, experience mortality and parenthood, etc. Yet, as the story continues, she seeks to persuade Adam to partake but mentions none of these motivations! Rather, she states that if he doesn't partake, he'll be alone and won't be able to multiply and replenish the earth. If she truly had an informed view, she might better have offered the informed reasoning that drove her to partake. Instead, her lack of sharing this information almost seems duplicitous.
+Additionally, it's worth pointing out that the attempt to run with the informed-Eve depiction in the dramatization of the Fall results in incoherence. For example, if Eve's line: "Is there no other way?" does mean she was informed, that would imply that Eve's motivation for partaking of the fruit was to progress, gain knowledge, experience mortality and parenthood, etc. Yet, as the story continues, she seeks to persuade Adam to partake but mentions none of these motivations! Rather, she states that if he doesn't partake, he'll be alone and won't be able to multiply and replenish the earth. If she truly had an informed view, she might better have offered the informed reasoning that drove her to partake. Instead, her lack of sharing this information almost seems duplicitous.
 
-This inconsistency disrupts the otherwise reasonable flow of events, a consequence of retrofitting anachronistic elements into a story from a different time and culture. As an aside, this also weighs in on an untraditional and uncertain claim that God's command for Adam and Eve to "multiply and replenish" was a moral injunction rather than a functional decree.
+This inconsistency disrupts the otherwise reasonable flow of events, a consequence of retrofitting anachronistic elements into a story from a different time and culture. As an aside, this also weighs in on an untraditional and uncertain claim that God's command for Adam and Eve to **["multiply and replenish"](https://www.google.com/search?q=https://www.churchofjesuschrist.org/study/scriptures/ot/gen/1%3Flang%3Deng%26id%3D28%23p28)** was a moral injunction rather than a functional decree.
 
-Another issue is that Eve's information would have been gleaned from the subtle serpent, or devil, who is also known as "the father of lies". Her negotiation with this liar would have turned out to be fruitful—no pun intended—rather than deleterious.
+Another issue is that Eve's information would have been gleaned from the subtle serpent, or devil, who is also known as "the father of lies." Her negotiation with this liar would have turned out to be fruitful—no pun intended—rather than deleterious.
 
 ## 3. Statements from Church Leaders
 
@@ -42,25 +42,25 @@ In the past few decades, church leaders, including some Apostles, have made stat
 
 ### My response
 
-While teachings of Apostles and church leaders ought to be taken seriously, these people are not infallible. Brigham Young taught things while acting president of the church that are now officially disavowed. Just because an idea is said in a General Conference talk, or a book, does not mean that view is true or official doctrine. The scriptures are our main basis of doctrine. And when new teachings are revealed, they will be consistent with such. Apostles and church leaders are typically not scriptural scholars or theologians. They may misspeak or misunderstand scriptural passages.
+While teachings of Apostles and church leaders ought to be taken seriously, these individuals are not infallible. Brigham Young taught things while acting president of the church that are now officially disavowed. Just because an idea is said in a General Conference talk or a book does not mean that view is true or official doctrine. The scriptures are our main basis of doctrine. And when new teachings are revealed, they will be consistent with such. Apostles and church leaders are typically not scriptural scholars or theologians. They may misspeak or misunderstand scriptural passages.
 
 Many of the statements concerning this informed-Eve interpretation appear to be attempts to express gratitude to Eve or to point out the benefits that came following the Fall. While Eve deserves our respect, it is not for her transgression, but rather her righteousness and sacrifice following the Fall. Gratitude for Eve should focus on her post-Fall righteousness and sacrifice rather than the transgression itself.
 
-The doctrine of felix culpa ("happy fault") illustrates how divine providence transforms tragedy into blessing, much like Joseph's betrayal leading to the salvation of Egypt. However, God’s ability to bring good from disobedience does not render the initial act of transgression virtuous. Likewise, just because God has brought about good from the fall doesn't mean Adam and Eve's transgression was morally good—disobedience to God is not virtuous.
+The doctrine of **[felix culpa](https://en.wikipedia.org/wiki/Felix_culpa)** ("happy fault") illustrates how divine providence transforms tragedy into blessing, much like Joseph's betrayal leading to the salvation of Egypt. However, God's ability to bring good from disobedience does not render the initial act of transgression virtuous. Likewise, just because God has brought about good from the Fall doesn't mean Adam and Eve's transgression was morally good—disobedience to God is not virtuous.
 
 We must be careful not to contradict the clarity of the scriptures in an attempt to express our honor for this woman, the mother of all.
 
 ## 4. Etymology and Eisegesis
 
-Another basis for the informed-Eve view is biblical interpretation. In English, “beguiled” can mean “charmed” or “enchanted”. Hence, readers argue Eve's beguilement entailed being charmed by the Devil rather than being deceived. Proponents might suggest how Eve was aware of the Devil’s lies and saw past them.
+Another basis for the informed-Eve view is biblical interpretation. In English, "beguiled" can mean "charmed" or "enchanted." Hence, readers argue Eve's beguilement entailed being charmed by the Devil rather than being deceived. Proponents might suggest that Eve was aware of the Devil's lies and saw past them.
 
 ### My response
 
-The fact that the modern English definition for “beguile” can mean “to charm or enchant” is irrelevant. In Hebrew, the word is [nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/), meaning “to beguile, deceive”, not "to charm or enchant". It consistently conveys “deception” throughout the Old Testament. Never does it suggest something less. Modern bible translations render nâshâʼ as “deceived” (see NIV and ESV). The English alternative interpretation is simply not available in the Hebrew.
+The fact that the modern English definition for "beguile" can mean "to charm or enchant" is irrelevant. In Hebrew, the word is **[nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/)**, meaning "to beguile, deceive," not "to charm or enchant." It consistently conveys "deception" throughout the Old Testament. Never does it suggest something less. Modern Bible translations render nâshâʼ as "deceived" (see **[NIV](https://www.biblegateway.com/passage/?search=Genesis+3%3A13&version=NIV)** and **[ESV](https://www.biblegateway.com/passage/?search=Genesis+3%3A13&version=ESV)**). The English alternative interpretation is simply not available in the Hebrew.
 
-When referred to by Paul in 1 Timothy 2:14, he says “Adam was not deceived, but the woman being deceived was in transgression.”
+When referred to by Paul in 1 Timothy 2:14, he says, "Adam was not deceived, but the woman being deceived was in transgression."
 
-Logically, if “beguiled” meant “charmed but not deceived”, the sequence of events and Eve’s justification to God for why she partook lose coherence.
+Logically, if "beguiled" meant "charmed but not deceived," the sequence of events and Eve's justification to God for why she partook lose coherence. This is an example of **[eisegesis](https://en.wikipedia.org/wiki/Eisegesis)**—reading meanings into a text that are not there.
 
 ## Conclusion
 
