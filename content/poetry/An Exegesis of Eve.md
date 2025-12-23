@@ -52,17 +52,15 @@ We must be careful not to contradict the clarity of the scriptures in an attempt
 
 ## 4. Etymology and Eisegesis
 
-A third method for the informed-Eve view is biblical interpretation. In English, “beguiled” can mean “charmed” or “enchanted”. Hence, readers argue that when Eve beguilement entailed being charmed by the Devil rather than deceived by him. Proponents might suggest how Eve was aware of the Devil’s lies and saw past them.
+Another basis for the informed-Eve view is biblical interpretation. In English, “beguiled” can mean “charmed” or “enchanted”. Hence, readers argue Eve's beguilement entailed being charmed by the Devil rather than being deceived. Proponents might suggest how Eve was aware of the Devil’s lies and saw past them.
 
 ### My response
 
-The fact that the modern English definition for “beguile” can mean “to charm or enchant” is irrelevant. In Hebrew, the word is [nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/), meaning “to beguile, deceive”. It consistently conveys “deception” throughout the Old Testament. Never does it suggest something less. Modern bible translations render nâshâʼ as “deceived” (see NIV and ESV). The English alternative interpretation is simply not available in the Hebrew.
+The fact that the modern English definition for “beguile” can mean “to charm or enchant” is irrelevant. In Hebrew, the word is [nâshâʼ](https://www.blueletterbible.org/lexicon/h5377/kjv/wlc/0-1/), meaning “to beguile, deceive”, not "to charm or enchant". It consistently conveys “deception” throughout the Old Testament. Never does it suggest something less. Modern bible translations render nâshâʼ as “deceived” (see NIV and ESV). The English alternative interpretation is simply not available in the Hebrew.
 
 When referred to by Paul in 1 Timothy 2:14, he says “Adam was not deceived, but the woman being deceived was in transgression.”
 
 Logically, if “beguiled” meant “charmed but not deceived”, the sequence of events and Eve’s justification to God for why she partook lose coherence.
-
-These reasons render this argument an untenable position.
 
 ## Conclusion
 
