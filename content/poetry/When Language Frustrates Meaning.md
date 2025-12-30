@@ -1,6 +1,8 @@
 Title: When Language Frustrates Meaning
 Date: 2025/12/30 04:50PM
-Category: Essays Author: Mike Russell Tags: educational, philosophical, reflective
+Category: Essays
+Author: Mike Russell
+Tags: educational, philosophical, reflective
  
 A proposition's validity may be achieved via reasoning through a system of axioms or definitions: dogs are animals, red is a color, 2 + 2 = 4. Conversely, we may arrive at a conclusion by empirical observation: dogs are fast, red is lovely, a cup of water is wet. *A priori* and *a posteriori* are philosophical terms used to distinguish between these epistemologies. The former is Latin for "from the former", and the latter: "from the latter", conveniently; though, their literal translations are less helpful than the preceding respective descriptions which appropriately convey the senses in which they are used.
 
