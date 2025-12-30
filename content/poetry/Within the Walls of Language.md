@@ -1,4 +1,7 @@
-Title: Within the Walls of Language Date: 2025/12/30 3:54PM Category: Poety Author: Mike Russell Tags: educational, philosophical
+Title: Within the Walls of Language
+Date: 2025/12/30 04:50PM
+Category: Poetry
+Author: Mike Russell Tags: educational, philosophical
 
 > A mute man strolled along a stream
 > When caught his eye a brilliant gleam
@@ -8,9 +11,9 @@ Title: Within the Walls of Language Date: 2025/12/30 3:54PM Category: Poety Auth
 > He dove on down into the blue
 > He grasped around without ado
 > He held it fast for to acquire
-> He held it up: a blue saphire
+> He held it up: a blue sapphire
 >
-> What a whorf was this
+> What a wharf was this
 > This pleasant walk of bliss
 > Is what this man would shriek
 > If he could only speak
@@ -23,7 +26,7 @@ Title: Within the Walls of Language Date: 2025/12/30 3:54PM Category: Poety Auth
 > This man was mute no more
 > Words from his mouth did pour
 > And then to his surprise
-> The saphire grew in size
+> The sapphire grew in size
 >
 > Bigger, bigger, split
 > It multiplied a bit
