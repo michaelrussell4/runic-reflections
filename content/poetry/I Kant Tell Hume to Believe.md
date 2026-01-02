@@ -1,4 +1,4 @@
-Title: When Meaning Frustrates Language
+Title: I Kant Tell Hume to Believe
 Date: 2026/01/02 03:03PM
 Category: Essays
 Author: Mike Russell
