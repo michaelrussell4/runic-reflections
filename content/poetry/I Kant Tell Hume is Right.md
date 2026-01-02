@@ -1,0 +1,17 @@
+Title: When Meaning Frustrates Language
+Date: 2026/01/02 03:03PM
+Category: Essays
+Author: Mike Russell
+Tags: educational, philosophical, satirical, serious, 
+
+Strict, old-fashioned Empiricism is dead. Sure, knowledge doesn't all come from some mystical mind realm. But it also doesn't merely come from your own life experience. How does a caribou know how to walk from birth? Do spiders take lessons to learn how to spin webs? How do birds know how and when to fly south—or where "south" is, for that matter? A baby can nurse immediately.
+
+"These instincts are just rapid-inference—quick learning." Right—we learn how to suck, swallow, and cry in milliseconds without feedback, yet require years of dense input to say “mama”? Doesn't seem right.
+
+"Instincts aren't knowledge, just automated biological responses." Half-true; this response is right about instincts being automated, but every action is driven by structured information. Whether that information is consciously accessible or linguistically expressible doesn’t change the fact that it constrains behavior. And where did this data come from?
+
+Transcendentalists appeal to a mystical realm to explain such hidden structure, while empiricists likewise dismiss it with a wave of the hand—“not a thing.”
+
+Sorry, you're both wrong. Impressively our bodies and genes are sophisticated enough to remember things—like saving some notes to a hard-drive to use next time the computer boots up. And, to the empiricists' credit, this data would still be empirical, but via intergenerational epistemic inheritance.
+
+The question is, does there ever emerge a behavior or ability of ours that truly couldn't be explained? If so, we won't be surprised if Kant returns from the dead only to say, "I told you so, Hume!"
