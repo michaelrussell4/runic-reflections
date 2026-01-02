@@ -2,7 +2,7 @@ Title: When Meaning Frustrates Language
 Date: 2026/01/02 03:03PM
 Category: Essays
 Author: Mike Russell
-Tags: educational, philosophical, satirical, serious, 
+Tags: educational, philosophical, satirical, serious
 
 Strict, old-fashioned Empiricism is dead. Sure, knowledge doesn't all come from some mystical mind realm. But it also doesn't merely come from your own life experience. How does a caribou know how to walk from birth? Do spiders take lessons to learn how to spin webs? How do birds know how and when to fly south—or where "south" is, for that matter? A baby can nurse immediately.
 
