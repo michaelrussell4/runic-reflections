@@ -4,9 +4,9 @@ Category: Essays
 Author: Mike Russell
 Tags: religious, serious
 
-I recently heard an account of someone who was accused of being judgy for maintaining basic religious views, at least from the description I was given. This led me to think about the idea of being judgemental. "Judge not that ye be not judged" (Matthew 7:1)—I get this: don't be a hypocrite or nitpick others lives.
+I recently heard an account of someone who was accused of being judgy for maintaining basic religious views, at least from the description I was given. This led me to think about the idea of being judgemental. "Judge not that ye be not judged" (Matthew 7:1)—I get this: don't be a hypocrite or nitpick others’ lives.
 
-We've all got problems and getting unsolicited, petty advice is annoying, even if it's accurate. Ideally, we'd all be humble enough to accept even these minor criticisms, but as a society, we've adopted a reasonable distaste for these, except maybe in cases of those close relationships where it might be appropriate.
+We've all got problems and getting unsolicited, petty advice is annoying, even if it's accurate. This kind of behavior often triggers responses like: "You don't know me", "Who are you to judge", or other defensive posturing. Ideally, we'd all be humble enough to accept even these minor criticisms, but as a society, we've adopted a reasonable distaste towards this, except maybe in cases of those close relationships where it might be appropriate.
 
 The problem is, we don't know the complete context of the lives of those we might judge. Holding them to unreasonable standards that we can't even maintain ourselves is unfair. But here's the important line: this is a totally separate matter from judging actions and moral injustice.
 
@@ -53,4 +53,4 @@ These are by no means exhaustive lists, but they help build a clearer picture.
 
 In a world where moral standards have and continue to plummet, it shouldn't be surprising that moral discernment is mistaken to be a crime, an ironic attempt to make the meek look haughty and the righteous wicked. This is because, as Nephi said, "the guilty taketh the truth to be hard, for it cutteth them to the very center." (1 Nephi 16:2)
 
-Let this not deter us from sincerely seeking to personally pursue righteousness and virtue and help those in our circles do the same. Of course, not everyone in our society shares the moral baseline or religious we do. But we can meet them where they're at. When we have a sincere heart and a humble attitude, truth delivered will not be condemned by God.
+Let this not deter us from sincerely seeking to personally pursue righteousness and virtue and help those in our circles do the same. Of course, not everyone in our society shares the moral baseline or religion we do. But we can meet them where they're at. When we have a sincere heart and a humble attitude, truth delivered will not be condemned by God.
