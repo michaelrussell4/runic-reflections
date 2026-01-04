@@ -23,3 +23,5 @@ Not only does understanding require faith and obedience, for the wise and pruden
 Matthew 11:25
 
 > At that time Jesus answered and said, I thank thee, O Father, Lord of heaven and earth, because thou hast hid these things from the wise and prudent, and hast revealed them unto babes.
+
+This being said, it's important to note that this response does not address the inaccessibility of scriptures such as these to many a man. But in touching on anticipated responses, I'll highlight that the suggestion that obedience is required to know God may sound like circular reasoning to some—e.g., you must accept divine authority to gain awareness of divine authority. This is the process of the scientific method: you begin with a hypothesis and test whether it is true or not. If one is unwilling to entertain a hypothesis and put forth the above-prescribed effort to prove it one way or another, he cannot say he has truly tried or ruled it out.
