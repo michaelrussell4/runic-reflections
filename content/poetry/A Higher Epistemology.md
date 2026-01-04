@@ -8,7 +8,7 @@ Tags: philosophical, religious, serious
 
 Such goes the "Hidden God" argument. What it wrongly assumes is that knowledge and belief in God result from intellectual exercise. They mistake in thinking that if the proposition of God is true, they must be able to deduce it *a priori* or by studying the books of the learned theologians and philosophers. Good thing they're wrong, or belief in God—this virtue, would be restricted to a select class of intellectuals. The ignorant, unlearned, or untrained would be unfairly disadvantaged, making heaven an aristocracy.
 
-Fortunately, such elitism is not God's way. The meek and simple, but straight and narrow, is unlocked by obedience.
+Fortunately, such elitism is not God's way. The meek and simple, straight and narrow way is unlocked by obedience.
 
 John 7:17
 
