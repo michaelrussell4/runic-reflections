@@ -16,7 +16,7 @@ Tags: comical, educational, nature, whimsical
 > Then coughs and sneezes are heard all around<br>
 > For this cause I bring to your attention<br>
 > A complaint to resolve—intention for prevention<br>
-> I beg you now—cease and desist
-> With best regards, I will insist
->
+> I beg you now—cease and desist<br>
+> With best regards, I must insist<br>
+><br>
 > — the human folk
