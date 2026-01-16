@@ -4,7 +4,7 @@ Category: Essays
 Author: Mike Russell
 Tags: religious, serious
 
-I recently heard an account of someone who was accused of being judgy for maintaining basic religious views, at least from the description I was given. This led me to think about the idea of being judgemental. "Judge not that ye be not judged" (Matthew 7:1)—I get this: don't be a hypocrite or nitpick others’ lives.
+I recently heard an account of someone who was accused of being judgy for maintaining basic religious views, at least from the description I was given. This led me to think about the idea of being judgemental. "Judge not that ye be not judged" (Matthew 7:1)—I get this: don't be a hypocrite or nitpick others' lives.
 
 We've all got problems and getting unsolicited, petty advice is annoying, even if it's accurate. This kind of behavior often triggers responses like: "You don't know me", "Who are you to judge", or other defensive posturing. Ideally, we'd all be humble enough to accept even these minor criticisms, but as a society, we've adopted a reasonable distaste towards this, except maybe in cases of those close relationships where it might be appropriate.
 
@@ -47,7 +47,7 @@ While hypocritical or misappropriated judgement includes:
 - Gossiping behind backs
 - Nitpicking minor faults
 - Gloating about your superiority
-- Sarcastically or comically describing others faults
+- Sarcastically or comically describing others' faults
 
 These are by no means exhaustive lists, but they help build a clearer picture.
 
