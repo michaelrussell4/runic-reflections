@@ -1,4 +1,4 @@
-Title: Cedar Fever Cease-and-Desist
+Title: Cedar Fever Cease and Desist
 Date: 2026/01/16 02:52PM
 Category: Poetry
 Tags: comical, educational, nature, whimsical
