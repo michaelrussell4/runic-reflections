@@ -6,8 +6,8 @@ Tags: melancholic, reflective
 
 > Maybe I need to sweep<br>
 > Baby cries feed to sleep<br>
-> Achy thighs lead me to weep<br>
-> Steady eyes plead me to keep<br>
+> Achy thighs lead to weep<br>
+> Steady eyes plead to keep<br>
 > Fading mind
 
 ## Meaning & Commentary
