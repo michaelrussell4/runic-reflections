@@ -9,11 +9,11 @@ Tags: comical, educational, whimsical
 > They run in speedy flight<br>
 > Have you ever heard a rat?<br>
 > They scurry away from light<br>
-> Have you a lovely hat?<br>
+> Have you got a lovely hat?<br>
 > I'm sure it's quite a sight<br>
 > Have you stretched out on a mat?<br>
 > It might increase your height<br>
-> Have you slept while you sat?<br>
-> Better on a bed to alight<br>
+> Have you whistled while you sat?<br>
+> I'll bet it was cheerful and bright<br>
 > Thank you for this chat<br>
-> I'll write it. That is that
+> It's good enough write
