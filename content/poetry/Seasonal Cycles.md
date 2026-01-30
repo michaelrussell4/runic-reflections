@@ -17,4 +17,4 @@ Tags: nature, reflective, melancholic
 > Smell of cider, spice, and frost<br>
 > Strength wanes old but it runs deep<br>
 > The warblers have departed a new path charted<br>
-> An old man lays down in his white gown
+> An old man lay down in his white gown
