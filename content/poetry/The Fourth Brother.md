@@ -3,8 +3,6 @@ Date: 2026/02/20 04:19PM
 Category: Short Stories
 Tags: adventurous
 
-## Corrected Text
-
 An old widower had four sons. To the first, he gave his fortune; to the second, he gave his flocks; to the third, he gave his house; but for the fourth son, he had nothing left but an old hen. The youngest took the hen in a sack and went off into the world to make something of himself.
 
 He wandered into a nearby kingdom and heard how the king's daughter had been carried off by a dragon who lived in a cave of clouds, and how the king offered a reward that whosoever could rescue the princess would have the princess, half his kingdom, and become king when the king died.
