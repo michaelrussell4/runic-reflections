@@ -17,8 +17,8 @@ In my experience, a majority of individuals, including prominent church figures,
 
 One form of reinterpretation appears as a softening of the term "preside" while magnifying "equal partnership." To illustrate the linguistic tension, consider the following definitions:
 
-* **Webster’s Dictionary 1828:** To be set over for the exercise of authority; to direct, control and govern, as the chief officer.  
-* **Merriam-Webster:** To exercise guidance, direction, or control; to occupy the place of authority: act as president, chairperson, or moderator.
+* **Preside** (Webster’s Dictionary 1828): To be set over for the exercise of authority; to direct, control and govern, as the chief officer.  
+* **Preside** (Merriam-Webster 2026): To exercise guidance, direction, or control; to occupy the place of authority: act as president, chairperson, or moderator.
 
 The meaning of this word has not changed significantly in 200 years. Authority is its key component. Furthermore, a president presides; the two share an etymological root. To suggest that one "presides" but is not the functional equivalent of a "president" is a lexical contradiction. This contradiction arises when rhetoric attempts to satisfy modern sentiments at the expense of definitions. For example, Elder Soares stated: "...spouses... do not position themselves as president or vice president of their family. There is no superiority or inferiority in the marriage relationship" (*In Partnership with the Lord*, 2022). This suggests the role of "president" is an inappropriate term, stripping the hierarchical status away from the act of presiding.
 
