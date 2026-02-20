@@ -1,4 +1,4 @@
-Title: Presiding in Power: A Correction to the Modern Conception of the Man
+Title: Presiding in Power
 Date: 2026/02/19 07:38PM
 Category: Essays
 Tags: religious, serious
