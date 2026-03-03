@@ -1,0 +1,16 @@
+Title: The Vexation of Individualism
+Date: 2026/03/03 04:30PM
+Category: Short Stories
+Tags: comical, educational, philosophical, reflective, satirical, serious
+
+Some children went out to play. One of them suggested they play a game, but as he was telling the rules, another child interrupted, suggesting they play a different game. Soon, everyone was arguing, wanting to play their game instead of the others. The children argued how it wasn't fair that any single child was forced to play someone else's game, but ought to be able to play the game they wanted to play. One child spoke up: "Here's what we'll do: we're going to play everyone's games at the same time. That way everyone is happy."
+
+The children agreed and began to play but soon realized that not everyone understood their game's rules. Upon finding out, the child who'd taken it upon herself to be the leader called out again, "From now on, when you're near someone, you must explain your game's rules to them and listen to their game's rules too. That way you can both play each other's games." The children agreed and continued to play. They thought it was a wonderful idea that everyone could play their game, for that was most important to a child's happiness, they thought.
+
+But soon children were arguing again: "Mary isn't playing my game right," argued Sarah. "Well, Sarah broke my rules," responded Mary. The leader of the children intervened, "Sarah, you start by explaining what happened." So Sarah described how in her game they were having a tea party and they were all supposed to take turns drinking tea, but Mary didn't drink the tea. Then Mary said that in her game she was a horse galloping across the field, and so she couldn't drink the tea.
+
+The leader realized that playing one game might mean not being able to play another game. After some thought, she said, "New rule: you can play your game as long as it doesn't break someone else's game. If you don't follow others' games, you will make them sad, and that's not what we want." And with that, the children continued playing, making sure to obey the rules of others' games even if it meant they couldn't play their own game for a moment.
+
+But not a minute later, another problem arose: Charley's game of pretending to be water did not mix well with John's game of pretending to be fire. "How can fire be water? That doesn't work at all!" John said. "I want to be water, not fire!" cried Charley. The leader had a hard time solving this one but eventually said, "If you stop playing your game, you'll be sad. That's bad—we don't want that. The only thing that matters for you, Charley, is to be water. So keep being water no matter what, and if someone tells you otherwise, ignore them. And John, you be fire."
+
+The children seemed content with this and went on playing. But their peace was short-lived. Soon, children were crying, arguing, hitting, and fighting. A new leader climbed atop a slide and said, "Whoever wants to play one game together, follow me. We're playing tag." The children wiped their tears and replaced their frowns with hopeful smiles. They finally laughed and played together without issue.
