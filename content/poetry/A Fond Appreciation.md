@@ -1,6 +1,7 @@
 Title: A Fond Appreciation
 Date: 2026/01/05 09:48PM
 Category: Poetry
+Author: Mike Russell
 Tags: comical, romantic
 
 > I remarked to my wife, my dear<br>

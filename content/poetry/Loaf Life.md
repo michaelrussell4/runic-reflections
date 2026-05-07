@@ -1,6 +1,7 @@
 Title: Loaf Life 🍞
 Date: 2026/03/04 02:18PM
 Category: Poetry
+Author: Mike Russell
 Tags: comical, educational
 
 > Here's a cool rule you don't learn in school<br>

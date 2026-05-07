@@ -1,6 +1,7 @@
 Title: Dreamy Exercise
 Date: 2026/02/24 04:45PM
 Category: Poetry
+Author: Mike Russell
 Tags: reflective, surreal, whimsical
 
 > A spark in the dark makes a fire warm<br>

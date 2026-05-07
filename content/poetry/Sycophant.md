@@ -1,6 +1,7 @@
 Title: Sycophant
 Date: 2026/05/07 11:38AM
 Category: Poetry
+Author: Mike Russell
 Tags: educational, logophile, serious
 
 > A suave [facade](https://www.merriam-webster.com/dictionary/facade)<br>

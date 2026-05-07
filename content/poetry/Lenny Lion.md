@@ -1,6 +1,7 @@
 Title: Lenny Lion
 Date: 2026/02/24 04:47PM
 Category: Poetry
+Author: Mike Russell
 Tags: adventurous, comical, whimsical
 
 > Lenny Lion's lollypop<br>

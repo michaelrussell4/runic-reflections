@@ -1,6 +1,7 @@
 Title: When Daddy Arose from the Pond 🦆
 Date: 2026/01/30 02:01 PM
 Category: Poetry
+Author: Mike Russell
 Tags: comical, educational, whimsical
 
 > After Daddy fell into the pond<br>

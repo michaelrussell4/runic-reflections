@@ -1,6 +1,7 @@
 Title: Things
 Date: 2026/01/30 01:21 PM
 Category: Poetry
+Author: Mike Russell
 Tags: nature, reflective, surreal
 
 > Nature green, fire red<br>
