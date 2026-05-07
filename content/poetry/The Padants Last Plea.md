@@ -1,4 +1,4 @@
-Title: TEST
+Title: The Pedant's Last Plea
 Date: 2026/05/07 15:19PM
 Category: Poetry
 Author: Mike Russell
