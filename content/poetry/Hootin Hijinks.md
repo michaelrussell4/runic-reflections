@@ -8,4 +8,4 @@ Tags: comical, whimsical, logophile
 > By using [gobbledygook](https://www.merriam-webster.com/dictionary/gobbledygook) at a [hootenanny](https://www.merriam-webster.com/dictionary/hootenanny)<br>
 > Before he [skedaddled](https://www.merriam-webster.com/dictionary/skedaddled)<br>
 > His [hunkers](https://www.merriam-webster.com/dictionary/hunkers) I paddled<br>
-> 'twas a [cattywampus](https://www.merriam-webster.com/dictionary/cattywampus) [kerfuffle](https://www.merriam-webster.com/dictionary/kerfuffle)—that [jamboree](https://www.merriam-webster.com/dictionary/jamboree)
+> 'Twas a [cattywampus](https://www.merriam-webster.com/dictionary/cattywampus) [kerfuffle](https://www.merriam-webster.com/dictionary/kerfuffle)—that [jamboree](https://www.merriam-webster.com/dictionary/jamboree)
