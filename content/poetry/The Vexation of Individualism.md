@@ -1,6 +1,7 @@
 Title: The Vexation of Individualism
 Date: 2026/03/03 04:30PM
 Category: Short Stories
+Author: Mike Russell
 Tags: comical, educational, philosophical, reflective, satirical, serious
 
 Some children went out to play. One of them suggested they play a game, but as he was telling the rules, another child interrupted, suggesting they play a different game. Soon, everyone was arguing, wanting to play their game instead of the others. The children argued how it wasn't fair that any single child was forced to play someone else's game, but ought to be able to play the game they wanted to play. One child spoke up: "Here's what we'll do: we're going to play everyone's games at the same time. That way everyone is happy."
