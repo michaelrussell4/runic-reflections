@@ -1,5 +1,5 @@
 Title: The Pedant's Last Plea
-Date: 2026/05/07 15:19PM
+Date: 2026/05/07 03:19PM
 Category: Poetry
 Author: Mike Russell
 Tags: comical, educational, logophile, satirical, whimsical
