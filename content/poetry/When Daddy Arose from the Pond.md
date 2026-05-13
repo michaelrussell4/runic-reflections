@@ -13,7 +13,7 @@ Tags: comical, educational, whimsical
 > But quickly change himself back<br>
 > Then he learned out to quack<br>
 > And spoke to ducks all day<br>
-> "Quak" is all he'd say<br>
+> "Quack" is all he'd say<br>
 > They all became good pals<br>
 > He'd follow them down canals<br>
 > But we sure missed our dad<br>
@@ -23,7 +23,7 @@ Tags: comical, educational, whimsical
 > And stole his wand with ire<br>
 > And threw it in a fire<br>
 > At last our dad was back<br>
-> And he never again would quak 
+> And he never again would quack 
 
 ## Notes
 
