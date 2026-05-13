@@ -10,7 +10,7 @@ Tags: comical, educational, whimsical
 > A spectre on eyes to set<br>
 > He then became a wizard<br>
 > By mistake he turned to a lizard<br>
-> But quickly change himself back<br>
+> But quickly changed himself back<br>
 > Then he learned out to quack<br>
 > And spoke to ducks all day<br>
 > "Quack" is all he'd say<br>
