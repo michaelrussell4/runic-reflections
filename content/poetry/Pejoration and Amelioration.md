@@ -4,37 +4,37 @@ Category: Poetry
 Author: Mike Russell
 Tags: comical, educational, logophile, melancholic, philosophical, reflective, satirical, serious
 
-> 'Tis not privy, this tragedy<br>
-> Fie, young lad, here's wisdom for thee<br>
+> 'Tis not known unto this tragedy<br>
+> Fie, young lad, here is wisdom for thee<br>
 > Wottest thou what rotteth nigh<br>
-> For a wretched tongue to fly?<br>
+> That wretched tongue should fly?<br>
 > <br>
-> When ye haply cast a word<br>
+> When ye haply cast forth a word<br>
 > Thine intentions to it gird<br>
-> Clad in clothes, a sight to see<br>
-> Like God, thy care to find them be<br>
+> Clad in raiment, meet for sight<br>
+> As God gave Adam for his plight <br>
 > <br>
-> Yet unlike God, with cloth pure<br>
-> Thy gifted raiment looks obscure<br>
+> Yet unlike God, whose gift was pure<br>
+> Thy tainted raiment seemeth obscure<br>
 > No more would thy children stay<br>
 > The way they were ere this day<br>
 > <br>
-> Corruption rested fixed upon them<br>
+> Corruption fixed itself upon them<br>
 > Vexed as leaves plucked from the stem<br>
-> The wind, thy breath, sends their fall<br>
-> Strange, the gust of mouth could maul<br>
+> The wind, thy breath, doth send their fall<br>
+> Strange, the gust of lung could maul<br>
 > <br>
 > Forsooth, thine heart, wherein is evil<br>
 > Disguiseth words with cloak and veil<br>
-> They are not as they were before<br>
-> Their ayre hath changed with new decor<br>
+> They seem as they came forth from mire<br>
+> Their air hath changed to unseemly attire<br>
 > <br>
-> Alas, whilom, I'd fain be silly<br>
-> Now better for thee, this term will be<br>
-> How it is that I'm called nice<br>
-> So shouldst thou be, sans advice<br>
+> Alas, whilom, I fain would be silly<br>
+> Now better for thee, this term would be<br>
+> How it is that I am called nice<br>
+> So shouldst thou be, withouten advice<br>
 > <br>
 > A fond man surely can be shrewd<br>
-> But not as that, thou art lewd<br>
-> Thou art but a meager knyght<br>
-> Learning hath caused mine aged eyes' sight<br>
+> But not as such; thou art lewd<br>
+> Thou art but a meagre knight<br>
+> Learning hath dimm'd mine aged sight<br>
