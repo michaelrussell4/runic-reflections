@@ -5,7 +5,7 @@ Author: Mike Russell
 Tags: comical, educational, logophile, melancholic, philosophical, reflective, satirical, serious
 
 > 'Tis not privy, this tragedy<br>
-> Fie, young lad, pray harken thee<br>
+> Fie, young lad, here's wisdom for thee<br>
 > Wottest thou what rotteth nigh<br>
 > For a wretched tongue to fly?<br>
 > <br>
@@ -24,17 +24,17 @@ Tags: comical, educational, logophile, melancholic, philosophical, reflective, s
 > The wind, thy breath, sends their fall<br>
 > Strange, the gust of mouth could maul<br>
 > <br>
-> Forsooth, thine heart, wherein be evil<br>
-> Disguisest words with cloak and veil<br>
+> Forsooth, thine heart, wherein is evil<br>
+> Disguiseth words with cloak and veil<br>
 > They are not as they were before<br>
 > Their ayre hath changed with new decor<br>
 > <br>
 > Alas, whilom, I'd fain be silly<br>
 > Now better for thee, this term will be<br>
-> How now it be that I'm called nice<br>
-> Thou wouldst be if not heeding my advice<br>
+> How it is that I'm called nice<br>
+> So shouldst thou be, sans advice<br>
 > <br>
 > A fond man surely can be shrewd<br>
-> But not as that. Thou art lewd<br>
+> But not as that, thou art lewd<br>
 > Thou art but a meager knyght<br>
 > Learning hath caused mine aged eyes' sight<br>
