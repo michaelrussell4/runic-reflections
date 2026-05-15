@@ -5,15 +5,23 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="Pelican" />
+    <meta name="theme-color" content="#9333ea" />
     <title>{% block title %}{{ SITENAME|striptags }}{%endblock%}</title>
-    <link
-      rel="stylesheet"
-      href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ TAILWIND_CSS }}"
-    />
-    <link
-      rel="stylesheet"
-      href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}"
-    />
+    {% block meta_description %}<meta name="description" content="{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}" />{% endblock %}
+    {% if SITE_KEYWORDS %}<meta name="keywords" content="{{ SITE_KEYWORDS }}" />{% endif %}
+    <meta property="og:title" content="{% block og_title %}{{ SITENAME }}{% endblock %}" />
+    <meta property="og:description" content="{% block og_description %}{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}{% endblock %}" />
+    <meta property="og:url" content="{% block og_url %}{{ SITEURL }}/{% endblock %}" />
+    <meta property="og:type" content="{% block og_type %}website{% endblock %}" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="{% block twitter_title %}{{ SITENAME }}{% endblock %}" />
+    <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}{% endblock %}" />
+    <link rel="canonical" href="{% block canonical %}{{ SITEURL }}/{% endblock %}" />
+    {% if SITEURL %}<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ SITEURL }}/feeds/all.rss.xml" />{% endif %}
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.woff2" type="font/woff2" crossorigin />
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ TAILWIND_CSS }}" />
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -50,52 +58,70 @@
   </head>
 
   <body id="index" class="w-full flex flex-col min-h-screen text-pretty">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:bg-purple-600 focus:text-white focus:p-2 focus:z-50">Skip to main content</a>
     {% include 'github.html' %}
-    <header id="banner" class="bg-purple-600 text-white p-4 tracking-widest">
-      <h1 class="text-2xl font-bold mb-3">
-        <a href="{{ SITEURL }}/" class="hover:text-gray-300">
-          {{ SITENAME }}{% if SITESUBTITLE %}
-          <strong>{{ SITESUBTITLE }}</strong>{% endif %}
-        </a>
-      </h1>
-      <hr class="border-gray-100 mb-4" />
-      <nav>
-        <ul
-          class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-2"
-        >
-          {% for title, link in MENUITEMS %}
-          <li>
-            <a
-              href="{{ link }}"
-              class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200"
-              >{{ title }}</a
-            >
-          </li>
-          {% endfor %} {% if DISPLAY_PAGES_ON_MENU -%} {% for pg in pages %}
-          <li>
-            <a
-              href="{{ SITEURL }}/{{ pg.url }}"
-              class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200{% if pg == page %} font-bold{% endif %}"
-              >{{ pg.title }}</a
-            >
-          </li>
-          {% endfor %} {% endif %} {% if DISPLAY_CATEGORIES_ON_MENU -%} {% for
-          cat, null in categories %}
-          <li>
-            <a
-              href="{{ SITEURL }}/{{ cat.url }}"
-              class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200{% if cat == category %} font-bold{% endif %}"
-              >{{ cat }}</a
-            >
-          </li>
-          {% endfor %} {% endif %}
-        </ul>
-      </nav>
+    <header id="banner" class="bg-purple-600 text-white tracking-widest sticky top-0 z-40 shadow-md">
+      <div class="p-4">
+        <div class="flex items-center justify-between mb-3">
+          <h1 class="text-2xl font-bold">
+            <a href="{{ SITEURL }}/" class="hover:text-gray-300 transition duration-200">
+              {{ SITENAME }}{% if SITESUBTITLE %}
+              <strong>{{ SITESUBTITLE }}</strong>{% endif %}
+            </a>
+          </h1>
+          <button id="mobile-menu-toggle" class="md:hidden p-2 rounded hover:bg-purple-500 transition duration-200" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+            </svg>
+          </button>
+        </div>
+        <hr class="border-gray-100 mb-4" />
+        <nav id="nav-menu" class="hidden md:block">
+          <ul
+            class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-2"
+          >
+            {% for title, link in MENUITEMS %}
+            <li>
+              <a
+                href="{{ link }}"
+                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block"
+                >{{ title }}</a
+              >
+            </li>
+            {% endfor %} {% if DISPLAY_PAGES_ON_MENU -%} {% for pg in pages %}
+            <li>
+              <a
+                href="{{ SITEURL }}/{{ pg.url }}"
+                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block{% if pg == page %} font-bold{% endif %}"
+                >{{ pg.title }}</a
+              >
+            </li>
+            {% endfor %} {% endif %} {% if DISPLAY_CATEGORIES_ON_MENU -%} {% for
+            cat, null in categories %}
+            <li>
+              <a
+                href="{{ SITEURL }}/{{ cat.url }}"
+                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block{% if cat == category %} font-bold{% endif %}"
+                >{{ cat }}</a
+              >
+            </li>
+            {% endfor %} {% endif %}
+          </ul>
+        </nav>
+      </div>
     </header>
+    <script>
+      document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
+        const menu = document.getElementById('nav-menu');
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        menu.classList.toggle('hidden');
+      });
+    </script>
     <!-- /#banner -->
-    <div class="flex-grow p-4 bg-gray-100">
+    <main id="main-content" class="flex-grow p-4 bg-gray-100">
       {% block content %} {% endblock %}
-    </div>
+    </main>
 
     {% if LINKS or SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
     <section id="extras" class="bg-gray-100 p-6">
@@ -162,91 +188,90 @@
 
     <footer
       id="contentinfo"
-      class="bg-gray-800 text-white p-6 text-center text-xs"
+      class="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-200 py-12 px-6 text-sm border-t border-gray-700"
     >
-      <address id="about" class="vcard mb-4">
-        <span class="font-semibold">Powered by</span>
-        <a
-          rel="nofollow"
-          href="https://getpelican.com/"
-          class="text-blue-400 hover:text-blue-300 transition duration-200"
-          >Pelican</a
-        >,
-        <span class="font-semibold">which takes great advantage of</span>
-        <a
-          rel="nofollow"
-          href="https://www.python.org/"
-          class="text-blue-400 hover:text-blue-300 transition duration-200"
-          >Python 🐍</a
-        >.
-      </address>
-      <!-- /#about -->
+      <div class="max-w-5xl mx-auto">
+        <!-- Main footer content -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
+          <!-- About -->
+          <div>
+            <h3 class="text-white font-semibold mb-4">About</h3>
+            <address id="about" class="vcard not-italic">
+              <p class="mb-2">
+                <span class="font-semibold">{{ SITENAME }}</span> is a collection of poetry exploring literature and the human experience.
+              </p>
+              <p class="text-xs">
+                <span class="font-semibold">Built with</span>
+                <a
+                  rel="nofollow"
+                  href="https://getpelican.com/"
+                  class="text-purple-400 hover:text-purple-300 transition duration-200"
+                  >Pelican</a
+                >
+                &amp;
+                <a
+                  rel="nofollow"
+                  href="https://www.python.org/"
+                  class="text-purple-400 hover:text-purple-300 transition duration-200"
+                  >Python</a
+                >
+              </p>
+            </address>
+          </div>
 
-      <p>
-        <span class="font-semibold"
-          >Made with 💙 by
-          <a
-            href="https://github.com/michaelrussell4"
-            class="text-blue-400 hover:text-blue-300 transition duration-200 font-semibold"
-            >Mike Russell</a
-          >
-        </span>
-      </p>
-      <p
-        xmlns:cc="http://creativecommons.org/ns#"
-        xmlns:dct="http://purl.org/dc/terms/"
-        class="pt-2"
-      >
-        <a
-          property="dct:title"
-          rel="cc:attributionURL"
-          href="https://github.com/michaelrussell4/runic-reflections"
-          >Runic Relics</a
-        >
-        by
-        <a
-          rel="cc:attributionURL dct:creator"
-          property="cc:attributionName"
-          href="https://github.com/michaelrussell4"
-          >Michael Russell</a
-        >
-        is licensed under
-        <a
-          href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1"
-          target="_blank"
-          rel="license noopener noreferrer"
-          class="flex justify-center"
-          >CC BY-NC-ND 4.0<img
-            style="
-              height: 22px !important;
-              margin-left: 3px;
-              vertical-align: text-bottom;
-            "
-            src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1"
-            alt="" /><img
-            style="
-              height: 22px !important;
-              margin-left: 3px;
-              vertical-align: text-bottom;
-            "
-            src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1"
-            alt="" /><img
-            style="
-              height: 22px !important;
-              margin-left: 3px;
-              vertical-align: text-bottom;
-            "
-            src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1"
-            alt="" /><img
-            style="
-              height: 22px !important;
-              margin-left: 3px;
-              vertical-align: text-bottom;
-            "
-            src="https://mirrors.creativecommons.org/presskit/icons/nd.svg?ref=chooser-v1"
-            alt=""
-        /></a>
-      </p>
+          <!-- Quick Links -->
+          <div>
+            <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+            <ul class="space-y-2 text-xs">
+              <li>
+                <a href="{{ SITEURL }}/" class="text-purple-400 hover:text-purple-300 transition duration-200">Home</a>
+              </li>
+              {% if DISPLAY_PAGES_ON_MENU %}
+                {% for pg in pages %}
+                <li>
+                  <a href="{{ SITEURL }}/{{ pg.url }}" class="text-purple-400 hover:text-purple-300 transition duration-200">{{ pg.title }}</a>
+                </li>
+                {% endfor %}
+              {% endif %}
+              {% if FEED_ALL_ATOM %}
+              <li>
+                <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" class="text-purple-400 hover:text-purple-300 transition duration-200">Atom Feed</a>
+              </li>
+              {% endif %}
+            </ul>
+          </div>
+
+          <!-- License Info -->
+          <div>
+            <h3 class="text-white font-semibold mb-4">License</h3>
+            <p class="text-xs mb-2">Content is licensed under<br />
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" class="text-purple-400 hover:text-purple-300 transition duration-200 font-semibold">
+                CC BY-NC-ND 4.0
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Divider -->
+        <hr class="border-gray-700 mb-6" />
+
+        <!-- Bottom Footer -->
+        <div class="flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 space-y-4 md:space-y-0">
+          <div>
+            <p>© {{ now.year }} {{ AUTHOR }}. All rights reserved.</p>
+          </div>
+          <div>
+            <p>
+              Made with 💜 by
+              <a
+                href="https://github.com/michaelrussell4"
+                class="text-purple-400 hover:text-purple-300 transition duration-200 font-semibold"
+                >Mike Russell</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
     </footer>
     <!-- /#contentinfo -->
 

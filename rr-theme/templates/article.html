@@ -1,5 +1,20 @@
 {% extends "base.html" %}
 {% block html_lang %}{{ article.lang }}{% endblock %}
+
+{% block meta_description %}<meta name="description" content="{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}" />{% endblock %}
+
+{% block title %}{{ article.title | title_case_custom | striptags }} - {{ SITENAME }}{% endblock %}
+
+{% block og_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
+{% block og_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
+{% block og_url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
+{% block og_type %}article{% endblock %}
+
+{% block twitter_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
+{% block twitter_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
+
+{% block canonical %}{{ SITEURL }}/{{ article.url }}{% endblock %}
+
 {% block head -%}
   {{ super() -}}
   {% if article.summary %}
@@ -7,36 +22,65 @@
   {% endif %}
 {% endblock %}
 
-{% block title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
-
 {% block extra_head %}
   {% import 'translations.html' as translations with context %}
   {% if translations.entry_hreflang(article) %}
     {{ translations.entry_hreflang(article) }}
   {% endif %}
+  {% if SITEURL %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "headline": "{{ article.title | title_case_custom | striptags }}",
+    "description": "{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}",
+    "image": "{{ SITEURL }}/images/favicon-32x32.png",
+    "datePublished": "{{ article.date.isoformat() }}",
+    "dateModified": "{{ article.modified.isoformat() if article.modified else article.date.isoformat() }}",
+    "author": {
+      "@type": "Person",
+      "name": "{{ AUTHOR }}"
+    },
+    "publisher": {
+      "@type": "Organization",
+      "name": "{{ SITENAME }}",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "{{ SITEURL }}/images/favicon-32x32.png"
+      }
+    },
+    "mainEntityOfPage": {
+      "@type": "WebPage",
+      "@id": "{{ SITEURL }}/{{ article.url }}"
+    }
+  }
+  </script>
+  {% endif %}
 {% endblock %}
 
 {% block content %}
   <section id="content" class="body">
-    <article>
-      <header>
-        <h1 class="entry-title text-3xl text-center font-bold my-6">
+    <article class="max-w-4xl mx-auto">
+      <header class="mb-8 pb-6 border-b-2 border-purple-200">
+        <h1 class="entry-title text-4xl text-center font-bold my-4 text-purple-900">
           <a
             href="{{ SITEURL }}/{{ article.url }}"
-            class="text-gray-600 hover:text-purple-600 transition duration-200"
+            class="hover:text-purple-600 transition duration-200"
             >{{ article.title | title_case_custom }}</a
           >
         </h1>
         {% include 'twitter.html' %}
       </header>
 
-      <div class="entry-content rounded-xl">
-        {{ article.content }}
+      <div class="entry-content rounded-lg bg-white shadow-sm border border-gray-100 overflow-hidden">
+        <div class="prose prose-lg max-w-none p-8">
+          {{ article.content }}
+        </div>
         {% include 'article_infos.html' %}
       </div><!-- /.entry-content -->
       {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
-        <div class="comments">
-          <h2>Comments !</h2>
+        <div class="comments mt-8">
+          <h2>Comments</h2>
           <div id="disqus_thread"></div>
           <script type="text/javascript">
             var disqus_shortname = '{{ DISQUS_SITENAME }}';

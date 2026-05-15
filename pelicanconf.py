@@ -2,12 +2,17 @@
 
 from math import ceil
 from string import capwords
+from datetime import datetime
 
 from pelican import signals
 
 AUTHOR = "Michael Russell"
 SITENAME = "Runic Reflections"
-SITEURL = ""
+SITE_DESCRIPTION = "A collection of poems exploring the human experience, nature, philosophy, and the beauty of language."
+SITE_KEYWORDS = "poetry, reflections, philosophy, nature, literature"
+SITEURL = "https://runicreflections.com"
+AUTHOR_SLUG = "michael-russell"
+AUTHOR_EMAIL = None  # Not publicly displayed
 
 PATH = "content"
 ARTICLE_PATHS = ["poetry"]
@@ -43,8 +48,9 @@ STANDARD_TAGS = (
     "whimsical",
 )
 
-# Feed generation is usually not desired when developing
-SOCIAL = None
+# Feed generation
+SOCIAL = None  # Can add social media links here if desired
+FEED_DOMAIN = "https://runicreflections.com"
 FEED_ALL_ATOM = None
 FEED_ALL_RSS = None
 CATEGORY_FEED_ATOM = None
@@ -54,6 +60,11 @@ AUTHOR_FEED_RSS = None
 
 DEFAULT_PAGINATION = 6
 USE_FOLDER_AS_CATEGORY = True
+DEFAULT_DATE_FORMAT = "%B %d, %Y"
+
+# Analytics & Comments (set these in publishconf.py for production)
+GOOGLE_ANALYTICS = None  # Set to your Google Analytics ID for tracking
+DISQUS_SITENAME = None  # Enable comments if desired
 
 # Theme
 THEME = "rr-theme"
@@ -121,6 +132,11 @@ JINJA_FILTERS = {
     "title_case_custom": title_case_custom,
     "get_article_urls": get_article_urls,
     "format_number": format_number,
+}
+
+# Make 'now' available in all templates
+JINJA_GLOBALS = {
+    'now': datetime.now(),
 }
 
 

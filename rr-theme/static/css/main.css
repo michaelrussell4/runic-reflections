@@ -1,7 +1,193 @@
 @import url("content.css");
 @import url("fonts.css");
 
-/* Body font settings */
+/* Base Styles */
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-    font-family: 'Montserrat', sans-serif; /* Use Montserrat as the primary font */
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f9fafb;
+  color: #1f2937;
+  line-height: 1.7;
+}
+
+/* Smooth transitions */
+a, button {
+  transition: all 0.2s ease;
+}
+
+/* Better focus states for accessibility */
+:focus {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+}
+
+button:focus,
+a:focus {
+  outline: 2px solid #7c3aed;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
+
+/* Article Cards */
+.article-card {
+  background: white;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  border: 1px solid #f0f0f0;
+}
+
+.article-card:hover {
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.15);
+  transform: translateY(-2px);
+}
+
+.article-card h3 {
+  margin-top: 0;
+  color: #7c3aed;
+}
+
+/* Tags and Categories */
+.tag, .category {
+  display: inline-block;
+  padding: 0.35em 0.65em;
+  margin: 0.25em 0.25em 0.25em 0;
+  background-color: #f3f4f6;
+  color: #4b5563;
+  border-radius: 999px;
+  font-size: 0.85em;
+  font-weight: 500;
+  transition: all 0.2s ease;
+  border: 1px solid #e5e7eb;
+}
+
+.tag:hover, .category:hover {
+  background-color: #7c3aed;
+  color: white;
+  text-decoration: none;
+  border-color: #7c3aed;
+}
+
+/* Pagination */
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin: 2rem 0;
+  flex-wrap: wrap;
+}
+
+.pagination a,
+.pagination span {
+  padding: 0.5em 0.75em;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  background: white;
+  color: #7c3aed;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  min-width: 2.5rem;
+  text-align: center;
+}
+
+.pagination a:hover {
+  background-color: #7c3aed;
+  color: white;
+  border-color: #7c3aed;
+  box-shadow: 0 2px 4px rgba(124, 58, 237, 0.2);
+}
+
+.pagination .active,
+.pagination .current {
+  background-color: #7c3aed;
+  color: white;
+  border-color: #7c3aed;
+}
+
+/* List items styling */
+.entry-summary {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.entry-summary:last-child {
+  border-bottom: none;
+}
+
+/* Date styling */
+.published {
+  color: #6b7280;
+  font-size: 0.9em;
+  font-weight: 500;
+}
+
+/* Better form styling if needed */
+input[type="search"],
+input[type="text"],
+input[type="email"] {
+  padding: 0.5rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 6px;
+  font-family: inherit;
+  transition: border-color 0.2s ease;
+}
+
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="email"]:focus {
+  border-color: #7c3aed;
+  outline: none;
+}
+
+/* Responsive improvements */
+@media (max-width: 640px) {
+  body {
+    font-size: 0.95rem;
+  }
+
+  h1 {
+    font-size: 1.75rem;
+  }
+
+  h2 {
+    font-size: 1.35rem;
+  }
+
+  .article-card {
+    padding: 1rem;
+  }
+
+  .pagination a,
+  .pagination span {
+    padding: 0.4em 0.6em;
+    font-size: 0.9rem;
+  }
+}
+
+/* Print styles */
+@media print {
+  body {
+    background: white;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  a::after {
+    content: " (" attr(href) ")";
+  }
+
+  article {
+    page-break-inside: avoid;
+  }
 }
