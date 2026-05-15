@@ -58,7 +58,7 @@ USE_FOLDER_AS_CATEGORY = True
 # Theme
 THEME = "rr-theme"
 THEME_STATIC_DIR = f"{THEME}/static"
-TAILWIND_CSS = "tailwind.min.css"
+TAILWIND_CSS = "tailwind.css"
 
 
 def title_case_custom(title):

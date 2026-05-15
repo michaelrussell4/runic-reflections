@@ -1,11 +1,12 @@
+import datetime
 import os
 import shlex
 import shutil
 import sys
-import datetime
 
-from invoke import task
+import pytailwindcss
 from invoke.main import program
+from invoke.tasks import task
 from pelican import main as pelican_main
 from pelican.server import ComplexHTTPRequestHandler, RootedHTTPServer
 from pelican.settings import DEFAULT_CONFIG, get_settings_from_file
@@ -31,6 +32,18 @@ CONFIG = {
 }
 
 
+def build_tailwind(c):
+    """Compile Tailwind CSS using the pytailwindcss wrapper."""
+    input_css = "rr-theme/static/css/tailwind-input.css"
+    output_css = "rr-theme/static/css/tailwind.css"
+
+    pytailwindcss.run(
+        ["-i", input_css, "-o", output_css, "--minify"],
+        cwd=os.path.abspath("."),
+        auto_install=True,
+    )
+
+
 @task
 def clean(c):
     """Remove generated files"""
@@ -42,18 +55,21 @@ def clean(c):
 @task
 def build(c):
     """Build local version of site"""
+    build_tailwind(c)
     pelican_run("-s {settings_base}".format(**CONFIG))
 
 
 @task
 def rebuild(c):
     """`build` with the delete switch"""
+    build_tailwind(c)
     pelican_run("-d -s {settings_base}".format(**CONFIG))
 
 
 @task
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
+    build_tailwind(c)
     pelican_run("-r -s {settings_base}".format(**CONFIG))
 
 
@@ -91,6 +107,7 @@ def reserve(c):
 def preview(c):
     """Build production version of site"""
     pelican_run("-s {settings_publish}".format(**CONFIG))
+
 
 @task
 def livereload(c):
@@ -143,6 +160,7 @@ def publish(c):
         )
     )
 
+
 @task
 def gh_pages(c):
     """Publish to GitHub Pages"""
@@ -152,6 +170,7 @@ def gh_pages(c):
         "-m {commit_message} "
         "{deploy_path} -p".format(**CONFIG)
     )
+
 
 def pelican_run(cmd):
     cmd += " " + program.core.remainder  # allows to pass-through args to pelican

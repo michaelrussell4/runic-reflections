@@ -21,3 +21,10 @@ output/
 # Environment Variables
 .env
 .env.*
+
+# Generated Tailwind output
+rr-theme/static/css/tailwind.css
+
+# AI
+GEMINI.md
+"GEMINI.md" 

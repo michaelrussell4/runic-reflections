@@ -32,3 +32,7 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 ## Acknowledgments
 
 - [Pelican](https://getpelican.com/) for the static site generation.
+
+## Running locally
+
+Run `uv inv build` to build the tailwind css file needed. Or, alternatively, `uv run -m pytailwindcss -i tailwind-input.css -o tailwind.css --minify` to load the minified Tailwind css

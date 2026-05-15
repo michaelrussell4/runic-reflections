@@ -1,16 +1,41 @@
-name: Deploy to GitHub Pages
+﻿name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
   workflow_dispatch:
 jobs:
   deploy:
-    uses: "getpelican/pelican/.github/workflows/github_pages.yml@main"
+    runs-on: ubuntu-latest
     permissions:
-      contents: "read"
-      pages: "write"
-      id-token: "write"
-    with:
-      settings: "publishconf.py"
-      requirements: "pelican[markdown]"
-      python: "3.11"
+      contents: read
+      pages: write
+      id-token: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: 3.11
+
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install -e .
+
+      - name: Build Tailwind CSS
+        run: |
+          python -m pytailwindcss -i rr-theme/static/css/tailwind-input.css -o rr-theme/static/css/tailwind.css --minify
+
+      - name: Build Pelican site
+        run: |
+          python -m pelican -s publishconf.py
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload site artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: output

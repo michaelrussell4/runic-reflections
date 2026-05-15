@@ -5,6 +5,8 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.11"
 dependencies = [
+    "invoke>=3.0.3",
+    "livereload>=2.7.1",
     "pelican[markdown]>=4.11.0",
     "pytailwindcss>=0.3.0",
     "tqdm>=4.67.3",
@@ -16,4 +18,9 @@ dev = [
     "ipykernel>=6.29.5",
     "jupyter>=1.1.1",
     "ollama>=0.4.7",
+]
+
+[tool.uv]
+override-dependencies = [
+    "pygments>=2.20.0"
 ]
