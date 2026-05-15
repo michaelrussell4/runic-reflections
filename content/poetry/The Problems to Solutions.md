@@ -2,7 +2,7 @@ Title: The Problems to Solutions
 Date: 2025/04/22 01:42PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, philosophical, reflective, satirical
+Tags: philosophical, reflective, serious
 
 > You complain of stress<br>
 > Then when you get a break<br>

@@ -2,7 +2,7 @@ Title: A Conscious Cacophony
 Date: 2025/04/25 11:49AM
 Category: Essays
 Author: Mike Russell
-Tags: existential, philosophical, reflective, religious, satirical, surreal
+Tags: philosophical, existential, abstract, reflective
 
 > We create reality with our collective consciousness.
 

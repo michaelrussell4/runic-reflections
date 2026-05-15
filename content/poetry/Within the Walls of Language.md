@@ -2,7 +2,7 @@ Title: Within the Walls of Language
 Date: 2025/12/30 04:50PM
 Category: Poetry
 Author: Mike Russell
-Tags: educational, philosophical
+Tags: narrative, fantasy, philosophical
 
 > A mute man strolled along a stream<br>
 > When caught his eye a brilliant gleam<br>

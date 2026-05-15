@@ -2,7 +2,7 @@ Title: Eventide Pondering
 Date: 2024/09/03 10:45AM
 Category: Poetry
 Author: Mike Russell
-Tags: religious, melancholic, reflective
+Tags: religious, existential, reflective, melancholic
 
 > A pursuit, a treasure<br>
 > The wind blows I wither<br>

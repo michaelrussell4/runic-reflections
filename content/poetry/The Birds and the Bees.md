@@ -2,7 +2,7 @@ Title: The Birds and the Bees 🐦🐝
 Date: 2026/01/30 01:09 PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, nature, whimsical
+Tags: nature, educational
 
 > The birds and bees<br>
 > Carry pollin and seeds<br>

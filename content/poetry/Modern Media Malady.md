@@ -2,7 +2,7 @@ Title: Modern Media Malady
 Date: 2025/01/03 10:14AM
 Category: Poetry
 Author: Mike Russell
-Tags: melancholic, reflective, satirical
+Tags: serious, melancholic, existential, reflective
 
 > Digital candy like cocaine or brandy<br>
 > Pique attention, weak will prevention<br>

@@ -2,7 +2,7 @@ Title: Waves Of Song
 Date: 2024/08/20 11:37AM
 Category: Poetry
 Author: Mike Russell
-Tags: reflective, philosophical, serious
+Tags: reflective, abstract, philosophical
 
 > Rhythm like waves has power to lift<br>
 > Pitches like words penetrate swift<br>

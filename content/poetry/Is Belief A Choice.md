@@ -2,7 +2,7 @@ Title: Is Belief a Choice?
 Date: 2025/02/27 11:12PM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, reflective, serious
+Tags: philosophical, reflective, existential
 
 > Is belief a virtue<br>
 > Or a product of one's facts?<br>

@@ -2,7 +2,7 @@ Title: The Farmed Who Ceded 👨‍🌾
 Date: 2025/04/23 03:57PM
 Category: Poetry
 Author: Mike Russell
-Tags: educational, logophile, whimsical
+Tags: logophile, narrative, whimsical
 
 > A farmer once ceded his land he'd seeded<br>
 > His wife proceeded to intercede<br>

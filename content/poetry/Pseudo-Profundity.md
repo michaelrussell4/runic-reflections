@@ -2,7 +2,7 @@ Title: Pseudo-Profundity✨
 Date: 2025/05/01 02:53PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, philosophical, reflective
+Tags: philosophical, reflective, educational
 
 > Though poet's obscure quip<br>
 > May seem sagacious wisdom<br>

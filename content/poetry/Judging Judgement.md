@@ -2,7 +2,7 @@ Title: Judging Judgement
 Date: 2026/01/03 03:32PM
 Category: Essays
 Author: Mike Russell
-Tags: religious, serious
+Tags: religious, philosophical, educational, reflective
 
 I recently heard an account of someone who was accused of being judgy for maintaining basic religious views, at least from the description I was given. This led me to think about the idea of being judgemental. "Judge not that ye be not judged" (Matthew 7:1)—I get this: don't be a hypocrite or nitpick others' lives.
 

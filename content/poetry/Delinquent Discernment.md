@@ -2,7 +2,7 @@ Title: Delinquent Discernment
 Date: 2025/03/05 12:51PM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, existential, melancholic, reflective
+Tags: existential, philosophical, reflective, melancholic
 
 > I wish it were true<br>
 > So do you<br>

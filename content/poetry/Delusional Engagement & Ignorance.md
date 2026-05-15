@@ -2,7 +2,7 @@ Title: Delusional Engagement & Ignorance
 Date: 2024/08/13 11:42AM
 Category: Poetry
 Author: Mike Russell
-Tags: satirical, comical
+Tags: narrative, satirical, philosophical, serious
 
 > A supercilious zealot<br>
 > Was passing through the land<br>

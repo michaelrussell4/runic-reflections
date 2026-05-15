@@ -2,7 +2,7 @@ Title: Tortuous Locution
 Date: 2025/01/07 04:14PM
 Category: Poetry
 Author: Mike Russell
-Tags: logophile, reflective, satirical
+Tags: logophile, abstract, reflective
 
 > Tantamount tautologies<br>
 > And turgid-tuned neologies<br>

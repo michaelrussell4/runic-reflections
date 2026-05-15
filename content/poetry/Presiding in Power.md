@@ -2,7 +2,7 @@ Title: Presiding in Power
 Date: 2026/02/19 07:38PM
 Category: Essays
 Author: Mike Russell
-Tags: religious, serious
+Tags: religious, serious, philosophical, logophile
 
 What does it mean for a man to preside in his home? This traditional role was pragmatic and functional in the past; however, modernity has introduced new dynamics that leave some questioning whether the preside-protect-provide role of fathers still holds value or relevance. For Christians, particularly members of The Church of Jesus Christ of Latter-day Saints, this role has the support of scripture and ecclesiastical authority, making it difficult to ignore.
 

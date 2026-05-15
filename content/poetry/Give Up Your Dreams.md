@@ -2,7 +2,7 @@ Title: Give Up Your Dreams
 Date: 2025/04/17 02:36PM
 Category: Essays
 Author: Mike Russell
-Tags: existential, philosophical, reflective
+Tags: existential, philosophical, religious, reflective
 
 "Follow your dreams": a banal trope dressed up over and again, presented as the essential path to happiness. In The Alchemist (Coelho), this theme is depicted via fantasy-adventure, in The Secret (Byrne), it's delivered as an esoteric, new-age novelty, really a get-anything-you-want-quick scheme.
 

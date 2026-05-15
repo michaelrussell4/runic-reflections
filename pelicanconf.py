@@ -19,6 +19,30 @@ TIMEZONE = "America/Denver"
 
 DEFAULT_LANG = "en"
 
+STANDARD_TAGS = (
+    "abstract",
+    "adventurous",
+    "childrens",
+    "comical",
+    "educational",
+    "existential",
+    "fantasy",
+    "logophile",
+    "melancholic",
+    "narrative",
+    "nature",
+    "nostalgic",
+    "philosophical",
+    "reflective",
+    "religious",
+    "romantic",
+    "satirical",
+    "seasonal",
+    "serious",
+    "surreal",
+    "whimsical",
+)
+
 # Feed generation is usually not desired when developing
 SOCIAL = None
 FEED_ALL_ATOM = None

@@ -17,3 +17,7 @@ output/
 
 # vscode
 .vscode/
+
+# Environment Variables
+.env
+.env.*

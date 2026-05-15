@@ -2,7 +2,7 @@ Title: Pejoration and Amelioration
 Date: 2026/05/14 10:33AM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, logophile, melancholic, philosophical, reflective, satirical, serious
+Tags: philosophical, religious, reflective, serious
 
 > 'Tis not known unto this tragedy<br>
 > Fie, young lad, here is wisdom for thee<br>

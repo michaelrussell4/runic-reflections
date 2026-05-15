@@ -2,7 +2,7 @@ Title: Decision Tree
 Date: 2026/02/02 09:47PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, nature, philosophical, reflective, religious, serious
+Tags: existential, philosophical, reflective, serious
 
 > Each decision's a branch on the tree<br>
 > You decide which way it'll be<br>

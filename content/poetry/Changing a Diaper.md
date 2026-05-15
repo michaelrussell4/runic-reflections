@@ -2,7 +2,7 @@ Title: Changing a Diaper 💩
 Date: 2025/04/21 02:04PM
 Category: Poetry
 Author: Mike Russell
-Tags: adventurous, comical, logophile, whimsical
+Tags: satirical, comical, fantasy, narrative
 
 > Odoriferous specters bear unwanted news<br>
 > This inexorable fate I did not choose<br>

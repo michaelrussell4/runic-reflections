@@ -2,7 +2,7 @@ Title: The Big Apple
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical, adventurous, satirical, surreal
+Tags: narrative, whimsical, surreal, logophile
 
 > Lord Archibald Yorkshire III<br>
 > Was wondering yonder [thither](https://www.merriam-webster.com/dictionary/thither)<br>

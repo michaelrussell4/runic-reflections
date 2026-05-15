@@ -2,7 +2,7 @@ Title: Use Vinegar
 Date: 2026/03/02 04:54PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical
+Tags: reflective, philosophical
 
 > Some people say better use honey<br>
 > You catch more flies—that's funny<br>

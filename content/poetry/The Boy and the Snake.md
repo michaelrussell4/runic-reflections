@@ -2,7 +2,7 @@ Title: The Boy👦 and the Snake🐍
 Date: 2025/04/30 11:13AM
 Category: Short Stories
 Author: Mike Russell
-Tags: adventurous, comical
+Tags: childrens, fantasy, educational, comical
 
 A goatherd lived on a hill near a village. His wife bore him a son. When the boy was ten years old, his father put him in charge of taking the goats to graze in the upper hills. Each day, the boy would walk five miles to the greener patches of hillside where the goats could graze all day. He would wait under the shade of trees or play with sticks and rocks. Sometimes, he pretended the sticks were animals or people and played pretend with them.
 

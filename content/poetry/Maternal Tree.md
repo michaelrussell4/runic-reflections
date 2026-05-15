@@ -2,7 +2,7 @@ Title: Maternal Tree
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: nature, reflective, religious, romantic
+Tags: reflective, nature, religious, serious
 
 > My mom's like a tree<br>
 > Her fruit nourishes me<br>

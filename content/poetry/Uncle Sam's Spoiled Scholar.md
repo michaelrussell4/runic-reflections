@@ -2,7 +2,7 @@ Title: Uncle Sam's Spoiled Scholar
 Date: 2025/04/16 10:38AM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, satirical
+Tags: narrative, philosophical, satirical, reflective
 
 > A wealthy man whose name was Sam<br>
 > Had many children in his land<br>

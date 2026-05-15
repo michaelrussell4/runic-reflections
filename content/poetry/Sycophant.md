@@ -2,7 +2,7 @@ Title: Sycophant
 Date: 2026/05/07 11:38AM
 Category: Poetry
 Author: Mike Russell
-Tags: educational, logophile, serious
+Tags: philosophical, reflective, serious, abstract
 
 > A suave [facade](https://www.merriam-webster.com/dictionary/facade)<br>
 > Costly [shod](https://www.merriam-webster.com/dictionary/shod)<br>

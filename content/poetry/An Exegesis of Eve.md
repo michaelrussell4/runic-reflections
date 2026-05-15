@@ -2,7 +2,7 @@ Title: An Exegesis of Eve
 Date: 2025/12/21 05:16PM
 Category: Essays
 Author: Mike Russell
-Tags: religious
+Tags: religious, educational, philosophical
 
 > "The serpent beguiled me, and I did eat." – Eve
 

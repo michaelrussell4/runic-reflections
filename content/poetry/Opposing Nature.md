@@ -2,7 +2,7 @@ Title: Opposing Nature 🌳🔥
 Date: 2025/04/22 11:11AM
 Category: Poetry
 Author: Mike Russell
-Tags: nature, philosophical, serious
+Tags: philosophical, existential, nature, reflective
 
 > What is good and what is bad?<br>
 > Which exists when suffering's had?<br>

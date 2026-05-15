@@ -1,7 +1,7 @@
 Title: Surrender
 Date: 2026/01/21 09:20PM
 Category: Essays
-Tags: philosophical, reflective, religious, serious
+Tags: philosophical, religious, existential, educational
 Status: hidden
 
 ---

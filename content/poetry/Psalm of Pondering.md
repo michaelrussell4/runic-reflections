@@ -2,7 +2,7 @@ Title: Psalm Of Pondering
 Date: 2024/12/23 11:53AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, existential, reflective
+Tags: existential, philosophical, religious, reflective
 
 > Who art thou and who am I?<br>
 > Will this I learn before I die?<br>

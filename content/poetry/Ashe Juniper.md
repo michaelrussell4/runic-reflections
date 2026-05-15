@@ -2,7 +2,7 @@ Title: Ashe Juniper
 Date: 2026/01/16 01:53PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, nature, whimsical
+Tags: nature, comical, whimsical, seasonal
 
 > Coniferous canopy born from clay<br>
 > In limestone soil I see you play<br>

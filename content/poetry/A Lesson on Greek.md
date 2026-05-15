@@ -2,7 +2,7 @@ Title: A Lesson on Greek
 Date: 2025/04/16 02:55PM
 Category: Poetry
 Author: Mike Russell
-Tags: educational, logophile
+Tags: educational, logophile, childrens, whimsical
 
 > Mr. Greek he likes to sneak<br>
 > Into our English; take a peek<br>

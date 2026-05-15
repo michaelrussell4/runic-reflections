@@ -2,7 +2,7 @@ Title: Internal Torment
 Date: 2024/11/01 11:38AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, reflective, melancholic
+Tags: religious, philosophical, existential, reflective
 
 > Can vinegar bitter bite my tongue<br>
 > Purge my heart from dirt and dung<br>

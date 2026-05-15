@@ -2,7 +2,7 @@ Title: Surrender Self
 Date: 2025/01/08 10:45AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, serious, logophile, reflective
+Tags: logophile, philosophical, reflective, serious
 
 > Ascetic abnegation<br>
 > Resisting all temptation<br>

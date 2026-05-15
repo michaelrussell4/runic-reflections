@@ -2,7 +2,7 @@ Title: Humor And Pain
 Date: 2024/08/20 11:34AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, melancholic, reflective
+Tags: reflective, philosophical, melancholic, existential
 
 > When what one sought<br>
 > Has come to naught<br>

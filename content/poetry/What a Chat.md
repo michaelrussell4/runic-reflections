@@ -2,7 +2,7 @@ Title: What a Chat
 Date: 2026/01/30 01:46 PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, whimsical
+Tags: childrens, whimsical, comical
 
 > Have you ever seen a bat?<br>
 > They like to fly at night<br>

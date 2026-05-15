@@ -2,7 +2,7 @@ Title: A Compelling Conspiracy
 Date: 2024/11/08 12:35PM
 Category: Essays
 Author: Mike Russell
-Tags: philosophical, reflective, serious
+Tags: philosophical, reflective, serious, existential
 
 I love a good conspiracy theory, whether it involves shady government coverups or shape-shifting lizard people. What outrageous claims they include! Alas, to my chagrin, they're not all true. Indeed, many are based on bad research, anecdotal evidence, and reaching suppositions.
 

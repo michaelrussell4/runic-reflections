@@ -2,7 +2,7 @@ Title: Twisted Terror
 Date: 2025/10/22 09:32PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, melancholic, reflective, religious
+Tags: melancholic, reflective, existential, nostalgic
 
 > Once I lived in harmony<br>
 > Love and beauty were had and given<br>

@@ -2,7 +2,7 @@ Title: Bleak Perception
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, philosophical, melancholic, reflective
+Tags: existential, melancholic, philosophical, abstract
 
 > Fetus of an indifferent womb<br>
 > Circumstance trades fortune for gloom<br>

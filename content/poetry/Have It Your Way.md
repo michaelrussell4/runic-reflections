@@ -2,7 +2,7 @@ Title: Have It Your Way
 Date: 2025/05/24 08:29AM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, reflective
+Tags: philosophical, reflective, existential, serious
 
 > The vagabond wants stability<br>
 > The bed-bound wants adventure<br>

@@ -2,7 +2,7 @@ Title: Silent Dark Serenity
 Date: 2025/01/02 03:49PM
 Category: Poetry
 Author: Mike Russell
-Tags: nature, reflective, melancholic
+Tags: nature, reflective, philosophical
 
 > Her lucent rays upon me lay<br>
 > Enshrouded by her silent sway<br>

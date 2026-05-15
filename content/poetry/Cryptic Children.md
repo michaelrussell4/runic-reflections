@@ -2,7 +2,7 @@ Title: Cryptic Children
 Date: 2024/09/24 09:53AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, reflective, melancholic
+Tags: religious, philosophical, reflective, serious
 
 > The mystical [clairvoyance](https://www.merriam-webster.com/dictionary/clairvoyance)<br>
 > Explains the unknown<br>

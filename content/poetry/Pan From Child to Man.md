@@ -2,7 +2,7 @@ Title: Pan: From Child to Man
 Date: 2025/04/17 12:42PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, melancholic, philosophical, serious, surreal
+Tags: existential, melancholic, philosophical, reflective
 
 > A tranquil weltanschauung<br>
 > A trusting child's luxury<br>

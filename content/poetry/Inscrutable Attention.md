@@ -2,7 +2,7 @@ Title: Inscrutable Attention🧠
 Date: 2025/05/01 10:11AM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, serious, surreal
+Tags: abstract, existential, philosophical, melancholic
 
 > I am not where you think I am<br>
 > I am not what you think I am<br>

@@ -2,7 +2,7 @@ Title: Cedar Fever Cease and Desist
 Date: 2026/01/16 02:52PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, nature, whimsical
+Tags: nature, satirical, seasonal, whimsical
 
 > Dear Mountain Cedar,<br>
 > Ancient and strong you are it's true<br>

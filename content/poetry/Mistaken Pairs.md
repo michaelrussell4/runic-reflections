@@ -2,7 +2,7 @@ Title: Mistaken Pairs
 Date: 2025/02/28 12:59PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical, logophile, reflective
+Tags: logophile, comical, whimsical, educational
 
 > I advise you to accept advice<br>
 > Except when given twice<br><br>

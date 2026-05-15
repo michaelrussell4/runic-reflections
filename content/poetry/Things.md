@@ -2,7 +2,7 @@ Title: Things
 Date: 2026/01/30 01:21 PM
 Category: Poetry
 Author: Mike Russell
-Tags: nature, reflective, surreal
+Tags: nature, reflective, philosophical, abstract
 
 > Nature green, fire red<br>
 > Water blue, fear dead<br>

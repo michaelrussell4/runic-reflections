@@ -2,7 +2,7 @@ Title: A Little Treasure, Indeed
 Date: 2025/04/22 01:24PM
 Category: Poetry
 Author: Mike Russell
-Tags: melancholic, serious
+Tags: philosophical, existential, reflective, melancholic
 
 > Debauchery is reason, they say<br>
 > To live and breathe from day to day<br>

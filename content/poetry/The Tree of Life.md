@@ -2,7 +2,7 @@ Title: The Tree of Life
 Date: 2025/02/04 09:20PM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, reflective
+Tags: religious, philosophical, existential
 
 > In the midst of eternity<br>
 > There lies a man, a sacred tree<br>

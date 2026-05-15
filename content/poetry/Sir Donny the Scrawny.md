@@ -2,7 +2,7 @@ Title: Sir Donny the Scrawny
 Date: 2025/04/15 02:47PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical, adventurous, satirical
+Tags: fantasy, comical, whimsical
 
 > Donny read as seconds ticked<br>
 > A dialect long derelict<br>

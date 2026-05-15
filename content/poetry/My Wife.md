@@ -2,7 +2,7 @@ Title: My Wife 👩
 Date: 2025/04/02 02:00PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, reflective, romantic, religious
+Tags: romantic, reflective, serious, philosophical
 
 > Some women hit the club with a new spray tan<br>
 > My wife hits the curb with our old minivan<br>

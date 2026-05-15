@@ -2,7 +2,7 @@ Title: An Alliance To Abdicate
 Date: 2024/12/13 02:13PM
 Category: Poetry
 Author: Mike Russell
-Tags: melancholic, philosophical, logophile
+Tags: logophile, serious, existential, surreal
 
 > Abstruse elves abscond mine eye<br>
 > Abject thoughts—abjure or die<br>

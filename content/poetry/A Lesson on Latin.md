@@ -2,7 +2,7 @@ Title: A Lesson on Latin
 Date: 2025/04/16 11:59AM
 Category: Poetry
 Author: Mike Russell
-Tags: educational, logophile
+Tags: educational, logophile, whimsical
 
 > Old lady Latin oft rears her head<br>
 > In our English, though long dead<br>

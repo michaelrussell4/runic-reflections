@@ -2,7 +2,7 @@ Title: The Word Is Light
 Date: 2025/01/08 12:43PM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, reflective
+Tags: abstract, existential, philosophical, religious
 
 > Language embedded with information<br>
 > Patterns of deliberate persuasion<br>

@@ -2,7 +2,7 @@ Title: The Pedant's Last Plea
 Date: 2026/05/07 03:19PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational, logophile, satirical, whimsical
+Tags: logophile, narrative, satirical, serious
 
 > Ye who cause such suffering and [woe](https://www.merriam-webster.com/dictionary/woe)<br>
 > [Wot](https://www.merriam-webster.com/dictionary/Wot) ye not whereof your throw?<br>

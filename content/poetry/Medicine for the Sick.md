@@ -2,7 +2,7 @@ Title: Medicine for the Sick
 Date: 2025/08/03 10:29PM
 Category: Poetry
 Author: Mike Russell
-Tags: religious
+Tags: religious, reflective, serious, narrative
 
 > Bless me, Father<br>
 > I'm poisoned, infected<br>

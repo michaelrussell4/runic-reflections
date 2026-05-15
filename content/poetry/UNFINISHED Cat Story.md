@@ -2,7 +2,7 @@ Title: Cat Story
 Date: 2026-01-25 14:00:32
 Category: Poetry
 Author: Mike Russell
-Tags: adventurous, comical, educational, existential, logophile, melancholic, nature, nostalgic, philosophical, reflective, religious, romantic, satirical, serious, surreal, whimsical
+Tags: narrative, whimsical, comical, fantasy
 Status: hidden
 
 What a day had Mary Mae!

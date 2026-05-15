@@ -2,7 +2,7 @@ Title: A Lesson on Rhyming
 Date: 2025/04/16 11:18AM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, logophile, educational
+Tags: logophile, educational, comical
 
 > If you wish to rhyme with ease<br>
 > Use of rhyme-rich words is key<br>

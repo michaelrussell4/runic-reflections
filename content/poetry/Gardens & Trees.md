@@ -2,7 +2,7 @@ Title: Gardens & Trees
 Date: 2025/02/14 09:14PM
 Category: Poetry
 Author: Mike Russell
-Tags: religious, philosophical, melancholic, reflective, serious
+Tags: religious, philosophical, existential, reflective
 
 > First in Eden now Gethsemane<br>
 > They both partook and could not flee<br>

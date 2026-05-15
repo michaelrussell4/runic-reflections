@@ -2,7 +2,7 @@ Title: A Maternal Touch
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: romantic, reflective, nostalgic
+Tags: reflective, serious, philosophical, existential
 
 <img src="{static}/images/A Maternal Touch.png" class="poem-img">
 

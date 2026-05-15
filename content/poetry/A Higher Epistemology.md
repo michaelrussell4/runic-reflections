@@ -2,7 +2,7 @@ Title: A Higher Epistemology
 Date: 2026/01/03 05:38PM
 Category: Essays
 Author: Mike Russell
-Tags: philosophical, religious, serious
+Tags: religious, philosophical, serious, educational
 
 > If a perfect God exists, then a sincere seeker of truth would not be left without adequate awareness of him. Yet, there exist sincere, non-resistant individuals who lack adequate awareness of him. Therefore, such a God can not exist.
 

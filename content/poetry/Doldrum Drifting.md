@@ -2,7 +2,7 @@ Title: Doldrum Drifting
 Date: 2025/03/14 03:59PM
 Category: Poetry
 Author: Mike Russell
-Tags: melancholic, reflective
+Tags: melancholic, reflective, serious, abstract
 
 > Ennui, fatigue, weary<br>
 > Empty, hungry, dreary<br>

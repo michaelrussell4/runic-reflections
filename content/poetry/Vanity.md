@@ -2,7 +2,7 @@ Title: Vanity
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, philosophical, satirical, reflective
+Tags: philosophical, comical, satirical
 
 > The meek see the beauty deep within<br>
 > Not by clothes or appearance of skin<br>

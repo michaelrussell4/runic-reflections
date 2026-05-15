@@ -2,7 +2,7 @@ Title: Loaf Life 🍞
 Date: 2026/03/04 02:18PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, educational
+Tags: whimsical, educational, childrens
 
 > Here's a cool rule you don't learn in school<br>
 > Fine time for a treat you won't find it on the street<br>

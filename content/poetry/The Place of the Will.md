@@ -2,7 +2,7 @@ Title: The Place of the Will
 Date: 2025/04/10 12:57PM
 Category: Poetry
 Author: Mike Russell
-Tags: philosophical, religious, reflective
+Tags: religious, philosophical, existential, reflective
 
 > I've got a plan<br>
 > Yet also has the Man<br>

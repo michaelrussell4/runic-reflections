@@ -2,7 +2,7 @@ Title: Six And Seven
 Date: 2025/01/27 12:57PM
 Category: Poetry
 Author: Mike Russell
-Tags: religious, philosophical, serious, reflective
+Tags: religious, narrative, serious, philosophical
 
 > In the beginning 'twas empty and dark<br>
 > The Lord came forth to creation embark<br>

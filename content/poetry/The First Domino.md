@@ -2,7 +2,7 @@ Title: The First Domino
 Date: 2025/04/17 02:36PM
 Category: Essays
 Author: Mike Russell
-Tags: existential, philosophical, reflective, religious
+Tags: philosophical, reflective, serious, abstract
 
 Some have reasoned that there must be a first cause—a being outside of matter and time who started it all. They say this is an argument for God.
 

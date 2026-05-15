@@ -2,7 +2,7 @@ Title: The Fourth Son
 Date: 2026/02/20 04:19PM
 Category: Short Stories
 Author: Mike Russell
-Tags: adventurous
+Tags: narrative, adventurous, fantasy, philosophical
 
 An old widower had four sons. To the first, he gave his fortune; to the second, he gave his flocks; to the third, he gave his house; but for the fourth son, he had nothing left but an old hen. The youngest took the hen in a sack and went off into the world to make something of himself.
 

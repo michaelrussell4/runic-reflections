@@ -2,7 +2,7 @@ Title: A Striking Reality
 Date: 2024/07/12 02:33PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, philosophical, religious, reflective, nature
+Tags: religious, philosophical, reflective, logophile
 
 <img src="{static}/images/A Striking Reality.png" class="poem-img">
 

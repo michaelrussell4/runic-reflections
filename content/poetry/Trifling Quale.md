@@ -2,7 +2,7 @@ Title: Trifling Quale
 Date: 2025/02/19 08:09PM
 Category: Poetry
 Author: Mike Russell
-Tags: existential, philosophical, melancholic, reflective
+Tags: existential, melancholic, philosophical, serious
 
 > The human being: wretched man<br>
 > Not for well being: his program<br>

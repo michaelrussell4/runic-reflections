@@ -2,7 +2,7 @@ Title: Dreamy Exercise
 Date: 2026/02/24 04:45PM
 Category: Poetry
 Author: Mike Russell
-Tags: reflective, surreal, whimsical
+Tags: surreal, abstract, narrative, fantasy
 
 > A spark in the dark makes a fire warm<br>
 > The moon makes a glow after a snowstorm<br>

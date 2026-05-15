@@ -2,7 +2,7 @@ Title: An Enduring Ediface
 Date: 2026/02/20 04:26PM
 Category: Poetry
 Author: Mike Russell
-Tags: adventurous, comical, educational, existential, logophile, melancholic, nature, nostalgic, philosophical, reflective, religious, romantic, satirical, serious, surreal, whimsical
+Tags: existential, philosophical, reflective, melancholic
 Status: hidden
 
 <img src="{static}/images/Woman_teaching_geometry.jpg" class="poem-img">

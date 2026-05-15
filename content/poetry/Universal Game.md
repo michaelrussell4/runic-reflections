@@ -2,7 +2,7 @@ Title: Universal Game
 Date: 2025/03/03 10:05AM
 Category: Poetry
 Author: Mike Russell
-Tags: religious, philosophical, reflective
+Tags: religious, philosophical, serious, abstract
 
 > A game of tag is played by two<br>
 > Do you know who? Josh and Lou<br>

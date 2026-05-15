@@ -2,7 +2,7 @@ Title: Beckoning Garden
 Date: 2025/04/28 10:30AM
 Category: Poetry
 Author: Mike Russell
-Tags: nature, nostalgic, religious, romantic, surreal
+Tags: religious, philosophical, melancholic, nostalgic
 
 > Implanted in the human heart<br>
 > A yearning for our garden lost<br>

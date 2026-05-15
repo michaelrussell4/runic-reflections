@@ -2,7 +2,7 @@ Title: Look at That 🐱
 Date: 2025/03/19 11:31AM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical
+Tags: childrens, comical, whimsical
 
 > A fat rat ate a bat<br>
 > That rat was eaten by a cat<br>

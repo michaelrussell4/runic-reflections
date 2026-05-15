@@ -2,7 +2,7 @@ Title: Silent Sailing
 Date: 2024/12/05 03:23PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, logophile, satirical
+Tags: narrative, logophile, melancholic, serious
 
 > A sedate sailor with lugubrious crew<br>
 > Longed for esprit and comradery<br>

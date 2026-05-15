@@ -2,7 +2,7 @@ Title: Content with Delusion 🐘
 Date: 2025/04/22 10:27AM
 Category: Poetry
 Author: Mike Russell
-Tags: adventurous, comical, existential, philosophical, reflective, surreal, whimsical
+Tags: philosophical, existential, surreal, narrative
 
 > My house was built upon a stone<br>
 > A firm foundation for a home<br>

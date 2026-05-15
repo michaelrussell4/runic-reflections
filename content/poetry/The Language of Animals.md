@@ -2,7 +2,7 @@ Title: The Language of Animals
 Date: 2025/03/07 04:25PM
 Category: Poetry
 Author: Mike Russell
-Tags: comical, whimsical, logophile, nature
+Tags: educational, logophile, nature, childrens
 
 > The grazing cows who chomp on hay<br>
 > These ones are known as bovine<br>
