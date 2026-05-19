@@ -9,7 +9,6 @@
   color: #1f2937;
   background-color: #ffffff;
   line-height: 1.7;
-  letter-spacing: 0.3px;
 }
 
 /* Headings */
@@ -29,7 +28,6 @@
   font-weight: 700;
   color: #2d3748;
   font-family: 'Montserrat', sans-serif;
-  letter-spacing: 0.5px;
 }
 
 .entry-content h1,
