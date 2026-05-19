@@ -1,8 +1,8 @@
 # pylint: disable=missing-function-docstring,missing-module-docstring
 
+from datetime import datetime
 from math import ceil
 from string import capwords
-from datetime import datetime
 
 from pelican import signals
 
@@ -10,7 +10,7 @@ AUTHOR = "Michael Russell"
 SITENAME = "Runic Reflections"
 SITE_DESCRIPTION = "A collection of poems exploring the human experience, nature, philosophy, and the beauty of language."
 SITE_KEYWORDS = "poetry, reflections, philosophy, nature, literature"
-SITEURL = "https://runicreflections.com"
+SITEURL = ""
 AUTHOR_SLUG = "michael-russell"
 AUTHOR_EMAIL = None  # Not publicly displayed
 
@@ -105,9 +105,12 @@ def group_articles(articles):
     # Sort the articles in each group alphabetically by title, ignoring articles
     for letter in grouped:
         grouped[letter].sort(
-            key=lambda x: "".join(x.title.split()[1:])
-            if x.title.startswith(("A ", "An ", "The ")) and len(x.title.split()) > 1
-            else x.title
+            key=lambda x: (
+                "".join(x.title.split()[1:])
+                if x.title.startswith(("A ", "An ", "The "))
+                and len(x.title.split()) > 1
+                else x.title
+            )
         )
 
     # Create a sorted dictionary based on the keys (letters)
@@ -136,7 +139,7 @@ JINJA_FILTERS = {
 
 # Make 'now' available in all templates
 JINJA_GLOBALS = {
-    'now': datetime.now(),
+    "now": datetime.now(),
 }
 
 
