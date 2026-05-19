@@ -4,16 +4,16 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, melancholic, abstract
 
-> Mister trickster<br>
-> Makes a mixture<br>
-> Doubt and evidence<br>
-> Former has prevalence<br>
-> Insinuating wonderful<br>
-> Your pains non-refundable<br>
-> Confusion—mental misery<br>
-> Illusions lose it slippery<br>
-> A theory: your reality<br>
-> We be forever hungry
+> - Mister trickster
+> - Makes a mixture
+> - Doubt and evidence
+> - Former has prevalence
+> - Insinuating wonderful
+> - Your pains non-refundable
+> - Confusion—mental misery
+> - Illusions lose it slippery
+> - A theory: your reality
+> - We be forever hungry
 
 # Notes
 

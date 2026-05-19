@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, reflective, serious, existential
 
-> Maybe I need to sweep<br>
-> Baby cries feed to sleep<br>
-> Achy thighs lead to weep<br>
-> Steady eyes plead to keep<br>
-> Fading mind
+> - Maybe I need to sweep
+> - Baby cries feed to sleep
+> - Achy thighs lead to weep
+> - Steady eyes plead to keep
+> - Fading mind
 
 ## Meaning & Commentary
 

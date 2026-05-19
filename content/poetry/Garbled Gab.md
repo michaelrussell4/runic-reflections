@@ -4,6 +4,6 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, fantasy, surreal
 
-> Sphinxes screeched and stretched<br>
-> Wright worked whilst his wealth welled well<br>
-> Tongue and throat threaten
+> - Sphinxes screeched and stretched
+> - Wright worked whilst his wealth welled well
+> - Tongue and throat threaten

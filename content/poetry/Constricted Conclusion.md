@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, abstract, reflective
 
-> The painful disagreement of logic and man's mind<br>
-> Displays itself quite clearly, herein you soon will find<br>
-> Consider now the question, of how it came to be:<br>
-> The universe, the stars, the earth, the land, the sea<br>
-> A clean and simple start: from zero all arose<br>
-> But logic cannot have this, this cannot be, it knows<br>
-> Causes bring a thing, and nothing's not a thing<br>
-> If nought is the beginning, then from it none could spring<br>
-> Rather, logic favors, causes without pause<br>
-> All the way back, forever for all there was<br>
-> How hard this is for man: incomprehensibility<br>
-> He cannot fathom such a thing as endless eternity<br>
-> Let the tail pass through the head—ouroborusly<br>
-> A start, an end, a death, a birth, I see we now agree
+> - The painful disagreement of logic and man's mind
+> - Displays itself quite clearly, herein you soon will find
+> - Consider now the question, of how it came to be:
+> - The universe, the stars, the earth, the land, the sea
+> - A clean and simple start: from zero all arose
+> - But logic cannot have this, this cannot be, it knows
+> - Causes bring a thing, and nothing's not a thing
+> - If nought is the beginning, then from it none could spring
+> - Rather, logic favors, causes without pause
+> - All the way back, forever for all there was
+> - How hard this is for man: incomprehensibility
+> - He cannot fathom such a thing as endless eternity
+> - Let the tail pass through the head—ouroborusly
+> - A start, an end, a death, a birth, I see we now agree
 
 ## Notes
 

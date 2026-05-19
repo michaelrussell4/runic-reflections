@@ -4,14 +4,14 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, melancholic, logophile, fantasy
 
-> **Th**e hanged god's <ins>**th**irst</ins>: my <ins>curse</ins><br>
-> Torpid <ins>glance</ins> seeks **th**e <ins>dance</ins><br>
-> Ymir's <ins>skull</ins> eyes **l**ook <ins>full</ins><br>
-> **L**ong for <ins>**l**ight</ins> without <ins>sight</ins><br>
-> **H**igh <ins>tides</ins> lull as she <ins>**h**ides</ins><br>
-> **H**elp <ins>guide</ins> me to my <ins>bride</ins><br>
-> Once she <ins>at</ins> my **s**ide <ins>**s**at</ins><br>
-> Now <ins>**s**tarved</ins> my heart out <ins>carved</ins>
+> - **Th**e hanged god's <ins>**th**irst</ins>: my <ins>curse</ins>
+> - Torpid <ins>glance</ins> - seeks **th**e <ins>dance</ins>
+> - Ymir's <ins>skull</ins> - eyes **l**ook <ins>full</ins>
+> - **L**ong for <ins>**l**ight</ins> - without <ins>sight</ins>
+> - **H**igh <ins>tides</ins> - lull as she <ins>**h**ides</ins>
+> - **H**elp <ins>guide</ins> - me to my <ins>bride</ins>
+> - Once she <ins>at</ins> - my **s**ide <ins>**s**at</ins>
+> - Now <ins>**s**tarved</ins> - my heart out <ins>carved</ins>
 
 ## Meaning & Commentary
 

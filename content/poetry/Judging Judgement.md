@@ -14,19 +14,19 @@ There's an ample supply of scriptures where instruction is given to rebuke and r
 
 Luke 17:3
 
-> Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.
+> - Take heed to yourselves: If thy brother trespass against thee, rebuke him; and if he repent, forgive him.
 
 Matthew 18:15
 
-> Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother.
+> - Moreover if thy brother shall trespass against thee, go and tell him his fault between thee and him alone: if he shall hear thee, thou hast gained thy brother.
 
 2 Timothy 4:2
 
-> Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.
+> - Preach the word; be instant in season, out of season; reprove, rebuke, exhort with all longsuffering and doctrine.
 
 Doctrine & Covenants 121:43
 
-> Reproving betimes with sharpness, when moved upon by the Holy Ghost; and then showing forth afterwards an increase of love toward him whom thou hast reproved, lest he esteem thee to be his enemy;
+> - Reproving betimes with sharpness, when moved upon by the Holy Ghost; and then showing forth afterwards an increase of love toward him whom thou hast reproved, lest he esteem thee to be his enemy;
 
 We also can't forget Nephi, who sharply rebuked his rebellious brothers for their lack of faith and obedience to their father or God's commandments. His rebukes sometimes landed, leading to his brothers' humbling themselves and repenting. But other times it ended in their attempts on his life.
 

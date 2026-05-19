@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: narrative, reflective
 
-> I had a diet that was very sweet<br>
-> And every night I'd savor a treat<br>
-> But ached my head<br>
-> The pain did I dread<br>
-> And now for my treat I eat meat
+> - I had a diet that was very sweet
+> - And every night I'd savor a treat
+> - But ached my head
+> - The pain did I dread
+> - And now for my treat I eat meat

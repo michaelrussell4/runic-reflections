@@ -4,33 +4,33 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, existential, reflective, melancholic
 
-> Debauchery is reason, they say<br>
-> To live and breathe from day to day<br>
-> Libertinism—the way of freedom<br>
-> Taken to be a garden of Eden<br>
-> Yet, ironic as it may seem<br>
-> Quick as a fire burns this scheme<br>
-> <br>
-> Alas, ecstasy pines away<br>
-> Fugacious pleasures do not stay<br>
-> <br>
-> Quickly given, quickly spent<br>
-> Sharp ascension, sharp descent<br>
-> <br>
-> A fire burned; now it's out<br>
-> A blackened hole, a brutal drought<br>
-> <br>
-> For your life to start again<br>
-> Plant your seeds and wait for rain<br>
-> Patience, virtue: friends, be thine<br>
-> Waste not more your precious time<br>
+> - Debauchery is reason, they say
+> - To live and breathe from day to day
+> - Libertinism—the way of freedom
+> - Taken to be a garden of Eden
+> - Yet, ironic as it may seem
+> - Quick as a fire burns this scheme
+> - 
+> - Alas, ecstasy pines away
+> - Fugacious pleasures do not stay
+> - 
+> - Quickly given, quickly spent
+> - Sharp ascension, sharp descent
+> - 
+> - A fire burned; now it's out
+> - A blackened hole, a brutal drought
+> - 
+> - For your life to start again
+> - Plant your seeds and wait for rain
+> - Patience, virtue: friends, be thine
+> - Waste not more your precious time
 
 # Notes
 
 Depeche Mode [said it](https://dmlive.wiki/wiki/Pleasure,_Little_Treasure),
 
-> Everybody's looking for a reason to live<br>
-> If you're looking for a reason I've a reason to give<br>
-> Pleasure, little treasure
+> - Everybody's looking for a reason to live
+> - If you're looking for a reason I've a reason to give
+> - Pleasure, little treasure
 
 Is it capable of giving you meaning? Will your abuse sustain your life through? A little treasure, indeed.

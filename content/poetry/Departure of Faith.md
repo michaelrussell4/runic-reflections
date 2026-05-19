@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, existential, serious
 
-> Walk ye warily from thy faith<br>
-> Except thou hath a better way<br>
-> Lest thou meet the wretched wraith<br>
-> Who taketh thy soul for prey<br>
-> Thy kin look down with pity and dread<br>
-> Upon thine earnest endeavor<br>
-> Quixotic be this path ye tread<br>
-> The cost for you to be clever
+> - Walk ye warily from thy faith
+> - Except thou hath a better way
+> - Lest thou meet the wretched wraith
+> - Who taketh thy soul for prey
+> - Thy kin look down with pity and dread
+> - Upon thine earnest endeavor
+> - Quixotic be this path ye tread
+> - The cost for you to be clever

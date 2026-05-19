@@ -4,37 +4,37 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, religious, reflective, serious
 
-> 'Tis not known unto this tragedy<br>
-> Fie, young lad, here is wisdom for thee<br>
-> Wottest thou what rotteth nigh<br>
-> That wretched tongue should fly?<br>
-> <br>
-> When ye haply cast forth a word<br>
-> Thine intentions to it gird<br>
-> Clad in raiment, meet for sight<br>
-> As God gave Adam for his plight <br>
-> <br>
-> Yet unlike God, whose gift was pure<br>
-> Thy tainted raiment seemeth obscure<br>
-> No more would thy children stay<br>
-> The way they were ere this day<br>
-> <br>
-> Corruption fixed itself upon them<br>
-> Vexed as leaves plucked from the stem<br>
-> The wind, thy breath, doth send their fall<br>
-> Strange, the gust of lung could maul<br>
-> <br>
-> Forsooth, thine heart, wherein is evil<br>
-> Disguiseth words with cloak and veil<br>
-> They seem as they came forth from mire<br>
-> Their air hath changed to unseemly attire<br>
-> <br>
-> Alas, whilom, I fain would be silly<br>
-> Now better for thee, this term would be<br>
-> How it is that I am called nice<br>
-> So shouldst thou be, withouten advice<br>
-> <br>
-> A fond man surely can be shrewd<br>
-> But not as such; thou art lewd<br>
-> Thou art but a meagre knight<br>
-> Learning hath dimm'd mine aged sight<br>
+> - 'Tis not known unto this tragedy
+> - Fie, young lad, here is wisdom for thee
+> - Wottest thou what rotteth nigh
+> - That wretched tongue should fly?
+> - 
+> - When ye haply cast forth a word
+> - Thine intentions to it gird
+> - Clad in raiment, meet for sight
+> - As God gave Adam for his plight 
+> - 
+> - Yet unlike God, whose gift was pure
+> - Thy tainted raiment seemeth obscure
+> - No more would thy children stay
+> - The way they were ere this day
+> - 
+> - Corruption fixed itself upon them
+> - Vexed as leaves plucked from the stem
+> - The wind, thy breath, doth send their fall
+> - Strange, the gust of lung could maul
+> - 
+> - Forsooth, thine heart, wherein is evil
+> - Disguiseth words with cloak and veil
+> - They seem as they came forth from mire
+> - Their air hath changed to unseemly attire
+> - 
+> - Alas, whilom, I fain would be silly
+> - Now better for thee, this term would be
+> - How it is that I am called nice
+> - So shouldst thou be, withouten advice
+> - 
+> - A fond man surely can be shrewd
+> - But not as such; thou art lewd
+> - Thou art but a meagre knight
+> - Learning hath dimm'd mine aged sight

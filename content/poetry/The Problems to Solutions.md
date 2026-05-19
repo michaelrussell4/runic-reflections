@@ -4,25 +4,25 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, serious
 
-> You complain of stress<br>
-> Then when you get a break<br>
-> You complain of boredom<br>
-> Think you'll go out to the lake<br>
-> <br>
-> The sun is very hot<br>
-> Perhaps you'll take a swim<br>
-> You see you're overweight<br>
-> Think you'll hit the gym<br>
-> <br>
-> You complain you're lonely<br>
-> Decide to buy a dog<br>
-> You complain about its barks<br>
-> Write about it on your blog!<br>
-> <br>
-> I'm afraid you're bent<br>
-> On never being content
+> - You complain of stress
+> - Then when you get a break
+> - You complain of boredom
+> - Think you'll go out to the lake
+> - 
+> - The sun is very hot
+> - Perhaps you'll take a swim
+> - You see you're overweight
+> - Think you'll hit the gym
+> - 
+> - You complain you're lonely
+> - Decide to buy a dog
+> - You complain about its barks
+> - Write about it on your blog!
+> - 
+> - I'm afraid you're bent
+> - On never being content
 
 # Notes
 
-> Most of our consternation comes from within<br>
-> — Fortune Cookie 🥠 (probably)
+> - Most of our consternation comes from within
+> - — Fortune Cookie 🥠 (probably)

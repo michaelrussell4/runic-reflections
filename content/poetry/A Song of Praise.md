@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, serious, reflective
 
-> God Thou art good forever<br>
-> Thy mercy streams like a river<br>
-> Thy glory shines as rays of light<br>
-> Giving life and warmth to creation<br>
-> Thou hearest my prayers great or small<br>
-> I'm left with no doubt that thine eye sees all<br>
-> Sweet assurance to know I am known<br>
-> With Thy love and grace am I overcome<br>
-> Confidence abides in me faithful from Thee<br>
-> Reign over all for eternity<br>
-> Blessed God praise to Thy name<br>
-> I praise Thee I honor Thee I worship Thee
+> - God Thou art good forever
+> - Thy mercy streams like a river
+> - Thy glory shines as rays of light
+> - Giving life and warmth to creation
+> - Thou hearest my prayers great or small
+> - I'm left with no doubt that thine eye sees all
+> - Sweet assurance to know I am known
+> - With Thy love and grace am I overcome
+> - Confidence abides in me faithful from Thee
+> - Reign over all for eternity
+> - Blessed God praise to Thy name
+> - I praise Thee I honor Thee I worship Thee

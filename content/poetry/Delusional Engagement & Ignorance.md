@@ -4,62 +4,62 @@ Category: Poetry
 Author: Mike Russell
 Tags: narrative, satirical, philosophical, serious
 
-> A supercilious zealot<br>
-> Was passing through the land<br>
-> She took an orange and peeled it<br>
-> Then ate it from her hand<br>
-> <br>
-> With a frown upon her forehead<br>
-> She surveyed the folks around<br>
-> "Your diets are atrocious!"<br>
-> "Your choices quite unsound!" <br>
-> <br>
-> She marched into the village<br>
-> With charts and graphs in tow<br>
-> "Your meals lack proper metrics"<br>
-> "You simply do not know!"<br>
-> <br>
-> "No more of bread and butter"<br>
-> "No sweets, no meat, no cheese"<br>
-> "You'll thrive on quinoa salads"<br>
-> "With herbal teas and peas!"<br>
-> <br>
-> The villagers looked puzzled<br>
-> They'd thrived on what they ate<br>
-> But she insisted loudly<br>
-> "Your health is here at stake!"<br>
-> <br>
-> With every bite she banished<br>
-> She claimed to know what's best<br>
-> Yet as she preached her wisdom<br>
-> Their meals did lose their zest<br>
-> <br>
-> The baker lost his business<br>
-> The butcher threw up his hands<br>
-> As the farmers all struggled<br>
-> To grow the foreign plants<br>
-> <br>
-> "Your choices are all wrong!"<br>
-> She cried, with fervent zeal<br>
-> "Embrace my grand solutions"<br>
-> "And you'll know how to feel!"<br>
-> <br>
-> But soon the fields lay barren<br>
-> The laughter turned to sighs<br>
-> For in her quest for virtue<br>
-> She'd snuffed out all their highs<br>
-> <br>
-> At last, the villagers gathered<br>
-> With a plan to take a stand<br>
-> They tossed her charts and fables<br>
-> And reclaimed their vibrant land<br>
-> <br>
-> "Dear zealot, we were thriving"<br>
-> "Before you came to preach"<br>
-> "Your measures brought us heartache"<br>
-> "Your wisdom, out of reach."<br>
-> <br>
-> So off she went, defeated<br>
-> With a highfalutin sneer<br>
-> The zealot's final lesson:<br>
-> Not all need her veneer.<br>
+> - A supercilious zealot
+> - Was passing through the land
+> - She took an orange and peeled it
+> - Then ate it from her hand
+> - 
+> - With a frown upon her forehead
+> - She surveyed the folks around
+> - "Your diets are atrocious!"
+> - "Your choices quite unsound!" 
+> - 
+> - She marched into the village
+> - With charts and graphs in tow
+> - "Your meals lack proper metrics"
+> - "You simply do not know!"
+> - 
+> - "No more of bread and butter"
+> - "No sweets, no meat, no cheese"
+> - "You'll thrive on quinoa salads"
+> - "With herbal teas and peas!"
+> - 
+> - The villagers looked puzzled
+> - They'd thrived on what they ate
+> - But she insisted loudly
+> - "Your health is here at stake!"
+> - 
+> - With every bite she banished
+> - She claimed to know what's best
+> - Yet as she preached her wisdom
+> - Their meals did lose their zest
+> - 
+> - The baker lost his business
+> - The butcher threw up his hands
+> - As the farmers all struggled
+> - To grow the foreign plants
+> - 
+> - "Your choices are all wrong!"
+> - She cried, with fervent zeal
+> - "Embrace my grand solutions"
+> - "And you'll know how to feel!"
+> - 
+> - But soon the fields lay barren
+> - The laughter turned to sighs
+> - For in her quest for virtue
+> - She'd snuffed out all their highs
+> - 
+> - At last, the villagers gathered
+> - With a plan to take a stand
+> - They tossed her charts and fables
+> - And reclaimed their vibrant land
+> - 
+> - "Dear zealot, we were thriving"
+> - "Before you came to preach"
+> - "Your measures brought us heartache"
+> - "Your wisdom, out of reach."
+> - 
+> - So off she went, defeated
+> - With a highfalutin sneer
+> - The zealot's final lesson:
+> - Not all need her veneer.

@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: satirical, serious, philosophical
 
-> Unctuous action catalyzed by greed<br>
-> With suave demeanor he drinks his mead<br>
-> A debonair facade<br>
-> A je ne sais quoi<br>
-> Ruin shall his tenure succeed
+> - Unctuous action catalyzed by greed
+> - With suave demeanor he drinks his mead
+> - A debonair facade
+> - A je ne sais quoi
+> - Ruin shall his tenure succeed

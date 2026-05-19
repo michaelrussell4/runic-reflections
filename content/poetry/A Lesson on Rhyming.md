@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, educational, comical
 
-> If you wish to rhyme with ease<br>
-> Use of rhyme-rich words is key<br>
-> Words like "cat", or "dog", or "sky"<br>
-> Have many rhymes you can apply<br>
-> Words like "orange", "wolf", or "month"<br>
-> Will put you in a pickle<br>
-> Remember, "light", or "ball", or "tree"<br>
-> Will make your task quite easy<br>
-> But words like "angel", "pint", or "silver"<br>
-> Are poets' Reaper and sickle
+> - If you wish to rhyme with ease
+> - Use of rhyme-rich words is key
+> - Words like "cat", or "dog", or "sky"
+> - Have many rhymes you can apply
+> - Words like "orange", "wolf", or "month"
+> - Will put you in a pickle
+> - Remember, "light", or "ball", or "tree"
+> - Will make your task quite easy
+> - But words like "angel", "pint", or "silver"
+> - Are poets' Reaper and sickle

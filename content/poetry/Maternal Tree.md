@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, nature, religious, serious
 
-> My mom's like a tree<br>
-> Her fruit nourishes me<br>
-> She shades me from the heat<br>
-> In her bosom I retreat<br>
-> Like leaves her hair surrounds her face<br>
-> So soft and soothing her embrace<br>
-> On her strong frame I rest my weighed down heart<br>
-> A stable foundation she'll never depart<br>
-> The deeper I look the more complex her design<br>
-> And in the morning light her beauty doth shine<br>
-> Endowed with power of making new life<br>
-> God's gift to the world: a mother, a wife<br>
-> As trees unite heaven and earth<br>
-> My mother too, so great her worth
+> - My mom's like a tree
+> - Her fruit nourishes me
+> - She shades me from the heat
+> - In her bosom I retreat
+> - Like leaves her hair surrounds her face
+> - So soft and soothing her embrace
+> - On her strong frame I rest my weighed down heart
+> - A stable foundation she'll never depart
+> - The deeper I look the more complex her design
+> - And in the morning light her beauty doth shine
+> - Endowed with power of making new life
+> - God's gift to the world: a mother, a wife
+> - As trees unite heaven and earth
+> - My mother too, so great her worth

@@ -4,18 +4,18 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, melancholic, philosophical, abstract
 
-> Fetus of an indifferent womb<br>
-> Circumstance trades fortune for gloom<br>
-> Use of mind is detrimental<br>
-> Truth may not be transcendental<br>
-> Obsequious submission lives<br>
-> Persuasive means say fact deprives<br>
-> Ponderance is irrelevant<br>
-> Nature can't be malevolent<br>
-> Thought leads to death if progress halts<br>
-> Forget, obey, expunge all fault<br>
-> Mother favors that which will last<br>
-> Circles repeat but have no past
+> - Fetus of an indifferent womb
+> - Circumstance trades fortune for gloom
+> - Use of mind is detrimental
+> - Truth may not be transcendental
+> - Obsequious submission lives
+> - Persuasive means say fact deprives
+> - Ponderance is irrelevant
+> - Nature can't be malevolent
+> - Thought leads to death if progress halts
+> - Forget, obey, expunge all fault
+> - Mother favors that which will last
+> - Circles repeat but have no past
 
 ## Meaning & Commentary
 

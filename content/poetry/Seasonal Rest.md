@@ -4,6 +4,6 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, seasonal, melancholic, reflective
 
-> Searing heat pulses<br>
-> Calmed by cool breezes soft still<br>
-> A white sheet covers
+> - Searing heat pulses
+> - Calmed by cool breezes soft still
+> - A white sheet covers

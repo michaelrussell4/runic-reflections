@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, reflective, serious, abstract
 
-> Ennui, fatigue, weary<br>
-> Empty, hungry, dreary<br>
-> Slipping, sleepy, scary
+> - Ennui, fatigue, weary
+> - Empty, hungry, dreary
+> - Slipping, sleepy, scary
 
 # Notes
 

@@ -4,18 +4,18 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, reflective, abstract
 
-> Man is just as a dream<br>
-> His beginning unknown<br>
-> In confusion he roams<br>
-> Reliably he will be<br>
-> Wreaking hellish abomination<br>
-> Or benevolent divinity<br>
-> Bringing beauty, love, joy, and peace<br>
-> Or fearful tremor abounding<br>
-> His being will continue<br>
-> On living he must go<br>
-> His end may be sudden<br>
-> As a recollection
+> - Man is just as a dream
+> - His beginning unknown
+> - In confusion he roams
+> - Reliably he will be
+> - Wreaking hellish abomination
+> - Or benevolent divinity
+> - Bringing beauty, love, joy, and peace
+> - Or fearful tremor abounding
+> - His being will continue
+> - On living he must go
+> - His end may be sudden
+> - As a recollection
 
 ## Meaning & Commentary
 

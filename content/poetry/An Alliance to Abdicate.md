@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, serious, existential, surreal
 
-> Abstruse elves abscond mine eye<br>
-> Abject thoughts—abjure or die<br>
-> Addled by their absence adverse<br>
-> Their acrid flight—abysmal amerce
+> - Abstruse elves abscond mine eye
+> - Abject thoughts—abjure or die
+> - Addled by their absence adverse
+> - Their acrid flight—abysmal amerce

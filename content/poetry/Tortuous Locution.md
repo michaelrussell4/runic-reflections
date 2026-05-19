@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, abstract, reflective
 
-> Tantamount tautologies<br>
-> And turgid-tuned neologies<br>
-> To me a tawdry timbre<br>
-> Tawny more than amber<br>
-> Tendentious, it's true<br>
-> To me but not to you<br>
-> I trow I have a tenure<br>
-> While torpidly you inure
+> - Tantamount tautologies
+> - And turgid-tuned neologies
+> - To me a tawdry timbre
+> - Tawny more than amber
+> - Tendentious, it's true
+> - To me but not to you
+> - I trow I have a tenure
+> - While torpidly you inure

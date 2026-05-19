@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, whimsical, comical, logophile
 
-> A young dog aloft<br>
-> A young dog in a mug<br>
-> A mug on a young dog<br>
-> A rodent on an edifice<br>
-> An edifice on a rodent<br>
-> We are lofty<br>
-> We are low
+> - A young dog aloft
+> - A young dog in a mug
+> - A mug on a young dog
+> - A rodent on an edifice
+> - An edifice on a rodent
+> - We are lofty
+> - We are low
 
 # Notes
 

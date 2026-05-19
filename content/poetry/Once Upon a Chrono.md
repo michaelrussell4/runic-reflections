@@ -4,4 +4,4 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, educational, whimsical
 
-> The **chron**ology of a **chron**icle must syn**chron**ize events **chron**ilogically or a **chron**ic existence of ana**chron**isms may ensue.
+> - The **chron**ology of a **chron**icle must syn**chron**ize events **chron**ilogically or a **chron**ic existence of ana**chron**isms may ensue.

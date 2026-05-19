@@ -4,12 +4,12 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, whimsical, comical
 
-> What do you do, dear Ella<br>
-> When it rains do use an umbrella?<br>
-> Or sing outside acappella?<br>
-> Like that princess whose name is Elsa<br>
-> Do you eat crackers with sweet nutella?<br>
-> Please oh please do tell us<br>
-> I'll be your very best fella<br>
-> I love the way you smella<br>
-> I just wondered if you use an umbrella
+> - What do you do, dear Ella
+> - When it rains do use an umbrella?
+> - Or sing outside acappella?
+> - Like that princess whose name is Elsa
+> - Do you eat crackers with sweet nutella?
+> - Please oh please do tell us
+> - I'll be your very best fella
+> - I love the way you smella
+> - I just wondered if you use an umbrella

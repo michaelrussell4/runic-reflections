@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: comical, narrative, surreal, whimsical
 
-> Silly Billy ate some chili<br>
-> Granny Franny to him fed<br>
-> Franny frowned when his belly groaned<br>
-> And now old Franny's dead
+> - Silly Billy ate some chili
+> - Granny Franny to him fed
+> - Franny frowned when his belly groaned
+> - And now old Franny's dead

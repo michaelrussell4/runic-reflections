@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, melancholic, philosophical, reflective
 
-> Like a bug of night<br>
-> A simple-minded thing<br>
-> I'm lusting for the light<br>
-> I veer and I careen<br>
-> I struggle and I fight<br>
-> A poor and futile fling<br>
-> But carry on my plight<br>
-> Embrace the lethal sting
+> - Like a bug of night
+> - A simple-minded thing
+> - I'm lusting for the light
+> - I veer and I careen
+> - I struggle and I fight
+> - A poor and futile fling
+> - But carry on my plight
+> - Embrace the lethal sting

@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 Tags: romantic, educational, philosophical, serious
 
-> Fulfilled in loving company<br>
-> A feeling like heavenly symphony<br>
-> Miraculous gifts here abound<br>
-> Increased wisdom lessons profound<br>
-> Learning together hand in hand<br>
-> Yoked together by eternal band
+> - Fulfilled in loving company
+> - A feeling like heavenly symphony
+> - Miraculous gifts here abound
+> - Increased wisdom lessons profound
+> - Learning together hand in hand
+> - Yoked together by eternal band

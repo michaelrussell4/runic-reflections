@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, serious
 
-> You will live<br>
-> You will die<br>
-> You can laugh<br>
-> You can cry<br>
-> You will suffer<br>
-> You will glee<br>
-> You can stand<br>
-> You can flee
+> - You will live
+> - You will die
+> - You can laugh
+> - You can cry
+> - You will suffer
+> - You will glee
+> - You can stand
+> - You can flee

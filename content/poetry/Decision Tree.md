@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, reflective, serious
 
-> Each decision's a branch on the tree<br>
-> You decide which way it'll be<br>
-> The tree will ever spread itself<br>
-> It will become your identity
+> - Each decision's a branch on the tree
+> - You decide which way it'll be
+> - The tree will ever spread itself
+> - It will become your identity

@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, reflective, melancholic
 
-> I wish it were true<br>
-> So do you<br>
-> The supernatural<br>
-> To be factual<br>
-> <br>
-> Sometimes a hope<br>
-> Helps to cope<br>
-> From nihilism<br>
-> Spiritual schism<br>
-> <br>
-> Teetering psyche<br>
-> Confusion likely<br>
-> You win, I'm fooled<br>
-> I'm ignorant—schooled
+> - I wish it were true
+> - So do you
+> - The supernatural
+> - To be factual
+> - 
+> - Sometimes a hope
+> - Helps to cope
+> - From nihilism
+> - Spiritual schism
+> - 
+> - Teetering psyche
+> - Confusion likely
+> - You win, I'm fooled
+> - I'm ignorant—schooled

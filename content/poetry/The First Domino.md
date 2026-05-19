@@ -18,8 +18,8 @@ In the same way, might philosophers and religionists be speculating on the cause
 
 ---
 
-> It is impossible for a man to be saved in ignorance.
-> There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes;
-> We cannot see it; but when our bodies are purified we shall see that it is all matter.
+> - It is impossible for a man to be saved in ignorance.
+> - There is no such thing as immaterial matter. All spirit is matter, but it is more fine or pure, and can only be discerned by purer eyes;
+> - We cannot see it; but when our bodies are purified we shall see that it is all matter.
 > 
-> <a class="float-right -mt-2 font-bold" href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/131?lang=eng&id=p6-p8#p6" >– Doctrine and Covenants 131:6-8</a>
+> - <a class="float-right -mt-2 font-bold" href="https://www.churchofjesuschrist.org/study/scriptures/dc-testament/dc/131?lang=eng&id=p6-p8#p6" >– Doctrine and Covenants 131:6-8</a>

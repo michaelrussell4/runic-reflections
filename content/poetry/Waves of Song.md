@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, abstract, philosophical
 
-> Rhythm like waves has power to lift<br>
-> Pitches like words penetrate swift<br>
-> A peculiar language my heart understands<br>
-> Vibrations created by wind and hands<br>
-> Emotion, passion, power profound<br>
-> How do I cry and laugh at this sound<br>
-> It moves my soul and evades comprehension<br>
-> Soothing relaxation or volatile tension<br>
-> With it flows my breath and mind<br>
-> In it respite I find
+> - Rhythm like waves has power to lift
+> - Pitches like words penetrate swift
+> - A peculiar language my heart understands
+> - Vibrations created by wind and hands
+> - Emotion, passion, power profound
+> - How do I cry and laugh at this sound
+> - It moves my soul and evades comprehension
+> - Soothing relaxation or volatile tension
+> - With it flows my breath and mind
+> - In it respite I find

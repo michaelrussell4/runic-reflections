@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, existential, philosophical, narrative
 
-> Her scales doth weigh my heart<br>
+> - Her scales doth weigh my heart
 My soul this place doth weather<br>
 For what pains will I smart?<br>
 My burden against this feather?<br><br>

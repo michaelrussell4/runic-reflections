@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, philosophical, reflective, serious
 
-> Ascetic abnegation<br>
-> Resisting all temptation<br>
-> Averruncating avarice<br>
-> Agelast not clamorous<br>
-> Anodynes for ailment<br>
-> An aegis against assailants
+> - Ascetic abnegation
+> - Resisting all temptation
+> - Averruncating avarice
+> - Agelast not clamorous
+> - Anodynes for ailment
+> - An aegis against assailants

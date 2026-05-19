@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: whimsical, childrens, reflective
 
-> What a good thing it is to sing<br>
-> What power your voice can bring<br>
-> A charming ring<br>
-> A poignant sting<br>
-> Maybe, if you're good, some money (cha-ching)<br>
-> <br>
-> You can even sing if you're a king<br>
-> You can make a sound like a bell: ding<br>
-> Dance the swing<br>
-> Fling rocks with a sling<br>
-> But make sure while you do it you sing<br>
-> <br>
-> Even the birds with wings like to sing<br>
-> They chirp out their bright warbling<br>
-> Whether winter or spring<br>
-> At church worshiping<br>
-> You can sing, you can sing, you can sing
+> - What a good thing it is to sing
+> - What power your voice can bring
+> - A charming ring
+> - A poignant sting
+> - Maybe, if you're good, some money (cha-ching)
+> - 
+> - You can even sing if you're a king
+> - You can make a sound like a bell: ding
+> - Dance the swing
+> - Fling rocks with a sling
+> - But make sure while you do it you sing
+> - 
+> - Even the birds with wings like to sing
+> - They chirp out their bright warbling
+> - Whether winter or spring
+> - At church worshiping
+> - You can sing, you can sing, you can sing

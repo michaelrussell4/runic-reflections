@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, philosophical, existential
 
-> In the midst of eternity<br>
-> There lies a man, a sacred tree<br>
-> From him there grows the fruit of light<br>
-> Which if partaken lends new life<br>
-> When man fell this tree was taken<br>
-> Piercing heart and love forsaken<br>
-> In its place a sapling rose<br>
-> Whom man did smite with deadly blows<br>
-> From it oozed sweet myrrh and wine<br>
-> Mouth to partake and head enshrine<br>
-> The tree was split and hell redeemed<br>
-> For those who in a slumber dreamed<br>
-> From the grave rose beauty and blind<br>
-> New life begun from the first kind
+> - In the midst of eternity
+> - There lies a man, a sacred tree
+> - From him there grows the fruit of light
+> - Which if partaken lends new life
+> - When man fell this tree was taken
+> - Piercing heart and love forsaken
+> - In its place a sapling rose
+> - Whom man did smite with deadly blows
+> - From it oozed sweet myrrh and wine
+> - Mouth to partake and head enshrine
+> - The tree was split and hell redeemed
+> - For those who in a slumber dreamed
+> - From the grave rose beauty and blind
+> - New life begun from the first kind
 
 ## Notes
 

@@ -6,11 +6,11 @@ Tags: religious, philosophical, reflective, logophile
 
 <img src="{static}/images/A Striking Reality.png" class="poem-img">
 
-> Slithering forward _incessantly_ and steadily, _sanguine_ eyes fixate, locked on unsuspecting prey. <br>A _caliginous_ veil of the night _expediently_ hinders sight. <br>A _flagrant_ tongue—a dark _divination—rends_ the air with _foretastes_ of _satiety_.<br>
-> Elsewhere, a _fatigued_ alertness longs for rest. <br>Nocturnal _ambience_ offers a soothing but _illusory_ hush.<br>
-> _Ebullition_, an _ephemeral_ twitch of pain, equally _smart_ passion _piques_ as warm juices drain. <br>For predator and prey relief now ensues. But does it sin undo?<br>
-> _Numinous_ eyes of the night sky _callously_ observe with _abstention_. <br>They twinkle and stare but offer no _retribution_.<br> _Disillusioned_, I bow in despair.<br>
-> Just then a _serpentine_ light strikes fast in the _periphery—a_ wink, a wave, or perhaps a tear?
+> - Slithering forward _incessantly_ and steadily, _sanguine_ eyes fixate, locked on unsuspecting prey. A _caliginous_ veil of the night _expediently_ hinders sight. <br>A _flagrant_ tongue—a dark _divination—rends_ the air with _foretastes_ of _satiety_.<br>
+> - Elsewhere, a _fatigued_ alertness longs for rest. Nocturnal _ambience_ offers a soothing but _illusory_ hush.<br>
+> - _Ebullition_, an _ephemeral_ twitch of pain, equally _smart_ passion _piques_ as warm juices drain. For predator and prey relief now ensues. But does it sin undo?<br>
+> - _Numinous_ eyes of the night sky _callously_ observe with _abstention_. They twinkle and stare but offer no _retribution_.<br> - _Disillusioned_, I bow in despair.
+> - Just then a _serpentine_ light strikes fast in the _periphery—a_ wink, a wave, or perhaps a tear?
 
 ## Meaning & Commentary
 

@@ -4,29 +4,29 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, existential, nature, reflective
 
-> What is good and what is bad?<br>
-> Which exists when suffering's had?<br>
-> <br>
-> A lion tortures his prey while eating<br>
-> Flesh is torn with heart still beating<br>
-> <br>
-> A rodent feasts upon its child<br>
-> Innocence looks on, beguiled<br>
-> <br>
-> Struggle of pain<br>
-> Nature's name<br>
-> <br>
-> Yet from these scourges<br>
-> Beauty emerges<br>
-> <br>
-> A fawn takes a drink from a stream<br>
-> Sunlight looks on, glistening<br>
-> <br>
-> Flowers bloom with sweet perfumes<br>
-> Birds perform their melodic tunes<br>
-> <br>
-> What shall determine, whether good or bad?<br>
-> What shall we say, whether sad or glad?
+> - What is good and what is bad?
+> - Which exists when suffering's had?
+> - 
+> - A lion tortures his prey while eating
+> - Flesh is torn with heart still beating
+> - 
+> - A rodent feasts upon its child
+> - Innocence looks on, beguiled
+> - 
+> - Struggle of pain
+> - Nature's name
+> - 
+> - Yet from these scourges
+> - Beauty emerges
+> - 
+> - A fawn takes a drink from a stream
+> - Sunlight looks on, glistening
+> - 
+> - Flowers bloom with sweet perfumes
+> - Birds perform their melodic tunes
+> - 
+> - What shall determine, whether good or bad?
+> - What shall we say, whether sad or glad?
 
 # Notes
 

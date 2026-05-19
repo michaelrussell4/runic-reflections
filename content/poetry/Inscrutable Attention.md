@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: abstract, existential, philosophical, melancholic
 
-> I am not where you think I am<br>
-> I am not what you think I am<br>
-> <br>
-> Not just reasoning<br>
-> Also experiencing<br>
-> <br>
-> I am not—you think I am<br>
-> I am not—you think I am<br>
-> <br>
-> A priori—insufficiency<br>
-> Perceptional deficiency<br>
-> <br>
-> I am—think I am<br>
-> I am—think I am
+> - I am not where you think I am
+> - I am not what you think I am
+> - 
+> - Not just reasoning
+> - Also experiencing
+> - 
+> - I am not—you think I am
+> - I am not—you think I am
+> - 
+> - A priori—insufficiency
+> - Perceptional deficiency
+> - 
+> - I am—think I am
+> - I am—think I am
 
 # Notes
 

@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: narrative, logophile, comical
 
-> Feckless Tom<br>
-> Had a fecund wife<br>
-> Having two large drupes<br>
-> And a kitchen knife<br>
-> <br>
-> Tom could hardly wait<br>
-> For his meal at hand<br>
-> For to masticate<br>
-> He did then demand<br>
-> <br>
-> But his niggardly ways<br>
-> Left his wife quite cross<br>
-> Gave a niggling gaze<br>
-> His face a slap across
+> - Feckless Tom
+> - Had a fecund wife
+> - Having two large drupes
+> - And a kitchen knife
+> - 
+> - Tom could hardly wait
+> - For his meal at hand
+> - For to masticate
+> - He did then demand
+> - 
+> - But his niggardly ways
+> - Left his wife quite cross
+> - Gave a niggling gaze
+> - His face a slap across
 
 ## Notes
 

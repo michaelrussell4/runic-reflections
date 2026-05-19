@@ -32,4 +32,4 @@ Beware of self-will, the root of all our troubles. The world cannot understand t
 
 [**Matthew 10:39**](https://www.biblegateway.com/passage/?search=Matthew%2010:39&version=NIV)
 
-> Whoever finds their life will lose it, and whoever loses their life for my sake will find it.
+> - Whoever finds their life will lose it, and whoever loses their life for my sake will find it.

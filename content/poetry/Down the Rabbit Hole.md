@@ -4,30 +4,30 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, fantasy, whimsical, philosophical
 
-> Lovely little Alice ran to catch a rabbit<br>
-> But down a **hole** he disappeared—a leporine habbit<br>
-> Quickly Alice followed him and squeezed herself inside<br>
-> Shocked at what she saw she simply stared wide-eyed<br>
-> Stranger things she'd never seen than in this quaint **burrow**<br>
-> She gazed upon a **sea urchin** which made her eyebrows furrow<br>
-> "Whatever would an urchin be doing in the ground?"<br>
-> This she said when then she heard a solemn speaking sound<br>
-> She looked to see **an old, wise man** with sandals on his feet<br>
-> He smiling said, "Patience is bitter, but its fruit is sweet"<br>
-> Upon these words she pondered, just for a moment or two<br>
-> But then felt her feet get wet, "There's **water** on my shoes!"<br>
-> A **Wiccan** witch appeared nearby who cackled at the sight<br>
-> "My dear", she said, with evil tone, "Let me have a bite"<br>
-> Alice feared and ran away far from that wretched dame<br>
-> She bumped into a girl named **Yin** and then her brother **Yang**<br>
-> Yin softly asked, "Oh are you lost?" And Yang was very mad<br>
-> "Why yes I'm very lost indeed. Oh goodness this is bad"<br>
-> "Don't be afraid. I'm here to help you calm **anxiety** away"<br>
-> "Where do you want to go, please tell me this I pray"<br>
-> Alice answered with a tear, "At home I wish to be"<br>
-> Yin replied, "Well have no fear, from here that's quite easy"<br>
-> "You're **homesick** now but turn around and tell me what you see"<br>
-> Alice turned and saw her **house** and ran there thankfully
+> - Lovely little Alice ran to catch a rabbit
+> - But down a **hole** he disappeared—a leporine habbit
+> - Quickly Alice followed him and squeezed herself inside
+> - Shocked at what she saw she simply stared wide-eyed
+> - Stranger things she'd never seen than in this quaint **burrow**
+> - She gazed upon a **sea urchin** which made her eyebrows furrow
+> - "Whatever would an urchin be doing in the ground?"
+> - This she said when then she heard a solemn speaking sound
+> - She looked to see **an old, wise man** with sandals on his feet
+> - He smiling said, "Patience is bitter, but its fruit is sweet"
+> - Upon these words she pondered, just for a moment or two
+> - But then felt her feet get wet, "There's **water** on my shoes!"
+> - A **Wiccan** witch appeared nearby who cackled at the sight
+> - "My dear", she said, with evil tone, "Let me have a bite"
+> - Alice feared and ran away far from that wretched dame
+> - She bumped into a girl named **Yin** and then her brother **Yang**
+> - Yin softly asked, "Oh are you lost?" And Yang was very mad
+> - "Why yes I'm very lost indeed. Oh goodness this is bad"
+> - "Don't be afraid. I'm here to help you calm **anxiety** away"
+> - "Where do you want to go, please tell me this I pray"
+> - Alice answered with a tear, "At home I wish to be"
+> - Yin replied, "Well have no fear, from here that's quite easy"
+> - "You're **homesick** now but turn around and tell me what you see"
+> - Alice turned and saw her **house** and ran there thankfully
 
 ## Notes
 

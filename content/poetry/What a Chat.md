@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, whimsical, comical
 
-> Have you ever seen a bat?<br>
-> They like to fly at night<br>
-> Have you ever chased a cat?<br>
-> They run in speedy flight<br>
-> Have you ever heard a rat?<br>
-> They scurry away from light<br>
-> Have you got a lovely hat?<br>
-> I'm sure it's quite a sight<br>
-> Have you stretched out on a mat?<br>
-> It might increase your height<br>
-> Have you whistled while you sat?<br>
-> I'll bet it was cheerful and bright<br>
-> Thank you for this chat<br>
-> It's good enough write
+> - Have you ever seen a bat?
+> - They like to fly at night
+> - Have you ever chased a cat?
+> - They run in speedy flight
+> - Have you ever heard a rat?
+> - They scurry away from light
+> - Have you got a lovely hat?
+> - I'm sure it's quite a sight
+> - Have you stretched out on a mat?
+> - It might increase your height
+> - Have you whistled while you sat?
+> - I'll bet it was cheerful and bright
+> - Thank you for this chat
+> - It's good enough write

@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, melancholic, existential, philosophical
 
-> Why this [ennui](https://www.merriam-webster.com/dictionary/ennui) doth on [Frigg's day](https://www.merriam-webster.com/dictionary/Friday) be?<br>
-> With her it fits [uncharacteristically](https://www.merriam-webster.com/dictionary/uncharacteristically)<br>
-> [Surfeit](https://www.merriam-webster.com/dictionary/surfeit) ease without toil<br>
-> My luxury doth spoil<br>
-> Such [temperament](https://www.merriam-webster.com/dictionary/temperament) makes [leisure](https://www.merriam-webster.com/dictionary/leisure) agony
+> - Why this [ennui](https://www.merriam-webster.com/dictionary/ennui) doth on [Frigg's day](https://www.merriam-webster.com/dictionary/Friday) be?
+> - With her it fits [uncharacteristically](https://www.merriam-webster.com/dictionary/uncharacteristically)
+> - [Surfeit](https://www.merriam-webster.com/dictionary/surfeit) ease without toil
+> - My luxury doth spoil
+> - Such [temperament](https://www.merriam-webster.com/dictionary/temperament) makes [leisure](https://www.merriam-webster.com/dictionary/leisure) agony
 
 ## Notes
 

@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, reflective, melancholic
 
-> The captive pig may live in peace<br>
-> As bliss and gluttony increase<br>
-> Until his master marks his fate<br>
-> Better not to anticipate<br>
-> The pig's dull mind is unaware<br>
-> Of anxiety this him does spare<br>
-> But cursed man with cunning fear<br>
-> Must face his fate and see it clear<br>
-> He knows he'll die, he wonders why<br>
-> He might embrace it or deny<br>
-> Some fools seek to live like swine<br>
-> Fleeing fears with pleasure divine<br>
-> With facts of fate they cannot err<br>
-> Death comes nearer with his stare
+> - The captive pig may live in peace
+> - As bliss and gluttony increase
+> - Until his master marks his fate
+> - Better not to anticipate
+> - The pig's dull mind is unaware
+> - Of anxiety this him does spare
+> - But cursed man with cunning fear
+> - Must face his fate and see it clear
+> - He knows he'll die, he wonders why
+> - He might embrace it or deny
+> - Some fools seek to live like swine
+> - Fleeing fears with pleasure divine
+> - With facts of fate they cannot err
+> - Death comes nearer with his stare

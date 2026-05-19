@@ -4,32 +4,32 @@ Category: Poetry
 Author: Mike Russell
 Tags: educational, logophile, nature, childrens
 
-> The grazing cows who chomp on hay<br>
-> These ones are known as bovine<br>
-> The lazy cats who sleep all day<br>
-> We call these fellers feline<br>
-> <br>
-> The big bad wolf who sniffs for food<br>
-> His type is known as lupine<br>
-> While fatted pigs with manners rude<br>
-> We call these ones the porcine<br>
-> <br>
-> Howling dogs will bark and play<br>
-> They have a name: it's canine<br>
-> Horses gallop every day<br>
-> We call this group equine<br>
-> <br>
-> Brutish bears feared everywhere<br>
-> Are known to be ursine<br>
-> Soft sheeps bleat but do not scare<br>
-> We name these ones the ovine<br>
-> <br>
-> The playful kid grows up a goat<br>
-> His name would be caprine<br>
-> Dolphins swim faster than boats<br>
-> We call such swimmers delphine<br>
-> <br>
-> The clever fox he's cute but keen<br>
-> We name this thing vulpine<br>
-> The antlered friends in forest green<br>
-> We label them cervine
+> - The grazing cows who chomp on hay
+> - These ones are known as bovine
+> - The lazy cats who sleep all day
+> - We call these fellers feline
+> - 
+> - The big bad wolf who sniffs for food
+> - His type is known as lupine
+> - While fatted pigs with manners rude
+> - We call these ones the porcine
+> - 
+> - Howling dogs will bark and play
+> - They have a name: it's canine
+> - Horses gallop every day
+> - We call this group equine
+> - 
+> - Brutish bears feared everywhere
+> - Are known to be ursine
+> - Soft sheeps bleat but do not scare
+> - We name these ones the ovine
+> - 
+> - The playful kid grows up a goat
+> - His name would be caprine
+> - Dolphins swim faster than boats
+> - We call such swimmers delphine
+> - 
+> - The clever fox he's cute but keen
+> - We name this thing vulpine
+> - The antlered friends in forest green
+> - We label them cervine

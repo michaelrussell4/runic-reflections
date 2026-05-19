@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: comical, whimsical, surreal, childrens
 
-> Once a cop named officer Knop<br>
-> Walked into a little shop<br>
-> He tripped on a mop<br>
-> He fell with a flop<br>
-> Now the mop's in jail to rot
+> - Once a cop named officer Knop
+> - Walked into a little shop
+> - He tripped on a mop
+> - He fell with a flop
+> - Now the mop's in jail to rot

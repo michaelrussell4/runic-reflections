@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, reflective, philosophical, abstract
 
-> Nature green, fire red<br>
-> Water blue, fear dead<br>
-> Simple sounds singing round<br>
-> Strange silence still's found<br>
-> Munching grass, mulling mind<br>
-> There are things of every kind
+> - Nature green, fire red
+> - Water blue, fear dead
+> - Simple sounds singing round
+> - Strange silence still's found
+> - Munching grass, mulling mind
+> - There are things of every kind

@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, comical, whimsical, seasonal
 
-> Coniferous canopy born from clay<br>
-> In limestone soil I see you play<br>
-> Green all year whether wet or dry<br>
-> Ah-choo! Bless me, I've tears in my eye<br>
+> - Coniferous canopy born from clay
+> - In limestone soil I see you play
+> - Green all year whether wet or dry
+> - Ah-choo! Bless me, I've tears in my eye
 ><br>
-> When the cold comes in your men burst out<br>
-> A swarm, a cloud; they fly about<br>
-> Looking for love; "sniffle" I'm sick<br>
-> To a lovely lady lucky ones will stick<br>
+> - When the cold comes in your men burst out
+> - A swarm, a cloud; they fly about
+> - Looking for love; "sniffle" I'm sick
+> - To a lovely lady lucky ones will stick
 ><br>
-> Then the women are adorned in beads of blue<br>
-> An offering for the angels to chew<br>
-> And when they need to go poo poo<br>
-> A new one's born. I'm sorry. Eww.
+> - Then the women are adorned in beads of blue
+> - An offering for the angels to chew
+> - And when they need to go poo poo
+> - A new one's born. I'm sorry. Eww.

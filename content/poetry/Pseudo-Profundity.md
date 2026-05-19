@@ -4,14 +4,14 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, educational
 
-> Though poet's obscure quip<br>
-> May seem sagacious wisdom<br>
-> Not every water's deep<br>
-> Hides treasures underneath<br>
-> Mistake not ambiguity<br>
-> For secrets beyond grasp<br>
-> Not everything's a symbol<br>
-> Sometimes it just is trash
+> - Though poet's obscure quip
+> - May seem sagacious wisdom
+> - Not every water's deep
+> - Hides treasures underneath
+> - Mistake not ambiguity
+> - For secrets beyond grasp
+> - Not everything's a symbol
+> - Sometimes it just is trash
 
 # Notes
 

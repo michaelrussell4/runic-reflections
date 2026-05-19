@@ -4,26 +4,26 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, comical, fantasy, whimsical
 
-> After Daddy fell into the pond<br>
-> In the water he found a wand<br>
-> He rose up dripping wet<br>
-> A spectre on eyes to set<br>
-> He then became a wizard<br>
-> By mistake he turned to a lizard<br>
-> But quickly changed himself back<br>
-> Then he learned out to quack<br>
-> And spoke to ducks all day<br>
-> "Quack" is all he'd say<br>
-> They all became good pals<br>
-> He'd follow them down canals<br>
-> But we sure missed our dad<br>
-> It seemed like things were bad<br>
-> So we snuck into his room<br>
-> And battled his magical broom<br>
-> And stole his wand with ire<br>
-> And threw it in a fire<br>
-> At last our dad was back<br>
-> And he never again would quack 
+> - After Daddy fell into the pond
+> - In the water he found a wand
+> - He rose up dripping wet
+> - A spectre on eyes to set
+> - He then became a wizard
+> - By mistake he turned to a lizard
+> - But quickly changed himself back
+> - Then he learned out to quack
+> - And spoke to ducks all day
+> - "Quack" is all he'd say
+> - They all became good pals
+> - He'd follow them down canals
+> - But we sure missed our dad
+> - It seemed like things were bad
+> - So we snuck into his room
+> - And battled his magical broom
+> - And stole his wand with ire
+> - And threw it in a fire
+> - At last our dad was back
+> - And he never again would quack 
 
 ## Notes
 

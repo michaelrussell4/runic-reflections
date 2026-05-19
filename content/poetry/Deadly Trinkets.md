@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, philosophical, reflective, serious
 
-> Meretricious tawdry<br>
-> Effusive pulchritude<br>
-> Together are found broadly<br>
-> They man's way occlude
+> - Meretricious tawdry
+> - Effusive pulchritude
+> - Together are found broadly
+> - They man's way occlude

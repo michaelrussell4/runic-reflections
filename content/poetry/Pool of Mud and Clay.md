@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: surreal, narrative, satirical, comical
 
-> He's a pool of mud and clay<br>
-> Fisherman fish all day<br>
-> Tweeker's have time to play<br>
-> Drink with the devil<br>
-> Redneckery revel<br>
-> A pig whose life's in flux<br>
-> That slapping monkey sucks
+> - He's a pool of mud and clay
+> - Fisherman fish all day
+> - Tweeker's have time to play
+> - Drink with the devil
+> - Redneckery revel
+> - A pig whose life's in flux
+> - That slapping monkey sucks
 
 # Notes
 

@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, comical, whimsical, educational
 
-> I advise you to accept advice<br>
-> Except when given twice<br><br>
-> To alter your words at the altar<br>
-> Is not so very nice<br><br>
-> Lay bare in mind gummy bears are yummy<br>
-> But artificial dyes aren't good for your tummy<br><br>
-> Ensure you insure your stuff<br>
-> For when the going's rough<br><br>
-> Site your sources, they're a pretty sight<br>
-> In this some will delight<br><br>
-> Two that duel are a fighting dual<br>
-> He whose skills are best is who's cool
+> - I advise you to accept advice
+> - Except when given twice<br>
+> - To alter your words at the altar
+> - Is not so very nice<br>
+> - Lay bare in mind gummy bears are yummy
+> - But artificial dyes aren't good for your tummy<br>
+> - Ensure you insure your stuff
+> - For when the going's rough<br>
+> - Site your sources, they're a pretty sight
+> - In this some will delight<br>
+> - Two that duel are a fighting dual
+> - He whose skills are best is who's cool

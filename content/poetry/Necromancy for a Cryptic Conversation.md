@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, reflective, melancholic
 
-> Cold and hard these stones of gray<br>
-> Death beneath but does life stay?<br>
-> A hope of hope yearns for this<br>
-> That oblivion does not persist<br>
-> <br>
-> Stones, cry out and speak to me<br>
-> Please confirm if ye still be<br>
-> Your trodden path I surely follow<br>
-> Share with me what you all know
+> - Cold and hard these stones of gray
+> - Death beneath but does life stay?
+> - A hope of hope yearns for this
+> - That oblivion does not persist
+> - 
+> - Stones, cry out and speak to me
+> - Please confirm if ye still be
+> - Your trodden path I surely follow
+> - Share with me what you all know
 
 # Notes
 

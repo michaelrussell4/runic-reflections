@@ -4,7 +4,7 @@ Category: Essays
 Author: Mike Russell
 Tags: religious, educational, philosophical
 
-> "The serpent beguiled me, and I did eat." – Eve
+> - "The serpent beguiled me, and I did eat." – Eve
 
 Many are familiar with the Bible's account of the forbidden fruit in the Garden of Eden. Following creation, a subtle serpent deceives Eve, leading her to partake of the forbidden fruit. After persuading Adam to also partake, they are both cast out of paradise: the fall of mankind. A modern tendency among members of The Church of Jesus Christ of Latter-day Saints is to reframe this narrative by suggesting that Eve was informed in her decision—courageous and wise, rather than deceived. What is the basis for such a claim, and could it be true?
 

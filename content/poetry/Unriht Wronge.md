@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, melancholic, existential
 
-> 'Tis not sin if not in ken<br>
-> Wist ye not thou fell men<br>
-> Blithe none obliged fact disguised<br>
-> Alas mustn't truth be learnt?
+> - 'Tis not sin if not in ken
+> - Wist ye not thou fell men
+> - Blithe none obliged fact disguised
+> - Alas mustn't truth be learnt?

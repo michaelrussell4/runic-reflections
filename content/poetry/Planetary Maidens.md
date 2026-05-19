@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, philosophical, serious
 
-> Rolling marbles circle<br>
-> 'Round a candle steer<br>
-> Goodly mothers fertile<br>
-> Marvelous and fair<br>
-> <br>
-> Dance ye puerile dames<br>
-> Sing ye stellar spheres<br>
-> Before his glorious flames<br>
-> Bring forth the life you bear
+> - Rolling marbles circle
+> - 'Round a candle steer
+> - Goodly mothers fertile
+> - Marvelous and fair
+> - 
+> - Dance ye puerile dames
+> - Sing ye stellar spheres
+> - Before his glorious flames
+> - Bring forth the life you bear
 
 # Notes
 

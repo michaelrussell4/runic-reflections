@@ -4,19 +4,21 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, educational, serious
 
-<p style="text-align: center;">
-A<br>
-house<br>
-Is not a home<br>
-A place merely to roam<br>
-A home is more pleasant and good<br>
-The difference between them lies deeper than wood<br>
-A house is a shelter a covering overhead<br>
-A house is a place having pillow and bed<br>
-A home is a fortress from what is profane<br>
-A home it has warmth and love to sustain<br>
-A house will protect you enough to get by<br>
-A home is a foundation to flourish and fly
-</p>
-
-_For visual effect make sure text is centered_
+<blockquote>
+<div style="text-align: center;">
+<ul style="list-style: none; padding: 0;">
+<li>A</li>
+<li>house</li>
+<li>Is not a home</li>
+<li>A place merely to roam</li>
+<li>A home is more pleasant and good</li>
+<li>The difference between them lies deeper than wood</li>
+<li>A house is a shelter a covering overhead</li>
+<li>A house is a place having pillow and bed</li>
+<li>A home is a fortress from what is profane</li>
+<li>A home it has warmth and love to sustain</li>
+<li>A house will protect you enough to get by</li>
+<li>A home is a foundation to flourish and fly</li>
+</ul>
+</div>
+</blockquote>

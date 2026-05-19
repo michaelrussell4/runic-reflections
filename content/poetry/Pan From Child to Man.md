@@ -4,35 +4,35 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, melancholic, philosophical, reflective
 
-> A tranquil weltanschauung<br>
-> A trusting child's luxury<br>
-> One can tread that pond<br>
-> With blissful ease and levity<br>
-> Everything makes sense<br>
-> Answers at no expense<br>
-> Stroll through the trees<br>
-> Frolic through leaves<br>
-> Delectable fruit<br>
-> Questions are moot<br>
-> <br>
-> Maturation, heart's ablation<br>
-> Entropic flows break it apart<br>
-> White is gray and evil smart<br>
-> Bedrock is broken, night is dark<br>
-> Water is deeper, none can embark<br>
-> <br>
-> Treading, treading, treading deep<br>
-> Can't feel the ground beneath my feet<br>
-> Slipping, sliding, where to grasp<br>
-> Gasp for air, I drown and sink<br>
-> Searching mind, ever I think<br>
-> <br>
-> Roiling waters in which I tread<br>
-> Seem to wish that I were dead<br>
-> Irritated, troubled they<br>
-> Same within my soul, today<br>
-> I'm in myself, a troubled doom<br>
-> How did I grow into this tomb?
+> - A tranquil weltanschauung
+> - A trusting child's luxury
+> - One can tread that pond
+> - With blissful ease and levity
+> - Everything makes sense
+> - Answers at no expense
+> - Stroll through the trees
+> - Frolic through leaves
+> - Delectable fruit
+> - Questions are moot
+> - 
+> - Maturation, heart's ablation
+> - Entropic flows break it apart
+> - White is gray and evil smart
+> - Bedrock is broken, night is dark
+> - Water is deeper, none can embark
+> - 
+> - Treading, treading, treading deep
+> - Can't feel the ground beneath my feet
+> - Slipping, sliding, where to grasp
+> - Gasp for air, I drown and sink
+> - Searching mind, ever I think
+> - 
+> - Roiling waters in which I tread
+> - Seem to wish that I were dead
+> - Irritated, troubled they
+> - Same within my soul, today
+> - I'm in myself, a troubled doom
+> - How did I grow into this tomb?
 
 # Note
 

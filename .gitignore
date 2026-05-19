@@ -29,5 +29,8 @@ rr-theme/static/css/tailwind.css
 GEMINI.md
 "GEMINI.md" 
 
+# Spell checker
+.cspell/
+
 # Extra files
 all_poetry.md

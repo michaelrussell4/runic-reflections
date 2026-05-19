@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, reflective, existential, philosophical
 
-> Soft and slow my thoughts and words sunken in depths of gloom<br>
-> Apathy stills the will to act purpose is left without room<br>
-> Dark clouds take vision<br>
-> Cold drops give derision<br>
-> Beauty germinates here before bloom
+> - Soft and slow my thoughts and words sunken in depths of gloom
+> - Apathy stills the will to act purpose is left without room
+> - Dark clouds take vision
+> - Cold drops give derision
+> - Beauty germinates here before bloom

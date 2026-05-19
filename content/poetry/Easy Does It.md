@@ -4,8 +4,8 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, serious
 
-> Only in simplicity<br>
-> Can there be felicity<br>
-> To flex and strain<br>
-> Will my bliss bane<br>
-> I state with authenticity
+> - Only in simplicity
+> - Can there be felicity
+> - To flex and strain
+> - Will my bliss bane
+> - I state with authenticity

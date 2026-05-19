@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, educational
 
-> The birds and bees<br>
-> Carry pollin and seeds<br>
-> Conveying life: fecundity<br>
-> They know best what it means to breed
+> - The birds and bees
+> - Carry pollin and seeds
+> - Conveying life: fecundity
+> - They know best what it means to breed

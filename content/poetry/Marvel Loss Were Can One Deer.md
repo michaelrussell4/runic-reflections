@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, narrative, serious, existential
 
-> I learned in God's acre of the [accouchement](https://www.merriam-webster.com/dictionary/accouchement) of a [neophyte](https://www.merriam-webster.com/dictionary/neophyte) which wast yonder.<br>
-> [Iwis](https://www.merriam-webster.com/dictionary/Iwis) ifsoever he grew defiant then God's blessing he would squander.<br>
-> By the millennium they fell [wellaway](https://www.merriam-webster.com/dictionary/wellaway)<br>
-> And [outward](https://www.merriam-webster.com/dictionary/outward) of God's alley.<br>
+> - I learned in God's acre of the [accouchement](https://www.merriam-webster.com/dictionary/accouchement) of a [neophyte](https://www.merriam-webster.com/dictionary/neophyte) which wast yonder.
+> - [Iwis](https://www.merriam-webster.com/dictionary/Iwis) ifsoever he grew defiant then God's blessing he would squander.
+> - By the millennium they fell [wellaway](https://www.merriam-webster.com/dictionary/wellaway)
+> - And [outward](https://www.merriam-webster.com/dictionary/outward) of God's alley.
 
 ## Notes
 

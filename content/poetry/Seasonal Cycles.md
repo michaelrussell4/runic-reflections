@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, seasonal, melancholic, existential
 
-> Spring into being blossoming buds<br>
-> A green scene of life without strife<br>
-> What was sown is now grown<br>
-> To the oxygen gas leaves cleave fast<br>
-> The garden bombarded bleating in heat<br>
-> Burned by the power of what it must devour<br>
-> Withering and dithering but pressing on<br>
-> A splash of relief occasionally lulls grief<br>
-> Cool wind bends their stalwart stalks<br>
-> A harvest steals and spreads their seeds<br>
-> Smell of cider, spice, and frost<br>
-> Strength wanes old but it runs deep<br>
-> The warblers have departed a new path charted<br>
-> An old man lay down in his white gown
+> - Spring into being blossoming buds
+> - A green scene of life without strife
+> - What was sown is now grown
+> - To the oxygen gas leaves cleave fast
+> - The garden bombarded bleating in heat
+> - Burned by the power of what it must devour
+> - Withering and dithering but pressing on
+> - A splash of relief occasionally lulls grief
+> - Cool wind bends their stalwart stalks
+> - A harvest steals and spreads their seeds
+> - Smell of cider, spice, and frost
+> - Strength wanes old but it runs deep
+> - The warblers have departed a new path charted
+> - An old man lay down in his white gown

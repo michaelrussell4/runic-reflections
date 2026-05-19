@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, philosophical
 
-> Some people say better use honey<br>
-> You catch more flies—that's funny<br>
-> No sir I'm not so sure<br>
-> You see, I've caught a lot with vinegar
+> - Some people say better use honey
+> - You catch more flies—that's funny
+> - No sir I'm not so sure
+> - You see, I've caught a lot with vinegar

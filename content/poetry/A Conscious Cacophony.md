@@ -4,7 +4,7 @@ Category: Essays
 Author: Mike Russell
 Tags: philosophical, existential, abstract, reflective
 
-> We create reality with our collective consciousness.
+> - We create reality with our collective consciousness.
 
 Different versions of this theory exist, sharing the idea that a collective consciousness influences reality. New-Agers, Jungian disciples, and arm-chair philosophers alike provoke such theories, tossing in vague references to quantum physics or ancient religious thought. Admittedly, it's an appealing idea—tasty to minds plagued with ravenous curiosity about existential mysteries; such whose fingers sift metaphysical desert sands, grasping for meaning; whose desperation for such welcomes meager morsels, lacking vernacular parsimony and mental rigor not for ostentation, rather by habit or ignorance.
 

@@ -4,18 +4,18 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, reflective, existential, surreal
 
-> Poor gal Bella, to be fooled<br>
-> Lacks suspicion and gets schooled<br>
-> Old Jack's got her by the throat<br>
-> He's cunning as the wily goat<br>
-> A tampering of reality<br>
-> Paranoia, misery<br>
-> Jack is really called E.T.<br>
-> And Bella she is poor old me<br>
-> Victim of a witty devil<br>
-> In my insanity he revels<br>
-> Truth evasive planting doubt<br>
-> Clarity, assurance I'm ever without
+> - Poor gal Bella, to be fooled
+> - Lacks suspicion and gets schooled
+> - Old Jack's got her by the throat
+> - He's cunning as the wily goat
+> - A tampering of reality
+> - Paranoia, misery
+> - Jack is really called E.T.
+> - And Bella she is poor old me
+> - Victim of a witty devil
+> - In my insanity he revels
+> - Truth evasive planting doubt
+> - Clarity, assurance I'm ever without
 
 ## Notes
 

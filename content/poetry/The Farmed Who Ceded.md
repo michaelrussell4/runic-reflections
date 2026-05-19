@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, narrative, whimsical
 
-> A farmer once ceded his land he'd seeded<br>
-> His wife proceeded to intercede<br>
-> He had to concede, or she'd secede<br>
-> But they hadn't the money to proceed<br>
-> For a time, the man receded<br>
-> They went to the bank—the wife preceded<br>
-> She asked for a loan, the bank acceded<br>
-> Their land's value, their loan exceeded<br>
-> They bought it back, the farmer then weeded<br>
+> - A farmer once ceded his land he'd seeded
+> - His wife proceeded to intercede
+> - He had to concede, or she'd secede
+> - But they hadn't the money to proceed
+> - For a time, the man receded
+> - They went to the bank—the wife preceded
+> - She asked for a loan, the bank acceded
+> - Their land's value, their loan exceeded
+> - They bought it back, the farmer then weeded
 
 # Notes
 

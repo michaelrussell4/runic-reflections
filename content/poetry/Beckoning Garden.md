@@ -4,17 +4,17 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, philosophical, melancholic, nostalgic
 
-> Implanted in the human heart<br>
-> A yearning for our garden lost<br>
-> We needn't anyone to teach<br>
-> Provoking this desire<br>
-> <br>
-> Luscious greens<br>
-> Pinks and yellows<br>
-> Sweet perfumes<br>
-> Breezes mellow<br>
-> <br>
-> I recall this dream—this pleasant womb<br>
-> Admiring fields of flower in bloom<br>
-> A remnant of that garden of yore<br>
-> She awaits my return, she softly implores
+> - Implanted in the human heart
+> - A yearning for our garden lost
+> - We needn't anyone to teach
+> - Provoking this desire
+> - 
+> - Luscious greens
+> - Pinks and yellows
+> - Sweet perfumes
+> - Breezes mellow
+> - 
+> - I recall this dream—this pleasant womb
+> - Admiring fields of flower in bloom
+> - A remnant of that garden of yore
+> - She awaits my return, she softly implores

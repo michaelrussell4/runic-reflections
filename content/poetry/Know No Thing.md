@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, serious, existential
 
-> Do you know a thing?<br>
-> I thought I did but didn't<br>
-> What a mental fling<br>
-> Arrogance intermittent<br><br>
-> When your mind is tall<br>
-> And confidence is stout<br>
-> Painful is your fall<br>
-> Your stench will reek of doubt<br><br>
-> I'd rather claim a lacking<br>
-> And chance to cut me short<br>
-> No reason to be bragging<br>
-> My ego to contort
+> - Do you know a thing?
+> - I thought I did but didn't
+> - What a mental fling
+> - Arrogance intermittent<br>
+> - When your mind is tall
+> - And confidence is stout
+> - Painful is your fall
+> - Your stench will reek of doubt<br>
+> - I'd rather claim a lacking
+> - And chance to cut me short
+> - No reason to be bragging
+> - My ego to contort

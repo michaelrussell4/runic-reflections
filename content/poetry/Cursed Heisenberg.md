@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, existential, abstract, reflective
 
-> A step towards light and darkness grows<br>
-> When one eye doubts, the other knows<br>
-> Death or ignorance—knowledge or life<br>
-> Incomplete will be your strife
+> - A step towards light and darkness grows
+> - When one eye doubts, the other knows
+> - Death or ignorance—knowledge or life
+> - Incomplete will be your strife
 
 # Notes
 

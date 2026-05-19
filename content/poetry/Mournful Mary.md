@@ -4,53 +4,53 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, narrative, reflective, serious
 
-> Mournful mary<br>
-> Lived in melancholy<br>
-> Others would ask<br>
-> Why she was aghast<br>
-> She'd answer them sorrowfully<br>
-> <br>
-> How some years prior<br>
-> There'd been a fire<br>
-> And in it her doll<br>
-> Thrown in by Paul<br>
-> An evil, wretched squire<br>
-> <br>
-> "So", she explained<br>
-> "My heart is stained"<br>
-> Weeping in agony<br>
-> Telling this tragedy<br>
-> 'til she was old and drained<br>
-> <br>
-> Years passed by<br>
-> Mary cried<br>
-> <br>
-> Then came a man<br>
-> With something in hand<br>
-> It was her doll<br>
-> The man—old Paul<br>
-> "You left it out in the sand"<br>
-> <br>
-> "Oh me, oh my!"<br>
-> Was Mary's reply<br>
-> "I thought she was burned"<br>
-> "My joy you spurned!"<br>
-> "How dare you be so wry"<br>
-> <br>
-> "I threw in a ball"<br>
-> "Not your old doll"<br>
-> Paul remonstrated<br>
-> Mary's tears abated<br>
-> "Days later I found this doll"<br>
-> <br>
-> Mary's eyes grew wide<br>
-> Her heart filled with pride<br>
-> But she let out a sigh<br>
-> All this sadness rife<br>
-> On a mistaken lie<br>
-> <br>
-> The doll was unharmed<br>
-> Her sorrow disarmed<br>
-> But the years she had lost<br>
-> Were a tragic cost<br>
-> A life in sadness consumed<br>
+> - Mournful mary
+> - Lived in melancholy
+> - Others would ask
+> - Why she was aghast
+> - She'd answer them sorrowfully
+> - 
+> - How some years prior
+> - There'd been a fire
+> - And in it her doll
+> - Thrown in by Paul
+> - An evil, wretched squire
+> - 
+> - "So", she explained
+> - "My heart is stained"
+> - Weeping in agony
+> - Telling this tragedy
+> - 'til she was old and drained
+> - 
+> - Years passed by
+> - Mary cried
+> - 
+> - Then came a man
+> - With something in hand
+> - It was her doll
+> - The man—old Paul
+> - "You left it out in the sand"
+> - 
+> - "Oh me, oh my!"
+> - Was Mary's reply
+> - "I thought she was burned"
+> - "My joy you spurned!"
+> - "How dare you be so wry"
+> - 
+> - "I threw in a ball"
+> - "Not your old doll"
+> - Paul remonstrated
+> - Mary's tears abated
+> - "Days later I found this doll"
+> - 
+> - Mary's eyes grew wide
+> - Her heart filled with pride
+> - But she let out a sigh
+> - All this sadness rife
+> - On a mistaken lie
+> - 
+> - The doll was unharmed
+> - Her sorrow disarmed
+> - But the years she had lost
+> - Were a tragic cost
+> - A life in sadness consumed

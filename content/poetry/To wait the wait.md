@@ -4,22 +4,22 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, comical, whimsical
 
-> If you plant some plants in pots<br>
-> And watch your watch while waiting<br>
-> You'll tie your hair in knots<br>
-> It's terribly frustrating<br>
-> <br>
-> Instead just dance a dance<br>
-> Or fish for fish for fun<br>
-> A game of cards perchance<br>
-> Or on a slide slide your bum<br>
-> <br>
-> Watch rain drops drop<br>
-> Or drive on a drive<br>
-> At a shop you could shop<br>
-> Just live your lives<br>
-> <br>
-> I to my point point clearly<br>
-> Which is that plants grow slowly<br>
-> When you face vases nearly<br>
-> You'll fathom boredom wholly
+> - If you plant some plants in pots
+> - And watch your watch while waiting
+> - You'll tie your hair in knots
+> - It's terribly frustrating
+> - 
+> - Instead just dance a dance
+> - Or fish for fish for fun
+> - A game of cards perchance
+> - Or on a slide slide your bum
+> - 
+> - Watch rain drops drop
+> - Or drive on a drive
+> - At a shop you could shop
+> - Just live your lives
+> - 
+> - I to my point point clearly
+> - Which is that plants grow slowly
+> - When you face vases nearly
+> - You'll fathom boredom wholly

@@ -22,6 +22,6 @@ Thank you for visiting Runic Relics. I hope this content inspires thought, spark
 
 ---
 
-> In the beginning was the Word…
+> - In the beginning was the Word…
 > 
-> <span class="float-right -mt-3 font-bold">– John 1:1</span>
+> - <span class="float-right -mt-3 font-bold">– John 1:1</span>

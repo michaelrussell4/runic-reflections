@@ -5,11 +5,11 @@ Author: Mike Russell
 Tags: philosophical, religious, reflective
 
 <blockquote class="text-center">
-<b>One</b> life<br>
-<b>Two</b> in love<br>
-<b>Three</b> rule above<br>
-<b>Four</b> seasons there are<br>
-<b>Five</b> points are on a star<br>
-<b>Six</b> days we spend laboring<br>
-<b>Seventh</b> day rest and savoring
+<b>One</b> - life
+<b>Two</b> - in love
+<b>Three</b> - rule above
+<b>Four</b> - seasons there are
+<b>Five</b> - points are on a star
+<b>Six</b> - days we spend laboring
+<b>Seventh</b> - day rest and savoring
 </blockquote>

@@ -4,25 +4,25 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, philosophical, melancholic, existential
 
-> When what one sought<br>
-> Has come to naught<br>
-> Or life is fraught<br>
-> With what ought not<br>
-> <br>
-> One cries their eyes<br>
-> Or laughs with sighs<br>
-> Why on this wise<br>
-> Do such arise?<br>
-> <br>
-> Ironic fate<br>
-> Brings joy or hate<br>
-> As curses great<br>
-> Or jokes relate<br>
-> <br>
-> Perhaps a tear<br>
-> From pain or cheer<br>
-> The same compares<br>
-> Throughout the years<br>
-> <br>
-> A wretched laugh<br>
-> A humorous cry<br>
+> - When what one sought
+> - Has come to naught
+> - Or life is fraught
+> - With what ought not
+> - 
+> - One cries their eyes
+> - Or laughs with sighs
+> - Why on this wise
+> - Do such arise?
+> - 
+> - Ironic fate
+> - Brings joy or hate
+> - As curses great
+> - Or jokes relate
+> - 
+> - Perhaps a tear
+> - From pain or cheer
+> - The same compares
+> - Throughout the years
+> - 
+> - A wretched laugh
+> - A humorous cry

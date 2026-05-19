@@ -4,43 +4,43 @@ Category: Poetry
 Author: Mike Russell
 Tags: narrative, religious, philosophical, serious
 
-> The victorious tale of
-> <br>
-> Bright Saint James, the fisherman.
-> <br>
-> —
-> <br>
-> 👑
-> <br>
-> —
-> <br>
-> When onward I pressed to see five<br>
-> My Lord's maiden was in danger<br>
-> A threat was made, retreat, survive<br>
-> <br>
-> But then My Lord did not defend<br>
-> I feared with wonder at our fate<br>
-> But My Lord urged me toward his end<br>
-> <br>
-> Submitting to My Lord's command<br>
-> I tread upon the field of blood<br>
-> Our maiden stricken from the land<br>
-> <br>
-> In wrath I marched on unprotected<br>
-> Joined by my comrade knight<br>
-> And soon a fortress was erected<br>
-> <br>
-> A castle rose, a castle fell<br>
-> The battle continued on<br>
-> A brother of God would aid us well<br>
-> <br>
-> Now I saw my Lord's great power<br>
-> Though at first I doubted<br>
-> His enemies he did soon devour<br>
-> <br>
-> At last his victory was made sure<br>
-> My Lord knows all, his wisdom great<br>
-> His power unmatched, his intentions pure
+> - The victorious tale of
+> - 
+> - Bright Saint James, the fisherman.
+> - 
+> - —
+> - 
+> - 👑
+> - 
+> - —
+> - 
+> - When onward I pressed to see five
+> - My Lord's maiden was in danger
+> - A threat was made, retreat, survive
+> - 
+> - But then My Lord did not defend
+> - I feared with wonder at our fate
+> - But My Lord urged me toward his end
+> - 
+> - Submitting to My Lord's command
+> - I tread upon the field of blood
+> - Our maiden stricken from the land
+> - 
+> - In wrath I marched on unprotected
+> - Joined by my comrade knight
+> - And soon a fortress was erected
+> - 
+> - A castle rose, a castle fell
+> - The battle continued on
+> - A brother of God would aid us well
+> - 
+> - Now I saw my Lord's great power
+> - Though at first I doubted
+> - His enemies he did soon devour
+> - 
+> - At last his victory was made sure
+> - My Lord knows all, his wisdom great
+> - His power unmatched, his intentions pure
 
 # Notes
 

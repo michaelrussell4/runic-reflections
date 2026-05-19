@@ -4,16 +4,16 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, philosophical, existential, reflective
 
-> First in Eden now Gethsemane<br>
-> They both partook and could not flee<br>
-> The tree of knowledge, the tree of death<br>
-> To quicken or to end their breath<br>
-> First one fell and the latter rose<br>
-> Both had suffered evil's throes<br>
-> Judged by God and then by men<br>
-> "Where art thou, God," uttered again<br>
-> From garden to garden, fallen to raised<br>
-> Trees accompany their grace<br>
-> Rivers flow first clear then stained<br>
-> A branch of power to free the chained<br>
-> A flood's reflection was their mirror<br>
+> - First in Eden now Gethsemane
+> - They both partook and could not flee
+> - The tree of knowledge, the tree of death
+> - To quicken or to end their breath
+> - First one fell and the latter rose
+> - Both had suffered evil's throes
+> - Judged by God and then by men
+> - "Where art thou, God," uttered again
+> - From garden to garden, fallen to raised
+> - Trees accompany their grace
+> - Rivers flow first clear then stained
+> - A branch of power to free the chained
+> - A flood's reflection was their mirror

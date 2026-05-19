@@ -4,14 +4,14 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, philosophical, existential, reflective
 
-> Can vinegar bitter bite my tongue<br>
-> Purge my heart from dirt and dung<br>
-> Prefer its taste to salt or sweet<br>
-> Mind sits still ill desire delete<br><br>
-> Surge of fear that I might falter<br>
-> Give me a coal from off the altar<br>
-> I do as I want which thing I hate<br>
-> Can I will my want or is it fate?
+> - Can vinegar bitter bite my tongue
+> - Purge my heart from dirt and dung
+> - Prefer its taste to salt or sweet
+> - Mind sits still ill desire delete<br>
+> - Surge of fear that I might falter
+> - Give me a coal from off the altar
+> - I do as I want which thing I hate
+> - Can I will my want or is it fate?
 
 ## Notes
 

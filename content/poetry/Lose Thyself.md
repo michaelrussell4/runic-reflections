@@ -4,15 +4,15 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, existential, serious
 
-> My eyes set my direction<br>
-> Wherever my heart goes<br>
-> Determines my affection<br>
-> Wherever my love flows<br>
-> And if I set them inward<br>
-> And look inside my mind<br>
-> I'm certain to get injured<br>
-> I'm sure to be maligned<br>
-> But if I set them outward<br>
-> And look with selflessness<br>
-> Will purpose be encountered<br>
-> And fill my soul with bliss
+> - My eyes set my direction
+> - Wherever my heart goes
+> - Determines my affection
+> - Wherever my love flows
+> - And if I set them inward
+> - And look inside my mind
+> - I'm certain to get injured
+> - I'm sure to be maligned
+> - But if I set them outward
+> - And look with selflessness
+> - Will purpose be encountered
+> - And fill my soul with bliss

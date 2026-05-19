@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, romantic, serious, narrative
 
-> Lupine laments for a lunar bride<br>
-> Like piercing pleas which yearn and pine<br>
-> Rouse his rancor and rife esprit<br>
-> A haunting hunt. Hungry is he.
+> - Lupine laments for a lunar bride
+> - Like piercing pleas which yearn and pine
+> - Rouse his rancor and rife esprit
+> - A haunting hunt. Hungry is he.

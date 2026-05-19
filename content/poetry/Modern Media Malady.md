@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: serious, melancholic, existential, reflective
 
-> Digital candy like cocaine or brandy<br>
-> Pique attention, weak will prevention<br>
-> Stuck in a rut can't close my eyes shut<br>
-> But what can you do with nothing to lose<br>
-> The algorithm moves in poisonous rhythm<br>
-> A mental hack you won't get your time back<br>
-> A shut-in, unbuttoned, a useless glutton<br>
-> The system wants you, its power haunts you
+> - Digital candy like cocaine or brandy
+> - Pique attention, weak will prevention
+> - Stuck in a rut can't close my eyes shut
+> - But what can you do with nothing to lose
+> - The algorithm moves in poisonous rhythm
+> - A mental hack you won't get your time back
+> - A shut-in, unbuttoned, a useless glutton
+> - The system wants you, its power haunts you

@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, serious, reflective
 
-> Death will come—fait accompli<br>
-> Puerile fools think "none will stop me"<br>
-> A perfidy on nature—a deflection this<br>
-> Never their bliss will ever they wist
+> - Death will come—fait accompli
+> - Puerile fools think "none will stop me"
+> - A perfidy on nature—a deflection this
+> - Never their bliss will ever they wist

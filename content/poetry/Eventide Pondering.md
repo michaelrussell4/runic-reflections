@@ -4,23 +4,23 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, existential, reflective, melancholic
 
-> A pursuit, a treasure<br>
-> The wind blows I wither<br>
-> Father how wanting<br>
-> I've sought Thee forever<br>
-> Beneath autumn trees<br>
-> On sundry days<br>
-> I fall to my knees<br>
-> Wind presses in waves<br>
-> Spring offering hope<br>
-> I seek renewed<br>
-> Water traces its slope<br>
-> Why this so crude<br>
-> What barrier between<br>
-> Us flees my vision<br>
-> My heart yearns on<br>
-> Hope not derision<br>
-> A sumpter am I<br>
-> for weariness weighs<br>
-> My aging eye<br>
-> Yet lingering I stay
+> - A pursuit, a treasure
+> - The wind blows I wither
+> - Father how wanting
+> - I've sought Thee forever
+> - Beneath autumn trees
+> - On sundry days
+> - I fall to my knees
+> - Wind presses in waves
+> - Spring offering hope
+> - I seek renewed
+> - Water traces its slope
+> - Why this so crude
+> - What barrier between
+> - Us flees my vision
+> - My heart yearns on
+> - Hope not derision
+> - A sumpter am I
+> - for weariness weighs
+> - My aging eye
+> - Yet lingering I stay

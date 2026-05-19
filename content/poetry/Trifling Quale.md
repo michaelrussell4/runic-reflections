@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, melancholic, philosophical, serious
 
-> The human being: wretched man<br>
-> Not for well being: his program<br>
-> Survive and breed: his duty bound<br>
-> His pleading voice: a minor sound
+> - The human being: wretched man
+> - Not for well being: his program
+> - Survive and breed: his duty bound
+> - His pleading voice: a minor sound
 
 # Notes
 

@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, philosophical, abstract, reflective
 
-> A brain<br>
-> A name<br>
-> Feral nature<br>
-> Who's to blame?
+> - A brain
+> - A name
+> - Feral nature
+> - Who's to blame?

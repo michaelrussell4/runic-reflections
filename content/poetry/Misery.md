@@ -4,11 +4,11 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, existential, reflective
 
-> Rescue me from perilous threats<br>
-> The harvest of my deep regrets<br>
-> Woe unto me from mind I flee<br>
-> Numb my thinking ability<br>
-> Irreversible roads I tread<br>
-> For my pains I envy the dead<br>
-> Cursed am I and wretched my case<br>
-> Awaiting the dark void's embrace
+> - Rescue me from perilous threats
+> - The harvest of my deep regrets
+> - Woe unto me from mind I flee
+> - Numb my thinking ability
+> - Irreversible roads I tread
+> - For my pains I envy the dead
+> - Cursed am I and wretched my case
+> - Awaiting the dark void's embrace

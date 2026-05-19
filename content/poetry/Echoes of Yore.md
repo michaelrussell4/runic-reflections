@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: logophile, fantasy, romantic, reflective
 
-> I hear a song<br>
-> A **peaceful piece**<br>
-> **Full** of long<br>
-> Notes not to cease<br>
-> <br>
-> I see a sight<br>
-> A **maiden made**<br>
-> **In** lovely light<br>
-> Her prayer she gave<br>
-> <br>
-> I rode a steed<br>
-> A great **knight's mare**<br>
-> Quick to her need<br>
-> From ill **nightmare**<br>
+> - I hear a song
+> - A **peaceful piece**
+> - **Full** of long
+> - Notes not to cease
+> - 
+> - I see a sight
+> - A **maiden made**
+> - **In** lovely light
+> - Her prayer she gave
+> - 
+> - I rode a steed
+> - A great **knight's mare**
+> - Quick to her need
+> - From ill **nightmare**
 
 ## Notes
 

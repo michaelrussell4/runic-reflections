@@ -4,50 +4,50 @@ Category: Poetry
 Author: Mike Russell
 Tags: educational, logophile, whimsical
 
-> Old lady Latin oft rears her head<br>
-> In our English, though long dead<br>
-> Learn her well and you will see<br>
-> How helpful to you this can be<br>
-> <br>
-> We'll start off firstly with **Aqua**<br>
-> Picture the large and hairy Chewbacca<br>
-> Drinking and bathing in the water<br>
-> Swimming around in an **aqua**rium<br>
-> With **aqua**tic animals round near him<br>
-> He's from Star Wars not Harry Potter<br>
-> Maybe you guessed it, our word means "water"<br>
-> <br>
-> Next let's visit loud aunt **Aud**<br>
-> She likes to loudly speak a lot<br>
-> She likes to listen to loud **aud**io<br>
-> When we turn on the radio<br>
-> She sings as if she's at an **aud**ition<br>
-> With an **aud**ience for her rendition<br>
-> Hoping for an endless cheer<br>
-> And don't forget, this word means "hear"<br>
-> <br>
-> Moving on is our friend **Bene**<br>
-> He's really good; he's also skinny<br>
-> His presence is a **bene**fit<br>
-> He's really so **bene**volent<br>
-> Do you know what **bene** means?<br>
-> It means "good", now eat your greens!<br>
-> <br>
-> Now do you know the bad, bad name?<br>
-> It's **Mal**, and this word means the same<br>
-> **Mal**ice is not good, you see<br>
-> It's **mal**evolent as bad can be<br>
-> Remember this, and don't **mal**function<br>
-> That would mean you badly function<br>
-> <br>
-> **Dict**, tack, toe, three in a row<br>
-> Oops, it's "tick" not **dict** you know<br>
-> I did not **dic**tate very well<br>
-> I pre**dict** you will not tell<br>
-> Can you say "**dict**ionary"?<br>
-> Our word means "speak", it is not scary<br>
-> <br>
-> That's enough for now, I guess<br>
-> There are so many—let's not stress<br>
-> I hope you're happy as a hen<br>
-> And come back reading this again
+> - Old lady Latin oft rears her head
+> - In our English, though long dead
+> - Learn her well and you will see
+> - How helpful to you this can be
+> - 
+> - We'll start off firstly with **Aqua**
+> - Picture the large and hairy Chewbacca
+> - Drinking and bathing in the water
+> - Swimming around in an **aqua**rium
+> - With **aqua**tic animals round near him
+> - He's from Star Wars not Harry Potter
+> - Maybe you guessed it, our word means "water"
+> - 
+> - Next let's visit loud aunt **Aud**
+> - She likes to loudly speak a lot
+> - She likes to listen to loud **aud**io
+> - When we turn on the radio
+> - She sings as if she's at an **aud**ition
+> - With an **aud**ience for her rendition
+> - Hoping for an endless cheer
+> - And don't forget, this word means "hear"
+> - 
+> - Moving on is our friend **Bene**
+> - He's really good; he's also skinny
+> - His presence is a **bene**fit
+> - He's really so **bene**volent
+> - Do you know what **bene** means?
+> - It means "good", now eat your greens!
+> - 
+> - Now do you know the bad, bad name?
+> - It's **Mal**, and this word means the same
+> - **Mal**ice is not good, you see
+> - It's **mal**evolent as bad can be
+> - Remember this, and don't **mal**function
+> - That would mean you badly function
+> - 
+> - **Dict**, tack, toe, three in a row
+> - Oops, it's "tick" not **dict** you know
+> - I did not **dic**tate very well
+> - I pre**dict** you will not tell
+> - Can you say "**dict**ionary"?
+> - Our word means "speak", it is not scary
+> - 
+> - That's enough for now, I guess
+> - There are so many—let's not stress
+> - I hope you're happy as a hen
+> - And come back reading this again

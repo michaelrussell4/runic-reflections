@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: reflective, melancholic, nostalgic, philosophical
 
-> A [susurrous](https://www.merriam-webster.com/dictionary/susurrous) chapel—ambience serene<br>
-> [Languid](https://www.merriam-webster.com/dictionary/Languid) leaves fall—a fate foreseen<br>
-> [Pensive](https://www.merriam-webster.com/dictionary/Pensive), [somber](https://www.merriam-webster.com/dictionary/somber), [attenuating](https://www.merriam-webster.com/dictionary/attenuating) echoes<br>
-> [Reminisce](https://www.merriam-webster.com/dictionary/Reminisce), [relish](https://www.merriam-webster.com/dictionary/relish), [repose](https://www.merriam-webster.com/dictionary/repose)
+> - A [susurrous](https://www.merriam-webster.com/dictionary/susurrous) chapel—ambience serene
+> - [Languid](https://www.merriam-webster.com/dictionary/Languid) leaves fall—a fate foreseen
+> - [Pensive](https://www.merriam-webster.com/dictionary/Pensive), [somber](https://www.merriam-webster.com/dictionary/somber), [attenuating](https://www.merriam-webster.com/dictionary/attenuating) echoes
+> - [Reminisce](https://www.merriam-webster.com/dictionary/Reminisce), [relish](https://www.merriam-webster.com/dictionary/relish), [repose](https://www.merriam-webster.com/dictionary/repose)

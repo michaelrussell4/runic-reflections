@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: melancholic, reflective, existential, religious
 
-> A [mollified](https://www.merriam-webster.com/dictionary/mollified) [inviolability](https://www.merriam-webster.com/dictionary/inviolability) doth weary<br>
+> - A [mollified](https://www.merriam-webster.com/dictionary/mollified) [inviolability](https://www.merriam-webster.com/dictionary/inviolability) doth weary
 Persistent [assailants'](https://www.merriam-webster.com/dictionary/assailants) darts evil carry<br>
 Woe upon that [gallant](https://www.merriam-webster.com/dictionary/gallant) heart made [supple](https://www.merriam-webster.com/dictionary/supple)<br>
 Why in this [demimonde](https://www.merriam-webster.com/dictionary/demimonde) do I [fuddle](https://www.merriam-webster.com/dictionary/fuddle)?

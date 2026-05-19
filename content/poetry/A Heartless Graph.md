@@ -4,28 +4,28 @@ Category: Poetry
 Author: Mike Russell
 Tags: abstract, existential, melancholic, nature
 
-> Many an eye and many a limb<br>
-> Craft an intricate snare so grim<br>
-> A tapestry fine with silk delicate<br>
-> A fantasy eerie of a sort pestilent<br>
-> Here death and life have ample supply<br>
-> Here for this fisherman of the sky<br>
-> Do not however mistake this net<br>
-> For a life or soul; none such have it<br>
-> 'Tis just a mark, a footprint, a trace<br>
-> A higher being's lattice, a deadly lace<br>
-> Another such web was spun over time<br>
-> By mindful workers an endeavor sublime<br>
-> It also finds those who float without care<br>
-> Sucking their time and life as they stare<br>
-> Dead-eyed and still, a trance, a drug<br>
-> What your loneliness needs—a numbing hug<br>
-> It may simulate life—a false impression<br>
-> It may give reply but it has no discretion<br>
-> Form alone lacks essence; how dull<br>
-> Machinery moving but having no soul<br>
-> Man fancies his craft he made with mud<br>
-> Alas it still lacks heart, mind, and blood
+> - Many an eye and many a limb
+> - Craft an intricate snare so grim
+> - A tapestry fine with silk delicate
+> - A fantasy eerie of a sort pestilent
+> - Here death and life have ample supply
+> - Here for this fisherman of the sky
+> - Do not however mistake this net
+> - For a life or soul; none such have it
+> - 'Tis just a mark, a footprint, a trace
+> - A higher being's lattice, a deadly lace
+> - Another such web was spun over time
+> - By mindful workers an endeavor sublime
+> - It also finds those who float without care
+> - Sucking their time and life as they stare
+> - Dead-eyed and still, a trance, a drug
+> - What your loneliness needs—a numbing hug
+> - It may simulate life—a false impression
+> - It may give reply but it has no discretion
+> - Form alone lacks essence; how dull
+> - Machinery moving but having no soul
+> - Man fancies his craft he made with mud
+> - Alas it still lacks heart, mind, and blood
 
 ## Notes
 

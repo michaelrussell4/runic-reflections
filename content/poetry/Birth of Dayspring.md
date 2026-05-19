@@ -4,10 +4,10 @@ Category: Poetry
 Author: Mike Russell
 Tags: philosophical, reflective, serious, nature
 
-> Strange winds blow as eerie prose<br>
-> Darkness groans its fate it knowns<br>
-> Twilight stills and time it froze<br>
-> Morning dew like morning new<br>
-> Fresh and hopeful growth pursue<br>
-> Light seeps over brim in view<br>
-> Encourage life no ado
+> - Strange winds blow as eerie prose
+> - Darkness groans its fate it knowns
+> - Twilight stills and time it froze
+> - Morning dew like morning new
+> - Fresh and hopeful growth pursue
+> - Light seeps over brim in view
+> - Encourage life no ado

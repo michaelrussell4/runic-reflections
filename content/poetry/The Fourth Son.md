@@ -14,32 +14,32 @@ As the mountain was taller than the tree, he thought he might try to climb it an
 
 He climbed down the tree and set off toward that mountain. As he came near and climbed the mountain, he discovered a small fire burning which called out:
 
-> Little bird, I'll burn thy feet<br>
-> Unless you give me wood to eat.<br>
+> - Little bird, I'll burn thy feet
+> - Unless you give me wood to eat.
 
 The man then saw a little bird carrying twigs back and forth from the forest to the fire. The twigs were so small that the fire quickly burned them and would call out for more. The bird wearily obeyed, fearing the threats from the fire. The man said, "I shall help you, little bird." And he felled a tree and set it on the fire, which gratefully began to devour it. The man said, "You are free to go now, little bird." The bird thanked the man and said, "Because of your kindness, I will tell you a secret:
 
-> Beneath the fire you'll find ground;<br>
-> Beneath the ground is water clear;<br>
-> Beneath the water is darkness found;<br>
-> Beneath the darkness an egg is there.<br>
+> - Beneath the fire you'll find ground;
+> - Beneath the ground is water clear;
+> - Beneath the water is darkness found;
+> - Beneath the darkness an egg is there.
 
 After telling the man this, the bird flew quickly away. Before long, the fire had burned through the whole tree and began crying for more:
 
-> Foolish man, I'll burn thy feet<br>
-> Unless you give me wood to eat.<br>
+> - Foolish man, I'll burn thy feet
+> - Unless you give me wood to eat.
 
 But the man saw how the fire grew small and laughed, saying, "You shall not burn me but shall die." And after the wood ran out, the fire had nothing left to burn and vanished away.
 
 He recalled what the bird had said and decided he must find what was beneath the fire. Using sticks and stones, he dug beneath the ashes where the fire had been until he found water filling the bottom of the hole. The water cried out:
 
-> You've found me but I don't wish to stay;<br>
-> Give me a path and I'll run away.<br>
+> - You've found me but I don't wish to stay;
+> - Give me a path and I'll run away.
 
 The man took a stick and carved a trench out of the hole, and the water slid down the trench until it had all run out. Now where water had been in the hole, there was darkness. The darkness said:
 
-> Here alone I fear I'll be;<br>
-> I want a friend who's just like me.<br>
+> - Here alone I fear I'll be;
+> - I want a friend who's just like me.
 
 The man said, "You are not quite alone. There's another just like you. It is called 'night'." The darkness asked where 'night' could be found. The man said, "It is running away from the sun far out west." At that, the darkness crawled out of the hole and scurried out west in search of night.
 

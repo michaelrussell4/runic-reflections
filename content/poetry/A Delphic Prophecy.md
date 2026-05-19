@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: existential, religious, melancholic, abstract
 
-> A [putrid](https://www.merriam-webster.com/dictionary/putrid) [pulchritude](https://www.merriam-webster.com/dictionary/pulchritude)—a [perverse](https://www.merriam-webster.com/dictionary/perverse) ploy<br>
-> A [sanction](https://www.merriam-webster.com/dictionary/sanction) that cleaves my heart in pain<br>
-> A movement, a force, from this evil [decoy](https://www.merriam-webster.com/dictionary/[decoy)<br>
-> A grasp holds fast from a [numinous](https://www.merriam-webster.com/dictionary/numinous) plane<br>
-> A [fleeting](https://www.merriam-webster.com/dictionary/fleeting) hope left fated to destroy<br>
-> A [sanction](https://www.merriam-webster.com/dictionary/sanction) [cleaves](https://www.merriam-webster.com/dictionary/cleaves) my soul to remain<br>
-> A [pensive](https://www.merriam-webster.com/dictionary/pensive) [pliancy](https://www.merriam-webster.com/dictionary/pliancy)—a [pending](https://www.merriam-webster.com/dictionary/pending) ploy<br>
+> - A [putrid](https://www.merriam-webster.com/dictionary/putrid) [pulchritude](https://www.merriam-webster.com/dictionary/pulchritude)—a [perverse](https://www.merriam-webster.com/dictionary/perverse) ploy
+> - A [sanction](https://www.merriam-webster.com/dictionary/sanction) that cleaves my heart in pain
+> - A movement, a force, from this evil [decoy](https://www.merriam-webster.com/dictionary/[decoy)
+> - A grasp holds fast from a [numinous](https://www.merriam-webster.com/dictionary/numinous) plane
+> - A [fleeting](https://www.merriam-webster.com/dictionary/fleeting) hope left fated to destroy
+> - A [sanction](https://www.merriam-webster.com/dictionary/sanction) [cleaves](https://www.merriam-webster.com/dictionary/cleaves) my soul to remain
+> - A [pensive](https://www.merriam-webster.com/dictionary/pensive) [pliancy](https://www.merriam-webster.com/dictionary/pliancy)—a [pending](https://www.merriam-webster.com/dictionary/pending) ploy
 
 ## Notes
 

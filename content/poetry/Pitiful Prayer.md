@@ -4,13 +4,13 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, melancholic, existential, reflective
 
-> Lord at times thy light it shines<br>
-> Warming soul and soothing mind<br>
-> But other dark and dreary days<br>
-> Injure heart and wane the faith<br>
-> I fear I fall now in the latter<br>
-> Blinded by a boggy matter<br>
-> Canst thou see me here at all?<br>
-> I ask and knock but hear no call<br>
-> This gall—a wretched soul's despair<br>
-> I'm left alone—my greatest fear
+> - Lord at times thy light it shines
+> - Warming soul and soothing mind
+> - But other dark and dreary days
+> - Injure heart and wane the faith
+> - I fear I fall now in the latter
+> - Blinded by a boggy matter
+> - Canst thou see me here at all?
+> - I ask and knock but hear no call
+> - This gall—a wretched soul's despair
+> - I'm left alone—my greatest fear

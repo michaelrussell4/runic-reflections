@@ -4,9 +4,9 @@ Category: Poetry
 Author: Mike Russell
 Tags: nature, seasonal, reflective
 
-> Still cold dormancy<br>
-> Quickened by a pleasant warmth<br>
-> Vital green of spring
+> - Still cold dormancy
+> - Quickened by a pleasant warmth
+> - Vital green of spring
 
 # Notes
 

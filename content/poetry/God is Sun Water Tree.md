@@ -4,20 +4,20 @@ Category: Poetry
 Author: Mike Russell
 Tags: religious, nature, philosophical, reflective
 
-> Thou art the sun with light sublime<br>
-> Upon creation dost thou shine<br>
-> A seminal orb of glorious light<br>
-> Warm'st our souls, overcom'st night<br>
-> <br>
-> Thou art the water clear and blue<br>
-> The stream of life and morning dew<br>
-> A vital substance hast thou brought<br>
-> Quenching thirst, cleansing spot<br>
-> <br>
-> Thou art the tree of life divine<br>
-> In hell thy roots, in heaven thy vine<br>
-> A powerful rod of priestly rite<br>
-> Nourishing fruit, beautiful sight
+> - Thou art the sun with light sublime
+> - Upon creation dost thou shine
+> - A seminal orb of glorious light
+> - Warm'st our souls, overcom'st night
+> - 
+> - Thou art the water clear and blue
+> - The stream of life and morning dew
+> - A vital substance hast thou brought
+> - Quenching thirst, cleansing spot
+> - 
+> - Thou art the tree of life divine
+> - In hell thy roots, in heaven thy vine
+> - A powerful rod of priestly rite
+> - Nourishing fruit, beautiful sight
 
 ## Notes
 

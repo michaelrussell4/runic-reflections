@@ -7,13 +7,13 @@ Status: hidden
 
 <img src="{static}/images/Woman_teaching_geometry.jpg" class="poem-img">
 
-> First rules, then exceptions
+> - First rules, then exceptions
 
 First milk, then meat: arithmetic before negatives, algebra before calculus, Newtonian physics before relativity. Reconstruction is a necessary component of the learning journey—pedagogy assumes it.
 
-> When I was a child, I spoke like a child, I thought like a child, I reasoned like a child. When I became a man, I gave up childish ways.
+> - When I was a child, I spoke like a child, I thought like a child, I reasoned like a child. When I became a man, I gave up childish ways.
 > 
-> — 1 Corinthians 13:11
+> - — 1 Corinthians 13:11
 
 Alas, our blissful naïveté of childhood is no match for the cold, hard reality we must survive in adulthood. Our paradisaical paradigm
 

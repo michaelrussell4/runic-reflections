@@ -4,7 +4,7 @@ Category: Poetry
 Author: Mike Russell
 Tags: childrens, whimsical, narrative
 
-> I ran so fast<br>
-> A goodly run<br>
-> Well weather cast<br>
-> But veriest fun
+> - I ran so fast
+> - A goodly run
+> - Well weather cast
+> - But veriest fun

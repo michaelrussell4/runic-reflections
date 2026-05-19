@@ -4,12 +4,12 @@ Category: Poetry
 Author: Mike Russell
 Tags: abstract, existential, philosophical, religious
 
-> Language embedded with information<br>
-> Patterns of deliberate persuasion<br>
-> Any who speak betray their mind<br>
-> Numbers and data—good or maligned<br>
-> Sound in the ether, fire in the night<br>
-> When God spoke his Word was Light
+> - Language embedded with information
+> - Patterns of deliberate persuasion
+> - Any who speak betray their mind
+> - Numbers and data—good or maligned
+> - Sound in the ether, fire in the night
+> - When God spoke his Word was Light
 
 # Notes
 
