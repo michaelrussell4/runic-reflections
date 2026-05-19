@@ -75,9 +75,9 @@
   line-height: 1.8;
 }
 
-/* Links */
-.page-content a,
-.entry-content a {
+/* Links - Only applies if the anchor is NOT inside a .tags-container */
+.page-content a:not(.tags-container a),
+.entry-content a:not(.tags-container a) {
   color: #7c3aed;
   font-weight: 600;
   text-decoration: none;
@@ -85,14 +85,14 @@
   border-bottom: 2px solid transparent;
 }
 
-.page-content a:hover,
-.entry-content a:hover {
+.page-content a:not(.tags-container a):hover,
+.entry-content a:not(.tags-container a):hover {
   color: #6d28d9;
   border-bottom: 2px solid #7c3aed;
 }
 
-.page-content a:focus,
-.entry-content a:focus {
+.page-content a:not(.tags-container a):focus,
+.entry-content a:not(.tags-container a):focus {
   outline: 2px solid #7c3aed;
   outline-offset: 2px;
   border-radius: 2px;
