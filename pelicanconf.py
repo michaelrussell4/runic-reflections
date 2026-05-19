@@ -68,7 +68,8 @@ DISQUS_SITENAME = None  # Enable comments if desired
 
 # Theme
 THEME = "rr-theme"
-THEME_STATIC_DIR = f"{THEME}/static"
+STATIC_PATHS = ["images"]
+THEME_STATIC_PATHS = ["static"]
 TAILWIND_CSS = "tailwind.css"
 
 

@@ -31,6 +31,10 @@ jobs:
       - name: Build Pelican site
         run: |
           python -m pelican -s publishconf.py
+          mkdir -p output/theme/css
+          mkdir -p output/theme/fonts
+          cp rr-theme/static/css/*.css output/theme/css/
+          cp -r rr-theme/static/fonts/* output/theme/fonts/ 2>/dev/null || true
 
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v4
