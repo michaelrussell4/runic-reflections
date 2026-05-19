@@ -8,17 +8,17 @@ Tags: philosophical, reflective, serious
 > - Then when you get a break
 > - You complain of boredom
 > - Think you'll go out to the lake
-> - 
+> - <br>
 > - The sun is very hot
 > - Perhaps you'll take a swim
 > - You see you're overweight
 > - Think you'll hit the gym
-> - 
+> - <br>
 > - You complain you're lonely
 > - Decide to buy a dog
 > - You complain about its barks
 > - Write about it on your blog!
-> - 
+> - <br>
 > - I'm afraid you're bent
 > - On never being content
 

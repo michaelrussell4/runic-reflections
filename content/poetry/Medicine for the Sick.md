@@ -8,17 +8,17 @@ Tags: religious, reflective, serious, narrative
 > - I'm poisoned, infected
 > - Dress me in wrappings
 > - My soul I've neglected
-> - 
+> - <br>
 > - A man of grief is sent my way
 > - On us shines your hopeful ray
 > - A stranger confides
 > - Tears fill his eyes
 > - In me your spirit doth sway
-> - 
+> - <br>
 > - My cup is filled
 > - Good providence
 > - Parasites killed
 > - New confidence
-> - 
+> - <br>
 > - At thy brilliance I'm awed
 > - Thank you, God

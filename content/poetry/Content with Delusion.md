@@ -8,52 +8,52 @@ Tags: philosophical, existential, surreal, narrative
 > - A firm foundation for a home
 > - It survived the wind and rain
 > - It's very strong, I can't complain
-> - 
+> - <br>
 > - But one day, as I walked about
 > - I had concern which led to doubt
 > - I saw that what I thought was stone
 > - Was an elephant's skull—a giant bone
-> - 
+> - <br>
 > - I fretted as I wondered how
 > - I'd missed this giant head of a cow
 > - I worried standing on the floor
 > - Could I live here anymore?
-> - 
+> - <br>
 > - On the other hand, I thought
 > - Maybe I shouldn't be distraught
 > - After all, it's held up well
 > - Maybe I could still here dwell
-> - 
+> - <br>
 > - So in my house I stayed that night
 > - When in my bed I dreamed in fright
 > - An elephant all big and mean
 > - Seemed to want to say something
-> - 
+> - <br>
 > - She marched up near, over my bed
 > - She came up close, head to head
 > - She lifted me upon her back
 > - Then outside she started to walk
-> - 
+> - <br>
 > - She journeyed up a mountain tall
 > - I sat there riding, feeling small
 > - We arrived soon at the top
 > - And on the ground she set me—plop
-> - 
+> - <br>
 > - A giant stone was standing there
 > - The elephant looked with a stare
 > - Then she walked over to it
 > - Lowered her head and ploughed right through it
-> - 
+> - <br>
 > - In surprise I then confessed
 > - "Your head is harder than I guessed!"
 > - The elephant seemed pleased at this
 > - And with her trunk gave me a kiss
-> - 
+> - <br>
 > - She lifted me upon her head
 > - And took me down back to my bed
 > - Beneath my house this elephant lay
 > - She had chased my doubts away
-> - 
+> - <br>
 > - After this, I had confidence
 > - My life went on in providence
 > - I don't suppose it makes much sense

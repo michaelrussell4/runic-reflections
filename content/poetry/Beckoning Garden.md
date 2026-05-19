@@ -8,12 +8,12 @@ Tags: religious, philosophical, melancholic, nostalgic
 > - A yearning for our garden lost
 > - We needn't anyone to teach
 > - Provoking this desire
-> - 
+> - <br>
 > - Luscious greens
 > - Pinks and yellows
 > - Sweet perfumes
 > - Breezes mellow
-> - 
+> - <br>
 > - I recall this dream—this pleasant womb
 > - Admiring fields of flower in bloom
 > - A remnant of that garden of yore

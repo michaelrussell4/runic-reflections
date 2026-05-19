@@ -8,7 +8,7 @@ Tags: existential, philosophical, reflective, melancholic
 > - Death beneath but does life stay?
 > - A hope of hope yearns for this
 > - That oblivion does not persist
-> - 
+> - <br>
 > - Stones, cry out and speak to me
 > - Please confirm if ye still be
 > - Your trodden path I surely follow

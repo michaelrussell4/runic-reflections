@@ -8,12 +8,12 @@ Tags: narrative, logophile, comical
 > - Had a fecund wife
 > - Having two large drupes
 > - And a kitchen knife
-> - 
+> - <br>
 > - Tom could hardly wait
 > - For his meal at hand
 > - For to masticate
 > - He did then demand
-> - 
+> - <br>
 > - But his niggardly ways
 > - Left his wife quite cross
 > - Gave a niggling gaze

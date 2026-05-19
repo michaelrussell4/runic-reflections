@@ -8,12 +8,12 @@ Tags: logophile, fantasy, romantic, reflective
 > - A **peaceful piece**
 > - **Full** of long
 > - Notes not to cease
-> - 
+> - <br>
 > - I see a sight
 > - A **maiden made**
 > - **In** lovely light
 > - Her prayer she gave
-> - 
+> - <br>
 > - I rode a steed
 > - A great **knight's mare**
 > - Quick to her need

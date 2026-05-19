@@ -19,20 +19,20 @@ Tags: narrative, philosophical, satirical, reflective
 > - But their king gave no protection
 > - Their souls succumbed to abjection
 > - Sam looked on his son's misdeed
-> - 
+> - <br>
 > - "Son they're calling to your need"
-> - 
+> - <br>
 > - But these words his son defied
 > - For he had grown stiff with pride
 > - This offense left Sam amiss
 > - This son he'd given greatest gifts
-> - 
+> - <br>
 > - "If he shall to evil bend"
 > - "My support will cease and end"
-> - 
+> - <br>
 > - These, Sam's words, he told his son
 > - Who's anger roused, his mind undone
-> - 
+> - <br>
 > - "How dare you, Father, do this to me?"
 > - "It's not fair, it's not you see!"
 > - "I deserve it still, I do"
@@ -41,9 +41,9 @@ Tags: narrative, philosophical, satirical, reflective
 > - "You are not fair, it's mine, okay?"
 > - "I will go and do my will"
 > - "You'll keep giving money, still"
-> - 
+> - <br>
 > - Sam responded in authority
-> - 
+> - <br>
 > - "My son you are in errancy"
 > - "You are free to choose your way"
 > - "As I am, too, from day to day"
@@ -57,7 +57,7 @@ Tags: narrative, philosophical, satirical, reflective
 > - "But no longer will money I bring"
 > - "It was a gift for my good son"
 > - "But not to do evil—this I shun"
-> - 
+> - <br>
 > - Who is just in this tale told?
 > - Must Sam support his son with gold?
 > - Methinks his son is likened to

@@ -10,16 +10,16 @@ Tags: philosophical, existential, reflective, melancholic
 > - Taken to be a garden of Eden
 > - Yet, ironic as it may seem
 > - Quick as a fire burns this scheme
-> - 
+> - <br>
 > - Alas, ecstasy pines away
 > - Fugacious pleasures do not stay
-> - 
+> - <br>
 > - Quickly given, quickly spent
 > - Sharp ascension, sharp descent
-> - 
+> - <br>
 > - A fire burned; now it's out
 > - A blackened hole, a brutal drought
-> - 
+> - <br>
 > - For your life to start again
 > - Plant your seeds and wait for rain
 > - Patience, virtue: friends, be thine

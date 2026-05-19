@@ -14,19 +14,19 @@ Tags: existential, melancholic, philosophical, reflective
 > - Frolic through leaves
 > - Delectable fruit
 > - Questions are moot
-> - 
+> - <br>
 > - Maturation, heart's ablation
 > - Entropic flows break it apart
 > - White is gray and evil smart
 > - Bedrock is broken, night is dark
 > - Water is deeper, none can embark
-> - 
+> - <br>
 > - Treading, treading, treading deep
 > - Can't feel the ground beneath my feet
 > - Slipping, sliding, where to grasp
 > - Gasp for air, I drown and sink
 > - Searching mind, ever I think
-> - 
+> - <br>
 > - Roiling waters in which I tread
 > - Seem to wish that I were dead
 > - Irritated, troubled they

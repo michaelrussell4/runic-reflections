@@ -8,12 +8,12 @@ Tags: religious, nature, philosophical, reflective
 > - Upon creation dost thou shine
 > - A seminal orb of glorious light
 > - Warm'st our souls, overcom'st night
-> - 
+> - <br>
 > - Thou art the water clear and blue
 > - The stream of life and morning dew
 > - A vital substance hast thou brought
 > - Quenching thirst, cleansing spot
-> - 
+> - <br>
 > - Thou art the tree of life divine
 > - In hell thy roots, in heaven thy vine
 > - A powerful rod of priestly rite

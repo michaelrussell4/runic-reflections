@@ -5,11 +5,11 @@ Author: Mike Russell
 Tags: existential, philosophical, abstract, reflective
 
 > - The painful disagreement of logic and man's mind
-> - Displays itself quite clearly, herein you soon will find
-> - Consider now the question, of how it came to be:
-> - The universe, the stars, the earth, the land, the sea
+> - Displays itself quite clearly, herein you'll soon find
+> - Consider now the question of how it came to be:
+> - The universe, the stars, the earth, the land, and sea
 > - A clean and simple start: from zero all arose
-> - But logic cannot have this, this cannot be, it knows
+> - But logic cannot have this; this cannot be, it knows
 > - Causes bring a thing, and nothing's not a thing
 > - If nought is the beginning, then from it none could spring
 > - Rather, logic favors, causes without pause

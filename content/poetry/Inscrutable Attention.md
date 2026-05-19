@@ -6,16 +6,16 @@ Tags: abstract, existential, philosophical, melancholic
 
 > - I am not where you think I am
 > - I am not what you think I am
-> - 
+> - <br>
 > - Not just reasoning
 > - Also experiencing
-> - 
+> - <br>
 > - I am not—you think I am
 > - I am not—you think I am
-> - 
+> - <br>
 > - A priori—insufficiency
 > - Perceptional deficiency
-> - 
+> - <br>
 > - I am—think I am
 > - I am—think I am
 

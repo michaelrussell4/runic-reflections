@@ -6,25 +6,25 @@ Tags: philosophical, existential, nature, reflective
 
 > - What is good and what is bad?
 > - Which exists when suffering's had?
-> - 
+> - <br>
 > - A lion tortures his prey while eating
 > - Flesh is torn with heart still beating
-> - 
+> - <br>
 > - A rodent feasts upon its child
 > - Innocence looks on, beguiled
-> - 
+> - <br>
 > - Struggle of pain
 > - Nature's name
-> - 
+> - <br>
 > - Yet from these scourges
 > - Beauty emerges
-> - 
+> - <br>
 > - A fawn takes a drink from a stream
 > - Sunlight looks on, glistening
-> - 
+> - <br>
 > - Flowers bloom with sweet perfumes
 > - Birds perform their melodic tunes
-> - 
+> - <br>
 > - What shall determine, whether good or bad?
 > - What shall we say, whether sad or glad?
 

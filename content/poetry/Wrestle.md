@@ -8,17 +8,17 @@ Tags: existential, philosophical, reflective, melancholic
 > - I can't tell which
 > - Set up by His majesty
 > - Or an accidental glitch
-> - 
+> - <br>
 > - Our struggles and suffering
 > - Matter or they don't
 > - Simulation buffering
 > - This wrestle is my wont
-> - 
+> - <br>
 > - A mind exists somewhere
 > - A start had to occur
 > - I can't see it anywhere
 > - My cursed eyes see blur
-> - 
+> - <br>
 > - Ignorance is my prison
 > - Amnesia are its bars
 > - I've fallen and I've risen

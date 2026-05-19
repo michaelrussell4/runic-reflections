@@ -8,14 +8,14 @@ Tags: melancholic, reflective, existential, nostalgic
 > - Love and beauty were had and given
 > - Purpose was tacet
 > - Creativity within
-> - 
+> - <br>
 > - I fell and I fell
 > - Fallen in Hell
 > - No love just consumption
 > - No beauty exploitation
 > - Purpose—none; numb
 > - Creativity run faint
-> - 
+> - <br>
 > - Can you mend broken glass?
 > - Repair a heart turgid and torn?
 > - Weeds and thorns choke it fast

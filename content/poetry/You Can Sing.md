@@ -9,13 +9,13 @@ Tags: whimsical, childrens, reflective
 > - A charming ring
 > - A poignant sting
 > - Maybe, if you're good, some money (cha-ching)
-> - 
+> - <br>
 > - You can even sing if you're a king
 > - You can make a sound like a bell: ding
 > - Dance the swing
 > - Fling rocks with a sling
 > - But make sure while you do it you sing
-> - 
+> - <br>
 > - Even the birds with wings like to sing
 > - They chirp out their bright warbling
 > - Whether winter or spring

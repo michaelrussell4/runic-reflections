@@ -8,12 +8,12 @@ Tags: existential, philosophical, reflective, melancholic
 > - So do you
 > - The supernatural
 > - To be factual
-> - 
+> - <br>
 > - Sometimes a hope
 > - Helps to cope
 > - From nihilism
 > - Spiritual schism
-> - 
+> - <br>
 > - Teetering psyche
 > - Confusion likely
 > - You win, I'm fooled

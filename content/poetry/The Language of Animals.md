@@ -8,27 +8,27 @@ Tags: educational, logophile, nature, childrens
 > - These ones are known as bovine
 > - The lazy cats who sleep all day
 > - We call these fellers feline
-> - 
+> - <br>
 > - The big bad wolf who sniffs for food
 > - His type is known as lupine
 > - While fatted pigs with manners rude
 > - We call these ones the porcine
-> - 
+> - <br>
 > - Howling dogs will bark and play
 > - They have a name: it's canine
 > - Horses gallop every day
 > - We call this group equine
-> - 
+> - <br>
 > - Brutish bears feared everywhere
 > - Are known to be ursine
 > - Soft sheeps bleat but do not scare
 > - We name these ones the ovine
-> - 
+> - <br>
 > - The playful kid grows up a goat
 > - His name would be caprine
 > - Dolphins swim faster than boats
 > - We call such swimmers delphine
-> - 
+> - <br>
 > - The clever fox he's cute but keen
 > - We name this thing vulpine
 > - The antlered friends in forest green
