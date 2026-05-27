@@ -6,12 +6,12 @@
 {% block title %}{{ article.title | title_case_custom | striptags }} - {{ SITENAME }}{% endblock %}
 
 {% block og_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
-{% block og_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
+{% block og_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}"{% endblock %}
 {% block og_url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 {% block og_type %}article{% endblock %}
 
 {% block twitter_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
-{% block twitter_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
+{% block twitter_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}"{% endblock %}
 
 {% block canonical %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 
@@ -78,6 +78,48 @@
         </div>
         {% include 'article_infos.html' %}
       </div><!-- /.entry-content -->
+
+      <!-- Article Navigation: Previous/Next -->
+      {% set prev = article.prev_article %}
+      {% set next = article.next_article %}
+      {% if prev or next %}
+      <nav class="flex flex-row justify-between items-center mt-12 gap-2 sm:gap-4 pt-8 border-t-2 border-purple-200 dark:border-purple-800">
+        {% if prev %}
+        <a 
+          href="{{ SITEURL }}/{{ prev.url }}" 
+          class="flex items-center gap-2 sm:gap-3 group w-[49%] text-left px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-r from-purple-50 to-transparent dark:from-purple-900/20 dark:to-transparent border border-purple-200 dark:border-purple-700 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-purple-600 dark:text-purple-400 group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+          </svg>
+          <div class="flex flex-col overflow-hidden flex-1 min-w-0">
+            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-purple-600 dark:text-purple-400">Previous</span>
+            <span class="font-medium text-xs sm:text-sm whitespace-nowrap" style="-webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%); mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);" title="{{ prev.title | title_case_custom | striptags }}">{{ prev.title | title_case_custom | striptags }}</span>
+          </div>
+        </a>
+        {% else %}
+        <div class="w-[49%]"></div>
+        {% endif %}
+
+        {% if next %}
+        <a 
+          href="{{ SITEURL }}/{{ next.url }}" 
+          class="flex items-center justify-between gap-2 sm:gap-3 group w-[49%] text-right px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-l from-purple-50 to-transparent dark:from-purple-900/20 dark:to-transparent border border-purple-200 dark:border-purple-700 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
+        >
+          <div class="flex flex-col overflow-hidden flex-1 items-start sm:items-end min-w-0 text-left sm:text-right">
+            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-purple-600 dark:text-purple-400 w-full">Next</span>
+            <span class="font-medium text-xs sm:text-sm whitespace-nowrap w-full" style="-webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%); mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);" title="{{ next.title | title_case_custom | striptags }}">{{ next.title | title_case_custom | striptags }}</span>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-purple-600 dark:text-purple-400 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+          </svg>
+        </a>
+        {% else %}
+        <div class="w-[49%]"></div>
+        {% endif %}
+      </nav>
+      {% endif %}
+
       {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
         <div class="comments mt-8">
           <h2>Comments</h2>

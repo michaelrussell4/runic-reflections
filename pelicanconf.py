@@ -145,8 +145,14 @@ JINJA_GLOBALS = {
 
 
 def sort_articles(generator):
-    generator.articles.sort(key=lambda article: article.title)
+    # Set up neighbor relationships based on the current (date-ordered) article list
+    # WITHOUT sorting them - keep articles in their natural date order for main page display
+    for i, article in enumerate(generator.articles):
+        article.next_article = (
+            generator.articles[i + 1] if i + 1 < len(generator.articles) else None
+        )
+        article.prev_article = generator.articles[i - 1] if i > 0 else None
 
 
-def register():
-    signals.article_generator_finalized.connect(sort_articles)
+# Connect the signal when pelicanconf is loaded
+signals.article_generator_finalized.connect(sort_articles)
