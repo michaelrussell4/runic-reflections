@@ -59,7 +59,7 @@
     --color-blockquote-bg: #4c1d95;
     --color-tag-bg: #312e81;
     --color-tag-text: #a78bfa;
-    --color-header-bg: #7c3aed;
+    --color-header-bg: #0f172a;
     --color-footer-from: #0f172a;
     --color-footer-to: #030712;
   }
@@ -87,7 +87,7 @@
       --color-blockquote-bg: #4c1d95;
       --color-tag-bg: #312e81;
       --color-tag-text: #a78bfa;
-      --color-header-bg: #7c3aed;
+      --color-header-bg: #0f172a;
       --color-footer-from: #0f172a;
       --color-footer-to: #030712;
     }

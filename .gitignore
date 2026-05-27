@@ -29,6 +29,7 @@ cache/
 rr-theme/static/css/tailwind.css
 
 # AI
+.gemini/
 GEMINI.md
 "GEMINI.md" 
 
