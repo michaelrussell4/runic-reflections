@@ -61,19 +61,19 @@
 {% block content %}
   <section id="content" class="body">
     <article class="max-w-4xl mx-auto">
-      <header class="mb-8 pb-6 border-b-2 border-purple-200">
-        <h1 class="entry-title text-4xl text-center font-bold my-4 text-purple-900">
+      <header class="mb-8 pb-6 border-b-2 border-purple-200 dark:border-purple-800">
+        <h1 class="entry-title text-4xl text-center font-bold my-4 text-purple-900 dark:text-purple-300">
           <a
             href="{{ SITEURL }}/{{ article.url }}"
-            class="hover:text-purple-600 transition duration-200"
+            class="hover:text-purple-600 dark:hover:text-purple-400 transition duration-200"
             >{{ article.title | title_case_custom }}</a
           >
         </h1>
         {% include 'twitter.html' %}
       </header>
 
-      <div class="entry-content rounded-lg bg-white shadow-sm border border-gray-100 overflow-hidden">
-        <div class="prose prose-lg max-w-none p-8">
+      <div class="entry-content rounded-lg bg-white dark:bg-gray-800 shadow-sm border border-gray-100 dark:border-gray-700 overflow-hidden">
+        <div class="prose prose-lg dark:prose-invert max-w-none p-8">
           {{ article.content }}
         </div>
         {% include 'article_infos.html' %}

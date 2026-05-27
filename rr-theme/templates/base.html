@@ -18,10 +18,12 @@
     <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}{% endblock %}" />
     <link rel="canonical" href="{% block canonical %}{{ SITEURL }}/{% endblock %}" />
     {% if SITEURL %}<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ SITEURL }}/feeds/all.rss.xml" />{% endif %}
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin />
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.ttf" type="font/ttf" crossorigin />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ TAILWIND_CSS }}" />
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ CSS_FILE }}" />
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
+    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/dark-mode-overrides.css" />
+    <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/theme.js"></script>
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -58,24 +60,36 @@
   </head>
 
   <body id="index" class="w-full flex flex-col min-h-screen text-pretty">
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:bg-purple-600 focus:text-white focus:p-2 focus:z-50">Skip to main content</a>
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:bg-primary focus:text-white focus:p-2 focus:z-50">Skip to main content</a>
     {% include 'github.html' %}
-    <header id="banner" class="bg-purple-600 text-white tracking-widest sticky top-0 z-40 shadow-md">
+    <header id="banner" class="bg-header-bg text-white tracking-widest sticky top-0 z-40 shadow-md dark:shadow-lg dark:shadow-purple-900/50">
       <div class="p-4">
         <div class="flex items-center justify-between mb-3">
           <h1 class="text-2xl font-bold">
-            <a href="{{ SITEURL }}/" class="hover:text-gray-300 transition duration-200">
+            <a href="{{ SITEURL }}/" class="hover:text-gray-300 dark:hover:text-gray-200 transition duration-200">
               {{ SITENAME }}{% if SITESUBTITLE %}
               <strong>{{ SITESUBTITLE }}</strong>{% endif %}
             </a>
           </h1>
-          <button id="mobile-menu-toggle" class="md:hidden p-2 rounded hover:bg-purple-500 transition duration-200" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
-            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-            </svg>
-          </button>
+          <div class="flex items-center gap-2">
+            <button id="theme-toggle" class="p-2 rounded hover:bg-purple-500 dark:hover:bg-purple-700 transition duration-200" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+              <!-- Sun icon (shown in light mode) -->
+              <svg class="sun-icon w-6 h-6 text-yellow-300 hidden" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75zM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0zM12 18.75a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V19.5a.75.75 0 0 1 .75-.75zM.75 12a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H1.5a.75.75 0 0 1-.75-.75zm20.5 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5h-2.25a.75.75 0 0 1-.75-.75zM3.659 3.659a.75.75 0 0 1 1.061 0l1.591 1.591a.75.75 0 1 1-1.061 1.061L3.659 4.72a.75.75 0 0 1 0-1.061zm14.142 14.142a.75.75 0 0 1 1.061 0l1.591 1.591a.75.75 0 1 1-1.061 1.061l-1.591-1.591a.75.75 0 0 1 0-1.061zm0-14.142a.75.75 0 0 1 0 1.061L17.21 6.271a.75.75 0 1 1-1.061-1.061l1.591-1.591a.75.75 0 0 1 1.061 0zM3.659 17.71a.75.75 0 0 1 1.061-1.061l1.591 1.591a.75.75 0 1 1-1.061 1.061l-1.591-1.591z"/>
+              </svg>
+              <!-- Moon icon (shown in dark mode) -->
+              <svg class="moon-icon w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                <path d="M21.64 13a1 1 0 0 0-1.05-.14 8 8 0 1 1 .12-11.5 1 1 0 0 0 1.41 1.41A10 10 0 1 0 23 13.29a1 1 0 0 0-.36-.29z"/>
+              </svg>
+            </button>
+            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded hover:bg-purple-500 dark:hover:bg-purple-700 transition duration-200" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
+              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+              </svg>
+            </button>
+          </div>
         </div>
-        <hr class="border-gray-100 mb-4" />
+        <hr class="border-gray-100 dark:border-gray-700 mb-4" />
         <nav id="nav-menu" class="hidden md:block">
           <ul
             class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-2"
@@ -84,7 +98,7 @@
             <li>
               <a
                 href="{{ link }}"
-                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block"
+                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block"
                 >{{ title }}</a
               >
             </li>
@@ -92,7 +106,7 @@
             <li>
               <a
                 href="{{ SITEURL }}/{{ pg.url }}"
-                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block{% if pg == page %} font-bold{% endif %}"
+                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block{% if pg == page %} font-bold{% endif %}"
                 >{{ pg.title }}</a
               >
             </li>
@@ -101,7 +115,7 @@
             <li>
               <a
                 href="{{ SITEURL }}/{{ cat.url }}"
-                class="hover:bg-purple-500 rounded px-3 py-2 transition duration-200 block{% if cat == category %} font-bold{% endif %}"
+                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block{% if cat == category %} font-bold{% endif %}"
                 >{{ cat }}</a
               >
             </li>
@@ -119,12 +133,12 @@
       });
     </script>
     <!-- /#banner -->
-    <main id="main-content" class="flex-grow p-4 bg-gray-100">
+    <main id="main-content" class="flex-grow p-4 bg-gray-100 dark:bg-gray-900">
       {% block content %} {% endblock %}
     </main>
 
     {% if LINKS or SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-    <section id="extras" class="bg-gray-100 p-6">
+    <section id="extras" class="bg-gray-100 dark:bg-gray-900 p-6">
       {% if LINKS %}
       <div class="blogroll mb-6">
         <h2 class="text-xl font-semibold mb-2">
@@ -135,7 +149,7 @@
           <li>
             <a
               href="{{ link }}"
-              class="text-blue-600 hover:text-blue-800 transition duration-200"
+              class="text-primary hover:text-primary-alt transition duration-200"
               >{{ name }}</a
             >
           </li>
@@ -155,7 +169,7 @@
               href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
               type="application/atom+xml"
               rel="alternate"
-              class="text-blue-600 hover:text-blue-800 transition duration-200"
+              class="text-primary hover:text-primary-alt transition duration-200"
               >Atom Feed</a
             >
           </li>
@@ -188,7 +202,7 @@
 
     <footer
       id="contentinfo"
-      class="bg-gradient-to-b from-gray-900 to-gray-950 text-gray-200 py-12 px-6 text-sm border-t border-gray-700"
+      class="bg-gradient-to-b from-footer-from to-footer-to text-gray-200 py-12 px-6 text-sm border-t border-gray-700 dark:border-gray-800"
     >
       <div class="max-w-5xl mx-auto">
         <!-- Main footer content -->
@@ -265,7 +279,7 @@
               Made with 💜 by
               <a
                 href="https://github.com/michaelrussell4"
-                class="text-purple-400 hover:text-purple-300 transition duration-200 font-semibold"
+                class="text-purple-400 hover:text-purple-300 dark:text-purple-300 dark:hover:text-purple-200 transition duration-200 font-semibold"
                 >Mike Russell</a
               >
             </p>

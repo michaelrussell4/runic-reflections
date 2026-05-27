@@ -13,8 +13,8 @@ html {
 
 body {
   font-family: 'Montserrat', sans-serif;
-  background-color: #f9fafb;
-  color: #1f2937;
+  background-color: var(--color-bg-light);
+  color: var(--color-text-dark);
   line-height: 1.7;
 }
 
@@ -25,25 +25,25 @@ a, button {
 
 /* Better focus states for accessibility */
 :focus {
-  outline: 2px solid #7c3aed;
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
 }
 
 button:focus,
 a:focus {
-  outline: 2px solid #7c3aed;
+  outline: 2px solid var(--color-primary);
   outline-offset: 2px;
   border-radius: 3px;
 }
 
 /* Article Cards */
 .article-card {
-  background: white;
+  background: var(--color-bg-white);
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
-  border: 1px solid #f0f0f0;
+  border: 1px solid var(--color-border-light);
 }
 
 .article-card:hover {
@@ -53,7 +53,7 @@ a:focus {
 
 .article-card h3 {
   margin-top: 0;
-  color: #7c3aed;
+  color: var(--color-primary);
 }
 
 /* Tags and Categories */
@@ -61,20 +61,20 @@ a:focus {
   display: inline-block;
   padding: 0.35em 0.65em;
   margin: 0.25em 0.25em 0.25em 0;
-  background-color: #f3f4f6;
-  color: #4b5563;
+  background-color: var(--color-tag-bg);
+  color: var(--color-tag-text);
   border-radius: 999px;
   font-size: 0.85em;
   font-weight: 500;
   transition: all 0.2s ease;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--color-border-subtle);
 }
 
 .tag:hover, .category:hover {
-  background-color: #7c3aed;
+  background-color: var(--color-primary);
   color: white;
   text-decoration: none;
-  border-color: #7c3aed;
+  border-color: var(--color-primary);
 }
 
 /* Pagination */
@@ -89,10 +89,10 @@ a:focus {
 .pagination a,
 .pagination span {
   padding: 0.5em 0.75em;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--color-border-subtle);
   border-radius: 6px;
-  background: white;
-  color: #7c3aed;
+  background: var(--color-bg-white);
+  color: var(--color-primary);
   text-decoration: none;
   transition: all 0.2s ease;
   min-width: 2.5rem;
@@ -100,23 +100,23 @@ a:focus {
 }
 
 .pagination a:hover {
-  background-color: #7c3aed;
+  background-color: var(--color-primary);
   color: white;
-  border-color: #7c3aed;
+  border-color: var(--color-primary);
   box-shadow: 0 2px 4px rgba(124, 58, 237, 0.2);
 }
 
 .pagination .active,
 .pagination .current {
-  background-color: #7c3aed;
+  background-color: var(--color-primary);
   color: white;
-  border-color: #7c3aed;
+  border-color: var(--color-primary);
 }
 
 /* List items styling */
 .entry-summary {
   padding-bottom: 1rem;
-  border-bottom: 1px solid #f0f0f0;
+  border-bottom: 1px solid var(--color-border-light);
 }
 
 .entry-summary:last-child {
@@ -125,7 +125,7 @@ a:focus {
 
 /* Date styling */
 .published {
-  color: #6b7280;
+  color: var(--color-text-medium);
   font-size: 0.9em;
   font-weight: 500;
 }
@@ -135,16 +135,18 @@ input[type="search"],
 input[type="text"],
 input[type="email"] {
   padding: 0.5rem 0.75rem;
-  border: 1px solid #e5e7eb;
+  border: 1px solid var(--color-border-subtle);
   border-radius: 6px;
   font-family: inherit;
   transition: border-color 0.2s ease;
+  background-color: var(--color-bg-white);
+  color: var(--color-text-dark);
 }
 
 input[type="search"]:focus,
 input[type="text"]:focus,
 input[type="email"]:focus {
-  border-color: #7c3aed;
+  border-color: var(--color-primary);
   outline: none;
 }
 

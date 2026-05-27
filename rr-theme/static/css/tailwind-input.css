@@ -1,4 +1,95 @@
 @import "tailwindcss";
+
+/* Configure dark mode to use 'class' selector instead of prefers-color-scheme */
+@layer theme {
+  --dark-mode: class;
+}
+
 @source "../../templates/**/*.html";
 @source "../../../content/**/*.md";
 @source "../../../content/**/*.html";
+
+/* Light theme (default) */
+@layer base {
+  :root {
+    --color-primary: #7c3aed;
+    --color-primary-alt: #9333ea;
+    --color-primary-hover: #6d28d9;
+    --color-primary-light: #a78bfa;
+    --color-bg-light: #f9fafb;
+    --color-bg-lighter: #f3f4f6;
+    --color-bg-white: #ffffff;
+    --color-text-dark: #1f2937;
+    --color-text-darker: #2d3748;
+    --color-text-medium: #6b7280;
+    --color-text-blockquote: #3f3f46;
+    --color-border-subtle: #e5e7eb;
+    --color-border-light: #f0f0f0;
+    --color-code-bg: #1f2937;
+    --color-code-text: #f3f4f6;
+    --color-code-inline-bg: #f3f4f6;
+    --color-code-inline-text: #1f2937;
+    --color-blockquote-bg: #f5f3ff;
+    --color-tag-bg: #f3f4f6;
+    --color-tag-text: #4b5563;
+    --color-header-bg: #7c3aed;
+    --color-footer-from: #1f2937;
+    --color-footer-to: #0d1117;
+  }
+
+  /* Dark theme */
+  html.dark {
+    --color-primary: #a78bfa;
+    --color-primary-alt: #c084fc;
+    --color-primary-hover: #d8b4fe;
+    --color-primary-light: #7c3aed;
+    --color-bg-light: #1f2937;
+    --color-bg-lighter: #111827;
+    --color-bg-white: #0f172a;
+    --color-text-dark: #f3f4f6;
+    --color-text-darker: #e5e7eb;
+    --color-text-medium: #9ca3af;
+    --color-text-blockquote: #e0e7ff;
+    --color-border-subtle: #374151;
+    --color-border-light: #2d3748;
+    --color-code-bg: #1f2937;
+    --color-code-text: #f3f4f6;
+    --color-code-inline-bg: #374151;
+    --color-code-inline-text: #e0e7ff;
+    --color-blockquote-bg: #4c1d95;
+    --color-tag-bg: #312e81;
+    --color-tag-text: #a78bfa;
+    --color-header-bg: #7c3aed;
+    --color-footer-from: #0f172a;
+    --color-footer-to: #030712;
+  }
+
+  /* Respects system preference if no explicit theme is set */
+  @media (prefers-color-scheme: dark) {
+    html:not(.light) {
+      --color-primary: #a78bfa;
+      --color-primary-alt: #c084fc;
+      --color-primary-hover: #d8b4fe;
+      --color-primary-light: #7c3aed;
+      --color-bg-light: #1f2937;
+      --color-bg-lighter: #111827;
+      --color-bg-white: #0f172a;
+      --color-text-dark: #f3f4f6;
+      --color-text-darker: #e5e7eb;
+      --color-text-medium: #9ca3af;
+      --color-text-blockquote: #e0e7ff;
+      --color-border-subtle: #374151;
+      --color-border-light: #2d3748;
+      --color-code-bg: #1f2937;
+      --color-code-text: #f3f4f6;
+      --color-code-inline-bg: #374151;
+      --color-code-inline-text: #e0e7ff;
+      --color-blockquote-bg: #4c1d95;
+      --color-tag-bg: #312e81;
+      --color-tag-text: #a78bfa;
+      --color-header-bg: #7c3aed;
+      --color-footer-from: #0f172a;
+      --color-footer-to: #030712;
+    }
+  }
+}

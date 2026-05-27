@@ -15,6 +15,9 @@ playground.ipynb
 # output
 output/
 
+# cache
+cache/
+
 # vscode
 .vscode/
 
@@ -34,3 +37,4 @@ GEMINI.md
 
 # Extra files
 all_poetry.md
+DARK_MODE_LOG.md

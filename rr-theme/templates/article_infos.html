@@ -1,6 +1,6 @@
 <footer class="post-info px-4 text-right text-xs pt-2">
   <div class="opacity-50">
-    <div class="text-gray-600">
+    <div class="text-gray-600 dark:text-gray-400">
       <abbr class="published" title="{{ article.date.isoformat() }}">
         Published: {{ article.locale_date }}
       </abbr>
@@ -13,20 +13,20 @@
     </div>
     {% if article.authors %}
     <div>
-      <address class="vcard author text-gray-600">
+      <address class="vcard author text-gray-600 dark:text-gray-400">
         By {% for author in article.authors %}
         <a
-          class="url fn hover:text-blue-600 transition duration-200"
+          class="url fn hover:text-blue-600 dark:hover:text-blue-400 transition duration-200"
           href="{{ SITEURL }}/{{ author.url }}"
           >{{ author }}</a
         >{% if not loop.last %}, {% endif %} {% endfor %}
       </address>
     </div>
     {% endif %}
-    <div class="text-gray-600">
+    <div class="text-gray-600 dark:text-gray-400">
       In
       <a
-        class="hover:text-blue-600 transition duration-200"
+        class="hover:text-blue-600 dark:hover:text-blue-400 transition duration-200"
         href="{{ SITEURL }}/{{ article.category.url }}"
         >{{ article.category }}</a
       >.
