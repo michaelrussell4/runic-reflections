@@ -45,11 +45,11 @@ h1:not(header h1), h2, h3, h4, h5, h6 {
   color: var(--color-text-darker) !important;
 }
 
-main a, section#extras a {
+main a:not(.tags-container a), section#extras a:not(.tags-container a) {
   color: var(--color-primary) !important;
 }
 
-main a:hover, section#extras a:hover {
+main a:not(.tags-container a):hover, section#extras a:not(.tags-container a):hover {
   color: var(--color-primary-hover) !important;
 }
 
