@@ -69,6 +69,32 @@
             >{{ article.title | title_case_custom }}</a
           >
         </h1>
+        
+        <!-- Copy and Share Buttons -->
+        <div class="flex justify-center gap-3 mt-4">
+          <button 
+            id="copy-btn"
+            title="Copy article"
+            class="inline-flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-all duration-200"
+            aria-label="Copy article"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+            </svg>
+          </button>
+          
+          <button 
+            id="share-btn"
+            title="Share article"
+            class="inline-flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-all duration-200"
+            aria-label="Share article"
+          >
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </button>
+        </div>
+        
         {% include 'twitter.html' %}
       </header>
 
@@ -140,4 +166,75 @@
 
     </article>
   </section>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      const copyBtn = document.getElementById('copy-btn');
+      const shareBtn = document.getElementById('share-btn');
+      const articleUrl = '{{ SITEURL }}/{{ article.url }}';
+      const articleTitle = '{{ article.title | title_case_custom | striptags }}';
+      
+      // Copy button functionality
+      if (copyBtn) {
+        copyBtn.addEventListener('click', async function() {
+          try {
+            const contentElement = document.querySelector('.prose.prose-lg');
+            const titleText = articleTitle;
+            const contentText = contentElement ? contentElement.innerText : '';
+            const fullText = titleText + '\n\n' + contentText;
+            
+            await navigator.clipboard.writeText(fullText);
+            const originalTitle = copyBtn.getAttribute('title');
+            copyBtn.setAttribute('title', 'Copied!');
+            copyBtn.classList.add('text-green-600', 'dark:text-green-400');
+            copyBtn.classList.remove('text-gray-600', 'dark:text-gray-400');
+            
+            setTimeout(() => {
+              copyBtn.setAttribute('title', originalTitle);
+              copyBtn.classList.remove('text-green-600', 'dark:text-green-400');
+              copyBtn.classList.add('text-gray-600', 'dark:text-gray-400');
+            }, 2000);
+          } catch (err) {
+            console.error('Failed to copy:', err);
+          }
+        });
+      }
+      
+      // Share button functionality
+      if (shareBtn) {
+        shareBtn.addEventListener('click', async function() {
+          // Use Web Share API if available
+          if (navigator.share) {
+            try {
+              await navigator.share({
+                title: articleTitle,
+                text: articleTitle,
+                url: articleUrl
+              });
+            } catch (err) {
+              // User cancelled share or error occurred
+              console.log('Share cancelled or failed:', err);
+            }
+          } else {
+            // Fallback: copy URL to clipboard
+            try {
+              await navigator.clipboard.writeText(articleUrl);
+              const originalTitle = shareBtn.getAttribute('title');
+              shareBtn.setAttribute('title', 'Link copied!');
+              shareBtn.classList.add('text-blue-600', 'dark:text-blue-400');
+              shareBtn.classList.remove('text-gray-600', 'dark:text-gray-400');
+              
+              setTimeout(() => {
+                shareBtn.setAttribute('title', originalTitle);
+                shareBtn.classList.remove('text-blue-600', 'dark:text-blue-400');
+                shareBtn.classList.add('text-gray-600', 'dark:text-gray-400');
+              }, 2000);
+            } catch (err) {
+              console.error('Failed to copy:', err);
+            }
+          }
+        });
+      }
+    });
+  </script>
 {% endblock %}
