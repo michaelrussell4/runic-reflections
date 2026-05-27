@@ -131,6 +131,38 @@
         this.setAttribute('aria-expanded', !isExpanded);
         menu.classList.toggle('hidden');
       });
+
+      // Smart Scroll Header for reading focus
+      document.addEventListener('DOMContentLoaded', function() {
+        const isArticlePage = document.querySelector('article') !== null;
+        if (isArticlePage) {
+          const header = document.getElementById('banner');
+          let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          
+          // Add transition for smooth sliding
+          header.style.transition = 'transform 0.3s ease-in-out';
+
+          window.addEventListener('scroll', function() {
+            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > lastScrollTop && scrollTop > header.offsetHeight) {
+              // Scrolling down - hide header
+              header.style.transform = 'translateY(-100%)';
+            } else {
+              // Scrolling up - show header
+              header.style.transform = 'translateY(0)';
+            }
+            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+          }, { passive: true });
+
+          // Show header if mouse moves to the very top of the window
+          document.addEventListener('mousemove', function(e) {
+            if (e.clientY < 60) {
+              header.style.transform = 'translateY(0)';
+            }
+          });
+        }
+      });
     </script>
     <!-- /#banner -->
     <main id="main-content" class="flex-grow p-4 bg-gray-100 dark:bg-gray-900">

@@ -68,6 +68,7 @@ div.bg-white,
 section.bg-white {
   background-color: white !important;
   color: var(--color-text-dark) !important;
+  border-color: var(--color-border-light) !important;
 }
 
 html.dark article.bg-white,
@@ -75,6 +76,7 @@ html.dark div.bg-white,
 html.dark section.bg-white {
   background-color: var(--color-bg-white) !important;
   color: var(--color-text-dark) !important;
+  border-color: var(--color-border-subtle) !important;
 }
 
 .article-card {
