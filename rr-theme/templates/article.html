@@ -113,7 +113,7 @@
         {% if prev %}
         <a 
           href="{{ SITEURL }}/{{ prev.url }}" 
-          class="flex items-center gap-2 sm:gap-3 group w-[49%] text-left px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-r from-purple-50 to-transparent dark:from-purple-900/20 dark:to-transparent border border-purple-200 dark:border-purple-700 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
+          class="flex items-center gap-2 sm:gap-3 group w-[49%] text-left px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-r from-purple-100 dark:from-purple-700 to-transparent border border-purple-200 dark:border-purple-600 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
         >
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-purple-600 dark:text-purple-400 group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
@@ -130,11 +130,11 @@
         {% if next %}
         <a 
           href="{{ SITEURL }}/{{ next.url }}" 
-          class="flex items-center justify-between gap-2 sm:gap-3 group w-[49%] text-right px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-l from-purple-50 to-transparent dark:from-purple-900/20 dark:to-transparent border border-purple-200 dark:border-purple-700 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
+          class="flex items-center justify-between gap-2 sm:gap-3 group w-[49%] text-right px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-l from-purple-100 dark:from-purple-700 to-transparent border border-purple-200 dark:border-purple-600 hover:border-purple-400 dark:hover:border-purple-500 text-gray-700 dark:text-gray-300 hover:text-purple-700 dark:hover:text-purple-300 transition-all duration-200 shadow-sm hover:shadow-md"
         >
           <div class="flex flex-col overflow-hidden flex-1 items-start sm:items-end min-w-0 text-left sm:text-right">
             <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-purple-600 dark:text-purple-400 w-full">Next</span>
-            <span class="font-medium text-xs sm:text-sm whitespace-nowrap w-full" style="-webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%); mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);" title="{{ next.title | title_case_custom | striptags }}">{{ next.title | title_case_custom | striptags }}</span>
+            <span class="article-nav-title font-medium text-xs sm:text-sm whitespace-nowrap w-full" title="{{ next.title | title_case_custom | striptags }}">{{ next.title | title_case_custom | striptags }}</span>
           </div>
           <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-purple-600 dark:text-purple-400 group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
             <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
@@ -173,6 +173,25 @@
       const shareBtn = document.getElementById('share-btn');
       const articleUrl = '{{ SITEURL }}/{{ article.url }}';
       const articleTitle = '{{ article.title | title_case_custom | striptags }}';
+      
+      // Check for text truncation in navigation titles
+      function checkNavTitleTruncation() {
+        const navTitles = document.querySelectorAll('.article-nav-title');
+        navTitles.forEach(title => {
+          // Check if the text is overflowing
+          if (title.scrollWidth > title.clientWidth) {
+            title.classList.add('is-truncated');
+          } else {
+            title.classList.remove('is-truncated');
+          }
+        });
+      }
+      
+      // Run check on load
+      checkNavTitleTruncation();
+      
+      // Re-check on window resize
+      window.addEventListener('resize', checkNavTitleTruncation);
       
       // Copy button functionality
       if (copyBtn) {

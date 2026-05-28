@@ -21,7 +21,7 @@ Anyway, have fun exploring. If you don't like what you read, keep digging. I'm s
 ## How the Site Works
 
 I built **Runic Reflections** using [Pelican](https://getpelican.com/), a static site generator that converts simple Markdown files into a polished website. Content I write begins as a Markdown file, allowing me to focus on the words themselves. A simple 
-<span class="inline-block bg-gray-200 text-gray-700 font-mono text-sm px-2 rounded-md">
+<span class="inline-block bg-black/10 dark:bg-white/15 text-current font-mono text-sm px-2 rounded-md">
     git push
 </span>
 brings new creations to life on the site via [GitHub actions'](https://docs.github.com/en/actions) automated flow. I'd like to thank creators of these tools which allow this site to be deployed and hosted at absolutely no cost to me!

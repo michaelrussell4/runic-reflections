@@ -9,6 +9,11 @@
 
 html {
   scroll-behavior: smooth;
+  color-scheme: light dark;
+}
+
+html.dark {
+  color-scheme: dark light;
 }
 
 body {
@@ -54,6 +59,16 @@ a:focus {
 .article-card h3 {
   margin-top: 0;
   color: var(--color-primary);
+}
+
+/* Article Navigation Title - Fade when truncated */
+.article-nav-title {
+  transition: -webkit-mask-image 0.2s ease, mask-image 0.2s ease;
+}
+
+.article-nav-title.is-truncated {
+  -webkit-mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
+  mask-image: linear-gradient(to right, rgba(0,0,0,1) 75%, rgba(0,0,0,0) 100%);
 }
 
 /* Tags and Categories */

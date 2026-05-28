@@ -262,3 +262,20 @@ footer#contentinfo a:hover {
 footer#contentinfo hr {
   border-color: rgba(255, 255, 255, 0.1) !important;
 }
+
+/* Article Navigation Button Styling - Ensures consistent gradient across all devices */
+nav a[href*="/"]:not(.hidden) {
+  background-image: none !important;
+}
+
+html.dark nav a[href*="/"]:not(.hidden) {
+  background-color: rgba(88, 28, 135, 0.15) !important;
+  background-image: linear-gradient(to right, rgba(109, 40, 217, 0.3), transparent) !important;
+  border-color: var(--color-primary-alt) !important;
+}
+
+html.dark nav a[href*="/"]:not(.hidden):hover {
+  background-color: rgba(109, 40, 217, 0.2) !important;
+  background-image: linear-gradient(to right, rgba(109, 40, 217, 0.4), transparent) !important;
+  border-color: var(--color-primary) !important;
+}

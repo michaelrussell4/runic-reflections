@@ -1,10 +1,5 @@
 @import "tailwindcss";
 
-/* Configure dark mode to use 'class' selector instead of prefers-color-scheme */
-@layer theme {
-  --dark-mode: class;
-}
-
 @source "../../templates/**/*.html";
 @source "../../../content/**/*.md";
 @source "../../../content/**/*.html";
