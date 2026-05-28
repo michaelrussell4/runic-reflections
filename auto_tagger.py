@@ -127,15 +127,33 @@ if __name__ == "__main__":
     start_time = time.time()
 
     with ThreadPoolExecutor(max_workers=20) as executor:
-        futures = {
+        future_to_file = {
             executor.submit(process_file, client, fp, force_all): fp
             for fp in files_to_process
         }
 
         for future in tqdm(
-            as_completed(futures), total=len(files_to_process), desc="Tagging Files"
+            as_completed(future_to_file),
+            total=len(files_to_process),
+            desc="Tagging Files",
         ):
-            status, message = future.result()
+            try:
+                result = future.result()
+            except Exception as e:
+                status, message = (
+                    "failed",
+                    f"Failed {future_to_file.get(future, 'unknown')}: {e}",
+                )
+            else:
+                if not result or not isinstance(result, tuple) or len(result) != 2:
+                    status, message = (
+                        "failed",
+                        f"Failed {future_to_file.get(future, 'unknown')}: No valid result",
+                    )
+                else:
+                    status, message = result
+
+            stats.setdefault(status, 0)
             stats[status] += 1
             # Uncomment the next line if you wish to see individual file outcomes during execution
             # tqdm.write(message)
