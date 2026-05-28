@@ -1,5 +1,7 @@
 # pylint: disable=missing-function-docstring,missing-module-docstring
 
+import json
+import os
 from datetime import datetime
 from math import ceil
 from string import capwords
@@ -70,7 +72,16 @@ DISQUS_SITENAME = None  # Enable comments if desired
 THEME = "rr-theme"
 STATIC_PATHS = ["images"]
 THEME_STATIC_PATHS = ["static"]
+
+# Dynamically extract current cache-busted asset name
 TAILWIND_CSS = "tailwind.css"
+manifest_path = "asset_manifest.json"
+if os.path.exists(manifest_path):
+    try:
+        with open(manifest_path, "r") as f:
+            TAILWIND_CSS = json.load(f).get("TAILWIND_CSS", "tailwind.css")
+    except Exception:
+        pass
 
 
 def title_case_custom(title):

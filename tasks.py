@@ -1,10 +1,12 @@
 import datetime
+import glob
+import hashlib
+import json
 import os
 import shlex
 import shutil
 import sys
 
-import pytailwindcss
 from invoke.main import program
 from invoke.tasks import task
 from pelican import main as pelican_main
@@ -33,15 +35,44 @@ CONFIG = {
 
 
 def build_tailwind(c):
-    """Compile Tailwind CSS using the pytailwindcss wrapper."""
+    """Compile Tailwind CSS, hash it for cache-busting, and write an asset manifest."""
     input_css = "rr-theme/static/css/tailwind-input.css"
     output_css = "rr-theme/static/css/tailwind.css"
+    css_dir = "rr-theme/static/css"
 
-    pytailwindcss.run(
-        ["-i", input_css, "-o", output_css, "--minify"],
-        cwd=os.path.abspath("."),
-        auto_install=True,
+    print("Compiling and minifying Tailwind CSS...")
+
+    # Force absolute paths to ensure target safety across directories
+    input_abs = os.path.abspath(input_css)
+    output_abs = os.path.abspath(output_css)
+
+    # Run pytailwindcss as a python module inside the active environment shell context.
+    # This completely bypasses Windows CMD unquoted/quoted nested path parsing errors.
+    c.run(
+        f'"{sys.executable}" -m pytailwindcss -i "{input_abs}" -o "{output_abs}" --minify',
+        hide=False,
     )
+
+    # Clear out old hashed files to prevent accumulation
+    for old_hashed_file in glob.glob(os.path.join(css_dir, "tailwind.*.css")):
+        try:
+            os.remove(old_hashed_file)
+        except OSError:
+            pass
+
+    # Compute hash from compiled payload
+    with open(output_css, "rb") as f:
+        file_hash = hashlib.md5(f.read()).hexdigest()[:8]
+
+    hashed_filename = f"tailwind.{file_hash}.css"
+    shutil.copy(output_css, os.path.join(css_dir, hashed_filename))
+
+    # Save mapping for pelicanconf context resolution
+    manifest = {"TAILWIND_CSS": hashed_filename}
+    with open("asset_manifest.json", "w") as f:
+        json.dump(manifest, f)
+
+    print(f"Asset pipeline ready: Generated {hashed_filename}")
 
 
 @task
