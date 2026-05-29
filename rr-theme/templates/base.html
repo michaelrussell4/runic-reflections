@@ -18,8 +18,8 @@
     <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}{% endblock %}" />
     <link rel="canonical" href="{% block canonical %}{{ SITEURL }}/{% endblock %}" />
     {% if SITEURL %}<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ SITEURL }}/feeds/all.rss.xml" />{% endif %}
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.ttf" type="font/ttf" crossorigin />
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.ttf" type="font/ttf" crossorigin />
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin />
+    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.woff2" type="font/woff2" crossorigin />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ TAILWIND_CSS }}" />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/dark-mode-overrides.css" />
