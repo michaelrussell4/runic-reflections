@@ -1,9 +1,8 @@
-/* Light Mode Styles (default) */
-body {
-  background-color: var(--color-bg-light) !important;
-  color: var(--color-text-dark) !important;
-}
+/* ==========================================================================
+   Runic Reflections - Theme Overrides & Brand Safety Styles
+   ========================================================================== */
 
+/* Header - Stable Purple Identity (maintains purple brand color in both modes) */
 header#banner {
   background-color: var(--color-header-bg) !important;
   color: white !important;
@@ -35,90 +34,12 @@ header#banner nav a:hover {
   color: white !important;
 }
 
-main, section#extras {
-  background-color: var(--color-bg-light) !important;
-  color: var(--color-text-dark) !important;
+/* Ensure the header stays the same in dark mode */
+html.dark header#banner {
+  background-color: var(--color-header-bg) !important;
 }
 
-/* Global heading color (avoiding the header) */
-h1:not(header h1), h2, h3, h4, h5, h6 {
-  color: var(--color-text-darker) !important;
-}
-
-main a:not(.tags-container a), section#extras a:not(.tags-container a) {
-  color: var(--color-primary) !important;
-}
-
-main a:not(.tags-container a):hover, section#extras a:not(.tags-container a):hover {
-  color: var(--color-primary-hover) !important;
-}
-
-
-
-/* Force article background in light mode */
-article.bg-white,
-div.bg-white,
-section.bg-white {
-  background-color: white !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-light) !important;
-}
-
-html.dark article.bg-white,
-html.dark div.bg-white,
-html.dark section.bg-white {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-subtle) !important;
-}
-
-.article-card {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-light) !important;
-}
-
-.article-card h3 {
-  color: var(--color-primary) !important;
-}
-
-.tag, .category {
-  background-color: var(--color-tag-bg) !important;
-  color: var(--color-tag-text) !important;
-  border-color: var(--color-border-subtle) !important;
-}
-
-.tag:hover, .category:hover {
-  background-color: var(--color-primary) !important;
-  color: white !important;
-}
-
-.pagination a,
-.pagination span {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-primary) !important;
-  border-color: var(--color-border-subtle) !important;
-}
-
-.pagination a:hover {
-  background-color: var(--color-primary) !important;
-  color: white !important;
-}
-
-.pagination .active,
-.pagination .current {
-  background-color: var(--color-primary) !important;
-  color: white !important;
-}
-
-.entry-summary {
-  border-color: var(--color-border-light) !important;
-}
-
-.published {
-  color: var(--color-text-medium) !important;
-}
-
+/* Form inputs styling */
 input[type="search"],
 input[type="text"],
 input[type="email"] {
@@ -133,55 +54,7 @@ input[type="email"]:focus {
   border-color: var(--color-primary) !important;
 }
 
-/* Dark Mode Styles */
-html.dark {
-  background-color: var(--color-bg-light) !important;
-  color: var(--color-text-dark) !important;
-}
-
-html.dark body {
-  background-color: var(--color-bg-light) !important;
-  color: var(--color-text-dark) !important;
-}
-
-/* Ensure the header stays the same in dark mode */
-html.dark header#banner {
-  background-color: var(--color-header-bg) !important;
-}
-
-/* Fix for article backgrounds in dark mode if hardcoded classes are used */
-html.dark article.bg-white,
-html.dark div.bg-white,
-html.dark section.bg-white {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-}
-
-/* Fix for borders in dark mode if hardcoded classes are used */
-html.dark .border-gray-100,
-html.dark .border-gray-200,
-html.dark .border-gray-300 {
-  border-color: var(--color-border-subtle) !important;
-}
-
-html.dark .text-gray-600,
-html.dark .text-gray-700,
-html.dark .text-gray-800 {
-  color: var(--color-text-dark) !important;
-}
-
-html.dark .text-gray-500 {
-  color: var(--color-text-medium) !important;
-}
-
-html.dark .text-purple-900,
-html.dark .text-purple-700 {
-  color: var(--color-primary) !important;
-}
-
-
-
-/* Ensure footer has a dark background in both modes to contrast with light text */
+/* Footer - Stable Dark-Foundation Branding (remains dark in both modes) */
 footer#contentinfo {
   background-color: var(--color-footer-from) !important;
   background-image: linear-gradient(to bottom, var(--color-footer-from), var(--color-footer-to)) !important;
@@ -211,7 +84,7 @@ footer#contentinfo hr {
   border-color: rgba(255, 255, 255, 0.1) !important;
 }
 
-/* Article Navigation Button Styling - Ensures consistent gradient across all devices */
+/* Article Navigation Buttons - Device-Consistent Gradient Styling */
 nav a[href*="/"]:not(.hidden) {
   background-image: none !important;
 }
@@ -219,11 +92,11 @@ nav a[href*="/"]:not(.hidden) {
 html.dark nav a[href*="/"]:not(.hidden) {
   background-color: rgba(88, 28, 135, 0.15) !important;
   background-image: linear-gradient(to right, rgba(109, 40, 217, 0.3), transparent) !important;
-  border-color: var(--color-primary-alt) !important;
+  border-color: var(--color-brand-border) !important;
 }
 
 html.dark nav a[href*="/"]:not(.hidden):hover {
   background-color: rgba(109, 40, 217, 0.2) !important;
   background-image: linear-gradient(to right, rgba(109, 40, 217, 0.4), transparent) !important;
-  border-color: var(--color-primary) !important;
+  border-color: var(--color-brand-border) !important;
 }

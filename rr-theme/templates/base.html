@@ -2,6 +2,21 @@
 <html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
   <head>
     {% block head %}
+    <script>
+      (function() {
+        const saved = localStorage.getItem('theme-preference');
+        const darkClass = 'dark';
+        const lightClass = 'light';
+        const html = document.documentElement;
+        if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          html.classList.add(darkClass);
+          html.classList.remove(lightClass);
+        } else {
+          html.classList.remove(darkClass);
+          html.classList.add(lightClass);
+        }
+      })();
+    </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="Pelican" />
@@ -165,12 +180,12 @@
       });
     </script>
     <!-- /#banner -->
-    <main id="main-content" class="flex-grow p-4 bg-gray-100 dark:bg-gray-900">
+    <main id="main-content" class="flex-grow p-4 bg-bg-light text-text-dark">
       {% block content %} {% endblock %}
     </main>
 
     {% if LINKS or SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-    <section id="extras" class="bg-gray-100 dark:bg-gray-900 p-6">
+    <section id="extras" class="bg-bg-light text-text-dark p-6">
       {% if LINKS %}
       <div class="blogroll mb-6">
         <h2 class="text-xl font-semibold mb-2">
@@ -311,7 +326,7 @@
               Made with 💜 by
               <a
                 href="https://github.com/michaelrussell4"
-                class="text-purple-400 hover:text-purple-300 dark:text-purple-300 dark:hover:text-purple-200 transition duration-200 font-semibold"
+                class="text-primary hover:text-primary-hover dark:text-primary-light dark:hover:text-primary transition duration-200 font-semibold"
                 >Mike Russell</a
               >
             </p>

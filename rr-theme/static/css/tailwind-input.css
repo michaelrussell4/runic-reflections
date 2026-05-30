@@ -20,6 +20,12 @@
   --color-header-bg: #7c3aed;
   --color-footer-from: #1f2937;
   --color-footer-to: #0d1117;
+  --color-code-bg: #f3f4f6;
+  --color-code-text: #1f2937;
+  --color-code-inline-bg: #f3f4f6;
+  --color-code-inline-text: #7c3aed;
+  --color-brand-title: #7c3aed;
+  --color-brand-border: #7c3aed;
 }
 
 @source "../../templates/**/*.html";
@@ -54,6 +60,8 @@
     --color-header-bg: #0f172a;
     --color-footer-from: #0f172a;
     --color-footer-to: #030712;
+    --color-brand-title: #ffffff;
+    --color-brand-border: #4c1d95;
   }
 
   /* Respects system preference if no explicit theme is set */
@@ -82,6 +90,8 @@
       --color-header-bg: #0f172a;
       --color-footer-from: #0f172a;
       --color-footer-to: #030712;
+      --color-brand-title: #ffffff;
+      --color-brand-border: #4c1d95;
     }
   }
 }

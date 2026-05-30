@@ -1,44 +1,17 @@
-{% if DEFAULT_PAGINATION %} {% set first_page = articles_paginator.page(1) %} {%
-set last_page = articles_paginator.page(articles_paginator.num_pages) %}
-<nav class="my-4">
-  <ul class="flex justify-center space-x-2">
-    {% if articles_page.has_previous() %}
-    <li>
-      <a
-        href="{{ SITEURL }}/{{ first_page.url }}"
-        class="block px-3 py-1 border border-purple-300 dark:border-purple-700 rounded hover:bg-purple-100 dark:hover:bg-purple-900 text-purple-700 dark:text-purple-400"
-        >&Lang;</a
-      >
-    </li>
-    <li>
-      <a
-        href="{{ SITEURL }}/{{ articles_previous_page.url }}"
-        class="block px-3 py-1 border border-purple-300 dark:border-purple-700 rounded hover:bg-purple-100 dark:hover:bg-purple-900 text-purple-700 dark:text-purple-400"
-        >&lang;</a
-      >
-    </li>
-    {% endif %}
-    <li
-      class="block px-3 py-1 border border-purple-300 dark:border-purple-700 rounded text-purple-700 dark:text-purple-400 cursor-default"
-    >
-      Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}
-    </li>
-    {% if articles_page.has_next() %}
-    <li>
-      <a
-        href="{{ SITEURL }}/{{ articles_next_page.url }}"
-        class="block px-3 py-1 border border-purple-300 dark:border-purple-700 rounded hover:bg-purple-100 dark:hover:bg-purple-900 text-purple-700 dark:text-purple-400"
-        >&rang;</a
-      >
-    </li>
-    <li>
-      <a
-        href="{{ SITEURL }}/{{ last_page.url }}"
-        class="block px-3 py-1 border border-purple-300 dark:border-purple-700 rounded hover:bg-purple-100 dark:hover:bg-purple-900 text-purple-700 dark:text-purple-400"
-        >&Rang;</a
-      >
-    </li>
-    {% endif %}
-  </ul>
+{% if DEFAULT_PAGINATION %}
+{% set first_page = articles_paginator.page(1) %}
+{% set last_page = articles_paginator.page(articles_paginator.num_pages) %}
+<nav class="pagination">
+  {% if articles_page.has_previous() %}
+    <a href="{{ SITEURL }}/{{ first_page.url }}" title="First Page">&Lang;</a>
+    <a href="{{ SITEURL }}/{{ articles_previous_page.url }}" title="Previous Page">&lang;</a>
+  {% endif %}
+  
+  <span class="current">Page {{ articles_page.number }} / {{ articles_paginator.num_pages }}</span>
+  
+  {% if articles_page.has_next() %}
+    <a href="{{ SITEURL }}/{{ articles_next_page.url }}" title="Next Page">&rang;</a>
+    <a href="{{ SITEURL }}/{{ last_page.url }}" title="Last Page">&Rang;</a>
+  {% endif %}
 </nav>
 {% endif %}
