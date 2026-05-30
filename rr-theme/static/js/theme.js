@@ -140,14 +140,19 @@
    * Initialize all theme functionality when DOM is ready
    */
   function init() {
+    // 1. Run theme initialization immediately to apply class to <html> tag.
+    // This blocks parser execution momentarily to prevent Flash of Unstyled Content (FOUC).
+    initializeTheme();
+
+    // 2. Initialize DOM-dependent controls when DOM is ready
     if (document.readyState === 'loading') {
       document.addEventListener('DOMContentLoaded', function() {
-        initializeTheme();
+        updateToggleButton(); // Ensure button icon is properly updated once DOM exists
         initializeToggleButton();
         initializeSystemPreferenceListener();
       });
     } else {
-      initializeTheme();
+      updateToggleButton();
       initializeToggleButton();
       initializeSystemPreferenceListener();
     }

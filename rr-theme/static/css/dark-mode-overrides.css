@@ -53,14 +53,7 @@ main a:not(.tags-container a):hover, section#extras a:not(.tags-container a):hov
   color: var(--color-primary-hover) !important;
 }
 
-/* Force Index button text to be dark in light mode */
-#toggle-button span {
-  color: var(--color-text-darker) !important;
-}
 
-html.dark #toggle-button span {
-  color: var(--color-text-dark) !important;
-}
 
 /* Force article background in light mode */
 article.bg-white,
@@ -186,52 +179,7 @@ html.dark .text-purple-700 {
   color: var(--color-primary) !important;
 }
 
-/* Index toggle button styling */
-#toggle-button {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-subtle) !important;
-}
 
-#toggle-button:hover {
-  background-color: var(--color-bg-lighter) !important;
-  border-color: var(--color-primary) !important;
-}
-
-html.dark #toggle-button {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-light) !important;
-}
-
-html.dark #toggle-button span {
-  color: var(--color-text-dark) !important;
-}
-
-html.dark #toggle-button:hover {
-  background-color: var(--color-bg-lighter) !important;
-  border-color: var(--color-primary) !important;
-}
-
-/* Index accordion content styling */
-#accordion-content {
-  background-color: var(--color-bg-white) !important;
-  color: var(--color-text-dark) !important;
-  border-color: var(--color-border-light) !important;
-}
-
-.poem-item-header {
-  color: var(--color-primary) !important;
-}
-
-.poem-item a {
-  color: var(--color-text-dark) !important;
-}
-
-.poem-item a:hover {
-  color: var(--color-primary) !important;
-  background-color: var(--color-bg-lighter) !important;
-}
 
 /* Ensure footer has a dark background in both modes to contrast with light text */
 footer#contentinfo {

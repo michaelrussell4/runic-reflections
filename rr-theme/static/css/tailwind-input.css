@@ -1,36 +1,33 @@
 @import "tailwindcss";
 
+@theme {
+  --color-primary: #7c3aed;
+  --color-primary-alt: #9333ea;
+  --color-primary-hover: #6d28d9;
+  --color-primary-light: #a78bfa;
+  --color-bg-light: #f9fafb;
+  --color-bg-lighter: #f3f4f6;
+  --color-bg-white: #ffffff;
+  --color-text-dark: #1f2937;
+  --color-text-darker: #2d3748;
+  --color-text-medium: #6b7280;
+  --color-text-blockquote: #3f3f46;
+  --color-border-subtle: #f3f4f6;
+  --color-border-light: #e5e7eb;
+  --color-blockquote-bg: #f5f3ff;
+  --color-tag-bg: #f3f4f6;
+  --color-tag-text: #4b5563;
+  --color-header-bg: #7c3aed;
+  --color-footer-from: #1f2937;
+  --color-footer-to: #0d1117;
+}
+
 @source "../../templates/**/*.html";
 @source "../../../content/**/*.md";
 @source "../../../content/**/*.html";
 
-/* Light theme (default) */
+/* Light theme (default) definitions and overrides */
 @layer base {
-  :root {
-    --color-primary: #7c3aed;
-    --color-primary-alt: #9333ea;
-    --color-primary-hover: #6d28d9;
-    --color-primary-light: #a78bfa;
-    --color-bg-light: #f9fafb;
-    --color-bg-lighter: #f3f4f6;
-    --color-bg-white: #ffffff;
-    --color-text-dark: #1f2937;
-    --color-text-darker: #2d3748;
-    --color-text-medium: #6b7280;
-    --color-text-blockquote: #3f3f46;
-    --color-border-subtle: #f3f4f6;
-    --color-border-light: #e5e7eb;
-    --color-code-bg: #1f2937;
-    --color-code-text: #f3f4f6;
-    --color-code-inline-bg: #f3f4f6;
-    --color-code-inline-text: #1f2937;
-    --color-blockquote-bg: #f5f3ff;
-    --color-tag-bg: #f3f4f6;
-    --color-tag-text: #4b5563;
-    --color-header-bg: #7c3aed;
-    --color-footer-from: #1f2937;
-    --color-footer-to: #0d1117;
-  }
 
   /* Dark theme */
   html.dark {
