@@ -7,7 +7,7 @@ Tags: melancholic, reflective, existential, comical
 > - My name is Mister E Johnwithanee.
 > - My life includes great difficulty.
 > - I live at the cross of Road st and Bomb.
-> - My email address is `atSymbol.dotCOMlowercaseAt@email.com`
+> - My email address is atSymbol.dotCOMlowercaseAt@email.com
 > - I was born February 29th, two-thousand and zero.
 > - The phone number for Hungry Caballero
 > - Happens to be my social security number.
