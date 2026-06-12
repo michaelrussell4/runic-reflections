@@ -2,6 +2,7 @@ Title: Modern Fart Exhibit
 Date: 2026/06/12 01:29PM
 Category: Poetry
 Author: Mike Russell
+Tags: philosophical, nostalgic, melancholic, reflective
 
 > - I stepped into the gallery
 > - To see fine art from history
