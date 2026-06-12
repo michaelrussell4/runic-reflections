@@ -2,7 +2,7 @@ Title: Modern Art in Prose
 Date: 2026/06/12 01:31PM
 Category: Poetry
 Author: Mike Russell
-Tags: abstract, surreal, melancholic, existential
+Tags: abstract, surreal, melancholic, existential, comical
 
 > - Bleh blobby zoo
 > - Porash... #*$*% 33 urg
