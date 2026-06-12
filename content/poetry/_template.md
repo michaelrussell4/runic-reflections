@@ -7,3 +7,7 @@ Status: hidden
 > - ctrl + shift + s = Save As
 > - Update time and tags
 > - ¡Remove Status: hidden! 😉
+
+# Ideas
+
+- Viewing art and comparing it to poetry, a nice, elegant piece like a nice elegant poem and then the abstract ones like gibberish--why would anyone admire that?
