@@ -18,9 +18,11 @@ Tags: existential, philosophical, religious, abstract
 > - Flaring nostrils, strong winds blow
 > - She is master of the beast
 > - He must yield to her, the least
-> - But both are used by man above
+> - She provokes the head to turn
+> - He can choose to suffer or learn
+> - But both are used by the man above
 > - Will he drive with greed or love?
 
 ## Notes
 
-The bit is oppressed by the horse yet controls him. The rider prevails over both. A metaphor is offered for bit, horse, rider: woman, man, and God.
+The bit is oppressed by the horse yet controls him. The rider prevails over both. A metaphor is offered for bit, horse, rider: woman, man, and God. The stanza couplets correspond to topics: teeth, saliva, breath.
