@@ -4,7 +4,7 @@ Category: Essays
 Author: Mike Russell
 Tags: religious, educational, philosophical, serious
 
-When I get explanations of the Trinity from members of mainstream Christians denominations, the response usually resembles Modalism more than Trinitarianism. Most members of the Church of Jesus Christ of Latter-day Saints likewise carry misunderstanding of the Trinity. At the same time, figures claiming to represent Christian orthodoxy accuse Latter-day Saints of having scripture that teaches Modalism. The result is ironic:
+When I get explanations of the Trinity from members of mainstream Christian denominations, the response usually resembles Modalism more than Trinitarianism. Most members of the Church of Jesus Christ of Latter-day Saints likewise carry misunderstanding of the Trinity. At the same time, figures claiming to represent Christian orthodoxy accuse Latter-day Saints of having scripture that teaches Modalism. The result is ironic:
 
 - Many mainstream Christians describe their belief in the Trinity as Modalism
 - Other Christians accuse Latter-day Saints of not being Christian because their scripture teaches Modalism
