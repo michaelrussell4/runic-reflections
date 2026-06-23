@@ -2,6 +2,7 @@ Title: Our Holy Skeuomorph
 Date: 2026/06/22 01:27PM
 Category: Poetry
 Author: Mike Russell
+Tags: religious, philosophical, existential, reflective
 
 > - I have for you a riddle
 > - I fear to tell you of
