@@ -1,4 +1,4 @@
-﻿name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages
 on:
   push:
     branches: ["main"]
@@ -27,6 +27,10 @@ jobs:
       - name: Build Tailwind CSS
         run: |
           python -m pytailwindcss -i rr-theme/static/css/tailwind-input.css -o rr-theme/static/css/tailwind.css --minify
+
+      - name: Generate EPUB
+        run: |
+          python generate_epub.py
 
       - name: Build Pelican site
         run: |

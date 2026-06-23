@@ -10,6 +10,8 @@ The purpose of **Runic Reflections** is to share my thoughts and expressions thr
 
 I built **Runic Reflections** using [Pelican](https://getpelican.com/), a static site generator that transforms simple Markdown files into a polished website. Each poem begins as a Markdown file, allowing me to focus on the words themselves. With a simple `git push`, I can bring new creations to life on the site. As a professional coder, building this website was a fun project that combined my skills and interests.
 
+The site also automatically compiles all published poems into a beautifully formatted EPUB ebook during the build process, making the entire collection available for offline reading in standard e-readers.
+
 ## Explore the Collection
 
 Feel free to explore the site, reflect on the poems, and enjoy this evolving collection of verses. I hope these poems inspire thought, spark curiosity, or simply bring a smile.

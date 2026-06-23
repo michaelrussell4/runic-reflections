@@ -299,6 +299,9 @@
                 <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" class="text-purple-400 hover:text-purple-300 transition duration-200">Atom Feed</a>
               </li>
               {% endif %}
+              <li>
+                <a href="{{ SITEURL }}/images/runic_reflections.epub" download="runic_reflections_{{ now.strftime('%Y-%m-%d') }}.epub" class="text-purple-400 hover:text-purple-300 transition duration-200">Download EPUB</a>
+              </li>
             </ul>
           </div>
 

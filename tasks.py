@@ -34,6 +34,16 @@ CONFIG = {
 }
 
 
+def build_epub_file():
+    """Generate EPUB version of all poetry content"""
+    print("Generating EPUB book...")
+    try:
+        from generate_epub import build_epub
+        build_epub("content/poetry", "content/images/runic_reflections_cover.png", "content/images/runic_reflections.epub")
+    except Exception as e:
+        print(f"Failed to generate EPUB: {e}")
+
+
 def build_tailwind(c):
     """Compile Tailwind CSS, hash it for cache-busting, and write an asset manifest."""
     input_css = "rr-theme/static/css/tailwind-input.css"
@@ -87,6 +97,7 @@ def clean(c):
 def build(c):
     """Build local version of site"""
     build_tailwind(c)
+    build_epub_file()
     pelican_run("-s {settings_base}".format(**CONFIG))
 
 
@@ -94,6 +105,7 @@ def build(c):
 def rebuild(c):
     """`build` with the delete switch"""
     build_tailwind(c)
+    build_epub_file()
     pelican_run("-d -s {settings_base}".format(**CONFIG))
 
 
@@ -101,6 +113,7 @@ def rebuild(c):
 def regenerate(c):
     """Automatically regenerate site upon file modification"""
     build_tailwind(c)
+    build_epub_file()
     pelican_run("-r -s {settings_base}".format(**CONFIG))
 
 
@@ -137,6 +150,7 @@ def reserve(c):
 @task
 def preview(c):
     """Build production version of site"""
+    build_epub_file()
     pelican_run("-s {settings_publish}".format(**CONFIG))
 
 
@@ -146,6 +160,7 @@ def livereload(c):
     from livereload import Server
 
     def cached_build():
+        build_epub_file()
         cmd = "-s {settings_base} -e CACHE_CONTENT=true LOAD_CONTENT_CACHE=true"
         pelican_run(cmd.format(**CONFIG))
 
