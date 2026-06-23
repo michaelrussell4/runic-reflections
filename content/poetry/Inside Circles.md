@@ -8,27 +8,27 @@ Tags: philosophical, existential, abstract, reflective
 > - The final piece will be a flaw
 > - Have it sound but unresolved
 > - Or finish it and break a law
-> -
+> - <br>
 > - I see your fancy for a start
 > - The conception of all things
 > - Watch how reason will depart
 > - For from void nothing springs
-> -
+> - <br>
 > - Peer beyond, it never ends
 > - Regressing down forever
 > - 'Round our puny minds it bends
 > - You'll comprehend it never
-> -
+> - <br>
 > - Truth is larger than the eye
 > - It strictly strays from measure
 > - Try to prove it, by and by
 > - You will not find your treasure
-> -
+> - <br>
 > - We're circumscribed inside a dome
 > - We cannot see behind
 > - Our key is locked without our home
 > - Outside our frame we're blind
-> -
+> - <br>
 > - One cannot prove arithmetic
 > - By adding one, two, three
 > - Who wound the clock and made it tick?
