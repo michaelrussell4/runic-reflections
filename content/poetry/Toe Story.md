@@ -1,9 +1,8 @@
-Title: Cat Story
+Title: Toe Story
 Date: 2026-01-25 14:00:32
 Category: Poetry
 Author: Mike Russell
 Tags: narrative, whimsical, comical, fantasy
-Status: hidden
 
 What a day had Mary Mae!
 She woke up and her little toe was gray
@@ -29,7 +28,17 @@ The doctor said, "Ah yes, let me tell"
 "A toe or two becomes angry"
 Mary asked, "How does that occur?"
 "Honestly", said the doctor, "I'm not sure"
-"What I'll have to do," the doctor went on
-"Is refer you to a specialist who speaks Toe-song"
-"They'll speak with your toe to find the cause"
-"And get you feeling good as you ever was"
+"But there are ways to solve that one"
+"Just let do something fun"
+Mary wondered what could be fun for a toe
+This was new to her, she didn't know
+The Doctor gave a list of suggestions
+"Try asking it some sole-searching questions"
+"Give it a joy ride in a toe-truck"
+"Put it in a pond and let the carp suck"
+"Just give it a try—put your best foot forward"
+"Surely some of these you'll be able to afford"
+Then Mary went and treated her toe
+They learned to surf and cook and sew
+Next thing she knew, her toe was fine
+All it needed was some quality time
