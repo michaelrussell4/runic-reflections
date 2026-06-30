@@ -22,4 +22,4 @@ Tags: melancholic, existential, philosophical, reflective
 > - The fowl bird dazzled with beauty
 > - On Istra he painted by hand
 > - The fine fox crafted with words
-> - For seer and seen both ugly
+> - Leaving seer and seen both ugly
