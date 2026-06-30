@@ -6,7 +6,11 @@ Summary: Learn more about the purpose and inspiration behind Runic Reflections, 
 
 ## Welcome to [Runic Reflections](/) 👋
 
-I'm **Mike**, the site/content creator. Here you'll find a collection of my literary works. I've got poems, essays, and short stories. The subjects and styles vary drastically. You'll find a mix: silly, serious, sad, scholarly, and sapient. You may come across some smart-sounding, big words. That's not a linguistic flex, it's just my clumsy vocabulary practice at work. Sometimes I read a new word that piques my interest and becomes the seed of a new poem. Other of my works are silly and puerile—can't be serious all the time. But you'll certainly find some serious works here as well—that existential curiosity is an insatiable fire who has a more remarkable resistance utter extinguishment than my own soul, it seems—there I go again.
+I'm **Mike**, the creator of this site. Here you will find a varied collection of my poems, essays, and short stories. The subjects and styles diverge drastically across the spectrum—ranging from the silly and puerile to the scholarly and serious. You may frequently encounter uncommon or complex words within these pieces; this is not a linguistic flex, but rather the visible artifact of my own clumsy vocabulary practice at work. Sometimes a single new word piques my interest and becomes the direct seed of an entire poem.
+
+I spare myself some pain in leaving my grammar and spelling errors uncorrected, often avoiding the use of digital grammar or spell-checkers. This is a purposeful exercise in facilitating the demolition of vain facades. Though pride would fain indulge in a false sense of admiration from readers, I refuse to mislead with such a pretense. I prefer to bear my shortcomings clearly, lest anyone mistake me for anything other than the clumsy and failing mortal I am—unlikely as it may be.
+
+You will certainly find a deep layer of serious, analytical work here as well. For me, existential curiosity is an insatiable fire—one that possesses a far more remarkable resistance toward utter extinguishment than my own soul, it seems. Against this unbearably dramatic angst, you'll find some lighthearted and comical content as well.
 
 Anyway, have fun exploring. If you don't like what you read, keep digging. I'm sure you'll find something worthwhile in my collection eventually.
 
