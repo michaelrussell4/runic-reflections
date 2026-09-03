@@ -2,6 +2,7 @@ Title: When I Close My Eyes
 Date: 2026/09/03 03:32PM
 Category: Poetry
 Author: Mike Russell
+Tags: existential, philosophical, reflective, serious
 
 > - I close my eyes and those two there
 > - Dark and black and eerie

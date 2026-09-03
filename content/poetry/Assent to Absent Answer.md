@@ -2,6 +2,7 @@ Title: Assent to Absent Answer
 Date: 2026/09/03 03:07PM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, existential, philosophical, romantic
 
 > - Ignorance is not a lacking
 > - Clear's not deprived of fog
