@@ -9,13 +9,13 @@ Tags: melancholic, existential, philosophical, romantic
 > - As toxic gas fills to suffocate
 > - As water drowns to retaliate
 > - The tune to my melancholy slog
-> - 
+> - <br>
 > - My malicious maiden blinds
 > - She will not trust my sight
 > - Hide from me
 > - Run and flee
 > - I pine for a glimpse of her light
-> -
+> - <br>
 > - I tread, I swim, I gasp
 > - I fall, I sink, a clasp
 > - A rescue sweet
