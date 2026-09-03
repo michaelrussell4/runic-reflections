@@ -1,235 +1,505 @@
-{% extends "base.html" %} {% block content_title %}{% endblock %} {% block
-content %} {% if articles %}
+{% extends "base.html" %}
+{% block content_title %}{% endblock %}
+{% block content %}
+{% if articles %}
 
-<!-- Accordion Dropdown for All Poems -->
-<div class="mb-8">
-  <div class="flex flex-col sm:flex-row gap-4 items-stretch sm:items-center">
-    <button
-      id="toggle-button"
-      class="flex-1 text-left bg-bg-white hover:bg-bg-lighter border-2 border-border-light hover:border-primary outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 p-4 rounded-lg transition duration-200"
-    >
-      <span class="font-semibold text-text-dark">
-        {% if category %}
-          Index of {{ category | lower }}
-        {% elif tag %}
-          Index of poems tagged "{{ tag | lower }}"
-        {% elif author %}
-          Index of poems by {{ author }}
-        {% else %}
-          Index of all poems
-        {% endif %}
-      </span>
-      <span class="text-text-medium text-sm ml-2">({{ articles | length | format_number }} items)</span>
-    </button>
+<!-- Minimalist Hero Header -->
+<section class="mb-10 sm:mb-14">
+  <div class="max-w-3xl">
+    <span class="text-xs font-semibold uppercase tracking-widest text-primary mb-2 block">
+      Essays &bull; Poetry &bull; Short Stories &bull; Reviews
+    </span>
+    <h1 class="font-serif font-bold text-3xl sm:text-4xl lg:text-5xl text-text-primary tracking-tight mb-3">
+      {% if category %}
+        {{ category }}
+      {% elif tag %}
+        Works tagged #{{ tag }}
+      {% elif author %}
+        Works by {{ author }}
+      {% else %}
+        Runic Reflections
+      {% endif %}
+    </h1>
+    <p class="text-text-secondary text-sm sm:text-base leading-relaxed max-w-2xl">
+      {% if category %}
+        Explore writings, essays, and reflections categorized under <span class="text-primary font-medium">{{ category }}</span>.
+      {% elif tag %}
+        Writings exploring the theme of <span class="text-primary font-medium">#{{ tag }}</span>.
+      {% elif author %}
+        Written works by <span class="text-primary font-medium">{{ author }}</span>.
+      {% else %}
+        A contemplative collection of poems, essays, short stories, and philosophical reflections exploring the human experience, literature, and the beauty of language.
+      {% endif %}
+    </p>
 
-    <!-- Random Poem Button -->
-    <button
-      id="random-poem-button"
-      class="bg-transparent hover:bg-primary text-primary hover:text-white border-2 border-primary hover:border-primary-hover outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 p-4 rounded-lg font-semibold shadow-sm hover:shadow-md transition duration-200 whitespace-nowrap"
-      onclick="redirectToRandomPoem()"
-    >
-      🎲 Random
-    </button>
+    <!-- Quick Action Controls -->
+    <div class="flex flex-wrap items-center gap-2.5 sm:gap-3 mt-6">
+      <button
+        id="toggle-index-btn"
+        class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-bg-surface border border-border-subtle hover:border-primary text-text-primary hover:text-primary text-xs sm:text-sm font-medium transition-all shadow-sm cursor-pointer"
+        aria-expanded="false"
+        aria-controls="archive-accordion"
+      >
+        <svg class="w-4 h-4 text-primary shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
+        </svg>
+        <span>
+          {% if category %}
+            {{ category }} Index ({{ articles | length | format_number }})
+          {% elif tag %}
+            #{{ tag }} Index ({{ articles | length | format_number }})
+          {% else %}
+            Index ({{ all_articles_count if all_articles_count is defined else (articles | length | format_number) }})
+          {% endif %}
+        </span>
+      </button>
 
-    <!-- EPUB Download Button -->
-    <a
-      id="epub-download-button"
-      href="{{ SITEURL }}/images/runic_reflections.epub"
-      download="runic_reflections_{{ now.strftime('%Y-%m-%d') }}.epub"
-      class="bg-transparent hover:bg-primary text-primary hover:text-white border-2 border-primary hover:border-primary-hover outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 p-4 rounded-lg font-semibold shadow-sm hover:shadow-md transition duration-200 whitespace-nowrap text-center flex items-center justify-center gap-2"
-      title="Download EPUB (compiled {{ now.strftime('%b %d, %Y') }})"
-    >
-      📖 EPUB
-    </a>
-  </div>
+      <button
+        id="toggle-tags-btn"
+        class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-bg-surface border border-border-subtle hover:border-primary text-text-primary hover:text-primary text-xs sm:text-sm font-medium transition-all shadow-sm cursor-pointer"
+        title="Search and filter works by thematic tag"
+      >
+        <svg class="w-4 h-4 text-primary shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9.568 3H5.25A2.25 2.25 0 003 5.25v4.318c0 .597.237 1.17.659 1.591l9.581 9.581c.699.699 1.78.872 2.607.33a18.095 18.095 0 005.223-5.223c.542-.827.369-1.908-.33-2.607L11.16 3.66A2.25 2.25 0 009.568 3z" />
+          <path stroke-linecap="round" stroke-linejoin="round" d="M6 6h.008v.008H6V6z" />
+        </svg>
+        <span>Tags</span>
+      </button>
 
-  {% set total_articles = (articles | length + 2*(articles | group_articles) |
-  length) %} {% set num_rows_for_2_cols = (total_articles / 2) | ceil %} {% set
-  num_rows_for_3_cols = (total_articles / 3) | ceil %} {% set
-  num_rows_for_4_cols = (total_articles / 4) | ceil %} {% set
-  num_rows_for_5_cols = (total_articles / 5) | ceil %} {% set
-  num_rows_for_6_cols = (total_articles / 6) | ceil %}
-  <!-- Style must be defined here because it's dynamically defined based on article count -->
-  <style>
-    @media (min-width: 0px) {
-      /* Medium screens */
-      .index-grid {
-        grid-template-rows: repeat({{total_articles}}, 0.5fr);
-      }
-    }
-    @media (min-width: 500px) {
-      /* Medium screens */
-      .index-grid {
-        grid-template-rows: repeat({{num_rows_for_2_cols}}, 0.5fr);
-      }
-    }
-    @media (min-width: 700px) {
-      /* Large screens */
-      .index-grid {
-        grid-template-rows: repeat({{num_rows_for_3_cols}}, 0.5fr);
-      }
-    }
-    @media (min-width: 1000px) {
-      /* Extra large screens */
-      .index-grid {
-        grid-template-rows: repeat({{num_rows_for_4_cols}}, 0.5fr);
-      }
-    }
-    @media (min-width: 1500px) {
-      /* Extra large screens */
-      .index-grid {
-        grid-template-rows: repeat({{num_rows_for_5_cols}}, 0.5fr);
-      }
-    }
-    @media (min-width: 2000px) {
-      /* Extra large screens */
-      .index-grid {
-        grid-template-rows: repeat({{num_rows_for_6_cols}}, 0.5fr);
-      }
-    }
-  </style>
-  <div id="accordion-content" class="bg-bg-white border border-border-light text-text-dark p-6 rounded-lg shadow-sm hidden mt-4 animate-fade-in">
-    <!-- Search Input -->
-    <div class="mb-6">
-      <input
-        type="text"
-        id="search-input"
-        placeholder="🔍 Search poems..."
-        class="p-3 border-2 border-border-light bg-bg-white text-text-dark placeholder-text-medium rounded-lg w-full sm:w-1/2 lg:w-1/3 max-w-lg focus:border-primary focus:ring-2 focus:ring-primary/20 outline-none transition duration-200"
-      />
+      <button
+        id="random-poem-button"
+        onclick="redirectToRandomPoem()"
+        class="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg bg-bg-surface border border-border-subtle hover:border-primary text-text-primary hover:text-primary text-xs sm:text-sm font-medium transition-all shadow-sm cursor-pointer"
+        title="Open a random piece"
+      >
+        <svg class="w-4 h-4 text-primary shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.8">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+        </svg>
+        <span>Random</span>
+      </button>
     </div>
 
-    <div class="grid grid-flow-col gap-4 index-grid items-start">
-      {% set grouped_articles = articles | group_articles %} {% for letter,
-      articles in grouped_articles.items() %}
-      <div class="poem-item-header font-bold text-xl text-primary row-span-2 sticky top-0 bg-bg-white">
-        {{ letter }}
-      </div>
-      {% for article in articles %}
-      <div class="poem-item">
-        <a
-          href="{{ SITEURL }}/{{ article.url }}"
-          class="text-text-dark hover:text-primary hover:bg-bg-lighter hover:font-semibold text-sm transition duration-200 py-1 px-2 rounded block"
-          >{{ article.title | title_case_custom }}</a
-        >
-      </div>
-      {% endfor %} {% endfor %}
+    <!-- Category Filter Pills -->
+    {% if categories %}
+    <div class="flex flex-wrap items-center gap-1.5 sm:gap-2 mt-6 pt-5 border-t border-border-subtle">
+      <span class="text-xs text-text-muted mr-1 font-medium">Categories:</span>
+      <a
+        href="{{ SITEURL }}/"
+        class="category-pill {% if not category and not tag %}active{% endif %}"
+      >
+        All ({{ all_articles_count if all_articles_count is defined else (articles | length) }})
+      </a>
+      {% for cat, cat_articles in categories %}
+      <a
+        href="{{ SITEURL }}/{{ cat.url }}"
+        class="category-pill {% if cat == category %}active{% endif %}"
+      >
+        {{ cat }} ({{ cat_articles | count }})
+      </a>
+      {% endfor %}
     </div>
+    {% endif %}
   </div>
-</div>
-<script>
-  document
-    .getElementById("toggle-button")
-    .addEventListener("click", function () {
-      var content = document.getElementById("accordion-content");
-      if (content.classList.contains("hidden")) {
-        content.classList.remove("hidden");
-      } else {
-        content.classList.add("hidden");
-      }
-    });
 
-    var articleUrls = {{ articles | get_article_urls | tojson }};
-
-  // Function to redirect to a random poem
-  function redirectToRandomPoem() {
-    var randomIndex = Math.floor(Math.random() * articleUrls.length);
-    var randomPoemUrl = articleUrls[randomIndex];
-    window.location.href = "{{ SITEURL }}/" + randomPoemUrl;
-  }
-
-  // Search functionality
-  document
-    .getElementById("search-input")
-    .addEventListener("input", function () {
-      var searchTerm = this.value.toLowerCase();
-      var poemItems = document.querySelectorAll(".poem-item");
-      var poemItemHeaders = document.querySelectorAll(".poem-item-header");
-
-      if (searchTerm !== "") {
-        poemItemHeaders.forEach(function (item) {
-          item.style.display = "none"; // Hide each item
-        });
-      } else {
-        // If the search term is empty, show all items
-        poemItemHeaders.forEach(function (item) {
-          item.style.display = ""; // Show each item
-        });
-      }
-
-      poemItems.forEach(function (item) {
-        var title = item.textContent.toLowerCase();
-        if (title.includes(searchTerm)) {
-          item.style.display = ""; // Show item
-        } else {
-          item.style.display = "none"; // Hide item
-        }
-      });
-    });
-</script>
-
-<section id="content" class="body">
-  <h2 class="text-xl text-text-medium font-semibold mb-4">
-    {{ category | title }} by date (most recent)
-  </h2>
-  <hr class="mb-4 border-border-light" />
-  <ol
-    id="posts-list"
-    class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6"
+  <!-- Interactive All-Works & Tags Index Drawer -->
+  <div
+    id="archive-accordion"
+    class="hidden mt-8 p-6 sm:p-8 rounded-xl bg-bg-surface border border-border-subtle shadow-sm animate-fade-in"
   >
-    {% for article in articles_page.object_list %}
-    <li>
-      <article class="bg-bg-white p-4 rounded-lg shadow-lg mb-6 border border-border-light">
-        {% include 'article_infos.html' %}
-        <header>
-          <h1 class="text-3xl font-bold text-center mt-4">
+    <!-- Drawer Header & Search Controls -->
+    <div class="flex flex-col gap-4 pb-5 border-b border-border-subtle mb-6">
+      <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4">
+        <div>
+          <h2 class="font-serif font-bold text-lg text-text-primary">
+            Catalog Index
+          </h2>
+          <p class="text-xs text-text-muted mt-0.5" id="catalog-count-label">
+            Filter across {{ articles | length | format_number }} published works by title or tag
+          </p>
+        </div>
+        <!-- Instant Search Input -->
+        <div class="w-full sm:w-80 relative">
+          <input
+            type="search"
+            id="search-input"
+            placeholder="🔍 Search title or #tag..."
+            class="w-full pl-3.5 pr-8 py-2 text-xs rounded-lg border border-border-subtle bg-bg-subtle text-text-primary placeholder:text-text-muted focus:border-primary focus:bg-bg-surface outline-none transition-all"
+          />
+          <button
+            id="clear-search-btn"
+            type="button"
+            class="hidden absolute right-2.5 top-1/2 -translate-y-1/2 text-text-muted hover:text-text-primary text-xs cursor-pointer"
+            title="Clear filter"
+          >
+            ✕
+          </button>
+        </div>
+      </div>
+
+      <!-- Interactive Tag Filter Chips -->
+      {% if all_tags %}
+      <div id="drawer-tags-container" class="pt-2 border-t border-border-subtle/50">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-[11px] font-semibold uppercase tracking-wider text-text-muted">
+            Filter by Thematic Tag:
+          </span>
+          <button
+            id="clear-tag-filter-btn"
+            type="button"
+            class="hidden text-[11px] text-primary hover:underline font-medium cursor-pointer"
+          >
+            Clear tag filter ✕
+          </button>
+        </div>
+        <div class="flex flex-wrap gap-1.5" id="tag-filter-chips">
+          {% for tag_item, tag_articles in all_tags %}
+          <button
+            type="button"
+            data-tag="{{ tag_item | lower }}"
+            class="tag-chip text-[11px] py-1 px-2.5 rounded-full border border-border-subtle bg-bg-canvas text-text-secondary hover:border-primary hover:text-primary transition-all cursor-pointer"
+          >
+            #{{ tag_item }} <span class="text-text-muted text-[10px] ml-0.5">({{ tag_articles|count }})</span>
+          </button>
+          {% endfor %}
+        </div>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Grouped Alphabetical List -->
+    {% set grouped_articles = articles | group_articles %}
+    <div class="columns-1 sm:columns-2 md:columns-3 lg:columns-4 gap-8" id="alphabetical-columns">
+      {% for letter, items in grouped_articles.items() %}
+      <div class="letter-group break-inside-avoid mb-6">
+        <div class="poem-item-header font-serif font-bold text-base text-primary border-b border-primary/20 pb-1 mb-2">
+          {{ letter }}
+        </div>
+        <ul class="space-y-1">
+          {% for article in items %}
+          <li
+            class="poem-item"
+            data-title="{{ article.title | lower }}"
+            data-tags="{% if article.tags %}{% for t in article.tags %}{{ t.name | lower if t.name is defined else t | lower }} {% endfor %}{% endif %}"
+          >
             <a
               href="{{ SITEURL }}/{{ article.url }}"
-              rel="bookmark"
-              title="Permalink to {{ article.title | title_case_custom |striptags }}"
-              class="text-text-dark hover:text-primary transition duration-200"
-              >{{ article.title | title_case_custom }}</a
+              class="text-xs text-text-secondary hover:text-primary hover:underline transition-colors block py-0.5"
             >
-          </h1>
-        </header>
+              {{ article.title | title_case_custom }}
+            </a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+      {% endfor %}
+    </div>
 
-        <div class="entry-content mt-2">
-          <p>{{ article.summary }}</p>
+    <div id="no-results-msg" class="hidden py-8 text-center text-xs text-text-muted font-serif italic">
+      No matching works found. Try clearing the filter or searching for another keyword.
+    </div>
+  </div>
+</section>
+
+<!-- Recent Works Card Grid -->
+<section id="content" class="body">
+  <div class="flex items-center justify-between pb-3 mb-6 border-b border-border-subtle">
+    <h2 class="font-serif text-xl sm:text-2xl font-bold text-text-primary">
+      {% if category %}
+        {{ category }} (Recent)
+      {% elif tag %}
+        Tagged #{{ tag }} (Recent)
+      {% else %}
+        Recent Works
+      {% endif %}
+    </h2>
+    {% if articles_paginator and articles_paginator.num_pages > 1 %}
+    <span class="text-xs text-text-muted font-medium">
+      Page {{ articles_page.number }} of {{ articles_paginator.num_pages }}
+    </span>
+    {% endif %}
+  </div>
+
+  <ol id="posts-list" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+    {% for article in articles_page.object_list %}
+    <li>
+      <article class="article-card group h-full">
+        <!-- Card Header Meta -->
+        <div class="flex items-center justify-between text-xs text-text-muted mb-3">
+          <time datetime="{{ article.date.isoformat() }}">
+            {{ article.locale_date }}
+          </time>
+          {% if article.category %}
           <a
-            class="text-center text-sm italic text-text-medium hover:text-primary transition duration-200 font-semibold block my-3"
-            href="{{ SITEURL }}/{{ article.url }}"
-            >Read more</a
+            href="{{ SITEURL }}/{{ article.category.url }}"
+            class="text-primary/90 hover:text-primary font-medium transition-colors"
           >
-          {% include 'comments.html' %}
+            {{ article.category }}
+          </a>
+          {% endif %}
         </div>
-        <!-- /.entry-content -->
+
+        <!-- Title -->
+        <h3 class="font-serif font-bold text-xl sm:text-2xl mb-3 text-text-primary group-hover:text-primary transition-colors leading-snug">
+          <a href="{{ SITEURL }}/{{ article.url }}" class="block">
+            {{ article.title | title_case_custom }}
+          </a>
+        </h3>
+
+        <!-- Excerpt snippet -->
+        <div class="text-text-secondary text-sm leading-relaxed font-serif italic mb-6 line-clamp-4 opacity-90">
+          {{ article.summary | striptags }}
+        </div>
+
+        <!-- Card Footer -->
+        <div class="mt-auto pt-3 border-t border-border-subtle flex items-center justify-between gap-2">
+          <div class="flex flex-wrap gap-1 items-center overflow-hidden">
+            {% if article.tags %}
+              {% for tag in article.tags[:2] %}
+                <a href="{{ SITEURL }}/{{ tag.url }}" class="tag">{{ tag }}</a>
+              {% endfor %}
+              {% if article.tags|length > 2 %}
+                <span class="text-[10px] text-text-muted font-medium">+{{ article.tags|length - 2 }}</span>
+              {% endif %}
+            {% endif %}
+          </div>
+          <a
+            href="{{ SITEURL }}/{{ article.url }}"
+            class="text-xs font-semibold text-primary hover:text-primary-hover flex items-center gap-1 group-hover:translate-x-0.5 transition-transform flex-shrink-0"
+          >
+            {% if article.category == 'Poetry' %}
+              Read Verse
+            {% elif article.category == 'Essays' %}
+              Read Essay
+            {% elif article.category == 'Short Stories' %}
+              Read Story
+            {% elif article.category == 'Reviews' %}
+              Read Review
+            {% else %}
+              Read
+            {% endif %}
+            <span>&rarr;</span>
+          </a>
+        </div>
       </article>
     </li>
     {% endfor %}
   </ol>
-  <!-- /#posts-list -->
-  {% if articles_page.has_other_pages() %} {% include 'pagination.html' %} {%
-  endif %}
+
+  <!-- Pagination -->
+  {% if articles_page.has_other_pages() %}
+    {% include 'pagination.html' %}
+  {% endif %}
 </section>
-<!-- /#content -->
+
+<script>
+  // Accordion Toggle
+  const toggleBtn = document.getElementById("toggle-index-btn");
+  const toggleTagsBtn = document.getElementById("toggle-tags-btn");
+  const accordion = document.getElementById("archive-accordion");
+
+  function openDrawer() {
+    if (accordion) {
+      accordion.classList.remove("hidden");
+      toggleBtn?.setAttribute("aria-expanded", "true");
+    }
+  }
+
+  function toggleDrawer() {
+    if (!accordion) return;
+    const isHidden = accordion.classList.contains("hidden");
+    if (isHidden) {
+      openDrawer();
+      document.getElementById("search-input")?.focus();
+    } else {
+      accordion.classList.add("hidden");
+      toggleBtn?.setAttribute("aria-expanded", "false");
+    }
+  }
+
+  if (toggleBtn) {
+    toggleBtn.addEventListener("click", toggleDrawer);
+  }
+
+  if (toggleTagsBtn) {
+    toggleTagsBtn.addEventListener("click", function () {
+      openDrawer();
+      const tagsContainer = document.getElementById("drawer-tags-container");
+      if (tagsContainer) {
+        tagsContainer.scrollIntoView({ behavior: "smooth", block: "nearest" });
+      }
+      document.getElementById("search-input")?.focus();
+    });
+  }
+
+  // Random Piece Redirect
+  const articleUrls = {{ articles | get_article_urls | tojson }};
+  function redirectToRandomPoem() {
+    if (articleUrls && articleUrls.length > 0) {
+      const randomIndex = Math.floor(Math.random() * articleUrls.length);
+      window.location.href = "{{ SITEURL }}/" + articleUrls[randomIndex];
+    }
+  }
+
+  // Live Instant Search & Tag Filter
+  let activeTagFilter = null;
+
+  function applyCatalogFilter() {
+    const searchInput = document.getElementById("search-input");
+    const clearSearchBtn = document.getElementById("clear-search-btn");
+    const clearTagBtn = document.getElementById("clear-tag-filter-btn");
+    const countLabel = document.getElementById("catalog-count-label");
+    const noResults = document.getElementById("no-results-msg");
+
+    const rawTerm = (searchInput ? searchInput.value : "").trim().toLowerCase();
+    
+    // Check if input itself is a tag query (e.g. starts with #)
+    let typedTag = null;
+    let titleTerm = rawTerm;
+    if (rawTerm.startsWith("#")) {
+      typedTag = rawTerm.slice(1).trim();
+      titleTerm = "";
+    }
+
+    const effectiveTag = activeTagFilter || typedTag;
+
+    if (clearSearchBtn) {
+      if (rawTerm) {
+        clearSearchBtn.classList.remove("hidden");
+      } else {
+        clearSearchBtn.classList.add("hidden");
+      }
+    }
+
+    const groups = document.querySelectorAll(".letter-group");
+    let totalVisible = 0;
+
+    groups.forEach(function (group) {
+      let hasVisibleInGroup = false;
+      const items = group.querySelectorAll(".poem-item");
+
+      items.forEach(function (item) {
+        const title = (item.getAttribute("data-title") || item.textContent).toLowerCase();
+        const itemTags = (item.getAttribute("data-tags") || "").toLowerCase();
+
+        // Check title match (or tag if typed in text)
+        const matchesTitle = !titleTerm || title.includes(titleTerm) || itemTags.includes(titleTerm);
+
+        // Check tag match
+        let matchesTag = true;
+        if (effectiveTag) {
+          const tagTokens = itemTags.split(/\s+/).filter(Boolean);
+          matchesTag = tagTokens.some(t => t === effectiveTag || t.includes(effectiveTag));
+        }
+
+        if (matchesTitle && matchesTag) {
+          item.style.display = "";
+          hasVisibleInGroup = true;
+          totalVisible++;
+        } else {
+          item.style.display = "none";
+        }
+      });
+
+      group.style.display = hasVisibleInGroup ? "" : "none";
+    });
+
+    if (noResults) {
+      noResults.style.display = totalVisible === 0 ? "block" : "none";
+    }
+
+    // Update feedback label
+    if (countLabel) {
+      if (effectiveTag || titleTerm) {
+        let filterParts = [];
+        if (effectiveTag) filterParts.push(`tag <span class="text-primary font-semibold">#${effectiveTag}</span>`);
+        if (titleTerm) filterParts.push(`keyword <span class="text-primary font-semibold">"${titleTerm}"</span>`);
+        countLabel.innerHTML = `Showing <strong class="text-primary font-bold">${totalVisible}</strong> matching works for ${filterParts.join(" and ")}`;
+        if (clearTagBtn) clearTagBtn.classList.remove("hidden");
+      } else {
+        countLabel.textContent = "Filter across {{ articles | length | format_number }} published works by title or tag";
+        if (clearTagBtn) clearTagBtn.classList.add("hidden");
+      }
+    }
+
+    // Sync tag chips styling
+    document.querySelectorAll(".tag-chip").forEach(function (chip) {
+      const chipTag = chip.getAttribute("data-tag");
+      if (effectiveTag && chipTag === effectiveTag) {
+        chip.classList.add("bg-primary", "text-white", "border-primary", "font-semibold");
+        chip.classList.remove("bg-bg-canvas", "text-text-secondary");
+      } else {
+        chip.classList.remove("bg-primary", "text-white", "border-primary", "font-semibold");
+        chip.classList.add("bg-bg-canvas", "text-text-secondary");
+      }
+    });
+  }
+
+  // Tag Chips Click Listeners
+  document.querySelectorAll(".tag-chip").forEach(function (chip) {
+    chip.addEventListener("click", function () {
+      const tag = this.getAttribute("data-tag");
+      if (activeTagFilter === tag) {
+        activeTagFilter = null; // Toggle off
+      } else {
+        activeTagFilter = tag;
+      }
+      applyCatalogFilter();
+    });
+  });
+
+  // Clear Tag Filter Button
+  const clearTagBtn = document.getElementById("clear-tag-filter-btn");
+  if (clearTagBtn) {
+    clearTagBtn.addEventListener("click", function () {
+      activeTagFilter = null;
+      const searchInput = document.getElementById("search-input");
+      if (searchInput && searchInput.value.startsWith("#")) {
+        searchInput.value = "";
+      }
+      applyCatalogFilter();
+    });
+  }
+
+  // Clear Search Input Button
+  const clearSearchBtn = document.getElementById("clear-search-btn");
+  if (clearSearchBtn) {
+    clearSearchBtn.addEventListener("click", function () {
+      const searchInput = document.getElementById("search-input");
+      if (searchInput) searchInput.value = "";
+      activeTagFilter = null;
+      applyCatalogFilter();
+      searchInput?.focus();
+    });
+  }
+
+  // Search Input Listener
+  const searchInput = document.getElementById("search-input");
+  if (searchInput) {
+    searchInput.addEventListener("input", function () {
+      if (!this.value.startsWith("#") && activeTagFilter) {
+        activeTagFilter = null;
+      }
+      applyCatalogFilter();
+    });
+  }
+</script>
 
 {% else %}
-<section id="content" class="body">
+<section id="content" class="body py-12 text-center">
   {% if pages %}
-  <h2 class="text-xl font-semibold mb-4">Pages</h2>
-  <ul class="list-disc list-inside">
+  <h2 class="font-serif text-2xl font-bold mb-4">Pages</h2>
+  <ul class="space-y-2">
     {% for page in pages %}
     <li>
-      <a
-        href="{{ SITEURL }}/{{ page.url }}"
-        class="text-gray-600 hover:text-blue-400 transition duration-600"
-        >{{ page.title | title_case_custom }}</a
-      >
+      <a href="{{ SITEURL }}/{{ page.url }}" class="text-primary hover:underline font-medium">
+        {{ page.title | title_case_custom }}
+      </a>
     </li>
     {% endfor %}
   </ul>
   {% else %}
-  <p class="text-gray-600">This site currently has no content.</p>
+  <p class="text-text-muted font-serif italic text-lg">This collection currently has no published works.</p>
   {% endif %}
 </section>
-{% endif %} {% endblock content %}
+{% endif %}
+{% endblock content %}

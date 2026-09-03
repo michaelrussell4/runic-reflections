@@ -10,8 +10,8 @@ from pelican import signals
 
 AUTHOR = "Michael Russell"
 SITENAME = "Runic Reflections"
-SITE_DESCRIPTION = "A collection of poems exploring the human experience, nature, philosophy, and the beauty of language."
-SITE_KEYWORDS = "poetry, reflections, philosophy, nature, literature"
+SITE_DESCRIPTION = "A digital collection of poems, essays, reviews, and short stories exploring philosophy, nature, and the human condition."
+SITE_KEYWORDS = "poetry, essays, short stories, reviews, reflections, philosophy, literature"
 SITEURL = ""
 AUTHOR_SLUG = "michael-russell"
 AUTHOR_EMAIL = None  # Not publicly displayed
@@ -156,6 +156,10 @@ JINJA_GLOBALS = {
 
 
 def sort_articles(generator):
+    # Make total article count and all tags globally available to all templates
+    generator.context["all_articles_count"] = len(generator.articles)
+    generator.context["all_tags"] = sorted(generator.tags.items(), key=lambda x: str(x[0]))
+    
     # Set up neighbor relationships based on the current (date-ordered) article list
     # WITHOUT sorting them - keep articles in their natural date order for main page display
     for i, article in enumerate(generator.articles):

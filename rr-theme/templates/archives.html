@@ -1,13 +1,28 @@
 {% extends "base.html" %}
-{% block content %}
-    <section id="content" class="body">
-        <h1>Archives for {{ SITENAME }}</h1>
 
-        <dl>
-            {% for article in dates %}
-                <dt>{{ article.locale_date }}</dt>
-                <dd><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title | title_case_custom }}</a></dd>
-            {% endfor %}
-        </dl>
-    </section>
+{% block title %}Archives - {{ SITENAME|striptags }}{% endblock %}
+
+{% block content %}
+<section id="content" class="max-w-3xl mx-auto py-4">
+  <div class="mb-8 pb-4 border-b border-border-subtle">
+    <span class="text-xs font-semibold uppercase tracking-widest text-primary mb-1 block">Chronological Catalog</span>
+    <h1 class="font-serif text-3xl sm:text-4xl font-bold text-text-primary">Archives</h1>
+    <p class="text-sm text-text-secondary mt-1">Complete historical index of all published verses ordered by date.</p>
+  </div>
+
+  <div class="space-y-4">
+    {% for article in dates %}
+    <div class="flex flex-col sm:flex-row sm:items-baseline justify-between py-2 border-b border-border-subtle/60 gap-1 sm:gap-4">
+      <h2 class="font-serif text-base font-medium text-text-primary hover:text-primary transition-colors">
+        <a href="{{ SITEURL }}/{{ article.url }}">
+          {{ article.title | title_case_custom }}
+        </a>
+      </h2>
+      <time datetime="{{ article.date.isoformat() }}" class="text-xs text-text-muted flex-shrink-0">
+        {{ article.locale_date }}
+      </time>
+    </div>
+    {% endfor %}
+  </div>
+</section>
 {% endblock %}

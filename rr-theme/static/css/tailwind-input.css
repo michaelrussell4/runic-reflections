@@ -1,97 +1,189 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme {
-  --color-primary: #7c3aed;
-  --color-primary-alt: #9333ea;
-  --color-primary-hover: #6d28d9;
-  --color-primary-light: #a78bfa;
-  --color-bg-light: #f9fafb;
-  --color-bg-lighter: #f3f4f6;
-  --color-bg-white: #ffffff;
-  --color-text-dark: #1f2937;
-  --color-text-darker: #2d3748;
-  --color-text-medium: #6b7280;
-  --color-text-blockquote: #3f3f46;
-  --color-border-subtle: #f3f4f6;
-  --color-border-light: #e5e7eb;
-  --color-blockquote-bg: #f5f3ff;
-  --color-tag-bg: #f3f4f6;
-  --color-tag-text: #4b5563;
-  --color-header-bg: #7c3aed;
-  --color-footer-from: #1f2937;
-  --color-footer-to: #0d1117;
-  --color-code-bg: #f3f4f6;
-  --color-code-text: #1f2937;
-  --color-code-inline-bg: #f3f4f6;
-  --color-code-inline-text: #7c3aed;
-  --color-brand-title: #7c3aed;
-  --color-brand-border: #7c3aed;
+  --font-serif: "Lora", Georgia, Cambria, "Times New Roman", serif;
+  --font-sans: "Plus Jakarta Sans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+
+  --color-primary: var(--color-primary);
+  --color-primary-alt: var(--color-primary-alt);
+  --color-primary-hover: var(--color-primary-hover);
+  --color-primary-light: var(--color-primary-light);
+  --color-accent-subtle: var(--color-accent-subtle);
+
+  --color-bg-canvas: var(--color-bg-canvas);
+  --color-bg-surface: var(--color-bg-surface);
+  --color-bg-subtle: var(--color-bg-subtle);
+  --color-bg-light: var(--color-bg-light);
+  --color-bg-lighter: var(--color-bg-lighter);
+  --color-bg-white: var(--color-bg-white);
+
+  --color-text-primary: var(--color-text-primary);
+  --color-text-secondary: var(--color-text-secondary);
+  --color-text-muted: var(--color-text-muted);
+  --color-text-dark: var(--color-text-dark);
+  --color-text-darker: var(--color-text-darker);
+  --color-text-medium: var(--color-text-medium);
+  --color-text-blockquote: var(--color-text-blockquote);
+
+  --color-border-subtle: var(--color-border-subtle);
+  --color-border-light: var(--color-border-light);
+  --color-border-hover: var(--color-border-hover);
+
+  --color-blockquote-bg: var(--color-blockquote-bg);
+  --color-tag-bg: var(--color-tag-bg);
+  --color-tag-text: var(--color-tag-text);
+  --color-header-bg: var(--color-header-bg);
+  --color-footer-from: var(--color-footer-from);
+  --color-footer-to: var(--color-footer-to);
+
+  --color-code-bg: var(--color-code-bg);
+  --color-code-text: var(--color-code-text);
+  --color-code-inline-bg: var(--color-code-inline-bg);
+  --color-code-inline-text: var(--color-code-inline-text);
+
+  --color-brand-title: var(--color-brand-title);
+  --color-brand-border: var(--color-brand-border);
 }
 
 @source "../../templates/**/*.html";
 @source "../../../content/**/*.md";
 @source "../../../content/**/*.html";
 
-/* Light theme (default) definitions and overrides */
+/* Base Design Tokens */
 @layer base {
+  :root {
+    /* Semantic Palette - Light Theme */
+    --color-bg-canvas: #faf9f6;
+    --color-bg-surface: #ffffff;
+    --color-bg-subtle: #f4f3f0;
+    --color-bg-light: #faf9f6;
+    --color-bg-lighter: #f4f3f0;
+    --color-bg-white: #ffffff;
 
-  /* Dark theme */
+    --color-text-primary: #18181b;
+    --color-text-secondary: #52525b;
+    --color-text-muted: #71717a;
+    --color-text-dark: #18181b;
+    --color-text-darker: #09090b;
+    --color-text-medium: #52525b;
+    --color-text-blockquote: #27272a;
+
+    --color-border-subtle: #e4e4e7;
+    --color-border-light: #e4e4e7;
+    --color-border-hover: #d4d4d8;
+
+    --color-primary: #7c3aed;
+    --color-primary-alt: #6d28d9;
+    --color-primary-hover: #5b21b6;
+    --color-primary-light: #a78bfa;
+    --color-accent-subtle: #f5f3ff;
+
+    --color-tag-bg: #f5f3ff;
+    --color-tag-text: #6d28d9;
+    --color-blockquote-bg: transparent;
+
+    --color-header-bg: rgba(250, 249, 246, 0.85);
+    --color-footer-from: #f4f3f0;
+    --color-footer-to: #faf9f6;
+
+    --color-code-bg: #f4f4f5;
+    --color-code-text: #18181b;
+    --color-code-inline-bg: #f5f3ff;
+    --color-code-inline-text: #6d28d9;
+
+    --color-brand-title: #7c3aed;
+    --color-brand-border: #7c3aed;
+  }
+
+  /* Semantic Palette - Dark Theme */
   html.dark {
+    --color-bg-canvas: #0c0a12;
+    --color-bg-surface: #14121e;
+    --color-bg-subtle: #1c1929;
+    --color-bg-light: #0c0a12;
+    --color-bg-lighter: #1c1929;
+    --color-bg-white: #14121e;
+
+    --color-text-primary: #f4f4f5;
+    --color-text-secondary: #a1a1aa;
+    --color-text-muted: #71717a;
+    --color-text-dark: #f4f4f5;
+    --color-text-darker: #ffffff;
+    --color-text-medium: #a1a1aa;
+    --color-text-blockquote: #e4e4e7;
+
+    --color-border-subtle: #231f33;
+    --color-border-light: #231f33;
+    --color-border-hover: #352f4c;
+
     --color-primary: #a78bfa;
     --color-primary-alt: #c084fc;
     --color-primary-hover: #d8b4fe;
     --color-primary-light: #7c3aed;
-    --color-bg-light: #1f2937;
-    --color-bg-lighter: #111827;
-    --color-bg-white: #0f172a;
-    --color-text-dark: #f3f4f6;
-    --color-text-darker: #e5e7eb;
-    --color-text-medium: #9ca3af;
-    --color-text-blockquote: #e0e7ff;
-    --color-border-subtle: #374151;
-    --color-border-light: #2d3748;
-    --color-code-bg: #1f2937;
-    --color-code-text: #f3f4f6;
-    --color-code-inline-bg: #374151;
-    --color-code-inline-text: #e0e7ff;
-    --color-blockquote-bg: #4c1d9563;
-    --color-tag-bg: #312e81;
-    --color-tag-text: #a78bfa;
-    --color-header-bg: #0f172a;
-    --color-footer-from: #0f172a;
-    --color-footer-to: #030712;
-    --color-brand-title: #ffffff;
-    --color-brand-border: #4c1d95;
+    --color-accent-subtle: #1e1733;
+
+    --color-tag-bg: #1e1733;
+    --color-tag-text: #c084fc;
+    --color-blockquote-bg: transparent;
+
+    --color-header-bg: rgba(12, 10, 18, 0.85);
+    --color-footer-from: #14121e;
+    --color-footer-to: #0c0a12;
+
+    --color-code-bg: #1c1929;
+    --color-code-text: #f4f4f5;
+    --color-code-inline-bg: #231f33;
+    --color-code-inline-text: #c084fc;
+
+    --color-brand-title: #a78bfa;
+    --color-brand-border: #a78bfa;
   }
 
-  /* Respects system preference if no explicit theme is set */
+  /* Respect system preference if user hasn't explicitly set preference */
   @media (prefers-color-scheme: dark) {
     html:not(.light) {
+      --color-bg-canvas: #0c0a12;
+      --color-bg-surface: #14121e;
+      --color-bg-subtle: #1c1929;
+      --color-bg-light: #0c0a12;
+      --color-bg-lighter: #1c1929;
+      --color-bg-white: #14121e;
+
+      --color-text-primary: #f4f4f5;
+      --color-text-secondary: #a1a1aa;
+      --color-text-muted: #71717a;
+      --color-text-dark: #f4f4f5;
+      --color-text-darker: #ffffff;
+      --color-text-medium: #a1a1aa;
+      --color-text-blockquote: #e4e4e7;
+
+      --color-border-subtle: #231f33;
+      --color-border-light: #231f33;
+      --color-border-hover: #352f4c;
+
       --color-primary: #a78bfa;
       --color-primary-alt: #c084fc;
       --color-primary-hover: #d8b4fe;
       --color-primary-light: #7c3aed;
-      --color-bg-light: #1f2937;
-      --color-bg-lighter: #111827;
-      --color-bg-white: #0f172a;
-      --color-text-dark: #f3f4f6;
-      --color-text-darker: #e5e7eb;
-      --color-text-medium: #9ca3af;
-      --color-text-blockquote: #e0e7ff;
-      --color-border-subtle: #374151;
-      --color-border-light: #2d3748;
-      --color-code-bg: #1f2937;
-      --color-code-text: #f3f4f6;
-      --color-code-inline-bg: #374151;
-      --color-code-inline-text: #e0e7ff;
-      --color-blockquote-bg: #4c1d95;
-      --color-tag-bg: #312e81;
-      --color-tag-text: #a78bfa;
-      --color-header-bg: #0f172a;
-      --color-footer-from: #0f172a;
-      --color-footer-to: #030712;
-      --color-brand-title: #ffffff;
-      --color-brand-border: #4c1d95;
+      --color-accent-subtle: #1e1733;
+
+      --color-tag-bg: #1e1733;
+      --color-tag-text: #c084fc;
+      --color-blockquote-bg: transparent;
+
+      --color-header-bg: rgba(12, 10, 18, 0.85);
+      --color-footer-from: #14121e;
+      --color-footer-to: #0c0a12;
+
+      --color-code-bg: #1c1929;
+      --color-code-text: #f4f4f5;
+      --color-code-inline-bg: #231f33;
+      --color-code-inline-text: #c084fc;
+
+      --color-brand-title: #a78bfa;
+      --color-brand-border: #a78bfa;
     }
   }
 }

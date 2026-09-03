@@ -1,27 +1,26 @@
 <!DOCTYPE html>
-<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}">
+<html lang="{% block html_lang %}{{ DEFAULT_LANG }}{% endblock html_lang %}" class="scroll-smooth">
   <head>
     {% block head %}
     <script>
       (function() {
         const saved = localStorage.getItem('theme-preference');
-        const darkClass = 'dark';
-        const lightClass = 'light';
         const html = document.documentElement;
         if (saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
-          html.classList.add(darkClass);
-          html.classList.remove(lightClass);
+          html.classList.add('dark');
+          html.classList.remove('light');
         } else {
-          html.classList.remove(darkClass);
-          html.classList.add(lightClass);
+          html.classList.remove('dark');
+          html.classList.add('light');
         }
       })();
     </script>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="generator" content="Pelican" />
-    <meta name="theme-color" content="#9333ea" />
-    <title>{% block title %}{{ SITENAME|striptags }}{%endblock%}</title>
+    <meta name="theme-color" content="#7c3aed" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0c0a12" media="(prefers-color-scheme: dark)" />
+    <title>{% block title %}{{ SITENAME|striptags }}{% endblock %}</title>
     {% block meta_description %}<meta name="description" content="{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}" />{% endblock %}
     {% if SITE_KEYWORDS %}<meta name="keywords" content="{{ SITE_KEYWORDS }}" />{% endif %}
     <meta property="og:title" content="{% block og_title %}{{ SITENAME }}{% endblock %}" />
@@ -33,29 +32,20 @@
     <meta name="twitter:description" content="{% block twitter_description %}{{ SITE_DESCRIPTION if SITE_DESCRIPTION else SITENAME }}{% endblock %}" />
     <link rel="canonical" href="{% block canonical %}{{ SITEURL }}/{% endblock %}" />
     {% if SITEURL %}<link rel="alternate" type="application/rss+xml" title="RSS Feed" href="{{ SITEURL }}/feeds/all.rss.xml" />{% endif %}
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Regular.woff2" type="font/woff2" crossorigin />
-    <link rel="preload" as="font" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/fonts/Montserrat-Bold.woff2" type="font/woff2" crossorigin />
+
+    <!-- Google Fonts for Literary Typography -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/{{ TAILWIND_CSS }}" />
     <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/main.css" />
-    <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/dark-mode-overrides.css" />
     <script src="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/js/theme.js"></script>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="{{ SITEURL }}/images/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="{{ SITEURL }}/images/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="{{ SITEURL }}/images/favicon-16x16.png"
-    />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ SITEURL }}/images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ SITEURL }}/images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ SITEURL }}/images/favicon-16x16.png" />
+
     {% if FEED_ALL_ATOM %}
     <link
       href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
@@ -63,282 +53,213 @@
       rel="alternate"
       title="{{ SITENAME|striptags }} Atom Feed"
     />
-    {% endif %} {% if FEED_ALL_RSS %}
+    {% endif %}
+    {% if FEED_ALL_RSS %}
     <link
       href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
       type="application/rss+xml"
       rel="alternate"
       title="{{ SITENAME|striptags }} RSS Feed"
     />
-    {% endif %} {% block extra_head %}{% endblock extra_head %} {% endblock head
-    %}
+    {% endif %}
+    {% block extra_head %}{% endblock extra_head %}
+    {% endblock head %}
   </head>
 
-  <body id="index" class="w-full flex flex-col min-h-screen text-pretty">
-    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-0 focus:left-0 focus:bg-primary focus:text-white focus:p-2 focus:z-50">Skip to main content</a>
-    {% include 'github.html' %}
-    <header id="banner" class="bg-header-bg text-white tracking-widest sticky top-0 z-40">
-      <div class="p-4">
-        <div class="flex items-center justify-between mb-3">
-          <h1 class="text-2xl font-bold">
-            <a href="{{ SITEURL }}/" class="hover:text-gray-300 dark:hover:text-gray-200 transition duration-200">
-              {{ SITENAME }}{% if SITESUBTITLE %}
-              <strong>{{ SITESUBTITLE }}</strong>{% endif %}
+  <body id="index" class="w-full flex flex-col min-h-screen text-pretty bg-bg-canvas text-text-primary antialiased selection:bg-purple-500/20 selection:text-primary transition-colors duration-200">
+    <a href="#main-content" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 focus:bg-primary focus:text-white focus:px-4 focus:py-2 focus:rounded-md focus:z-50 focus:shadow-lg">
+      Skip to main content
+    </a>
+
+    <!-- Sticky Glassmorphic Header -->
+    <header id="banner" class="sticky top-0 z-40 glass-header">
+      <div class="max-w-5xl mx-auto px-4 sm:px-6 py-3.5">
+        <div class="flex items-center justify-between">
+          <!-- Logo & Brand -->
+          <h1 class="text-xl font-bold leading-none">
+            <a href="{{ SITEURL }}/" class="flex items-center gap-2.5 group">
+              <span class="w-8 h-8 rounded-lg bg-primary/10 text-primary flex items-center justify-center font-serif text-lg font-bold border border-primary/20 group-hover:scale-105 transition-transform duration-200">
+                ᚱ
+              </span>
+              <span class="font-serif font-bold text-lg sm:text-xl tracking-tight text-text-primary group-hover:text-primary transition-colors duration-200">
+                {{ SITENAME }}
+              </span>
             </a>
           </h1>
-          <div class="flex items-center gap-2">
-            <button id="theme-toggle" class="p-2 rounded hover:bg-purple-500 dark:hover:bg-purple-700 transition duration-200" aria-label="Toggle dark mode" title="Toggle dark/light mode">
-              <!-- Sun icon (shown in light mode) -->
-              <svg class="sun-icon w-6 h-6 text-yellow-300 hidden" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M12 2.25a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V3a.75.75 0 0 1 .75-.75zM7.5 12a4.5 4.5 0 1 1 9 0 4.5 4.5 0 0 1-9 0zM12 18.75a.75.75 0 0 1 .75.75v2.25a.75.75 0 0 1-1.5 0V19.5a.75.75 0 0 1 .75-.75zM.75 12a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5H1.5a.75.75 0 0 1-.75-.75zm20.5 0a.75.75 0 0 1 .75-.75h2.25a.75.75 0 0 1 0 1.5h-2.25a.75.75 0 0 1-.75-.75zM3.659 3.659a.75.75 0 0 1 1.061 0l1.591 1.591a.75.75 0 1 1-1.061 1.061L3.659 4.72a.75.75 0 0 1 0-1.061zm14.142 14.142a.75.75 0 0 1 1.061 0l1.591 1.591a.75.75 0 1 1-1.061 1.061l-1.591-1.591a.75.75 0 0 1 0-1.061zm0-14.142a.75.75 0 0 1 0 1.061L17.21 6.271a.75.75 0 1 1-1.061-1.061l1.591-1.591a.75.75 0 0 1 1.061 0zM3.659 17.71a.75.75 0 0 1 1.061-1.061l1.591 1.591a.75.75 0 1 1-1.061 1.061l-1.591-1.591z"/>
+
+          <!-- Right Navigation Controls -->
+          <div class="flex items-center gap-2 sm:gap-4">
+            <!-- Desktop Navigation Links -->
+            <nav id="nav-menu" class="hidden md:flex items-center gap-1 sm:gap-1.5">
+              <a
+                href="{{ SITEURL }}/"
+                class="text-xs sm:text-sm font-medium px-2.5 py-1.5 rounded-lg transition-colors {% if not category and not page and not tag %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
+                >All</a
+              >
+              {% if categories %}
+                {% for cat, articles in categories %}
+                <a
+                  href="{{ SITEURL }}/{{ cat.url }}"
+                  class="text-xs sm:text-sm font-medium px-2.5 py-1.5 rounded-lg transition-colors {% if cat == category %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
+                  >{{ cat }}</a
+                >
+                {% endfor %}
+              {% endif %}
+              {% if DISPLAY_PAGES_ON_MENU %}
+                {% for pg in pages %}
+                <a
+                  href="{{ SITEURL }}/{{ pg.url }}"
+                  class="text-xs sm:text-sm font-medium px-2.5 py-1.5 rounded-lg transition-colors {% if pg == page %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
+                  >{{ pg.title }}</a
+                >
+                {% endfor %}
+              {% endif %}
+            </nav>
+
+            <!-- Theme Toggle Button -->
+            <button
+              id="theme-toggle"
+              class="w-9 h-9 rounded-lg flex items-center justify-center text-text-secondary hover:text-text-primary hover:bg-bg-subtle border border-border-subtle transition-all duration-200"
+              aria-label="Toggle dark/light mode"
+              title="Toggle theme"
+            >
+              <!-- Sun icon (for dark mode -> click to light) -->
+              <svg class="sun-icon w-5 h-5 text-amber-400 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="4" />
+                <path stroke-linecap="round" d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41" />
               </svg>
-              <!-- Moon icon (shown in dark mode) -->
-              <svg class="moon-icon w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M21.64 13a1 1 0 0 0-1.05-.14 8 8 0 1 1 .12-11.5 1 1 0 0 0 1.41 1.41A10 10 0 1 0 23 13.29a1 1 0 0 0-.36-.29z"/>
+              <!-- Moon icon (for light mode -> click to dark) -->
+              <svg class="moon-icon w-5 h-5 text-text-secondary" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M20.354 15.354A9 9 0 018.646 3.646 9.003 9.003 0 0012 21a9.003 9.003 0 008.354-5.646z" />
               </svg>
             </button>
-            <button id="mobile-menu-toggle" class="md:hidden p-2 rounded hover:bg-purple-500 dark:hover:bg-purple-700 transition duration-200" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="nav-menu">
-              <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button
+              id="mobile-menu-toggle"
+              class="md:hidden w-9 h-9 rounded-lg flex items-center justify-center text-text-secondary hover:text-text-primary hover:bg-bg-subtle border border-border-subtle transition-all duration-200"
+              aria-label="Toggle menu"
+              aria-expanded="false"
+              aria-controls="mobile-nav"
+            >
+              <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
             </button>
           </div>
         </div>
-        <hr class="border-gray-100 dark:border-gray-700 mb-4" />
-        <nav id="nav-menu" class="hidden md:block">
-          <ul
-            class="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-4 mt-2"
-          >
-            {% for title, link in MENUITEMS %}
-            <li>
-              <a
-                href="{{ link }}"
-                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block"
-                >{{ title }}</a
-              >
-            </li>
-            {% endfor %} {% if DISPLAY_PAGES_ON_MENU -%} {% for pg in pages %}
-            <li>
-              <a
-                href="{{ SITEURL }}/{{ pg.url }}"
-                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block{% if pg == page %} font-bold{% endif %}"
-                >{{ pg.title }}</a
-              >
-            </li>
-            {% endfor %} {% endif %} {% if DISPLAY_CATEGORIES_ON_MENU -%} {% for
-            cat, null in categories %}
-            <li>
+
+        <!-- Mobile Navigation Dropdown -->
+        <div id="mobile-nav" class="hidden md:hidden pt-4 pb-2 border-t border-border-subtle mt-3 animate-fade-in">
+          <div class="flex flex-col gap-1.5">
+            <a
+              href="{{ SITEURL }}/"
+              class="text-sm font-medium px-3 py-2 rounded-lg {% if not category and not page and not tag %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
+              >All Works</a
+            >
+            {% if categories %}
+              {% for cat, articles in categories %}
               <a
                 href="{{ SITEURL }}/{{ cat.url }}"
-                class="hover:bg-purple-500 dark:hover:bg-purple-700 rounded px-3 py-2 transition duration-200 block{% if cat == category %} font-bold{% endif %}"
+                class="text-sm font-medium px-3 py-2 rounded-lg {% if cat == category %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
                 >{{ cat }}</a
               >
-            </li>
-            {% endfor %} {% endif %}
-          </ul>
-        </nav>
+              {% endfor %}
+            {% endif %}
+            {% if DISPLAY_PAGES_ON_MENU %}
+              {% for pg in pages %}
+              <a
+                href="{{ SITEURL }}/{{ pg.url }}"
+                class="text-sm font-medium px-3 py-2 rounded-lg {% if pg == page %}text-primary font-semibold bg-primary/10{% else %}text-text-secondary hover:text-text-primary hover:bg-bg-subtle{% endif %}"
+                >{{ pg.title }}</a
+              >
+              {% endfor %}
+            {% endif %}
+          </div>
+        </div>
       </div>
     </header>
-    <script>
-      document.getElementById('mobile-menu-toggle').addEventListener('click', function() {
-        const menu = document.getElementById('nav-menu');
-        const isExpanded = this.getAttribute('aria-expanded') === 'true';
-        this.setAttribute('aria-expanded', !isExpanded);
-        menu.classList.toggle('hidden');
-      });
 
-      // Smart Scroll Header for reading focus
-      document.addEventListener('DOMContentLoaded', function() {
-        const isArticlePage = document.querySelector('article') !== null;
-        if (isArticlePage) {
-          const header = document.getElementById('banner');
-          let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
-          
-          // Add transition for smooth sliding
-          header.style.transition = 'transform 0.3s ease-in-out';
-
-          window.addEventListener('scroll', function() {
-            let scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            
-            if (scrollTop > lastScrollTop && scrollTop > header.offsetHeight) {
-              // Scrolling down - hide header
-              header.style.transform = 'translateY(-100%)';
-            } else {
-              // Scrolling up - show header
-              header.style.transform = 'translateY(0)';
-            }
-            lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
-          }, { passive: true });
-
-          // Show header if mouse moves to the very top of the window
-          document.addEventListener('mousemove', function(e) {
-            if (e.clientY < 60) {
-              header.style.transform = 'translateY(0)';
-            }
-          });
-        }
-      });
-    </script>
-    <!-- /#banner -->
-    <main id="main-content" class="flex-grow p-4 bg-bg-light text-text-dark">
-      {% block content %} {% endblock %}
+    <!-- Main Content Canvas -->
+    <main id="main-content" class="flex-grow w-full max-w-5xl mx-auto px-4 sm:px-6 py-8 sm:py-12">
+      {% block content %}{% endblock %}
     </main>
 
-    {% if LINKS or SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-    <section id="extras" class="bg-bg-light text-text-dark p-6">
-      {% if LINKS %}
-      <div class="blogroll mb-6">
-        <h2 class="text-xl font-semibold mb-2">
-          {{ LINKS_WIDGET_NAME | default('Links') }}
-        </h2>
-        <ul class="list-disc list-inside space-y-1">
-          {% for name, link in LINKS %}
-          <li>
-            <a
-              href="{{ link }}"
-              class="text-primary hover:text-primary-alt transition duration-200"
-              >{{ name }}</a
-            >
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-      <!-- /.blogroll -->
-      {% endif %} {% if SOCIAL or FEED_ALL_ATOM or FEED_ALL_RSS %}
-      <div class="social">
-        <h2 class="text-xl font-semibold mb-2">
-          {{ SOCIAL_WIDGET_NAME | default('Social') }}
-        </h2>
-        <ul class="list-disc list-inside space-y-1">
-          {% if FEED_ALL_ATOM %}
-          <li>
-            <a
-              href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}"
-              type="application/atom+xml"
-              rel="alternate"
-              class="text-primary hover:text-primary-alt transition duration-200"
-              >Atom Feed</a
-            >
-          </li>
-          {% endif %} {% if FEED_ALL_RSS %}
-          <li>
-            <a
-              href="{{ FEED_DOMAIN }}/{% if FEED_ALL_RSS_URL %}{{ FEED_ALL_RSS_URL }}{% else %}{{ FEED_ALL_RSS }}{% endif %}"
-              type="application/rss+xml"
-              rel="alternate"
-              class="text-blue-600 hover:text-blue-800 transition duration-200"
-              >RSS Feed</a
-            >
-          </li>
-          {% endif %} {% if SOCIAL %} {% for name, link in SOCIAL if SOCIAL %}
-          <li>
-            <a
-              href="{{ link }}"
-              class="text-blue-600 hover:text-blue-800 transition duration-200"
-              >{{ name }}</a
-            >
-          </li>
-          {% endfor %} {% endif %}
-        </ul>
-      </div>
-      <!-- /.social -->
-      {% endif %}
-    </section>
-    <!-- /#extras -->
-    {% endif %}
-
-    <footer
-      id="contentinfo"
-      class="bg-gradient-to-b from-footer-from to-footer-to text-gray-200 py-12 px-6 text-sm border-t border-gray-700 dark:border-gray-800"
-    >
+    <!-- Refined Minimalist Footer -->
+    <footer id="contentinfo" class="border-t border-border-subtle bg-bg-surface text-text-secondary py-12 px-4 sm:px-6 transition-colors duration-200">
       <div class="max-w-5xl mx-auto">
-        <!-- Main footer content -->
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
-          <!-- About -->
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-10">
+          <!-- Column 1: Brand & Bio -->
           <div>
-            <h3 class="text-white font-semibold mb-4">About</h3>
-            <address id="about" class="vcard not-italic">
-              <p class="mb-2">
-                <span class="font-semibold">{{ SITENAME }}</span> is a collection of poetry exploring literature and the human experience.
-              </p>
-              <p class="text-xs">
-                <span class="font-semibold">Built with</span>
-                <a
-                  rel="nofollow"
-                  href="https://getpelican.com/"
-                  class="text-purple-400 hover:text-purple-300 transition duration-200"
-                  >Pelican</a
-                >
-                &amp;
-                <a
-                  rel="nofollow"
-                  href="https://www.python.org/"
-                  class="text-purple-400 hover:text-purple-300 transition duration-200"
-                  >Python</a
-                >
-              </p>
-            </address>
+            <div class="flex items-center gap-2 mb-3">
+              <span class="w-6 h-6 rounded bg-primary/10 text-primary flex items-center justify-center font-serif text-xs font-bold">
+                ᚱ
+              </span>
+              <span class="font-serif font-bold text-text-primary">{{ SITENAME }}</span>
+            </div>
+            <p class="text-xs text-text-secondary leading-relaxed mb-3">
+              A digital collection of poems, essays, short stories, and philosophical reflections exploring the human experience, literature, and language.
+            </p>
+            <p class="text-xs text-text-muted">
+              Built with <a href="https://getpelican.com/" class="hover:text-primary underline underline-offset-2">Pelican</a> &amp; Python.
+            </p>
           </div>
 
-          <!-- Quick Links -->
+          <!-- Column 2: Navigation Links -->
           <div>
-            <h3 class="text-white font-semibold mb-4">Quick Links</h3>
+            <h3 class="font-semibold text-xs uppercase tracking-wider text-text-primary mb-3">Categories &amp; Index</h3>
             <ul class="space-y-2 text-xs">
               <li>
-                <a href="{{ SITEURL }}/" class="text-purple-400 hover:text-purple-300 transition duration-200">Home</a>
+                <a href="{{ SITEURL }}/" class="hover:text-primary transition-colors">All Works</a>
               </li>
-              {% if DISPLAY_PAGES_ON_MENU %}
-                {% for pg in pages %}
+              {% if categories %}
+                {% for cat, articles in categories %}
                 <li>
-                  <a href="{{ SITEURL }}/{{ pg.url }}" class="text-purple-400 hover:text-purple-300 transition duration-200">{{ pg.title }}</a>
+                  <a href="{{ SITEURL }}/{{ cat.url }}" class="hover:text-primary transition-colors">{{ cat }} ({{ articles|count }})</a>
                 </li>
                 {% endfor %}
               {% endif %}
-              {% if FEED_ALL_ATOM %}
               <li>
-                <a href="{{ FEED_DOMAIN }}/{% if FEED_ALL_ATOM_URL %}{{ FEED_ALL_ATOM_URL }}{% else %}{{ FEED_ALL_ATOM }}{% endif %}" class="text-purple-400 hover:text-purple-300 transition duration-200">Atom Feed</a>
+                <a href="{{ SITEURL }}/tags.html" class="hover:text-primary transition-colors">Thematic Tags</a>
               </li>
-              {% endif %}
               <li>
-                <a href="{{ SITEURL }}/images/runic_reflections.epub" download="runic_reflections_{{ now.strftime('%Y-%m-%d') }}.epub" class="text-purple-400 hover:text-purple-300 transition duration-200">Download EPUB</a>
+                <a href="{{ SITEURL }}/images/runic_reflections.epub" download="runic_reflections_{{ now.strftime('%Y-%m-%d') }}.epub" class="text-primary hover:underline">
+                  Download Offline EPUB
+                </a>
               </li>
             </ul>
           </div>
 
-          <!-- License Info -->
+          <!-- Column 3: License & Credits -->
           <div>
-            <h3 class="text-white font-semibold mb-4">License</h3>
-            <p class="text-xs mb-2">Content is licensed under<br />
-              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" class="text-purple-400 hover:text-purple-300 transition duration-200 font-semibold">
+            <h3 class="font-semibold text-xs uppercase tracking-wider text-text-primary mb-3">License</h3>
+            <p class="text-xs text-text-secondary leading-relaxed mb-2">
+              Poetry and written works licensed under
+              <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/" target="_blank" rel="noopener noreferrer" class="hover:text-primary underline underline-offset-2 font-medium">
                 CC BY-NC-ND 4.0
-              </a>
+              </a>.
+            </p>
+            <p class="text-xs text-text-muted italic mt-2">
+              "In the beginning was the Word…"
             </p>
           </div>
         </div>
 
-        <!-- Divider -->
-        <hr class="border-gray-700 mb-6" />
-
-        <!-- Bottom Footer -->
-        <div class="flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 space-y-4 md:space-y-0">
+        <div class="pt-6 border-t border-border-subtle flex flex-col sm:flex-row items-center justify-between text-xs text-text-muted gap-3">
           <div>
-            <p>© {{ now.year }} {{ AUTHOR }}. All rights reserved.</p>
+            © {{ now.year }} {{ AUTHOR }}. All rights reserved.
           </div>
           <div>
-            <p>
-              Made with 💜 by
-              <a
-                href="https://github.com/michaelrussell4"
-                class="text-primary hover:text-primary-hover dark:text-primary-light dark:hover:text-primary transition duration-200 font-semibold"
-                >Mike Russell</a
-              >
-            </p>
+            Crafted with care by
+            <a href="https://github.com/michaelrussell4" class="text-text-primary hover:text-primary font-medium transition-colors">
+              Mike Russell
+            </a>
           </div>
         </div>
       </div>
     </footer>
-    <!-- /#contentinfo -->
 
-    {% include 'analytics.html' %} {% include 'disqus_script.html' %}
+    {% include 'analytics.html' %}
+    {% include 'disqus_script.html' %}
   </body>
 </html>

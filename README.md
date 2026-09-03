@@ -1,20 +1,20 @@
 # Runic Reflections
 
-Welcome to **Runic Reflections**! This is a digital collection of poetry created by **Mike**. Here, you will find a variety of poems that explore themes of spirituality, philosophy, and linguistic creativity.
+Welcome to **Runic Reflections**! This is a digital collection of poetry, essays, reviews, and short stories created by **Mike**. Here, you will find a variety of works that explore themes of spirituality, philosophy, the human condition, and linguistic creativity.
 
 ## About
 
-The purpose of **Runic Reflections** is to share my thoughts and expressions through poetry. My reasons for writing vary; sometimes I aim to express complex themes or philosophical dilemmas, while other times I simply want to play with new words I've learned. The collection includes poems that are mysterious or dark, as well as those that are comical or silly. My hope is that by making these works accessible, I can share my unique perspective and inspire appreciation and enjoyment.
+The purpose of **Runic Reflections** is to share my thoughts and expressions across multiple literary forms—from poetry and philosophical essays to reviews and short stories. My reasons for writing vary; sometimes I aim to analyze complex theological dilemmas or epistemological questions, while other times I simply want to play with words or capture an absurdity. My hope is that by making these works accessible, I can share my unique perspective and inspire thought, curiosity, and enjoyment.
 
 ## How the Site Works
 
-I built **Runic Reflections** using [Pelican](https://getpelican.com/), a static site generator that transforms simple Markdown files into a polished website. Each poem begins as a Markdown file, allowing me to focus on the words themselves. With a simple `git push`, I can bring new creations to life on the site. As a professional coder, building this website was a fun project that combined my skills and interests.
+I built **Runic Reflections** using [Pelican](https://getpelican.com/), a static site generator that transforms simple Markdown files into a polished website. Each piece begins as a Markdown file, allowing me to focus on the words themselves. With a simple `git push`, I can bring new creations to life on the site. As a professional coder, building this website was a fun project that combined my skills and interests.
 
-The site also automatically compiles all published poems into a beautifully formatted EPUB ebook during the build process, making the entire collection available for offline reading in standard e-readers.
+The site also automatically compiles published poetry into a beautifully formatted EPUB ebook during the build process, making the poetry collection available for offline reading in standard e-readers.
 
 ## Explore the Collection
 
-Feel free to explore the site, reflect on the poems, and enjoy this evolving collection of verses. I hope these poems inspire thought, spark curiosity, or simply bring a smile.
+Feel free to explore the site, browse by category (Poetry, Essays, Short Stories, Reviews), filter by thematic tags, and enjoy this evolving collection.
 
 ## Get Involved
 
@@ -37,4 +37,5 @@ This project is licensed under the Creative Commons Attribution-NonCommercial-No
 
 ## Running locally
 
-Run `uv inv build` to build the tailwind css file needed. Or, alternatively, `uv run -m pytailwindcss -i tailwind-input.css -o tailwind.css --minify` to load the minified Tailwind css
+Run `uv run inv build` to compile Tailwind CSS, compile the EPUB, and build the site.
+Run `uv run inv serve` to serve the site locally at `http://localhost:8000`.

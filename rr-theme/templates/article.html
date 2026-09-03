@@ -6,12 +6,12 @@
 {% block title %}{{ article.title | title_case_custom | striptags }} - {{ SITENAME }}{% endblock %}
 
 {% block og_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
-{% block og_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}"{% endblock %}
+{% block og_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
 {% block og_url %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 {% block og_type %}article{% endblock %}
 
 {% block twitter_title %}{{ article.title | title_case_custom | striptags }}{% endblock %}
-{% block twitter_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}"{% endblock %}
+{% block twitter_description %}{% if article.summary %}{{ article.summary | striptags | truncate(160) }}{% else %}{{ SITE_DESCRIPTION }}{% endif %}{% endblock %}
 
 {% block canonical %}{{ SITEURL }}/{{ article.url }}{% endblock %}
 
@@ -59,201 +59,242 @@
 {% endblock %}
 
 {% block content %}
-  <section id="content" class="body">
-    <article class="max-w-4xl mx-auto">
-      <header class="mb-8 pb-6 border-b-2 border-purple-200 dark:border-purple-800">
-        <h1 class="entry-title text-4xl text-center font-bold my-4">
-          <a
-            href="{{ SITEURL }}/{{ article.url }}"
-            class="text-brand-title hover:opacity-80 transition duration-200"
-            >{{ article.title | title_case_custom }}</a
+<section id="content" class="body">
+  <article class="max-w-2xl mx-auto reading-size-md">
+    <!-- Top Reader Navigation & Action Bar -->
+    <div class="flex items-center justify-between gap-4 pb-6 mb-8 border-b border-border-subtle text-xs text-text-secondary">
+      <div class="flex items-center gap-2">
+        <a
+          href="{{ SITEURL }}/"
+          class="inline-flex items-center gap-1 hover:text-primary transition-colors font-medium"
+        >
+          <span>&larr;</span>
+          <span>All Works</span>
+        </a>
+        {% if article.category %}
+        <span class="text-text-muted">&bull;</span>
+        <a
+          href="{{ SITEURL }}/{{ article.category.url }}"
+          class="hover:text-primary transition-colors font-medium"
+        >
+          {{ article.category }}
+        </a>
+        {% endif %}
+      </div>
+
+      <!-- Reader Controls -->
+      <div class="flex items-center gap-2">
+        <!-- Font Size Controls -->
+        <div class="flex items-center border border-border-subtle rounded-lg p-0.5 bg-bg-surface">
+          <button
+            id="font-decrease-btn"
+            class="px-2 py-1 rounded hover:bg-bg-subtle text-text-secondary hover:text-text-primary text-xs font-serif"
+            title="Decrease font size"
+            aria-label="Decrease font size"
           >
-        </h1>
-        
-        <!-- Copy and Share Buttons -->
-        <div class="flex justify-center gap-3 mt-4">
-          <button 
-            id="copy-btn"
-            title="Copy article"
-            class="inline-flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-all duration-200"
-            aria-label="Copy article"
-          >
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
-            </svg>
+            A-
           </button>
-          
-          <button 
-            id="share-btn"
-            title="Share article"
-            class="inline-flex items-center justify-center p-2 text-gray-600 dark:text-gray-400 hover:text-purple-600 dark:hover:text-purple-400 rounded-lg hover:bg-purple-50 dark:hover:bg-purple-900/20 transition-all duration-200"
-            aria-label="Share article"
+          <span class="text-border-subtle">|</span>
+          <button
+            id="font-increase-btn"
+            class="px-2 py-1 rounded hover:bg-bg-subtle text-text-secondary hover:text-text-primary text-xs font-serif font-bold"
+            title="Increase font size"
+            aria-label="Increase font size"
           >
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
-            </svg>
+            A+
           </button>
         </div>
-        
-        {% include 'twitter.html' %}
-      </header>
 
-      <div class="entry-content rounded-lg bg-bg-white shadow-sm border border-border-light overflow-hidden">
-        <div class="prose prose-lg dark:prose-invert max-w-none p-8">
-          {{ article.content }}
+        <!-- Copy Text Button -->
+        <button
+          id="copy-btn"
+          title="Copy text"
+          class="inline-flex items-center justify-center w-8 h-8 rounded-lg border border-border-subtle bg-bg-surface hover:border-primary text-text-secondary hover:text-primary transition-all"
+          aria-label="Copy text"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z" />
+          </svg>
+        </button>
+
+        <!-- Share Button -->
+        <button
+          id="share-btn"
+          title="Share link"
+          class="inline-flex items-center justify-center w-8 h-8 rounded-lg border border-border-subtle bg-bg-surface hover:border-primary text-text-secondary hover:text-primary transition-all"
+          aria-label="Share link"
+        >
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M8.684 13.342C8.886 12.938 9 12.482 9 12c0-.482-.114-.938-.316-1.342m0 2.684a3 3 0 110-2.684m0 2.684l6.632 3.316m-6.632-6l6.632-3.316m0 0a3 3 0 105.367-2.684 3 3 0 00-5.367 2.684zm0 9.316a3 3 0 105.368 2.684 3 3 0 00-5.368-2.684z" />
+          </svg>
+        </button>
+      </div>
+    </div>
+
+    <!-- Poem Header -->
+    <header class="text-center mb-10">
+      <div class="text-xs text-text-muted mb-2 font-medium">
+        <time datetime="{{ article.date.isoformat() }}">
+          {{ article.locale_date }}
+        </time>
+        {% if article.category %}
+        <span class="mx-1.5">&bull;</span>
+        <a href="{{ SITEURL }}/{{ article.category.url }}" class="hover:text-primary transition-colors">
+          {{ article.category }}
+        </a>
+        {% endif %}
+      </div>
+
+      <h1 class="entry-title font-serif text-3xl sm:text-4xl lg:text-5xl font-bold tracking-tight text-text-primary mb-4 leading-tight">
+        {{ article.title | title_case_custom }}
+      </h1>
+
+      {% if article.tags %}
+      <div class="flex flex-wrap justify-center gap-1.5 mt-3">
+        {% for tag in article.tags %}
+          <a href="{{ SITEURL }}/{{ tag.url }}" class="tag">{{ tag }}</a>
+        {% endfor %}
+      </div>
+      {% endif %}
+    </header>
+
+    <!-- Reading Canvas -->
+    <div class="entry-content poem-reading-canvas my-10 py-6 px-4 sm:px-8">
+      {{ article.content }}
+    </div>
+
+    <!-- Author & Attribution -->
+    <div class="mt-12 pt-6 border-t border-border-subtle flex items-center justify-between text-xs text-text-muted">
+      <div>
+        <span>By </span>
+        <span class="font-medium text-text-primary">{{ AUTHOR }}</span>
+      </div>
+      {% if article.modified %}
+      <div>
+        <span>Updated: {{ article.locale_modified }}</span>
+      </div>
+      {% endif %}
+    </div>
+
+    <!-- Previous / Next Navigation Cards -->
+    {% set prev = article.prev_article %}
+    {% set next = article.next_article %}
+    {% if prev or next %}
+    <nav class="mt-12 pt-8 border-t border-border-subtle grid grid-cols-1 sm:grid-cols-2 gap-4">
+      {% if prev %}
+      <a
+        href="{{ SITEURL }}/{{ prev.url }}"
+        class="group p-4 rounded-xl border border-border-subtle bg-bg-surface hover:border-border-hover hover:shadow-sm transition-all text-left block"
+      >
+        <div class="text-[11px] font-semibold uppercase tracking-wider text-text-muted group-hover:text-primary transition-colors flex items-center gap-1 mb-1">
+          <span>&larr;</span>
+          <span>Previous {{ 'Verse' if article.category == 'Poetry' else 'Work' }}</span>
         </div>
-        {% include 'article_infos.html' %}
-      </div><!-- /.entry-content -->
-
-      <!-- Article Navigation: Previous/Next -->
-      {% set prev = article.prev_article %}
-      {% set next = article.next_article %}
-      {% if prev or next %}
-      <nav class="flex flex-row justify-between items-center mt-12 gap-2 sm:gap-4 pt-8 border-t-2 border-purple-200 dark:border-purple-800">
-        {% if prev %}
-        <a 
-          href="{{ SITEURL }}/{{ prev.url }}" 
-          class="flex items-center gap-2 sm:gap-3 group w-[49%] text-left px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-r from-purple-100 dark:from-purple-700/20 to-transparent border border-brand-border/30 hover:border-brand-border text-brand-title hover:opacity-90 transition-all duration-200 shadow-sm hover:shadow-md"
-        >
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-brand-title group-hover:-translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
-          </svg>
-          <div class="flex flex-col overflow-hidden flex-1 min-w-0">
-            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-title/80">Previous</span>
-            <span class="article-nav-title font-medium text-xs sm:text-sm whitespace-nowrap w-full" title="{{ prev.title | title_case_custom | striptags }}">{{ prev.title | title_case_custom | striptags }}</span>
-          </div>
-        </a>
-        {% else %}
-        <div class="w-[49%]"></div>
-        {% endif %}
-
-        {% if next %}
-        <a 
-          href="{{ SITEURL }}/{{ next.url }}" 
-          class="flex items-center justify-between gap-2 sm:gap-3 group w-[49%] text-right px-3 py-2 sm:px-4 sm:py-3 rounded-lg bg-gradient-to-l from-purple-100 dark:from-purple-700/20 to-transparent border border-brand-border/30 hover:border-brand-border text-brand-title hover:opacity-90 transition-all duration-200 shadow-sm hover:shadow-md"
-        >
-          <div class="flex flex-col overflow-hidden flex-1 items-start sm:items-end min-w-0 text-left sm:text-right">
-            <span class="text-[10px] sm:text-xs font-semibold uppercase tracking-widest text-brand-title/80 w-full">Next</span>
-            <span class="article-nav-title font-medium text-xs sm:text-sm whitespace-nowrap w-full" title="{{ next.title | title_case_custom | striptags }}">{{ next.title | title_case_custom | striptags }}</span>
-          </div>
-          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 sm:h-6 sm:w-6 flex-shrink-0 text-brand-title group-hover:translate-x-1 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
-          </svg>
-        </a>
-        {% else %}
-        <div class="w-[49%]"></div>
-        {% endif %}
-      </nav>
+        <div class="font-serif font-bold text-sm sm:text-base text-text-primary group-hover:text-primary transition-colors line-clamp-1">
+          {{ prev.title | title_case_custom | striptags }}
+        </div>
+      </a>
+      {% else %}
+      <div></div>
       {% endif %}
 
-      {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
-        <div class="comments mt-8">
-          <h2>Comments</h2>
-          <div id="disqus_thread"></div>
-          <script type="text/javascript">
-            var disqus_shortname = '{{ DISQUS_SITENAME }}';
-            var disqus_identifier = '{{ article.url }}';
-            var disqus_url = '{{ SITEURL }}/{{ article.url }}';
-            (function() {
-              var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-              dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
-              (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-            })();
-          </script>
-          <noscript>Please enable JavaScript to view the comments.</noscript>
+      {% if next %}
+      <a
+        href="{{ SITEURL }}/{{ next.url }}"
+        class="group p-4 rounded-xl border border-border-subtle bg-bg-surface hover:border-border-hover hover:shadow-sm transition-all text-right block sm:col-start-2"
+      >
+        <div class="text-[11px] font-semibold uppercase tracking-wider text-text-muted group-hover:text-primary transition-colors flex items-center justify-end gap-1 mb-1">
+          <span>Next {{ 'Verse' if article.category == 'Poetry' else 'Work' }}</span>
+          <span>&rarr;</span>
         </div>
+        <div class="font-serif font-bold text-sm sm:text-base text-text-primary group-hover:text-primary transition-colors line-clamp-1">
+          {{ next.title | title_case_custom | striptags }}
+        </div>
+      </a>
       {% endif %}
+    </nav>
+    {% endif %}
 
-    </article>
-  </section>
+    <!-- Comments Section -->
+    {% if DISQUS_SITENAME and SITEURL and article.status != "draft" %}
+      <div class="comments mt-12 pt-8 border-t border-border-subtle">
+        <h2 class="font-serif text-xl font-bold mb-4">Reflections &amp; Discussion</h2>
+        <div id="disqus_thread"></div>
+        <script type="text/javascript">
+          var disqus_shortname = '{{ DISQUS_SITENAME }}';
+          var disqus_identifier = '{{ article.url }}';
+          var disqus_url = '{{ SITEURL }}/{{ article.url }}';
+          (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//{{ DISQUS_SITENAME }}.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+          })();
+        </script>
+        <noscript>Please enable JavaScript to view comments.</noscript>
+      </div>
+    {% endif %}
+  </article>
+</section>
 
-  <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      const copyBtn = document.getElementById('copy-btn');
-      const shareBtn = document.getElementById('share-btn');
-      const articleUrl = '{{ SITEURL }}/{{ article.url }}';
-      const articleTitle = '{{ article.title | title_case_custom | striptags }}';
-      
-      // Check for text truncation in navigation titles
-      function checkNavTitleTruncation() {
-        const navTitles = document.querySelectorAll('.article-nav-title');
-        navTitles.forEach(title => {
-          // Check if the text is overflowing
-          if (title.scrollWidth > title.clientWidth) {
-            title.classList.add('is-truncated');
-          } else {
-            title.classList.remove('is-truncated');
-          }
-        });
-      }
-      
-      // Run check on load
-      checkNavTitleTruncation();
-      
-      // Re-check on window resize
-      window.addEventListener('resize', checkNavTitleTruncation);
-      
-      // Copy button functionality
-      if (copyBtn) {
-        copyBtn.addEventListener('click', async function() {
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const copyBtn = document.getElementById('copy-btn');
+    const shareBtn = document.getElementById('share-btn');
+    const articleTitle = {{ article.title | title_case_custom | striptags | tojson }};
+    const articleUrl = {{ (SITEURL ~ '/' ~ article.url) | tojson }};
+
+    // Copy poem functionality
+    if (copyBtn) {
+      copyBtn.addEventListener('click', async function() {
+        try {
+          const contentElement = document.querySelector('.entry-content');
+          const poemText = contentElement ? contentElement.innerText.trim() : '';
+          const fullCopy = articleTitle + '\n\n' + poemText;
+
+          await navigator.clipboard.writeText(fullCopy);
+
+          const originalContent = copyBtn.innerHTML;
+          copyBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-emerald-500" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>`;
+          copyBtn.classList.add('border-emerald-500/50');
+
+          setTimeout(() => {
+            copyBtn.innerHTML = originalContent;
+            copyBtn.classList.remove('border-emerald-500/50');
+          }, 2000);
+        } catch (err) {
+          console.error('Copy failed:', err);
+        }
+      });
+    }
+
+    // Share link functionality
+    if (shareBtn) {
+      shareBtn.addEventListener('click', async function() {
+        if (navigator.share) {
           try {
-            const contentElement = document.querySelector('.prose.prose-lg');
-            const titleText = articleTitle;
-            const contentText = contentElement ? contentElement.innerText : '';
-            const fullText = titleText + '\n\n' + contentText;
-            
-            await navigator.clipboard.writeText(fullText);
-            const originalTitle = copyBtn.getAttribute('title');
-            copyBtn.setAttribute('title', 'Copied!');
-            copyBtn.classList.add('text-green-600', 'dark:text-green-400');
-            copyBtn.classList.remove('text-gray-600', 'dark:text-gray-400');
-            
+            await navigator.share({
+              title: articleTitle,
+              text: articleTitle + ' — Runic Reflections',
+              url: articleUrl
+            });
+          } catch (e) {
+            // Cancelled or unsupported
+          }
+        } else {
+          try {
+            await navigator.clipboard.writeText(articleUrl);
+            const originalContent = shareBtn.innerHTML;
+            shareBtn.innerHTML = `<svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-primary" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd" /></svg>`;
+
             setTimeout(() => {
-              copyBtn.setAttribute('title', originalTitle);
-              copyBtn.classList.remove('text-green-600', 'dark:text-green-400');
-              copyBtn.classList.add('text-gray-600', 'dark:text-gray-400');
+              shareBtn.innerHTML = originalContent;
             }, 2000);
           } catch (err) {
-            console.error('Failed to copy:', err);
+            console.error('Share link copy failed:', err);
           }
-        });
-      }
-      
-      // Share button functionality
-      if (shareBtn) {
-        shareBtn.addEventListener('click', async function() {
-          // Use Web Share API if available
-          if (navigator.share) {
-            try {
-              await navigator.share({
-                title: articleTitle,
-                text: articleTitle,
-                url: articleUrl
-              });
-            } catch (err) {
-              // User cancelled share or error occurred
-              console.log('Share cancelled or failed:', err);
-            }
-          } else {
-            // Fallback: copy URL to clipboard
-            try {
-              await navigator.clipboard.writeText(articleUrl);
-              const originalTitle = shareBtn.getAttribute('title');
-              shareBtn.setAttribute('title', 'Link copied!');
-              shareBtn.classList.add('text-blue-600', 'dark:text-blue-400');
-              shareBtn.classList.remove('text-gray-600', 'dark:text-gray-400');
-              
-              setTimeout(() => {
-                shareBtn.setAttribute('title', originalTitle);
-                shareBtn.classList.remove('text-blue-600', 'dark:text-blue-400');
-                shareBtn.classList.add('text-gray-600', 'dark:text-gray-400');
-              }, 2000);
-            } catch (err) {
-              console.error('Failed to copy:', err);
-            }
-          }
-        });
-      }
-    });
-  </script>
+        }
+      });
+    }
+  });
+</script>
 {% endblock %}

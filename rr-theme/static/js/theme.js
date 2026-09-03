@@ -1,35 +1,29 @@
 /**
- * Theme Toggle Logic
- * Handles switching between light and dark modes with localStorage persistence
- * and system preference fallback
+ * Runic Reflections v2 - Theme & Reading Controls
+ * Handles light/dark mode switching, system preference sync,
+ * font-size adjustments, and mobile navigation.
  */
 
 (function() {
   const THEME_KEY = 'theme-preference';
+  const FONT_SIZE_KEY = 'reading-size-preference';
   const DARK_CLASS = 'dark';
   const LIGHT_CLASS = 'light';
 
   /**
-   * Initialize theme on page load
-   * 1. Check localStorage for saved preference
-   * 2. Fall back to system preference (prefers-color-scheme)
-   * 3. Default to light mode
+   * Initialize theme on load
    */
   function initializeTheme() {
     const savedTheme = localStorage.getItem(THEME_KEY);
     const html = document.documentElement;
 
-    if (savedTheme) {
-      // Use saved preference
-      if (savedTheme === 'dark') {
-        html.classList.add(DARK_CLASS);
-        html.classList.remove(LIGHT_CLASS);
-      } else {
-        html.classList.remove(DARK_CLASS);
-        html.classList.add(LIGHT_CLASS);
-      }
+    if (savedTheme === 'dark') {
+      html.classList.add(DARK_CLASS);
+      html.classList.remove(LIGHT_CLASS);
+    } else if (savedTheme === 'light') {
+      html.classList.remove(DARK_CLASS);
+      html.classList.add(LIGHT_CLASS);
     } else {
-      // Use system preference
       const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
       if (prefersDark) {
         html.classList.add(DARK_CLASS);
@@ -44,34 +38,31 @@
   }
 
   /**
-   * Toggle between light and dark mode
+   * Toggle between light and dark
    */
   function toggleTheme() {
     const html = document.documentElement;
     const isDark = html.classList.contains(DARK_CLASS);
 
     if (isDark) {
-      // Switch to light
       html.classList.remove(DARK_CLASS);
       html.classList.add(LIGHT_CLASS);
       localStorage.setItem(THEME_KEY, 'light');
     } else {
-      // Switch to dark
       html.classList.add(DARK_CLASS);
       html.classList.remove(LIGHT_CLASS);
       localStorage.setItem(THEME_KEY, 'dark');
     }
 
     updateToggleButton();
-    
-    // Dispatch custom event for other listeners
+
     window.dispatchEvent(new CustomEvent('themechange', {
       detail: { theme: isDark ? 'light' : 'dark' }
     }));
   }
 
   /**
-   * Update toggle button icon to reflect current theme
+   * Update theme toggle button state
    */
   function updateToggleButton() {
     const button = document.getElementById('theme-toggle');
@@ -85,26 +76,91 @@
       if (isDark) {
         sunIcon.classList.remove('hidden');
         moonIcon.classList.add('hidden');
+        button.setAttribute('aria-label', 'Switch to light mode');
+        button.setAttribute('title', 'Switch to light mode');
       } else {
         sunIcon.classList.add('hidden');
         moonIcon.classList.remove('hidden');
+        button.setAttribute('aria-label', 'Switch to dark mode');
+        button.setAttribute('title', 'Switch to dark mode');
       }
     }
   }
 
   /**
-   * Listen for system preference changes
-   * Only update if user hasn't explicitly set a preference
+   * Reading Font Size Controls
    */
-  function initializeSystemPreferenceListener() {
-    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+  const SIZES = ['reading-size-sm', 'reading-size-md', 'reading-size-lg'];
+  const DEFAULT_SIZE_INDEX = 1; // md
 
-    // Handle browser compatibility for addEventListener
-    const handleChange = (e) => {
-      const savedTheme = localStorage.getItem(THEME_KEY);
-      
-      // Only update if user hasn't set explicit preference
-      if (!savedTheme) {
+  function initializeReadingSize() {
+    const savedSize = localStorage.getItem(FONT_SIZE_KEY) || 'reading-size-md';
+    const article = document.querySelector('article');
+    if (article) {
+      SIZES.forEach(s => article.classList.remove(s));
+      article.classList.add(savedSize);
+    }
+  }
+
+  function adjustReadingSize(delta) {
+    const article = document.querySelector('article');
+    if (!article) return;
+
+    let currentIndex = SIZES.findIndex(s => article.classList.contains(s));
+    if (currentIndex === -1) currentIndex = DEFAULT_SIZE_INDEX;
+
+    let newIndex = currentIndex + delta;
+    if (newIndex >= 0 && newIndex < SIZES.length) {
+      SIZES.forEach(s => article.classList.remove(s));
+      article.classList.add(SIZES[newIndex]);
+      localStorage.setItem(FONT_SIZE_KEY, SIZES[newIndex]);
+    }
+  }
+
+  /**
+   * Mobile Menu & Scroll Handlers
+   */
+  function setupMobileMenu() {
+    const toggleBtn = document.getElementById('mobile-menu-toggle');
+    const menu = document.getElementById('nav-menu');
+    if (toggleBtn && menu) {
+      toggleBtn.addEventListener('click', function() {
+        const isExpanded = this.getAttribute('aria-expanded') === 'true';
+        this.setAttribute('aria-expanded', !isExpanded);
+        menu.classList.toggle('hidden');
+      });
+    }
+  }
+
+  function setupSmartScrollHeader() {
+    const header = document.getElementById('banner');
+    if (!header) return;
+
+    let lastScrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+    window.addEventListener('scroll', function() {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > lastScrollTop && scrollTop > 120) {
+        // Scrolling down
+        header.style.transform = 'translateY(-100%)';
+      } else {
+        // Scrolling up
+        header.style.transform = 'translateY(0)';
+      }
+      lastScrollTop = scrollTop <= 0 ? 0 : scrollTop;
+    }, { passive: true });
+
+    document.addEventListener('mousemove', function(e) {
+      if (e.clientY < 50) {
+        header.style.transform = 'translateY(0)';
+      }
+    });
+  }
+
+  function setupSystemListener() {
+    const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+    const handler = (e) => {
+      if (!localStorage.getItem(THEME_KEY)) {
         const html = document.documentElement;
         if (e.matches) {
           html.classList.add(DARK_CLASS);
@@ -117,50 +173,42 @@
       }
     };
 
-    // Modern API
     if (mediaQuery.addEventListener) {
-      mediaQuery.addEventListener('change', handleChange);
+      mediaQuery.addEventListener('change', handler);
     } else if (mediaQuery.addListener) {
-      // Fallback for older browsers
-      mediaQuery.addListener(handleChange);
+      mediaQuery.addListener(handler);
     }
   }
 
-  /**
-   * Attach toggle button click handler
-   */
-  function initializeToggleButton() {
-    const button = document.getElementById('theme-toggle');
-    if (button) {
-      button.addEventListener('click', toggleTheme);
-    }
-  }
-
-  /**
-   * Initialize all theme functionality when DOM is ready
-   */
   function init() {
-    // 1. Run theme initialization immediately to apply class to <html> tag.
-    // This blocks parser execution momentarily to prevent Flash of Unstyled Content (FOUC).
     initializeTheme();
 
-    // 2. Initialize DOM-dependent controls when DOM is ready
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', function() {
-        updateToggleButton(); // Ensure button icon is properly updated once DOM exists
-        initializeToggleButton();
-        initializeSystemPreferenceListener();
-      });
-    } else {
+    const onReady = () => {
       updateToggleButton();
-      initializeToggleButton();
-      initializeSystemPreferenceListener();
+      const toggleBtn = document.getElementById('theme-toggle');
+      if (toggleBtn) {
+        toggleBtn.addEventListener('click', toggleTheme);
+      }
+      initializeReadingSize();
+      setupMobileMenu();
+      setupSmartScrollHeader();
+      setupSystemListener();
+
+      const fontDecBtn = document.getElementById('font-decrease-btn');
+      const fontIncBtn = document.getElementById('font-increase-btn');
+      if (fontDecBtn) fontDecBtn.addEventListener('click', () => adjustReadingSize(-1));
+      if (fontIncBtn) fontIncBtn.addEventListener('click', () => adjustReadingSize(1));
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', onReady);
+    } else {
+      onReady();
     }
   }
 
-  // Make toggleTheme available globally for onclick handlers
   window.toggleTheme = toggleTheme;
+  window.adjustReadingSize = adjustReadingSize;
 
-  // Start initialization
   init();
 })();

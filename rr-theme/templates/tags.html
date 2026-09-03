@@ -1,20 +1,67 @@
 {% extends "base.html" %}
 
-{% block title %}{{ SITENAME|striptags }} - Tags{% endblock %}
+{% block title %}Thematic Tags - {{ SITENAME|striptags }}{% endblock %}
 
 {% block content %}
+<section id="content" class="max-w-3xl mx-auto py-4">
+  <div class="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-8 pb-6 border-b border-border-subtle">
+    <div>
+      <span class="text-xs font-semibold uppercase tracking-widest text-primary mb-1 block">Themes &amp; Motifs</span>
+      <h1 class="font-serif text-3xl sm:text-4xl font-bold text-text-primary">Thematic Index</h1>
+      <p class="text-sm text-text-secondary mt-1">Explore works organized by emotional, philosophical, and stylistic themes.</p>
+    </div>
+    
+    <!-- Instant Tag Search -->
+    <div class="w-full sm:w-64">
+      <input
+        type="search"
+        id="tag-search-field"
+        placeholder="🔍 Filter tags..."
+        class="w-full px-3.5 py-2 text-xs rounded-lg border border-border-subtle bg-bg-surface text-text-primary placeholder:text-text-muted focus:border-primary outline-none transition-all shadow-sm"
+      />
+    </div>
+  </div>
 
-<section id="content" class="body p-6">
-    <h1 class="text-2xl font-bold mb-4">Tags for {{ SITENAME }}</h1>
-    <ul class="flex flex-wrap gap-2">
-        {% for tag, articles in tags|sort %}
-            <li>
-                <a href="{{ SITEURL }}/{{ tag.url }}" class="tag">
-                    {{ tag }} ({{ articles|count }})
-                </a>
-            </li>
-        {% endfor %}
-    </ul>
+  <div class="flex flex-wrap gap-2.5" id="tags-cloud">
+    {% for tag, articles in tags|sort %}
+      <a
+        href="{{ SITEURL }}/{{ tag.url }}"
+        class="tag py-1.5 px-3 text-xs sm:text-sm tag-cloud-item transition-all"
+        data-tag-name="{{ tag | lower }}"
+      >
+        #{{ tag }} <span class="text-[11px] text-text-muted ml-1 opacity-75">({{ articles|count }})</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  <div id="no-tags-found" class="hidden py-8 text-center text-xs text-text-muted font-serif italic">
+    No tags matching your query.
+  </div>
 </section>
 
+<script>
+  const tagSearchField = document.getElementById('tag-search-field');
+  if (tagSearchField) {
+    tagSearchField.addEventListener('input', function() {
+      const q = this.value.trim().toLowerCase().replace(/^#/, '');
+      const items = document.querySelectorAll('.tag-cloud-item');
+      let visible = 0;
+
+      items.forEach(function(item) {
+        const name = item.getAttribute('data-tag-name') || item.textContent.toLowerCase();
+        if (!q || name.includes(q)) {
+          item.style.display = '';
+          visible++;
+        } else {
+          item.style.display = 'none';
+        }
+      });
+
+      const noTags = document.getElementById('no-tags-found');
+      if (noTags) {
+        noTags.style.display = visible === 0 ? 'block' : 'none';
+      }
+    });
+  }
+</script>
 {% endblock %}
