@@ -79,8 +79,12 @@
 
 /* Poetry Presentation */
 /* Pelican compiles markdown poetry (> - line) into blockquote > ul > li */
+.poem-reading-canvas blockquote,
 .entry-content blockquote {
-  margin: 2rem 0;
+  width: -moz-fit-content;
+  width: fit-content;
+  max-width: 100%;
+  margin: 2rem auto;
   padding: 0;
   border: none;
   background: transparent;
@@ -88,28 +92,48 @@
   color: var(--color-text-primary);
   font-size: 1.18rem;
   line-height: 1.95;
+  text-align: left;
+  box-sizing: border-box;
 }
 
 /* For actual prose quotes without lists */
-.entry-content blockquote:not(:has(ul)) {
+.entry-content blockquote:not(:has(ul)),
+.page-content blockquote:not(:has(ul)) {
+  width: 100%;
+  margin: 1.5rem 0;
   padding: 0.75rem 0 0.75rem 1.25rem;
   border-left: 2px solid var(--color-primary);
   color: var(--color-text-secondary);
   font-style: italic;
+  text-align: left;
 }
 
+.poem-reading-canvas blockquote ul,
 .entry-content blockquote ul,
 .page-content blockquote ul {
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: left;
 }
 
+.poem-reading-canvas blockquote li,
 .entry-content blockquote li,
 .page-content blockquote li {
   line-height: 1.85;
   margin-bottom: 0.45em;
   letter-spacing: 0.01em;
+  text-align: left;
+}
+
+.poem-reading-canvas blockquote p,
+.entry-content blockquote p,
+.page-content blockquote p {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  color: inherit;
+  text-align: left;
 }
 
 /* Normal lists (in prose/essays) */
