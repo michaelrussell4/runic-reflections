@@ -2,6 +2,7 @@ Title: Past Contemplations
 Date: 2026/09/23 11:22AM
 Category: Poetry
 Author: Mike Russell
+Tags: melancholic, serious, philosophical
 
 > - This story makes me cry
 > - The setup for people to die
