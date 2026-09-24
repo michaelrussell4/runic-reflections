@@ -46,7 +46,7 @@ Personally, I find it questionable when we treat scriptures as mathematical axio
 Having provided room for this alternative, let us consider a substance coeternal, coexistent with God, which becomes part of the soul he sires. By doing so, we shift some measure of responsibility away from God and attribute it to these self-directing agents. Enabled by God but not determined by him, these agents act independently, even as God’s influence remains pervasive.
 
 Entertaining this possibility may give rise to challenging questions:
-If stuff exists coeternally with God, can he be called the Creator in the absolute sense? If God did not create it, does it exert influence beyond his control? Is this panantheism. While these are good questions, and while I feel there are answers, it's beyond this essay's reach to address them all here.
+If stuff exists coeternally with God, can he be called the Creator in the absolute sense? If God did not create it, does it exert influence beyond his control? Is this panantheism? While these are good questions, and while I feel there are answers, it's beyond this essay's reach to address them all here.
 
 Whether these are mysterious intelligences existing from eternity or, perhaps, literal emanations of God himself, we cannot say with certainty. Functioning as “random seeds” in the algorithm of souls, these agents break the chain of absolute determinism. In this way, they provide a conceptual bridge—an explanatory lemma—that allows for the compatibility of free will, moral justice, and the benevolent character traditionally ascribed to God.
 
