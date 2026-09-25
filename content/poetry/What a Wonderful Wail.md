@@ -25,8 +25,8 @@ Tags: nature, existential, philosophical, serious
 > - Trembling, seething, crying, screaming
 > - From beds of death they serve no meaning
 > - Nature is a cold machine
-> - Understanding not a thing
+> - Understanding not this thing
 
 ## Notes
 
-Perhaps a too cynical word on the problems of evil in nature. Trembling and spasming may not yield well to biological functional explanations, but they are consistent with the feeling of the soul experiencing pain.
+Perhaps a too cynical word on the problems of evil in nature. Trembling and spasming may not yield well to biological functional explanations, but they are consistent with the feeling of the soul experiencing pain. Sorry for the satirical title playing off the song "What a Wonderful World." Indeed, the world is wonderful, despite the complaint I voice.
