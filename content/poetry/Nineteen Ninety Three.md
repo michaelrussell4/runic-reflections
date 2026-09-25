@@ -11,7 +11,7 @@ Tags: existential, melancholic, philosophical, serious
 > - <br>
 > - I don't kill farm animals
 > - But if I did
-> - I'd use a BAG
+> - I'd use a BFG
 > - I don't die quick deaths
 > - But if I did
 > - I'd be invincible, son
