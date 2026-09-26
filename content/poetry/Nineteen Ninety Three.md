@@ -1,8 +1,10 @@
-Title: Nineteen Ninety Three
+Title: Every Man Wants to Kill Demons
 Date: 2026/09/24 10:53PM
 Category: Poetry
 Author: Mike Russell
 Tags: existential, melancholic, philosophical, serious
+
+💀👹🪚💥🔫
 
 > - It's good to know your way around
 > - The fiery infernal pit

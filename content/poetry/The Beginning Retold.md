@@ -6,7 +6,7 @@ Tags: religious, philosophical, existential, abstract
 
 > - In the beginning there was darkness
 > - And God moved upon the waters
-> - He found an earth where he made is abode
+> - He found an earth where he made his abode
 > - In it he breathed his own life
 > - From it sprung a man
 > - His food was the fruit of the tree of life
