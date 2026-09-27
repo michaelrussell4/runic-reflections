@@ -11,7 +11,7 @@ Tags: religious, philosophical, existential, reflective
 > - First one fell and the latter rose
 > - Both had suffered evil's throes
 > - Judged by God and then by men
-> - "Where art thou, God," uttered again
+> - "Where art thou..." uttered again
 > - From garden to garden, fallen to raised
 > - Trees accompany their grace
 > - Rivers flow first clear then stained
