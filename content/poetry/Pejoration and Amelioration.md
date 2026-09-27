@@ -12,7 +12,7 @@ Tags: philosophical, religious, reflective, serious
 > - When ye haply cast forth a word
 > - Thine intentions to it gird
 > - Clad in raiment, meet for sight
-> - As God gave Adam for his plight 
+> - As God gave Adam for his plight
 > - <br>
 > - Yet unlike God, whose gift was pure
 > - Thy tainted raiment seemeth obscure

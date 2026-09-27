@@ -1,4 +1,4 @@
-Title: Pan: From Child to Man 
+Title: Pan: From Child to Man
 Date: 2025/04/17 12:42PM
 Category: Poetry
 Author: Mike Russell
@@ -34,7 +34,7 @@ Tags: existential, melancholic, philosophical, reflective
 > - I'm in myself, a troubled doom
 > - How did I grow into this tomb?
 
-# Note
+## Note
 
 Peter Pan wanted to stay a child forever in his adventurous, blissful paradise. Another Pan—quite an eponymous archetype—has produced the epitome of this poem's digression.
 
