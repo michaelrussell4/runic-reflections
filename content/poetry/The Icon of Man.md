@@ -1,4 +1,4 @@
-Title: The Icon of Man
+Title: The Icon of Man 🚹
 Date: 2026/10/04 05:49PM
 Category: Short Stories
 Author: Mike Russell
